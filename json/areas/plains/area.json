@@ -1,0 +1,12 @@
+[{"area": {
+    "name": "plains",
+    "filename": "plains.are",
+    "title": "Plains",
+    "credits": "{ 1 20} Copper  Plains of the North",
+    "low_range": 0,
+    "high_range": 0,
+    "min_vnum": 300,
+    "max_vnum": 399,
+    "builders": "None",
+    "security": 9
+}}]

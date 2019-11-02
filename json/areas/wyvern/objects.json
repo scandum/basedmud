@@ -1,0 +1,624 @@
+[
+    {"object": {
+        "area": "wyvern",
+        "anum": 1,
+        "new_format": true,
+        "name": "rusty cleaver",
+        "short_descr": "a rusty cleaver",
+        "description": "A rusty cleaver lies on a counter top.",
+        "material": "generic",
+        "item_type": "weapon",
+        "extra_flags": null,
+        "wear_flags": "take wield",
+        "values": {
+            "weapon_type": "dagger",
+            "dice_num": 1,
+            "dice_size": 6,
+            "attack_type": "chop",
+            "flags": null
+        },
+        "level": 1,
+        "weight": 20,
+        "cost": 230,
+        "condition": 100,
+        "extra_description": [],
+        "affects": []
+    }},
+    {"object": {
+        "area": "wyvern",
+        "anum": 2,
+        "new_format": true,
+        "name": "fine mace",
+        "short_descr": "the fine mace",
+        "description": "There is a large mace of fine quality here.",
+        "material": "generic",
+        "item_type": "weapon",
+        "extra_flags": "magic",
+        "wear_flags": "take wield",
+        "values": {
+            "weapon_type": "mace",
+            "dice_num": 2,
+            "dice_size": 6,
+            "attack_type": "pound",
+            "flags": null
+        },
+        "level": 10,
+        "weight": 110,
+        "cost": 570,
+        "condition": 100,
+        "extra_description": [],
+        "affects": [{
+            "apply": "hit roll",
+            "level": 10,
+            "modifier": 1,
+            "bit_type": "object",
+            "bits": null
+        }]
+    }},
+    {"object": {
+        "area": "wyvern",
+        "anum": 3,
+        "new_format": true,
+        "name": "elven dagger",
+        "short_descr": "a long elven dagger",
+        "description": "A long elven dagger made of adamantite is here.",
+        "material": "generic",
+        "item_type": "weapon",
+        "extra_flags": "glow magic",
+        "wear_flags": "take wield",
+        "values": {
+            "weapon_type": "dagger",
+            "dice_num": 2,
+            "dice_size": 5,
+            "attack_type": "pierce",
+            "flags": null
+        },
+        "level": 8,
+        "weight": 20,
+        "cost": 700,
+        "condition": 100,
+        "extra_description": [],
+        "affects": [{
+            "apply": "hit roll",
+            "level": 8,
+            "modifier": 2,
+            "bit_type": "object",
+            "bits": null
+        }]
+    }},
+    {"object": {
+        "area": "wyvern",
+        "anum": 4,
+        "new_format": true,
+        "name": "steel broad sword",
+        "short_descr": "a steel broad sword",
+        "description": "A fine steel broad sword is lying on the ground.",
+        "material": "generic",
+        "item_type": "weapon",
+        "extra_flags": "glow magic",
+        "wear_flags": "take wield",
+        "values": {
+            "weapon_type": "sword",
+            "dice_num": 2,
+            "dice_size": 6,
+            "attack_type": "slash",
+            "flags": null
+        },
+        "level": 11,
+        "weight": 120,
+        "cost": 910,
+        "condition": 100,
+        "extra_description": [],
+        "affects": [
+            {
+                "apply": "damage roll",
+                "level": 11,
+                "modifier": 1,
+                "bit_type": "object",
+                "bits": null
+            },
+            {
+                "apply": "hit roll",
+                "level": 11,
+                "modifier": 1,
+                "bit_type": "object",
+                "bits": null
+            }
+        ]
+    }},
+    {"object": {
+        "area": "wyvern",
+        "anum": 5,
+        "new_format": true,
+        "name": "steel broad sword",
+        "short_descr": "a steel broad sword",
+        "description": "A very fine steel broad sword is lying on the ground.",
+        "material": "steel",
+        "item_type": "weapon",
+        "extra_flags": "glow magic",
+        "wear_flags": "take wield",
+        "values": {
+            "weapon_type": "sword",
+            "dice_num": 2,
+            "dice_size": 7,
+            "attack_type": "slash",
+            "flags": null
+        },
+        "level": 15,
+        "weight": 120,
+        "cost": 1510,
+        "condition": 100,
+        "extra_description": [],
+        "affects": [
+            {
+                "apply": "damage roll",
+                "level": 15,
+                "modifier": 2,
+                "bit_type": "object",
+                "bits": null
+            },
+            {
+                "apply": "hit roll",
+                "level": 15,
+                "modifier": 2,
+                "bit_type": "object",
+                "bits": null
+            }
+        ]
+    }},
+    {"object": {
+        "area": "wyvern",
+        "anum": 6,
+        "new_format": true,
+        "name": "rod might",
+        "short_descr": "the rod of might",
+        "description": "A Rod of Might is lying here.",
+        "material": "generic",
+        "item_type": "weapon",
+        "extra_flags": "hum magic",
+        "wear_flags": "take wield",
+        "values": {
+            "weapon_type": "mace",
+            "dice_num": 2,
+            "dice_size": 7,
+            "attack_type": "blast",
+            "flags": null
+        },
+        "level": 14,
+        "weight": 130,
+        "cost": 1550,
+        "condition": 100,
+        "extra_description": [],
+        "affects": [
+            {
+                "apply": "strength",
+                "level": 14,
+                "modifier": 1,
+                "bit_type": "object",
+                "bits": null
+            },
+            {
+                "apply": "hit roll",
+                "level": 14,
+                "modifier": 2,
+                "bit_type": "object",
+                "bits": null
+            }
+        ]
+    }},
+    {"object": {
+        "area": "wyvern",
+        "anum": 12,
+        "new_format": true,
+        "name": "black kite shield",
+        "short_descr": "a black kite shield",
+        "description": "There is a large black kite shield lying here.",
+        "material": "generic",
+        "item_type": "armor",
+        "extra_flags": "glow magic",
+        "wear_flags": "take shield",
+        "values": {
+            "vs_pierce": 6,
+            "vs_bash": 6,
+            "vs_slash": 6,
+            "vs_magic": 2
+        },
+        "level": 13,
+        "weight": 60,
+        "cost": 1530,
+        "condition": 100,
+        "extra_description": [],
+        "affects": [{
+            "apply": "saves",
+            "level": 13,
+            "modifier": 1,
+            "bit_type": "object",
+            "bits": null
+        }]
+    }},
+    {"object": {
+        "area": "wyvern",
+        "anum": 14,
+        "new_format": true,
+        "name": "helm",
+        "short_descr": "a commander's helm",
+        "description": "A commander's helm rests on a table here.",
+        "material": "generic",
+        "item_type": "armor",
+        "extra_flags": "glow magic",
+        "wear_flags": "take head",
+        "values": {
+            "vs_pierce": 7,
+            "vs_bash": 7,
+            "vs_slash": 7,
+            "vs_magic": 2
+        },
+        "level": 20,
+        "weight": 40,
+        "cost": 2300,
+        "condition": 100,
+        "extra_description": [{
+            "keyword": "helm",
+            "description": "This elegant helm is plated in mithril and silver."
+        }],
+        "affects": [{
+            "apply": "wisdom",
+            "level": 20,
+            "modifier": 1,
+            "bit_type": "object",
+            "bits": null
+        }]
+    }},
+    {"object": {
+        "area": "wyvern",
+        "anum": 15,
+        "new_format": true,
+        "name": "bracer",
+        "short_descr": "a mithril bracer",
+        "description": "A magical bracer made from mithril lies on the ground!",
+        "material": "generic",
+        "item_type": "armor",
+        "extra_flags": "hum magic",
+        "wear_flags": "take wrist",
+        "values": {
+            "vs_pierce": 4,
+            "vs_bash": 6,
+            "vs_slash": 6,
+            "vs_magic": 2
+        },
+        "level": 12,
+        "weight": 20,
+        "cost": 1540,
+        "condition": 100,
+        "extra_description": [],
+        "affects": [{
+            "apply": "strength",
+            "level": 12,
+            "modifier": 1,
+            "bit_type": "object",
+            "bits": null
+        }]
+    }},
+    {"object": {
+        "area": "wyvern",
+        "anum": 16,
+        "new_format": true,
+        "name": "dark blue cloak",
+        "short_descr": "a dark blue cloak",
+        "description": "A valuable cloak of dark blue cloth lies on the floor.",
+        "material": "generic",
+        "item_type": "clothing",
+        "extra_flags": "glow magic",
+        "wear_flags": "take neck",
+        "values": {},
+        "level": 0,
+        "weight": 20,
+        "cost": 100,
+        "condition": 100,
+        "extra_description": [],
+        "affects": [{
+            "apply": "armor class",
+            "level": 0,
+            "modifier": 6,
+            "bit_type": "object",
+            "bits": null
+        }]
+    }},
+    {"object": {
+        "area": "wyvern",
+        "anum": 21,
+        "new_format": true,
+        "name": "dark red potion",
+        "short_descr": "a dark red potion",
+        "description": "A dark red potion rests on the ground.",
+        "material": "generic",
+        "item_type": "potion",
+        "extra_flags": "glow magic",
+        "wear_flags": "take hold",
+        "values": {
+            "level": 9,
+            "skill1": "cure blindness",
+            "skill2": "cure critical"
+        },
+        "level": 5,
+        "weight": 10,
+        "cost": 320,
+        "condition": 100,
+        "extra_description": [],
+        "affects": []
+    }},
+    {"object": {
+        "area": "wyvern",
+        "anum": 51,
+        "new_format": true,
+        "name": "bronze chest",
+        "short_descr": "a bronze chest",
+        "description": "There is a sturdy bronze chest in the corner.",
+        "material": "generic",
+        "item_type": "container",
+        "extra_flags": null,
+        "wear_flags": "take",
+        "values": {
+            "capacity": 30,
+            "flags": "closeable closed",
+            "key": 0,
+            "max_weight": 10,
+            "weight_mult": 100
+        },
+        "level": 0,
+        "weight": 100,
+        "cost": 100,
+        "condition": 100,
+        "extra_description": [],
+        "affects": []
+    }},
+    {"object": {
+        "area": "wyvern",
+        "anum": 52,
+        "new_format": true,
+        "name": "ale barrel",
+        "short_descr": "a barrel of ale",
+        "description": "There is a small barrel in one corner.",
+        "material": "generic",
+        "item_type": "drink",
+        "extra_flags": null,
+        "wear_flags": "take",
+        "values": {
+            "capacity": 150,
+            "filled": 2,
+            "liquid": "ale",
+            "poisoned": false
+        },
+        "level": 0,
+        "weight": 80,
+        "cost": 10,
+        "condition": 100,
+        "extra_description": [],
+        "affects": []
+    }},
+    {"object": {
+        "area": "wyvern",
+        "anum": 91,
+        "new_format": true,
+        "name": "key twin towers",
+        "short_descr": "the twin towers key",
+        "description": "There is a shiny skeleton key on the ground here.",
+        "material": "generic",
+        "item_type": "key",
+        "extra_flags": null,
+        "wear_flags": "take",
+        "values": {},
+        "level": 0,
+        "weight": 10,
+        "cost": 0,
+        "condition": 100,
+        "extra_description": [],
+        "affects": []
+    }},
+    {"object": {
+        "area": "wyvern",
+        "anum": 92,
+        "new_format": true,
+        "name": "strange key",
+        "short_descr": "a strange key",
+        "description": "There is a very strange-looking key on the ground here.",
+        "material": "generic",
+        "item_type": "key",
+        "extra_flags": "glow magic",
+        "wear_flags": "take hold",
+        "values": {},
+        "level": 12,
+        "weight": 10,
+        "cost": 750,
+        "condition": 100,
+        "extra_description": [{
+            "keyword": "strange key",
+            "description": "This key is of an unusual shape ... must go to an unusual lock!"
+        }],
+        "affects": [{
+            "apply": "armor class",
+            "level": 12,
+            "modifier": -3,
+            "bit_type": "object",
+            "bits": null
+        }]
+    }},
+    {"object": {
+        "area": "wyvern",
+        "anum": 101,
+        "new_format": true,
+        "name": "short bow",
+        "short_descr": "a short bow",
+        "description": "A short bow has been carelessly left here.",
+        "material": "generic",
+        "item_type": "weapon",
+        "extra_flags": null,
+        "wear_flags": "take wield",
+        "values": {
+            "weapon_type": "unknown",
+            "dice_num": 2,
+            "dice_size": 4,
+            "attack_type": "pierce",
+            "flags": null
+        },
+        "level": 5,
+        "weight": 50,
+        "cost": 730,
+        "condition": 100,
+        "extra_description": [{
+            "keyword": "short bow",
+            "description": "It looks like the bows used by rustin hunters.\n"
+        }],
+        "affects": []
+    }},
+    {"object": {
+        "area": "wyvern",
+        "anum": 102,
+        "new_format": true,
+        "name": "long bow",
+        "short_descr": "a long bow",
+        "description": "A long bow has been foolishly abandoned here.",
+        "material": "generic",
+        "item_type": "weapon",
+        "extra_flags": "glow magic",
+        "wear_flags": "take wield",
+        "values": {
+            "weapon_type": "staff",
+            "dice_num": 2,
+            "dice_size": 6,
+            "attack_type": "pound",
+            "flags": null
+        },
+        "level": 12,
+        "weight": 70,
+        "cost": 220,
+        "condition": 100,
+        "extra_description": [],
+        "affects": [{
+            "apply": "hp",
+            "level": 12,
+            "modifier": 5,
+            "bit_type": "object",
+            "bits": null
+        }]
+    }},
+    {"object": {
+        "area": "wyvern",
+        "anum": 104,
+        "new_format": true,
+        "name": "ancient sword",
+        "short_descr": "an ancient long sword",
+        "description": "An ancient long sword has been left here.",
+        "material": "generic",
+        "item_type": "weapon",
+        "extra_flags": "hum magic",
+        "wear_flags": "take wield",
+        "values": {
+            "weapon_type": "sword",
+            "dice_num": 2,
+            "dice_size": 8,
+            "attack_type": "slash",
+            "flags": null
+        },
+        "level": 19,
+        "weight": 100,
+        "cost": 2500,
+        "condition": 100,
+        "extra_description": [],
+        "affects": [
+            {
+                "apply": "damage roll",
+                "level": 19,
+                "modifier": 3,
+                "bit_type": "object",
+                "bits": null
+            },
+            {
+                "apply": "hit roll",
+                "level": 19,
+                "modifier": 3,
+                "bit_type": "object",
+                "bits": null
+            }
+        ]
+    }},
+    {"object": {
+        "area": "wyvern",
+        "anum": 111,
+        "new_format": true,
+        "name": "fur cap",
+        "short_descr": "a fur cap",
+        "description": "A fur cap lies here on the ground.",
+        "material": "generic",
+        "item_type": "armor",
+        "extra_flags": null,
+        "wear_flags": "take head",
+        "values": {
+            "vs_pierce": 2,
+            "vs_bash": 2,
+            "vs_slash": 2,
+            "vs_magic": 0
+        },
+        "level": 0,
+        "weight": 10,
+        "cost": 168,
+        "condition": 100,
+        "extra_description": [],
+        "affects": []
+    }},
+    {"object": {
+        "area": "wyvern",
+        "anum": 112,
+        "new_format": true,
+        "name": "travelling boots",
+        "short_descr": "a pair of travelling boots",
+        "description": "A sturdy pair of travelling boots lies here.",
+        "material": "generic",
+        "item_type": "armor",
+        "extra_flags": "magic",
+        "wear_flags": "take feet",
+        "values": {
+            "vs_pierce": 5,
+            "vs_bash": 5,
+            "vs_slash": 5,
+            "vs_magic": 0
+        },
+        "level": 12,
+        "weight": 20,
+        "cost": 880,
+        "condition": 100,
+        "extra_description": [],
+        "affects": [{
+            "apply": "moves",
+            "level": 12,
+            "modifier": 10,
+            "bit_type": "object",
+            "bits": null
+        }]
+    }},
+    {"object": {
+        "area": "wyvern",
+        "anum": 113,
+        "new_format": true,
+        "name": "bronze ring",
+        "short_descr": "a bronze ring",
+        "description": "A ring of etched bronze gleams dimly on the ground.",
+        "material": "generic",
+        "item_type": "jewelry",
+        "extra_flags": "magic",
+        "wear_flags": "take finger",
+        "values": {},
+        "level": 5,
+        "weight": 10,
+        "cost": 55,
+        "condition": 100,
+        "extra_description": [],
+        "affects": [{
+            "apply": "mana",
+            "level": 5,
+            "modifier": 5,
+            "bit_type": "object",
+            "bits": null
+        }]
+    }}
+]

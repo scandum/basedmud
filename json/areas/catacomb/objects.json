@@ -1,0 +1,490 @@
+[
+    {"object": {
+        "area": "catacomb",
+        "anum": 1,
+        "new_format": true,
+        "name": "glowing key",
+        "short_descr": "a glowing key",
+        "description": "A circular, glowing key radiates a bright aura around it.",
+        "material": "generic",
+        "item_type": "key",
+        "extra_flags": "glow hum magic",
+        "wear_flags": "take",
+        "values": {},
+        "level": 0,
+        "weight": 10,
+        "cost": 0,
+        "condition": 100,
+        "extra_description": [],
+        "affects": []
+    }},
+    {"object": {
+        "area": "catacomb",
+        "anum": 2,
+        "new_format": true,
+        "name": "granite plate mail platemail",
+        "short_descr": "a suit of granite platemail",
+        "description": "A suit of platemail hewn from granite stands by itself in the corner.",
+        "material": "generic",
+        "item_type": "armor",
+        "extra_flags": "hum antigood",
+        "wear_flags": "take body",
+        "values": {
+            "vs_pierce": 8,
+            "vs_bash": 8,
+            "vs_slash": 8,
+            "vs_magic": 2
+        },
+        "level": 23,
+        "weight": 550,
+        "cost": 3600,
+        "condition": 100,
+        "extra_description": [],
+        "affects": [{
+            "apply": "dexterity",
+            "level": 23,
+            "modifier": -1,
+            "bit_type": "object",
+            "bits": null
+        }]
+    }},
+    {"object": {
+        "area": "catacomb",
+        "anum": 3,
+        "new_format": true,
+        "name": "onyx ring",
+        "short_descr": "an onyx ring",
+        "description": "A ring with a very dark onyx stone in it has been left in the dirt.",
+        "material": "generic",
+        "item_type": "jewelry",
+        "extra_flags": "antigood",
+        "wear_flags": "take finger",
+        "values": {},
+        "level": 7,
+        "weight": 10,
+        "cost": 800,
+        "condition": 100,
+        "extra_description": [],
+        "affects": [
+            {
+                "apply": "wisdom",
+                "level": 7,
+                "modifier": 1,
+                "bit_type": "object",
+                "bits": null
+            },
+            {
+                "apply": "armor class",
+                "level": 7,
+                "modifier": -1,
+                "bit_type": "object",
+                "bits": null
+            }
+        ]
+    }},
+    {"object": {
+        "area": "catacomb",
+        "anum": 4,
+        "new_format": true,
+        "name": "neutralizer sword",
+        "short_descr": "the neutralizer",
+        "description": "A long thin sword with a wide blade makes you wonder.",
+        "material": "generic",
+        "item_type": "weapon",
+        "extra_flags": "hum antigood antievil",
+        "wear_flags": "take wield",
+        "values": {
+            "weapon_type": "sword",
+            "dice_num": 3,
+            "dice_size": 5,
+            "attack_type": "slash",
+            "flags": null
+        },
+        "level": 16,
+        "weight": 90,
+        "cost": 1280,
+        "condition": 100,
+        "extra_description": [],
+        "affects": [
+            {
+                "apply": "damage roll",
+                "level": 16,
+                "modifier": 1,
+                "bit_type": "object",
+                "bits": null
+            },
+            {
+                "apply": "hit roll",
+                "level": 16,
+                "modifier": 1,
+                "bit_type": "object",
+                "bits": null
+            }
+        ]
+    }},
+    {"object": {
+        "area": "catacomb",
+        "anum": 5,
+        "new_format": true,
+        "name": "sword excalibur",
+        "short_descr": "the sword Excalibur",
+        "description": "A sword gleams by the light of its magical silvery blade.",
+        "material": "generic",
+        "item_type": "weapon",
+        "extra_flags": "glow magic antievil antineutral",
+        "wear_flags": "take wield",
+        "values": {
+            "weapon_type": "sword",
+            "dice_num": 5,
+            "dice_size": 4,
+            "attack_type": "slash",
+            "flags": null
+        },
+        "level": 24,
+        "weight": 150,
+        "cost": 3400,
+        "condition": 100,
+        "extra_description": [],
+        "affects": [
+            {
+                "apply": "strength",
+                "level": 24,
+                "modifier": 1,
+                "bit_type": "object",
+                "bits": null
+            },
+            {
+                "apply": "hit roll",
+                "level": 24,
+                "modifier": 3,
+                "bit_type": "object",
+                "bits": null
+            }
+        ]
+    }},
+    {"object": {
+        "area": "catacomb",
+        "anum": 6,
+        "new_format": true,
+        "name": "crown",
+        "short_descr": "a kingly crown",
+        "description": "The crown of a long lost King lies forgotten here.",
+        "material": "generic",
+        "item_type": "key",
+        "extra_flags": "bless",
+        "wear_flags": "take head",
+        "values": {},
+        "level": 24,
+        "weight": 100,
+        "cost": 1850,
+        "condition": 100,
+        "extra_description": [],
+        "affects": [{
+            "apply": "armor class",
+            "level": 24,
+            "modifier": -6,
+            "bit_type": "object",
+            "bits": null
+        }]
+    }},
+    {"object": {
+        "area": "catacomb",
+        "anum": 7,
+        "new_format": true,
+        "name": "stone",
+        "short_descr": "stone",
+        "description": "The stone is surrounded by a bright glow, better look closer.",
+        "material": "generic",
+        "item_type": "container",
+        "extra_flags": "glow",
+        "wear_flags": null,
+        "values": {
+            "capacity": 15,
+            "flags": "closeable pickproof closed locked",
+            "key": 2006,
+            "max_weight": 15,
+            "weight_mult": 100
+        },
+        "level": 0,
+        "weight": 0,
+        "cost": 0,
+        "condition": 100,
+        "extra_description": [],
+        "affects": []
+    }},
+    {"object": {
+        "area": "catacomb",
+        "anum": 8,
+        "new_format": true,
+        "name": "holy water flask",
+        "short_descr": "a flask of holy water",
+        "description": "A flask of holy water is here.",
+        "material": "generic",
+        "item_type": "potion",
+        "extra_flags": "glow",
+        "wear_flags": "take hold",
+        "values": {
+            "level": 25,
+            "skill1": "bless",
+            "skill2": "sanctuary"
+        },
+        "level": 11,
+        "weight": 20,
+        "cost": 880,
+        "condition": 100,
+        "extra_description": [],
+        "affects": []
+    }},
+    {"object": {
+        "area": "catacomb",
+        "anum": 9,
+        "new_format": true,
+        "name": "chainmail chain mail suit",
+        "short_descr": "a suit of chainmail",
+        "description": "A nice suit of chainmail has been left behind.",
+        "material": "generic",
+        "item_type": "armor",
+        "extra_flags": "bless",
+        "wear_flags": "take body",
+        "values": {
+            "vs_pierce": 5,
+            "vs_bash": 5,
+            "vs_slash": 5,
+            "vs_magic": 0
+        },
+        "level": 10,
+        "weight": 200,
+        "cost": 1450,
+        "condition": 100,
+        "extra_description": [],
+        "affects": []
+    }},
+    {"object": {
+        "area": "catacomb",
+        "anum": 10,
+        "new_format": true,
+        "name": "white cape",
+        "short_descr": "a white cape",
+        "description": "A blazing cape of white lies in a careful pile.",
+        "material": "generic",
+        "item_type": "armor",
+        "extra_flags": "glow",
+        "wear_flags": "take neck",
+        "values": {
+            "vs_pierce": 5,
+            "vs_bash": 5,
+            "vs_slash": 5,
+            "vs_magic": 0
+        },
+        "level": 12,
+        "weight": 30,
+        "cost": 1000,
+        "condition": 100,
+        "extra_description": [],
+        "affects": [{
+            "apply": "hit roll",
+            "level": 12,
+            "modifier": 1,
+            "bit_type": "object",
+            "bits": null
+        }]
+    }},
+    {"object": {
+        "area": "catacomb",
+        "anum": 11,
+        "new_format": true,
+        "name": "shield defense",
+        "short_descr": "the shield of defense",
+        "description": "A large shield lies protecting the ground.",
+        "material": "generic",
+        "item_type": "armor",
+        "extra_flags": "magic",
+        "wear_flags": "take shield",
+        "values": {
+            "vs_pierce": 6,
+            "vs_bash": 6,
+            "vs_slash": 6,
+            "vs_magic": 4
+        },
+        "level": 13,
+        "weight": 150,
+        "cost": 1920,
+        "condition": 100,
+        "extra_description": [],
+        "affects": [
+            {
+                "apply": "damage roll",
+                "level": 13,
+                "modifier": -1,
+                "bit_type": "object",
+                "bits": null
+            },
+            {
+                "apply": "hit roll",
+                "level": 13,
+                "modifier": -2,
+                "bit_type": "object",
+                "bits": null
+            },
+            {
+                "apply": "hp",
+                "level": 13,
+                "modifier": 10,
+                "bit_type": "object",
+                "bits": null
+            },
+            {
+                "apply": "mana",
+                "level": 13,
+                "modifier": 10,
+                "bit_type": "object",
+                "bits": null
+            },
+            {
+                "apply": "armor class",
+                "level": 13,
+                "modifier": -2,
+                "bit_type": "object",
+                "bits": null
+            }
+        ]
+    }},
+    {"object": {
+        "area": "catacomb",
+        "anum": 12,
+        "new_format": true,
+        "name": "scale shield dragonscale",
+        "short_descr": "a dragonscale shield",
+        "description": "A shield from from the scales of a large dragon lies here.",
+        "material": "generic",
+        "item_type": "armor",
+        "extra_flags": null,
+        "wear_flags": "take shield",
+        "values": {
+            "vs_pierce": 7,
+            "vs_bash": 7,
+            "vs_slash": 7,
+            "vs_magic": 4
+        },
+        "level": 22,
+        "weight": 180,
+        "cost": 3500,
+        "condition": 100,
+        "extra_description": [],
+        "affects": [{
+            "apply": "saves",
+            "level": 22,
+            "modifier": -2,
+            "bit_type": "object",
+            "bits": null
+        }]
+    }},
+    {"object": {
+        "area": "catacomb",
+        "anum": 13,
+        "new_format": true,
+        "name": "prism wand",
+        "short_descr": "a prism wand",
+        "description": "A wand made of a triangular prism twinkles in the dust.",
+        "material": "generic",
+        "item_type": "wand",
+        "extra_flags": "glow magic",
+        "wear_flags": "take hold",
+        "values": {
+            "level": 11,
+            "recharge": 4,
+            "charges": 4,
+            "skill": "colour spray"
+        },
+        "level": 12,
+        "weight": 40,
+        "cost": 2200,
+        "condition": 100,
+        "extra_description": [],
+        "affects": []
+    }},
+    {"object": {
+        "area": "catacomb",
+        "anum": 14,
+        "new_format": true,
+        "name": "shadow cloak",
+        "short_descr": "a shadow cloak",
+        "description": "The shadows in the corner of the room seems strange ...",
+        "material": "generic",
+        "item_type": "armor",
+        "extra_flags": "magic",
+        "wear_flags": "take about",
+        "values": {
+            "vs_pierce": 7,
+            "vs_bash": 7,
+            "vs_slash": 7,
+            "vs_magic": 2
+        },
+        "level": 14,
+        "weight": 10,
+        "cost": 210,
+        "condition": 100,
+        "extra_description": [],
+        "affects": [{
+            "apply": "moves",
+            "level": 14,
+            "modifier": -30,
+            "bit_type": "object",
+            "bits": null
+        }]
+    }},
+    {"object": {
+        "area": "catacomb",
+        "anum": 15,
+        "new_format": true,
+        "name": "misty potion",
+        "short_descr": "a misty potion",
+        "description": "A potion of swirling mist-like substance is here.",
+        "material": "generic",
+        "item_type": "potion",
+        "extra_flags": null,
+        "wear_flags": "take hold",
+        "values": {
+            "level": 10,
+            "skill1": "pass door",
+            "skill2": "faerie fire"
+        },
+        "level": 12,
+        "weight": 10,
+        "cost": 920,
+        "condition": 100,
+        "extra_description": [],
+        "affects": []
+    }},
+    {"object": {
+        "area": "catacomb",
+        "anum": 16,
+        "new_format": true,
+        "name": "templar templars sword wooden",
+        "short_descr": "a templar's sword",
+        "description": "A sword made of wood has been left here.",
+        "material": "generic",
+        "item_type": "weapon",
+        "extra_flags": "bless",
+        "wear_flags": "take wield",
+        "values": {
+            "weapon_type": "sword",
+            "dice_num": 2,
+            "dice_size": 6,
+            "attack_type": "slash",
+            "flags": null
+        },
+        "level": 10,
+        "weight": 60,
+        "cost": 830,
+        "condition": 100,
+        "extra_description": [],
+        "affects": [{
+            "apply": "hit roll",
+            "level": 10,
+            "modifier": 1,
+            "bit_type": "object",
+            "bits": null
+        }]
+    }}
+]

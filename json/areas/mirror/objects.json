@@ -1,0 +1,898 @@
+[
+    {"object": {
+        "area": "mirror",
+        "anum": 0,
+        "new_format": true,
+        "name": "collar",
+        "short_descr": "a lamia collar",
+        "description": "A lamia collar is on the ground.",
+        "material": "generic",
+        "item_type": "armor",
+        "extra_flags": null,
+        "wear_flags": "take neck",
+        "values": {
+            "vs_pierce": 3,
+            "vs_bash": 3,
+            "vs_slash": 3,
+            "vs_magic": 0
+        },
+        "level": 3,
+        "weight": 50,
+        "cost": 310,
+        "condition": 100,
+        "extra_description": [],
+        "affects": []
+    }},
+    {"object": {
+        "area": "mirror",
+        "anum": 1,
+        "new_format": true,
+        "name": "breast plate iron",
+        "short_descr": "a beautiful iron breast plate",
+        "description": "A beautiful iron breast plate lies here.",
+        "material": "generic",
+        "item_type": "armor",
+        "extra_flags": null,
+        "wear_flags": "take body",
+        "values": {
+            "vs_pierce": 7,
+            "vs_bash": 7,
+            "vs_slash": 7,
+            "vs_magic": 0
+        },
+        "level": 20,
+        "weight": 450,
+        "cost": 3200,
+        "condition": 100,
+        "extra_description": [],
+        "affects": [{
+            "apply": "hit roll",
+            "level": 20,
+            "modifier": 1,
+            "bit_type": "object",
+            "bits": null
+        }]
+    }},
+    {"object": {
+        "area": "mirror",
+        "anum": 2,
+        "new_format": true,
+        "name": "staff serpentine",
+        "short_descr": "a green serpentine staff",
+        "description": "A green serpentine staff has been left here.",
+        "material": "generic",
+        "item_type": "staff",
+        "extra_flags": "invis magic",
+        "wear_flags": "take hold",
+        "values": {
+            "level": 20,
+            "recharge": 2,
+            "charges": 2,
+            "skill": "earthquake"
+        },
+        "level": 7,
+        "weight": 120,
+        "cost": 2000,
+        "condition": 100,
+        "extra_description": [],
+        "affects": []
+    }},
+    {"object": {
+        "area": "mirror",
+        "anum": 4,
+        "new_format": true,
+        "name": "scroll magic",
+        "short_descr": "a scroll of enchantment",
+        "description": "A scroll of magical enchantment has been left here.",
+        "material": "generic",
+        "item_type": "scroll",
+        "extra_flags": "magic",
+        "wear_flags": "take",
+        "values": {
+            "level": 30,
+            "skill1": "enchant weapon"
+        },
+        "level": 8,
+        "weight": 150,
+        "cost": 1420,
+        "condition": 100,
+        "extra_description": [],
+        "affects": []
+    }},
+    {"object": {
+        "area": "mirror",
+        "anum": 5,
+        "new_format": true,
+        "name": "scroll bound",
+        "short_descr": "a bound scroll",
+        "description": "A bound scroll of detection lies at your feet.",
+        "material": "generic",
+        "item_type": "scroll",
+        "extra_flags": "magic",
+        "wear_flags": "take",
+        "values": {
+            "level": 30,
+            "skill1": "detect evil",
+            "skill2": "detect invis",
+            "skill3": "detect magic"
+        },
+        "level": 0,
+        "weight": 150,
+        "cost": 800,
+        "condition": 100,
+        "extra_description": [],
+        "affects": []
+    }},
+    {"object": {
+        "area": "mirror",
+        "anum": 6,
+        "new_format": true,
+        "name": "fountain",
+        "short_descr": "a large beautiful fountain",
+        "description": "An elaborate white marble fountain is here.",
+        "material": "generic",
+        "item_type": "fountain",
+        "extra_flags": null,
+        "wear_flags": null,
+        "values": {
+            "capacity": 10,
+            "filled": 10,
+            "liquid": "water",
+            "poisoned": false
+        },
+        "level": 0,
+        "weight": 0,
+        "cost": 0,
+        "condition": 100,
+        "extra_description": [{
+            "keyword": "fountain",
+            "description": "You see the most beautiful fountain in the world.  The white marble glistens\nas sunlight hits its wet surfaces.  Fish swim around in the inner fountain, and\nan exterior fountain is reserved just for drinking.\n"
+        }],
+        "affects": []
+    }},
+    {"object": {
+        "area": "mirror",
+        "anum": 7,
+        "new_format": true,
+        "name": "desk",
+        "short_descr": "the curved desk",
+        "description": "A beautiful desk made from a gigantic sea shell is here.",
+        "material": "generic",
+        "item_type": "container",
+        "extra_flags": null,
+        "wear_flags": null,
+        "values": {
+            "capacity": 100,
+            "flags": "closeable closed locked",
+            "key": 5224,
+            "max_weight": 100,
+            "weight_mult": 100
+        },
+        "level": 0,
+        "weight": 0,
+        "cost": 0,
+        "condition": 100,
+        "extra_description": [{
+            "keyword": "desk",
+            "description": "The sea shell desk here is just gorgeous.  The creamy white of the table\nsurface makes you dream of being in a pool swimming among mermaids.\n"
+        }],
+        "affects": []
+    }},
+    {"object": {
+        "area": "mirror",
+        "anum": 8,
+        "new_format": true,
+        "name": "cabinet",
+        "short_descr": "the glass cabinet",
+        "description": "A sturdy glass cabinet is here.",
+        "material": "generic",
+        "item_type": "container",
+        "extra_flags": null,
+        "wear_flags": null,
+        "values": {
+            "capacity": 500,
+            "flags": "closeable closed locked",
+            "key": 5226,
+            "max_weight": 100,
+            "weight_mult": 100
+        },
+        "level": 0,
+        "weight": 0,
+        "cost": 0,
+        "condition": 100,
+        "extra_description": [{
+            "keyword": "cabinet",
+            "description": "A cabinet made of oak and mahogany, this piece of woodmanship is just splendid \nto view.  The wood is varnished with a very strong stain that looks as if it\nwould last longer than the cabinet itself.\n"
+        }],
+        "affects": []
+    }},
+    {"object": {
+        "area": "mirror",
+        "anum": 9,
+        "new_format": true,
+        "name": "mandolin",
+        "short_descr": "a mandolin",
+        "description": "A mandolin lies against the wall.",
+        "material": "generic",
+        "item_type": "staff",
+        "extra_flags": "magic",
+        "wear_flags": "take hold",
+        "values": {
+            "level": 18,
+            "recharge": 5,
+            "charges": 5,
+            "skill": "cure critical"
+        },
+        "level": 10,
+        "weight": 200,
+        "cost": 2800,
+        "condition": 100,
+        "extra_description": [],
+        "affects": []
+    }},
+    {"object": {
+        "area": "mirror",
+        "anum": 10,
+        "new_format": true,
+        "name": "harp golden",
+        "short_descr": "a golden harp",
+        "description": "A beautiful golden harp is waiting to be played.",
+        "material": "generic",
+        "item_type": "staff",
+        "extra_flags": "magic",
+        "wear_flags": "take hold",
+        "values": {
+            "level": 30,
+            "recharge": 1,
+            "charges": 1,
+            "skill": "call lightning"
+        },
+        "level": 7,
+        "weight": 1000,
+        "cost": 3200,
+        "condition": 100,
+        "extra_description": [],
+        "affects": [{
+            "apply": "dexterity",
+            "level": 7,
+            "modifier": -2,
+            "bit_type": "object",
+            "bits": null
+        }]
+    }},
+    {"object": {
+        "area": "mirror",
+        "anum": 11,
+        "new_format": true,
+        "name": "flute silver",
+        "short_descr": "a silver flute",
+        "description": "A brilliant silver flute glimmers from its holster.",
+        "material": "generic",
+        "item_type": "staff",
+        "extra_flags": "glow magic",
+        "wear_flags": "take hold",
+        "values": {
+            "level": 30,
+            "recharge": 1,
+            "charges": 1,
+            "skill": "charm person"
+        },
+        "level": 9,
+        "weight": 60,
+        "cost": 3900,
+        "condition": 100,
+        "extra_description": [],
+        "affects": [{
+            "apply": "dexterity",
+            "level": 9,
+            "modifier": -2,
+            "bit_type": "object",
+            "bits": null
+        }]
+    }},
+    {"object": {
+        "area": "mirror",
+        "anum": 12,
+        "new_format": true,
+        "name": "potion green",
+        "short_descr": "a green potion",
+        "description": "You see a green potion on the floor.",
+        "material": "generic",
+        "item_type": "potion",
+        "extra_flags": null,
+        "wear_flags": "take",
+        "values": {
+            "level": 20,
+            "skill1": "gas breath"
+        },
+        "level": 25,
+        "weight": 50,
+        "cost": 3000,
+        "condition": 100,
+        "extra_description": [],
+        "affects": []
+    }},
+    {"object": {
+        "area": "mirror",
+        "anum": 13,
+        "new_format": true,
+        "name": "bluish herbs",
+        "short_descr": "some bluish herbs",
+        "description": "Some bluish herbs are scattered here.",
+        "material": "generic",
+        "item_type": "pill",
+        "extra_flags": null,
+        "wear_flags": "take",
+        "values": {
+            "level": 15,
+            "skill3": "bless"
+        },
+        "level": 1,
+        "weight": 10,
+        "cost": 270,
+        "condition": 100,
+        "extra_description": [],
+        "affects": []
+    }},
+    {"object": {
+        "area": "mirror",
+        "anum": 14,
+        "new_format": true,
+        "name": "purplish herbs",
+        "short_descr": "some purplish herbs",
+        "description": "Some purplish herbs are scattered here.",
+        "material": "generic",
+        "item_type": "pill",
+        "extra_flags": null,
+        "wear_flags": "take",
+        "values": {
+            "level": 15,
+            "skill3": "change sex"
+        },
+        "level": 0,
+        "weight": 10,
+        "cost": 250,
+        "condition": 100,
+        "extra_description": [],
+        "affects": []
+    }},
+    {"object": {
+        "area": "mirror",
+        "anum": 15,
+        "new_format": true,
+        "name": "grayish herbs",
+        "short_descr": "some grayish herbs",
+        "description": "Some grayish herbs are scattered here.",
+        "material": "generic",
+        "item_type": "pill",
+        "extra_flags": null,
+        "wear_flags": "take",
+        "values": {
+            "level": 5,
+            "skill2": "giant strength",
+            "skill3": "poison"
+        },
+        "level": 5,
+        "weight": 10,
+        "cost": 360,
+        "condition": 100,
+        "extra_description": [],
+        "affects": []
+    }},
+    {"object": {
+        "area": "mirror",
+        "anum": 16,
+        "new_format": true,
+        "name": "orangish herbs",
+        "short_descr": "some orangish herbs",
+        "description": "Some orangish herbs are scattered here.",
+        "material": "generic",
+        "item_type": "pill",
+        "extra_flags": null,
+        "wear_flags": "take",
+        "values": {
+            "level": 5,
+            "skill3": "cure light"
+        },
+        "level": 0,
+        "weight": 10,
+        "cost": 150,
+        "condition": 100,
+        "extra_description": [],
+        "affects": []
+    }},
+    {"object": {
+        "area": "mirror",
+        "anum": 17,
+        "new_format": true,
+        "name": "sword",
+        "short_descr": "an imperial sword",
+        "description": "You see an imperial sword here.",
+        "material": "generic",
+        "item_type": "weapon",
+        "extra_flags": "magic",
+        "wear_flags": "take wield",
+        "values": {
+            "weapon_type": "sword",
+            "dice_num": 3,
+            "dice_size": 4,
+            "attack_type": "slash",
+            "flags": null
+        },
+        "level": 14,
+        "weight": 50,
+        "cost": 1420,
+        "condition": 100,
+        "extra_description": [{
+            "keyword": "sword",
+            "description": "You see a sword of great craftsmanship.  Imprinted on the side is:\nMerc Industries\n"
+        }],
+        "affects": [
+            {
+                "apply": "damage roll",
+                "level": 14,
+                "modifier": 2,
+                "bit_type": "object",
+                "bits": null
+            },
+            {
+                "apply": "hit roll",
+                "level": 14,
+                "modifier": 2,
+                "bit_type": "object",
+                "bits": null
+            }
+        ]
+    }},
+    {"object": {
+        "area": "mirror",
+        "anum": 18,
+        "new_format": true,
+        "name": "mace",
+        "short_descr": "an imperial mace",
+        "description": "You see an imperial mace here.",
+        "material": "generic",
+        "item_type": "weapon",
+        "extra_flags": "magic",
+        "wear_flags": "take wield",
+        "values": {
+            "weapon_type": "mace",
+            "dice_num": 2,
+            "dice_size": 7,
+            "attack_type": "pound",
+            "flags": null
+        },
+        "level": 15,
+        "weight": 50,
+        "cost": 1180,
+        "condition": 100,
+        "extra_description": [{
+            "keyword": "mace",
+            "description": "You see a mace of great craftsmanship.  Imprinted on the side is:\nMerc Industries\n"
+        }],
+        "affects": [
+            {
+                "apply": "damage roll",
+                "level": 15,
+                "modifier": 2,
+                "bit_type": "object",
+                "bits": null
+            },
+            {
+                "apply": "hit roll",
+                "level": 15,
+                "modifier": 2,
+                "bit_type": "object",
+                "bits": null
+            }
+        ]
+    }},
+    {"object": {
+        "area": "mirror",
+        "anum": 19,
+        "new_format": true,
+        "name": "chest plate",
+        "short_descr": "an imperial chest plate",
+        "description": "You see an imperial chest plate here.",
+        "material": "generic",
+        "item_type": "armor",
+        "extra_flags": null,
+        "wear_flags": "take body",
+        "values": {
+            "vs_pierce": 5,
+            "vs_bash": 5,
+            "vs_slash": 5,
+            "vs_magic": 0
+        },
+        "level": 10,
+        "weight": 50,
+        "cost": 1450,
+        "condition": 100,
+        "extra_description": [{
+            "keyword": "chest plate",
+            "description": "You see a chest plate of great craftsmanship.  Stamped on the side is:\nMerc Industries\n"
+        }],
+        "affects": []
+    }},
+    {"object": {
+        "area": "mirror",
+        "anum": 20,
+        "new_format": true,
+        "name": "shield",
+        "short_descr": "an imperial shield",
+        "description": "You see an imperial shield here.",
+        "material": "generic",
+        "item_type": "armor",
+        "extra_flags": null,
+        "wear_flags": "take shield",
+        "values": {
+            "vs_pierce": 5,
+            "vs_bash": 5,
+            "vs_slash": 5,
+            "vs_magic": 2
+        },
+        "level": 10,
+        "weight": 50,
+        "cost": 1190,
+        "condition": 100,
+        "extra_description": [{
+            "keyword": "shield",
+            "description": "You see a shield of great craftsmanship.  Imprinted on the side is:\nMerc Industries\n"
+        }],
+        "affects": []
+    }},
+    {"object": {
+        "area": "mirror",
+        "anum": 21,
+        "new_format": true,
+        "name": "cloak",
+        "short_descr": "an imperial cloak",
+        "description": "You see an imperial cloak here.",
+        "material": "generic",
+        "item_type": "armor",
+        "extra_flags": null,
+        "wear_flags": "take neck",
+        "values": {
+            "vs_pierce": 5,
+            "vs_bash": 5,
+            "vs_slash": 5,
+            "vs_magic": 0
+        },
+        "level": 10,
+        "weight": 50,
+        "cost": 730,
+        "condition": 100,
+        "extra_description": [{
+            "keyword": "cloak",
+            "description": "You see a cloak of great craftsmanship.  Imprinted on the side is:\nMerc Industries\n"
+        }],
+        "affects": []
+    }},
+    {"object": {
+        "area": "mirror",
+        "anum": 22,
+        "new_format": true,
+        "name": "helm",
+        "short_descr": "an imperial helm",
+        "description": "You see an imperial helm here.",
+        "material": "generic",
+        "item_type": "armor",
+        "extra_flags": null,
+        "wear_flags": "take head",
+        "values": {
+            "vs_pierce": 5,
+            "vs_bash": 5,
+            "vs_slash": 5,
+            "vs_magic": 0
+        },
+        "level": 10,
+        "weight": 50,
+        "cost": 730,
+        "condition": 100,
+        "extra_description": [{
+            "keyword": "helm",
+            "description": "You see a helm of great craftsmanship.  Imprinted on the side is:\nMerc Industries\n"
+        }],
+        "affects": []
+    }},
+    {"object": {
+        "area": "mirror",
+        "anum": 23,
+        "new_format": true,
+        "name": "plate leggings",
+        "short_descr": "a pair of imperial plate leggings",
+        "description": "You see a pair of imperial plate leggings here.",
+        "material": "generic",
+        "item_type": "armor",
+        "extra_flags": null,
+        "wear_flags": "take legs",
+        "values": {
+            "vs_pierce": 5,
+            "vs_bash": 5,
+            "vs_slash": 5,
+            "vs_magic": 0
+        },
+        "level": 10,
+        "weight": 50,
+        "cost": 730,
+        "condition": 100,
+        "extra_description": [{
+            "keyword": "plate leggings",
+            "description": "You see plate leggings of great craftsmanship.  Imprinted on the side is:\nMerc Industries\n"
+        }],
+        "affects": []
+    }},
+    {"object": {
+        "area": "mirror",
+        "anum": 24,
+        "new_format": true,
+        "name": "plate boots",
+        "short_descr": "a pair of imperial plate boots",
+        "description": "You see a pair of imperial plate boots here.",
+        "material": "generic",
+        "item_type": "armor",
+        "extra_flags": null,
+        "wear_flags": "take feet",
+        "values": {
+            "vs_pierce": 5,
+            "vs_bash": 5,
+            "vs_slash": 5,
+            "vs_magic": 0
+        },
+        "level": 10,
+        "weight": 50,
+        "cost": 730,
+        "condition": 100,
+        "extra_description": [{
+            "keyword": "plate boots",
+            "description": "You see plate boots of great craftsmanship.  Imprinted on the side is:\nMerc Industries\n"
+        }],
+        "affects": []
+    }},
+    {"object": {
+        "area": "mirror",
+        "anum": 25,
+        "new_format": true,
+        "name": "plate gloves",
+        "short_descr": "a pair of imperial plate gloves",
+        "description": "You see a pair of imperial plate gloves here.",
+        "material": "generic",
+        "item_type": "armor",
+        "extra_flags": null,
+        "wear_flags": "take hands",
+        "values": {
+            "vs_pierce": 5,
+            "vs_bash": 5,
+            "vs_slash": 5,
+            "vs_magic": 0
+        },
+        "level": 10,
+        "weight": 50,
+        "cost": 730,
+        "condition": 100,
+        "extra_description": [{
+            "keyword": "plate gloves",
+            "description": "You see plate gloves of great craftsmanship.  Imprinted on the side is:\nMerc Industries\n"
+        }],
+        "affects": []
+    }},
+    {"object": {
+        "area": "mirror",
+        "anum": 26,
+        "new_format": true,
+        "name": "plate sleeves",
+        "short_descr": "a pair of imperial plate sleeves",
+        "description": "You see a pair of imperial plate sleeves here.",
+        "material": "generic",
+        "item_type": "armor",
+        "extra_flags": null,
+        "wear_flags": "take arms",
+        "values": {
+            "vs_pierce": 5,
+            "vs_bash": 5,
+            "vs_slash": 5,
+            "vs_magic": 0
+        },
+        "level": 10,
+        "weight": 50,
+        "cost": 730,
+        "condition": 100,
+        "extra_description": [{
+            "keyword": "plate sleeves",
+            "description": "You see plate sleeves of great craftsmanship.  Imprinted on the side is:\nMerc Industries\n"
+        }],
+        "affects": []
+    }},
+    {"object": {
+        "area": "mirror",
+        "anum": 27,
+        "new_format": true,
+        "name": "cape",
+        "short_descr": "an imperial cape",
+        "description": "You see an imperial cape here.",
+        "material": "generic",
+        "item_type": "armor",
+        "extra_flags": null,
+        "wear_flags": "take about",
+        "values": {
+            "vs_pierce": 5,
+            "vs_bash": 5,
+            "vs_slash": 5,
+            "vs_magic": 0
+        },
+        "level": 10,
+        "weight": 50,
+        "cost": 730,
+        "condition": 100,
+        "extra_description": [{
+            "keyword": "cape",
+            "description": "You see a cape of great craftsmanship.  Imprinted on the side is:\nMerc Industries\n"
+        }],
+        "affects": []
+    }},
+    {"object": {
+        "area": "mirror",
+        "anum": 28,
+        "new_format": true,
+        "name": "belt",
+        "short_descr": "an imperial belt",
+        "description": "You see an imperial belt here.",
+        "material": "generic",
+        "item_type": "armor",
+        "extra_flags": null,
+        "wear_flags": "take waist",
+        "values": {
+            "vs_pierce": 5,
+            "vs_bash": 5,
+            "vs_slash": 5,
+            "vs_magic": 0
+        },
+        "level": 10,
+        "weight": 50,
+        "cost": 730,
+        "condition": 100,
+        "extra_description": [{
+            "keyword": "belt",
+            "description": "You see a belt of great craftsmanship.  Imprinted on the side is:\nMerc Industries\n"
+        }],
+        "affects": []
+    }},
+    {"object": {
+        "area": "mirror",
+        "anum": 29,
+        "new_format": true,
+        "name": "metal bracer",
+        "short_descr": "an imperial metal bracer",
+        "description": "You see an imperial metal bracer here.",
+        "material": "generic",
+        "item_type": "armor",
+        "extra_flags": null,
+        "wear_flags": "take wrist",
+        "values": {
+            "vs_pierce": 3,
+            "vs_bash": 5,
+            "vs_slash": 5,
+            "vs_magic": 0
+        },
+        "level": 5,
+        "weight": 50,
+        "cost": 550,
+        "condition": 100,
+        "extra_description": [{
+            "keyword": "metal bracer",
+            "description": "You see a metal bracer of great craftsmanship.  Imprinted on the side is:\nMerc Industries\n"
+        }],
+        "affects": []
+    }},
+    {"object": {
+        "area": "mirror",
+        "anum": 30,
+        "new_format": true,
+        "name": "ring signet",
+        "short_descr": "an imperial city guard signet ring",
+        "description": "You see a ring with a strange symbol on the floor.",
+        "material": "generic",
+        "item_type": "jewelry",
+        "extra_flags": "magic",
+        "wear_flags": "take finger",
+        "values": {},
+        "level": 16,
+        "weight": 10,
+        "cost": 1280,
+        "condition": 100,
+        "extra_description": [],
+        "affects": [
+            {
+                "apply": "saves",
+                "level": 16,
+                "modifier": -1,
+                "bit_type": "object",
+                "bits": null
+            },
+            {
+                "apply": "armor class",
+                "level": 16,
+                "modifier": -4,
+                "bit_type": "object",
+                "bits": null
+            }
+        ]
+    }},
+    {"object": {
+        "area": "mirror",
+        "anum": 31,
+        "new_format": true,
+        "name": "imperial banner",
+        "short_descr": "an imperial war banner",
+        "description": "An imperial war banner is on the floor here.",
+        "material": "generic",
+        "item_type": "light",
+        "extra_flags": "glow magic",
+        "wear_flags": "take",
+        "values": {"duration": -1},
+        "level": 20,
+        "weight": 10,
+        "cost": 1440,
+        "condition": 100,
+        "extra_description": [{
+            "keyword": "banner",
+            "description": "This is the official Merc war banner to see you through the darkest realm!\n"
+        }],
+        "affects": [
+            {
+                "apply": "armor class",
+                "level": 20,
+                "modifier": -2,
+                "bit_type": "object",
+                "bits": null
+            },
+            {
+                "apply": "saves",
+                "level": 20,
+                "modifier": -2,
+                "bit_type": "object",
+                "bits": null
+            }
+        ]
+    }},
+    {"object": {
+        "area": "mirror",
+        "anum": 32,
+        "new_format": true,
+        "name": "two-handed two sword",
+        "short_descr": "a two-handed sword",
+        "description": "A nice two-handed sword hangs on a hook in the wall.",
+        "material": "generic",
+        "item_type": "weapon",
+        "extra_flags": "magic antievil",
+        "wear_flags": "take wield",
+        "values": {
+            "weapon_type": "sword",
+            "dice_num": 4,
+            "dice_size": 7,
+            "attack_type": "cleave",
+            "flags": "sharp twohands"
+        },
+        "level": 34,
+        "weight": 240,
+        "cost": 4400,
+        "condition": 100,
+        "extra_description": [],
+        "affects": [
+            {
+                "apply": "damage roll",
+                "level": 34,
+                "modifier": 3,
+                "bit_type": "object",
+                "bits": null
+            },
+            {
+                "apply": "hit roll",
+                "level": 34,
+                "modifier": 2,
+                "bit_type": "object",
+                "bits": null
+            }
+        ]
+    }}
+]

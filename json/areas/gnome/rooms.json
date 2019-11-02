@@ -1,0 +1,4018 @@
+[
+    {"room": {
+        "area": "gnome",
+        "anum": 1,
+        "owner": null,
+        "name": "Entrance to Gnome Village",
+        "description": "You stand on a dusty path that leads north and east.  To the east you hear\nthe sounds of a small village.\n",
+        "room_flags": "no_mob",
+        "sector_type": "field",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [
+            {
+                "dir": "north",
+                "to": null,
+                "keyword": null,
+                "description": "A dusty path heads towards the eastern road.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": "gnome-1-north"
+            },
+            {
+                "dir": "east",
+                "to": 2,
+                "keyword": null,
+                "description": "You see a dusty path.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            }
+        ],
+        "extra_description": [],
+        "resets": []
+    }},
+    {"room": {
+        "area": "gnome",
+        "anum": 2,
+        "owner": null,
+        "name": "A Dusty Path",
+        "description": "This is a path leading into the village.  It continues east and west and\nthere is a small house to the north.\n",
+        "room_flags": null,
+        "sector_type": "city",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [
+            {
+                "dir": "north",
+                "to": 9,
+                "keyword": null,
+                "description": "You see a small house.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "east",
+                "to": 3,
+                "keyword": null,
+                "description": "You see a road.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "west",
+                "to": 1,
+                "keyword": null,
+                "description": "You see a path.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            }
+        ],
+        "extra_description": [],
+        "resets": []
+    }},
+    {"room": {
+        "area": "gnome",
+        "anum": 3,
+        "owner": null,
+        "name": "A Road in the Village",
+        "description": "This road runs north and south through the center of the village.  There\nare a few people moving around, but not many.\n",
+        "room_flags": null,
+        "sector_type": "city",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [
+            {
+                "dir": "north",
+                "to": 5,
+                "keyword": null,
+                "description": "You see a road.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "east",
+                "to": 4,
+                "keyword": null,
+                "description": "You see a path.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "south",
+                "to": 7,
+                "keyword": null,
+                "description": "You see a road.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "west",
+                "to": 2,
+                "keyword": null,
+                "description": "You see a road.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            }
+        ],
+        "extra_description": [],
+        "resets": [
+            {
+                "command": "mobile",
+                "values": {
+                    "mob": 2,
+                    "global_limit": 3,
+                    "room_limit": 1
+                }
+            },
+            {
+                "command": "equip",
+                "values": {
+                    "obj": 3,
+                    "wear_loc": "wielded",
+                    "global_limit": 20
+                }
+            }
+        ]
+    }},
+    {"room": {
+        "area": "gnome",
+        "anum": 4,
+        "owner": null,
+        "name": "A Dusty Path",
+        "description": "You are on a dusty path on the far side of the village.  Houses are to the\nnorth and south, while the path continues east.  There is a sign here.\n",
+        "room_flags": null,
+        "sector_type": "city",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [
+            {
+                "dir": "north",
+                "to": 12,
+                "keyword": null,
+                "description": "You see a house.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "east",
+                "to": 59,
+                "keyword": null,
+                "description": "You see a path.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "south",
+                "to": 13,
+                "keyword": null,
+                "description": "You see a house.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "west",
+                "to": 3,
+                "keyword": null,
+                "description": "You see a road.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            }
+        ],
+        "extra_description": [{
+            "keyword": "sign",
+            "description": "Warning:  The area to the east was written mostly by Vougon\n                    (giggle)    - Sandman\n"
+        }],
+        "resets": []
+    }},
+    {"room": {
+        "area": "gnome",
+        "anum": 5,
+        "owner": null,
+        "name": "A Road in the Village",
+        "description": "This road runs north and south through the center of the village.  There\nare a few people moving around, but not many.\n",
+        "room_flags": null,
+        "sector_type": "city",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [
+            {
+                "dir": "north",
+                "to": 6,
+                "keyword": null,
+                "description": "You see a road.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "east",
+                "to": 11,
+                "keyword": null,
+                "description": "You see a house.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "south",
+                "to": 3,
+                "keyword": null,
+                "description": "You see a road.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "west",
+                "to": 10,
+                "keyword": null,
+                "description": "You see a house.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            }
+        ],
+        "extra_description": [],
+        "resets": [
+            {
+                "command": "mobile",
+                "values": {
+                    "mob": 2,
+                    "global_limit": 3,
+                    "room_limit": 1
+                }
+            },
+            {
+                "command": "equip",
+                "values": {
+                    "obj": 3,
+                    "wear_loc": "wielded",
+                    "global_limit": 20
+                }
+            }
+        ]
+    }},
+    {"room": {
+        "area": "gnome",
+        "anum": 6,
+        "owner": null,
+        "name": "A Road in the Village",
+        "description": "This road runs north and south through the center of the village.  There\nare a few people moving around, but not many.\n",
+        "room_flags": null,
+        "sector_type": "city",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [
+            {
+                "dir": "north",
+                "to": 26,
+                "keyword": null,
+                "description": "You see a road.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "south",
+                "to": 5,
+                "keyword": null,
+                "description": "You see a road.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            }
+        ],
+        "extra_description": [],
+        "resets": [
+            {
+                "command": "mobile",
+                "values": {
+                    "mob": 2,
+                    "global_limit": 3,
+                    "room_limit": 1
+                }
+            },
+            {
+                "command": "equip",
+                "values": {
+                    "obj": 3,
+                    "wear_loc": "wielded",
+                    "global_limit": 20
+                }
+            }
+        ]
+    }},
+    {"room": {
+        "area": "gnome",
+        "anum": 7,
+        "owner": null,
+        "name": "A Road in the Village",
+        "description": "This road runs north and south through the center of the village.  There\nare a few people moving around, but not many.\n",
+        "room_flags": null,
+        "sector_type": "city",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [
+            {
+                "dir": "north",
+                "to": 3,
+                "keyword": null,
+                "description": "You see a road.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "south",
+                "to": 8,
+                "keyword": null,
+                "description": "You see a road.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "west",
+                "to": 14,
+                "keyword": null,
+                "description": "You see a shop.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            }
+        ],
+        "extra_description": [],
+        "resets": []
+    }},
+    {"room": {
+        "area": "gnome",
+        "anum": 8,
+        "owner": null,
+        "name": "A Road in the Village",
+        "description": "This road runs north and south through the center of the village.  There\nare a few people moving around, but not many.\n",
+        "room_flags": null,
+        "sector_type": "city",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [
+            {
+                "dir": "north",
+                "to": 7,
+                "keyword": null,
+                "description": "You see a road.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "east",
+                "to": 16,
+                "keyword": null,
+                "description": "You see a shop.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "south",
+                "to": 17,
+                "keyword": null,
+                "description": "You see a small path.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "west",
+                "to": 15,
+                "keyword": null,
+                "description": "You see a shop.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            }
+        ],
+        "extra_description": [],
+        "resets": []
+    }},
+    {"room": {
+        "area": "gnome",
+        "anum": 9,
+        "owner": null,
+        "name": "A Small Gnome House",
+        "description": "This is a small suburban house made from quality wood.  You can see the\nexpert workmanship that went into making it, but it lacks creativity.\n",
+        "room_flags": "indoors",
+        "sector_type": "inside",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [{
+            "dir": "south",
+            "to": 2,
+            "keyword": null,
+            "description": "You see a path.\n",
+            "exit_flags": null,
+            "key": -1,
+            "portal": null
+        }],
+        "extra_description": [],
+        "resets": [
+            {
+                "command": "mobile",
+                "values": {
+                    "mob": 0,
+                    "global_limit": 3,
+                    "room_limit": 1
+                }
+            },
+            {
+                "command": "give",
+                "values": {
+                    "obj": 2,
+                    "global_limit": 20
+                }
+            },
+            {
+                "command": "mobile",
+                "values": {
+                    "mob": 1,
+                    "global_limit": 3,
+                    "room_limit": 1
+                }
+            }
+        ]
+    }},
+    {"room": {
+        "area": "gnome",
+        "anum": 10,
+        "owner": null,
+        "name": "A Small Gnome House",
+        "description": "This is a small suburban house made from quality wood.  You can see the\nexpert workmanship that went into making it, but it lacks creativity.\n",
+        "room_flags": "indoors",
+        "sector_type": "inside",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [{
+            "dir": "east",
+            "to": 5,
+            "keyword": null,
+            "description": "You see a path.\n",
+            "exit_flags": null,
+            "key": -1,
+            "portal": null
+        }],
+        "extra_description": [],
+        "resets": [
+            {
+                "command": "mobile",
+                "values": {
+                    "mob": 0,
+                    "global_limit": 3,
+                    "room_limit": 1
+                }
+            },
+            {
+                "command": "give",
+                "values": {
+                    "obj": 2,
+                    "global_limit": 20
+                }
+            },
+            {
+                "command": "mobile",
+                "values": {
+                    "mob": 1,
+                    "global_limit": 3,
+                    "room_limit": 1
+                }
+            }
+        ]
+    }},
+    {"room": {
+        "area": "gnome",
+        "anum": 11,
+        "owner": null,
+        "name": "A Small Gnome House",
+        "description": "This is a small suburban house made from quality wood.  You can see the\nexpert workmanship that went into making it, but it lacks creativity.\n",
+        "room_flags": "indoors",
+        "sector_type": "inside",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [{
+            "dir": "west",
+            "to": 5,
+            "keyword": null,
+            "description": "You see a path.\n",
+            "exit_flags": null,
+            "key": -1,
+            "portal": null
+        }],
+        "extra_description": [],
+        "resets": [
+            {
+                "command": "mobile",
+                "values": {
+                    "mob": 0,
+                    "global_limit": 3,
+                    "room_limit": 1
+                }
+            },
+            {
+                "command": "give",
+                "values": {
+                    "obj": 2,
+                    "global_limit": 20
+                }
+            },
+            {
+                "command": "mobile",
+                "values": {
+                    "mob": 1,
+                    "global_limit": 3,
+                    "room_limit": 1
+                }
+            }
+        ]
+    }},
+    {"room": {
+        "area": "gnome",
+        "anum": 12,
+        "owner": null,
+        "name": "A Small Gnome House",
+        "description": "This is a small suburban house made from quality wood.  You can see the\nexpert workmanship that went into making it, but it lacks creativity.\n",
+        "room_flags": "indoors",
+        "sector_type": "inside",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [{
+            "dir": "south",
+            "to": 4,
+            "keyword": null,
+            "description": "You see a path.\n",
+            "exit_flags": null,
+            "key": -1,
+            "portal": null
+        }],
+        "extra_description": [],
+        "resets": []
+    }},
+    {"room": {
+        "area": "gnome",
+        "anum": 13,
+        "owner": null,
+        "name": "A Small Gnome House",
+        "description": "This is a small suburban house made from quality wood.  You can see the\nexpert workmanship that went into making it, but it lacks creativity.\n",
+        "room_flags": "indoors",
+        "sector_type": "inside",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [{
+            "dir": "north",
+            "to": 4,
+            "keyword": null,
+            "description": "You see a path.\n",
+            "exit_flags": null,
+            "key": -1,
+            "portal": null
+        }],
+        "extra_description": [],
+        "resets": [
+            {
+                "command": "mobile",
+                "values": {
+                    "mob": 3,
+                    "global_limit": 3,
+                    "room_limit": 1
+                }
+            },
+            {
+                "command": "give",
+                "values": {
+                    "obj": 11,
+                    "global_limit": 12
+                }
+            },
+            {
+                "command": "put",
+                "values": {
+                    "obj": 13,
+                    "into": 11,
+                    "global_limit": 12,
+                    "put_count": 1
+                }
+            }
+        ]
+    }},
+    {"room": {
+        "area": "gnome",
+        "anum": 14,
+        "owner": null,
+        "name": "A Gnome Shop",
+        "description": "You are in one of the several shops of this fine town.  The wares look fine,\nbut unfortunately the gnomes don't do business with outsiders.\n",
+        "room_flags": "indoors",
+        "sector_type": "inside",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [{
+            "dir": "east",
+            "to": 7,
+            "keyword": null,
+            "description": "You see a road.\n",
+            "exit_flags": null,
+            "key": -1,
+            "portal": null
+        }],
+        "extra_description": [],
+        "resets": [
+            {
+                "command": "mobile",
+                "values": {
+                    "mob": 3,
+                    "global_limit": 3,
+                    "room_limit": 1
+                }
+            },
+            {
+                "command": "give",
+                "values": {
+                    "obj": 11,
+                    "global_limit": 12
+                }
+            },
+            {
+                "command": "put",
+                "values": {
+                    "obj": 12,
+                    "into": 11,
+                    "global_limit": 12,
+                    "put_count": 1
+                }
+            }
+        ]
+    }},
+    {"room": {
+        "area": "gnome",
+        "anum": 15,
+        "owner": null,
+        "name": "A Gnome Shop",
+        "description": "You are in one of the several shops of this fine town.  The wares look fine,\nbut unfortunately the gnomes don't do business with outsiders.\n",
+        "room_flags": "indoors",
+        "sector_type": "inside",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [{
+            "dir": "east",
+            "to": 8,
+            "keyword": null,
+            "description": "You see a road.\n",
+            "exit_flags": null,
+            "key": -1,
+            "portal": null
+        }],
+        "extra_description": [],
+        "resets": [
+            {
+                "command": "mobile",
+                "values": {
+                    "mob": 3,
+                    "global_limit": 3,
+                    "room_limit": 1
+                }
+            },
+            {
+                "command": "equip",
+                "values": {
+                    "obj": 14,
+                    "wear_loc": "wielded",
+                    "global_limit": 12
+                }
+            }
+        ]
+    }},
+    {"room": {
+        "area": "gnome",
+        "anum": 16,
+        "owner": null,
+        "name": "A Gnome Shop",
+        "description": "You are in one of the several shops of this fine town.  The wares look fine,\nbut unfortunately the gnomes don't do business with outsiders.\n",
+        "room_flags": "indoors",
+        "sector_type": "inside",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [{
+            "dir": "west",
+            "to": 8,
+            "keyword": null,
+            "description": "You see a road.\n",
+            "exit_flags": null,
+            "key": -1,
+            "portal": null
+        }],
+        "extra_description": [],
+        "resets": []
+    }},
+    {"room": {
+        "area": "gnome",
+        "anum": 17,
+        "owner": null,
+        "name": "Path by a Stream",
+        "description": "You are on a small path leading north and west, that is surrounded on the\nother two sides by a small stream.  The water looks mighty cold.\n",
+        "room_flags": "no_mob",
+        "sector_type": "field",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [
+            {
+                "dir": "north",
+                "to": 8,
+                "keyword": null,
+                "description": "You see a road.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "south",
+                "to": 20,
+                "keyword": null,
+                "description": "You see the stream.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "west",
+                "to": 18,
+                "keyword": null,
+                "description": "You see a small path.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            }
+        ],
+        "extra_description": [{
+            "keyword": "stream",
+            "description": "The stream is pretty small, but it looks too cold to swim.\n"
+        }],
+        "resets": []
+    }},
+    {"room": {
+        "area": "gnome",
+        "anum": 18,
+        "owner": null,
+        "name": "Path by a Stream",
+        "description": "You are on a small east-west path.  The path shows new grass, as if it\nhas stopped being used sometime in the recent past.  A river is to the south,\nand a small hut is to the west.\n",
+        "room_flags": null,
+        "sector_type": "field",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [
+            {
+                "dir": "east",
+                "to": 17,
+                "keyword": null,
+                "description": "You see a small path.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "south",
+                "to": 21,
+                "keyword": null,
+                "description": "You see the stream.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "west",
+                "to": 19,
+                "keyword": null,
+                "description": "You see a small hut that is starting to fall apart.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            }
+        ],
+        "extra_description": [
+            {
+                "keyword": "hut",
+                "description": "The hut looks well built, but it seems to have taken some damage.\n"
+            },
+            {
+                "keyword": "stream",
+                "description": "The stream is pretty small, but it looks too cold to swim.\n"
+            }
+        ],
+        "resets": []
+    }},
+    {"room": {
+        "area": "gnome",
+        "anum": 19,
+        "owner": null,
+        "name": "A Small Hut",
+        "description": "The hut is a mess!  Blood has stained the grass walls into a dark rich\ncrimson color.  Torn clothes and trash lie all around, and you think you\nsee a skeleton in the corner.\n",
+        "room_flags": "indoors",
+        "sector_type": "inside",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [{
+            "dir": "east",
+            "to": 18,
+            "keyword": null,
+            "description": "You see a small path.\n",
+            "exit_flags": null,
+            "key": -1,
+            "portal": null
+        }],
+        "extra_description": [{
+            "keyword": "skeleton",
+            "description": "The skeleton still has a little flesh clinging to it and it is definitely\nhumanoid.  The skull has been cracked open, but it is otherwise undamaged,\nexcept by time.\n"
+        }],
+        "resets": [
+            {
+                "command": "mobile",
+                "values": {
+                    "mob": 4,
+                    "global_limit": 6,
+                    "room_limit": 1
+                }
+            },
+            {
+                "command": "give",
+                "values": {
+                    "obj": 0,
+                    "global_limit": 3
+                }
+            },
+            {
+                "command": "give",
+                "values": {
+                    "obj": 6,
+                    "global_limit": -1
+                }
+            },
+            {
+                "command": "equip",
+                "values": {
+                    "obj": 7,
+                    "wear_loc": "neck1",
+                    "global_limit": 10
+                }
+            }
+        ]
+    }},
+    {"room": {
+        "area": "gnome",
+        "anum": 20,
+        "owner": null,
+        "name": "On the Stream",
+        "description": "The stream is cold and frigid, yet it supports plenty of life beneath its\nsurface.  The current trickles west and there is a field to the south.\n",
+        "room_flags": null,
+        "sector_type": "noswim",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [
+            {
+                "dir": "north",
+                "to": 17,
+                "keyword": null,
+                "description": "You see a small path.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "south",
+                "to": 22,
+                "keyword": null,
+                "description": "You see a grassy field.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "west",
+                "to": 21,
+                "keyword": null,
+                "description": "You see a small stream.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            }
+        ],
+        "extra_description": [],
+        "resets": []
+    }},
+    {"room": {
+        "area": "gnome",
+        "anum": 21,
+        "owner": null,
+        "name": "On the Stream",
+        "description": "The current here flows from the east, but a logjam blocks you from \ncontinuing onward.\n",
+        "room_flags": null,
+        "sector_type": "noswim",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [
+            {
+                "dir": "north",
+                "to": 18,
+                "keyword": null,
+                "description": "You see a small path.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "east",
+                "to": 20,
+                "keyword": null,
+                "description": "You see a small stream.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            }
+        ],
+        "extra_description": [],
+        "resets": []
+    }},
+    {"room": {
+        "area": "gnome",
+        "anum": 22,
+        "owner": null,
+        "name": "The Field of Mice's Dreams",
+        "description": "This is a large green field of waist high grass.  You feel something\nscurry over your feet.  There is a cave to the east.\n",
+        "room_flags": null,
+        "sector_type": "field",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [
+            {
+                "dir": "north",
+                "to": 20,
+                "keyword": null,
+                "description": "You see a small stream.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "east",
+                "to": 23,
+                "keyword": null,
+                "description": "You see a dark mysterious cave.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            }
+        ],
+        "extra_description": [],
+        "resets": [
+            {
+                "command": "mobile",
+                "values": {
+                    "mob": 8,
+                    "global_limit": 2,
+                    "room_limit": 2
+                }
+            },
+            {
+                "command": "mobile",
+                "values": {
+                    "mob": 8,
+                    "global_limit": 2,
+                    "room_limit": 2
+                }
+            }
+        ]
+    }},
+    {"room": {
+        "area": "gnome",
+        "anum": 23,
+        "owner": null,
+        "name": "The Dark Cave",
+        "description": "The cave gleams as your light reflects off of it.  As you squint your eyes\nand try to look ahead, you think you see something move.\n",
+        "room_flags": "dark",
+        "sector_type": "forest",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [
+            {
+                "dir": "north",
+                "to": 24,
+                "keyword": null,
+                "description": null,
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "west",
+                "to": 22,
+                "keyword": null,
+                "description": "You see a grassy field.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            }
+        ],
+        "extra_description": [],
+        "resets": []
+    }},
+    {"room": {
+        "area": "gnome",
+        "anum": 24,
+        "owner": null,
+        "name": "Darker Cave",
+        "description": "The cave gets even darker as your terror grows stronger.  You fear for your\nlife as something emerges out of the shadows.\n",
+        "room_flags": "dark",
+        "sector_type": "forest",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [{
+            "dir": "south",
+            "to": 23,
+            "keyword": null,
+            "description": null,
+            "exit_flags": null,
+            "key": -1,
+            "portal": null
+        }],
+        "extra_description": [],
+        "resets": [{
+            "command": "mobile",
+            "values": {
+                "mob": 7,
+                "global_limit": 1,
+                "room_limit": 1
+            }
+        }]
+    }},
+    {"room": {
+        "area": "gnome",
+        "anum": 26,
+        "owner": null,
+        "name": "A Dusty Path",
+        "description": "You are on a well traveled path that leads in many directions.  To the north\nis a large house, and to the west is a fortress.\n",
+        "room_flags": "no_mob",
+        "sector_type": "city",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [
+            {
+                "dir": "north",
+                "to": 58,
+                "keyword": null,
+                "description": "You see a large white house.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "south",
+                "to": 6,
+                "keyword": null,
+                "description": "You see a road.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "west",
+                "to": 27,
+                "keyword": null,
+                "description": "You see the gateway to a large fortress.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            }
+        ],
+        "extra_description": [{
+            "keyword": "fortress",
+            "description": "The fortress is a large gnome stronghold to defend the city.\n"
+        }],
+        "resets": []
+    }},
+    {"room": {
+        "area": "gnome",
+        "anum": 27,
+        "owner": null,
+        "name": "The Iron Gateway",
+        "description": "You stand at the entrance to the gnome fortress.  The place seems to be\nwell fortified.\n",
+        "room_flags": null,
+        "sector_type": "city",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [
+            {
+                "dir": "east",
+                "to": 26,
+                "keyword": null,
+                "description": "You see a small path.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "west",
+                "to": 28,
+                "keyword": null,
+                "description": "You see a long hallway.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            }
+        ],
+        "extra_description": [],
+        "resets": [
+            {
+                "command": "mobile",
+                "values": {
+                    "mob": 4,
+                    "global_limit": 6,
+                    "room_limit": 2
+                }
+            },
+            {
+                "command": "equip",
+                "values": {
+                    "obj": 4,
+                    "wear_loc": "wielded",
+                    "global_limit": 20
+                }
+            }
+        ]
+    }},
+    {"room": {
+        "area": "gnome",
+        "anum": 28,
+        "owner": null,
+        "name": "A Long Hallway",
+        "description": "You are now inside of the fortress; you must be lucky that the guards \nhaven't killed you.  As you glance around, you notice that the walls and\nfloors are spotlessly cleaned.  The barracks are to the north and a\nstorage room is to the south.\n",
+        "room_flags": "indoors",
+        "sector_type": "inside",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [
+            {
+                "dir": "north",
+                "to": 30,
+                "keyword": null,
+                "description": "You see the barracks.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "east",
+                "to": 27,
+                "keyword": null,
+                "description": "You see the gateway.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "south",
+                "to": 32,
+                "keyword": null,
+                "description": "You see a storage room.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "west",
+                "to": 29,
+                "keyword": null,
+                "description": "You see a long hallway.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            }
+        ],
+        "extra_description": [],
+        "resets": []
+    }},
+    {"room": {
+        "area": "gnome",
+        "anum": 29,
+        "owner": null,
+        "name": "A Long Hallway",
+        "description": "You are now inside of the fortress; you must be lucky that the guards \nhaven't killed you.  As you glance around, you notice that the walls and\nfloors are spotlessly cleaned.  A mess hall is to the south.\n",
+        "room_flags": "indoors",
+        "sector_type": "inside",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [
+            {
+                "dir": "east",
+                "to": 28,
+                "keyword": null,
+                "description": "You see a long hallway.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "south",
+                "to": 34,
+                "keyword": null,
+                "description": "You see the mess hall.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "west",
+                "to": 35,
+                "keyword": null,
+                "description": "You see a small room.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            }
+        ],
+        "extra_description": [],
+        "resets": []
+    }},
+    {"room": {
+        "area": "gnome",
+        "anum": 30,
+        "owner": null,
+        "name": "The Barracks",
+        "description": "You now stand in the sleeping quarters of the gnome guards.  Every bed is\nmade perfectly, and not single article of clothing is on the floor.  There\nis a small storage room to the east.\n",
+        "room_flags": "indoors",
+        "sector_type": "inside",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [
+            {
+                "dir": "east",
+                "to": 31,
+                "keyword": null,
+                "description": "You see a small storage room.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "south",
+                "to": 28,
+                "keyword": null,
+                "description": "You see a long hallway.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            }
+        ],
+        "extra_description": [],
+        "resets": [
+            {
+                "command": "mobile",
+                "values": {
+                    "mob": 4,
+                    "global_limit": 6,
+                    "room_limit": 2
+                }
+            },
+            {
+                "command": "equip",
+                "values": {
+                    "obj": 4,
+                    "wear_loc": "wielded",
+                    "global_limit": 20
+                }
+            },
+            {
+                "command": "mobile",
+                "values": {
+                    "mob": 4,
+                    "global_limit": 6,
+                    "room_limit": 2
+                }
+            },
+            {
+                "command": "equip",
+                "values": {
+                    "obj": 4,
+                    "wear_loc": "wielded",
+                    "global_limit": 20
+                }
+            }
+        ]
+    }},
+    {"room": {
+        "area": "gnome",
+        "anum": 31,
+        "owner": null,
+        "name": "A Small Storage Room",
+        "description": "This is where the gnomes store all their spare clothing and armor.\nThere is not much here, but you might come up with something.\n",
+        "room_flags": "indoors",
+        "sector_type": "inside",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [{
+            "dir": "west",
+            "to": 30,
+            "keyword": null,
+            "description": "You see the barracks.\n",
+            "exit_flags": null,
+            "key": -1,
+            "portal": null
+        }],
+        "extra_description": [],
+        "resets": []
+    }},
+    {"room": {
+        "area": "gnome",
+        "anum": 32,
+        "owner": null,
+        "name": "A Small Storage Room",
+        "description": "This is where the gnomes store all their spare weapons.  A door leads off\nto the east.\n",
+        "room_flags": "indoors",
+        "sector_type": "inside",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [
+            {
+                "dir": "north",
+                "to": 28,
+                "keyword": null,
+                "description": "You see a long hallway.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "east",
+                "to": 33,
+                "keyword": null,
+                "description": "You see a small room.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            }
+        ],
+        "extra_description": [],
+        "resets": []
+    }},
+    {"room": {
+        "area": "gnome",
+        "anum": 33,
+        "owner": null,
+        "name": "A Small Storage Room",
+        "description": "This is yet another room for storing gnome stuff.  Maps and battle plans\nare stored in neat stacks on the shelves.\n",
+        "room_flags": "indoors",
+        "sector_type": "inside",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [{
+            "dir": "west",
+            "to": 32,
+            "keyword": null,
+            "description": "You see a small room.\n",
+            "exit_flags": null,
+            "key": -1,
+            "portal": null
+        }],
+        "extra_description": [],
+        "resets": []
+    }},
+    {"room": {
+        "area": "gnome",
+        "anum": 34,
+        "owner": null,
+        "name": "The Mess Hall",
+        "description": "You are in the room where the guards come to get their grub.  The benches \nand tables are neatly cleaned and straightened, while shiny plates line\nthe walls.\n",
+        "room_flags": "indoors",
+        "sector_type": "inside",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [{
+            "dir": "north",
+            "to": 29,
+            "keyword": null,
+            "description": "You see a long hallway.\n",
+            "exit_flags": null,
+            "key": -1,
+            "portal": null
+        }],
+        "extra_description": [],
+        "resets": [
+            {
+                "command": "mobile",
+                "values": {
+                    "mob": 4,
+                    "global_limit": 6,
+                    "room_limit": 1
+                }
+            },
+            {
+                "command": "equip",
+                "values": {
+                    "obj": 4,
+                    "wear_loc": "wielded",
+                    "global_limit": 12
+                }
+            }
+        ]
+    }},
+    {"room": {
+        "area": "gnome",
+        "anum": 35,
+        "owner": null,
+        "name": "A Small Room",
+        "description": "This is a small plain room.  Its only interesting feature is a ladder down.\n",
+        "room_flags": "indoors",
+        "sector_type": "inside",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [
+            {
+                "dir": "east",
+                "to": 29,
+                "keyword": null,
+                "description": "You see a long hallway.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "down",
+                "to": 36,
+                "keyword": null,
+                "description": "You see darkness.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            }
+        ],
+        "extra_description": [],
+        "resets": []
+    }},
+    {"room": {
+        "area": "gnome",
+        "anum": 36,
+        "owner": null,
+        "name": "A Small Unused Room",
+        "description": "You stand in a small room in an unused section of the fortress.  The whole\nroom is coated with dust and cobwebs.  The ladder leads back up, and\na rusty door is to the east.\n",
+        "room_flags": "dark indoors",
+        "sector_type": "city",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [
+            {
+                "dir": "east",
+                "to": 37,
+                "keyword": "rusty door",
+                "description": "You see a rusty door.\n",
+                "exit_flags": "door closed locked pickproof",
+                "key": 1500,
+                "portal": null
+            },
+            {
+                "dir": "up",
+                "to": 35,
+                "keyword": null,
+                "description": "You see a small room.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            }
+        ],
+        "extra_description": [],
+        "resets": []
+    }},
+    {"room": {
+        "area": "gnome",
+        "anum": 37,
+        "owner": null,
+        "name": "Dark Hallway",
+        "description": "You find yourself in a very old section of the fortress.  You must be the\nfirst person to pass through here in years.  The hallway continues south\nand a door leads off to the east.\n",
+        "room_flags": "dark indoors",
+        "sector_type": "field",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [
+            {
+                "dir": "east",
+                "to": 38,
+                "keyword": null,
+                "description": null,
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "south",
+                "to": 39,
+                "keyword": null,
+                "description": null,
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "west",
+                "to": 36,
+                "keyword": "door",
+                "description": "You see a rusty door.\n",
+                "exit_flags": "door closed locked pickproof",
+                "key": 1500,
+                "portal": null
+            }
+        ],
+        "extra_description": [],
+        "resets": []
+    }},
+    {"room": {
+        "area": "gnome",
+        "anum": 38,
+        "owner": null,
+        "name": "Torture Chamber",
+        "description": "This is a room that was once used to extract lies out of helpless victims.\nThe machines look unused, but could still work.\n",
+        "room_flags": "dark indoors",
+        "sector_type": "field",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [{
+            "dir": "west",
+            "to": 37,
+            "keyword": null,
+            "description": null,
+            "exit_flags": null,
+            "key": -1,
+            "portal": null
+        }],
+        "extra_description": [{
+            "keyword": "machine",
+            "description": "The machine consists of a large rack with winches on each end.  You can \nalmost feel them pulling your arms out of their sockets.\n"
+        }],
+        "resets": []
+    }},
+    {"room": {
+        "area": "gnome",
+        "anum": 39,
+        "owner": null,
+        "name": "Dark Hallway",
+        "description": "The hall continues in a north-south direction.  The floor is coated with\nsome kind of molded slime.  Doors lead east and west.\n",
+        "room_flags": "dark indoors",
+        "sector_type": "field",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [
+            {
+                "dir": "north",
+                "to": 37,
+                "keyword": null,
+                "description": null,
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "east",
+                "to": 42,
+                "keyword": null,
+                "description": null,
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "south",
+                "to": 40,
+                "keyword": null,
+                "description": null,
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "west",
+                "to": 41,
+                "keyword": null,
+                "description": null,
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            }
+        ],
+        "extra_description": [],
+        "resets": []
+    }},
+    {"room": {
+        "area": "gnome",
+        "anum": 40,
+        "owner": null,
+        "name": "Dark Hallway",
+        "description": "The hall continues in a north-south direction.  The floor is coated with\nsome kind of molded slime.  Doors lead east and west.\n",
+        "room_flags": "dark indoors",
+        "sector_type": "field",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [
+            {
+                "dir": "north",
+                "to": 39,
+                "keyword": null,
+                "description": null,
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "east",
+                "to": 44,
+                "keyword": null,
+                "description": null,
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "south",
+                "to": 43,
+                "keyword": null,
+                "description": null,
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "west",
+                "to": 45,
+                "keyword": null,
+                "description": null,
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            }
+        ],
+        "extra_description": [],
+        "resets": []
+    }},
+    {"room": {
+        "area": "gnome",
+        "anum": 41,
+        "owner": null,
+        "name": "Prison Cell",
+        "description": "You are in a dark and nasty prison cell.  Bodies lying on the floor give off\nan unbearable stench.\n",
+        "room_flags": "dark indoors",
+        "sector_type": "field",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [{
+            "dir": "east",
+            "to": 39,
+            "keyword": null,
+            "description": null,
+            "exit_flags": null,
+            "key": -1,
+            "portal": null
+        }],
+        "extra_description": [],
+        "resets": [
+            {
+                "command": "mobile",
+                "values": {
+                    "mob": 9,
+                    "global_limit": 3,
+                    "room_limit": 3
+                }
+            },
+            {
+                "command": "equip",
+                "values": {
+                    "obj": 5,
+                    "wear_loc": "shield",
+                    "global_limit": 10
+                }
+            }
+        ]
+    }},
+    {"room": {
+        "area": "gnome",
+        "anum": 42,
+        "owner": null,
+        "name": "Prison Cell",
+        "description": "You are in a dark and nasty prison cell.  Bodies lying on the floor give off\nan unbearable stench.\n",
+        "room_flags": "dark indoors",
+        "sector_type": "field",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [{
+            "dir": "west",
+            "to": 39,
+            "keyword": null,
+            "description": null,
+            "exit_flags": null,
+            "key": -1,
+            "portal": null
+        }],
+        "extra_description": [],
+        "resets": [
+            {
+                "command": "mobile",
+                "values": {
+                    "mob": 10,
+                    "global_limit": 3,
+                    "room_limit": 3
+                }
+            },
+            {
+                "command": "equip",
+                "values": {
+                    "obj": 3,
+                    "wear_loc": "wielded",
+                    "global_limit": 12
+                }
+            }
+        ]
+    }},
+    {"room": {
+        "area": "gnome",
+        "anum": 43,
+        "owner": null,
+        "name": "Prison Cell",
+        "description": "You are in a dark and nasty prison cell.  Bodies lying on the floor give off\nan unbearable stench.\n",
+        "room_flags": "dark indoors",
+        "sector_type": "field",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [{
+            "dir": "north",
+            "to": 40,
+            "keyword": null,
+            "description": null,
+            "exit_flags": null,
+            "key": -1,
+            "portal": null
+        }],
+        "extra_description": [],
+        "resets": [{
+            "command": "mobile",
+            "values": {
+                "mob": 11,
+                "global_limit": 3,
+                "room_limit": 3
+            }
+        }]
+    }},
+    {"room": {
+        "area": "gnome",
+        "anum": 44,
+        "owner": null,
+        "name": "Prison Cell",
+        "description": "You are in a dark and nasty prison cell.  Bodies lying on the floor give off\nan unbearable stench.\n",
+        "room_flags": "dark indoors",
+        "sector_type": "field",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [{
+            "dir": "west",
+            "to": 40,
+            "keyword": null,
+            "description": null,
+            "exit_flags": null,
+            "key": -1,
+            "portal": null
+        }],
+        "extra_description": [],
+        "resets": []
+    }},
+    {"room": {
+        "area": "gnome",
+        "anum": 45,
+        "owner": null,
+        "name": "End of the Dark Hallway",
+        "description": "You have reached the end of the dark hallway and maybe the end of your puny\nlife.  Something lumbers its way out of the shadows.\n",
+        "room_flags": "dark indoors",
+        "sector_type": "field",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [
+            {
+                "dir": "east",
+                "to": 40,
+                "keyword": null,
+                "description": null,
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "west",
+                "to": 46,
+                "keyword": "door",
+                "description": "You see a decaying door.\n",
+                "exit_flags": "door closed locked pickproof",
+                "key": 1501,
+                "portal": null
+            }
+        ],
+        "extra_description": [],
+        "resets": [
+            {
+                "command": "mobile",
+                "values": {
+                    "mob": 12,
+                    "global_limit": 1,
+                    "room_limit": 1
+                }
+            },
+            {
+                "command": "give",
+                "values": {
+                    "obj": 1,
+                    "global_limit": 4
+                }
+            }
+        ]
+    }},
+    {"room": {
+        "area": "gnome",
+        "anum": 46,
+        "owner": null,
+        "name": "A Ladder",
+        "description": "You have come into a vertical tunnel with a ladder.\n",
+        "room_flags": "dark indoors",
+        "sector_type": "forest",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [
+            {
+                "dir": "east",
+                "to": 45,
+                "keyword": "door",
+                "description": "You see a decaying door.\n",
+                "exit_flags": "door closed locked pickproof",
+                "key": 1501,
+                "portal": null
+            },
+            {
+                "dir": "down",
+                "to": 47,
+                "keyword": null,
+                "description": null,
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            }
+        ],
+        "extra_description": [],
+        "resets": []
+    }},
+    {"room": {
+        "area": "gnome",
+        "anum": 47,
+        "owner": null,
+        "name": "Lair",
+        "description": "You have entered a new lair in the fortress.  Anything could be lurking\naround the corner.\n",
+        "room_flags": "dark indoors",
+        "sector_type": "field",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [
+            {
+                "dir": "south",
+                "to": 48,
+                "keyword": null,
+                "description": null,
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "up",
+                "to": 46,
+                "keyword": null,
+                "description": null,
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            }
+        ],
+        "extra_description": [],
+        "resets": []
+    }},
+    {"room": {
+        "area": "gnome",
+        "anum": 48,
+        "owner": null,
+        "name": "A Damp Hallway",
+        "description": "You are wandering in a dark, damp, twisting hallway.  The temperature\nseems to be greater here, as well as your fear.\n",
+        "room_flags": "dark indoors no_recall",
+        "sector_type": "field",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [
+            {
+                "dir": "north",
+                "to": 47,
+                "keyword": null,
+                "description": null,
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "east",
+                "to": 49,
+                "keyword": null,
+                "description": null,
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "west",
+                "to": 51,
+                "keyword": null,
+                "description": null,
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            }
+        ],
+        "extra_description": [],
+        "resets": [
+            {
+                "command": "randomize",
+                "values": {"dir_count": 4}
+            },
+            {
+                "command": "mobile",
+                "values": {
+                    "mob": 13,
+                    "global_limit": 10,
+                    "room_limit": 2
+                }
+            },
+            {
+                "command": "mobile",
+                "values": {
+                    "mob": 14,
+                    "global_limit": 10,
+                    "room_limit": 2
+                }
+            }
+        ]
+    }},
+    {"room": {
+        "area": "gnome",
+        "anum": 49,
+        "owner": null,
+        "name": "A Damp Hallway",
+        "description": "You are wandering in a dark, damp, twisting hallway.  The temperature\nseems to be greater here, as well as your fear.\n",
+        "room_flags": "dark indoors no_recall",
+        "sector_type": "field",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [
+            {
+                "dir": "south",
+                "to": 50,
+                "keyword": null,
+                "description": null,
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "west",
+                "to": 48,
+                "keyword": null,
+                "description": null,
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            }
+        ],
+        "extra_description": [],
+        "resets": [{
+            "command": "randomize",
+            "values": {"dir_count": 4}
+        }]
+    }},
+    {"room": {
+        "area": "gnome",
+        "anum": 50,
+        "owner": null,
+        "name": "A Damp Hallway",
+        "description": "You are wandering in a dark, damp, twisting hallway.  The temperature\nseems to be greater here, as well as your fear.\n",
+        "room_flags": "dark indoors no_recall",
+        "sector_type": "field",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [
+            {
+                "dir": "north",
+                "to": 49,
+                "keyword": null,
+                "description": null,
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "south",
+                "to": 55,
+                "keyword": null,
+                "description": null,
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            }
+        ],
+        "extra_description": [],
+        "resets": [
+            {
+                "command": "randomize",
+                "values": {"dir_count": 4}
+            },
+            {
+                "command": "mobile",
+                "values": {
+                    "mob": 13,
+                    "global_limit": 10,
+                    "room_limit": 2
+                }
+            },
+            {
+                "command": "mobile",
+                "values": {
+                    "mob": 14,
+                    "global_limit": 10,
+                    "room_limit": 2
+                }
+            }
+        ]
+    }},
+    {"room": {
+        "area": "gnome",
+        "anum": 51,
+        "owner": null,
+        "name": "A Damp Hallway",
+        "description": "You are wandering in a dark, damp, twisting hallway.  The temperature\nseems to be greater here, as well as your fear.\n",
+        "room_flags": "dark indoors no_recall",
+        "sector_type": "field",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [
+            {
+                "dir": "east",
+                "to": 48,
+                "keyword": null,
+                "description": null,
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "south",
+                "to": 52,
+                "keyword": null,
+                "description": null,
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            }
+        ],
+        "extra_description": [],
+        "resets": [
+            {
+                "command": "randomize",
+                "values": {"dir_count": 4}
+            },
+            {
+                "command": "mobile",
+                "values": {
+                    "mob": 13,
+                    "global_limit": 10,
+                    "room_limit": 2
+                }
+            },
+            {
+                "command": "mobile",
+                "values": {
+                    "mob": 14,
+                    "global_limit": 10,
+                    "room_limit": 2
+                }
+            }
+        ]
+    }},
+    {"room": {
+        "area": "gnome",
+        "anum": 52,
+        "owner": null,
+        "name": "A Damp Hallway",
+        "description": "You are wandering in a dark, damp, twisting hallway.  The temperature\nseems to be greater here, as well as your fear.\n",
+        "room_flags": "dark indoors no_recall",
+        "sector_type": "field",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [
+            {
+                "dir": "north",
+                "to": 51,
+                "keyword": null,
+                "description": null,
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "south",
+                "to": 53,
+                "keyword": null,
+                "description": null,
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            }
+        ],
+        "extra_description": [],
+        "resets": [{
+            "command": "randomize",
+            "values": {"dir_count": 4}
+        }]
+    }},
+    {"room": {
+        "area": "gnome",
+        "anum": 53,
+        "owner": null,
+        "name": "A Damp Hallway",
+        "description": "You are wandering in a dark, damp, twisting hallway.  The temperature\nseems to be greater here, as well as your fear.\n",
+        "room_flags": "dark indoors no_recall",
+        "sector_type": "field",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [
+            {
+                "dir": "north",
+                "to": 52,
+                "keyword": null,
+                "description": null,
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "east",
+                "to": 54,
+                "keyword": null,
+                "description": null,
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            }
+        ],
+        "extra_description": [],
+        "resets": [
+            {
+                "command": "randomize",
+                "values": {"dir_count": 4}
+            },
+            {
+                "command": "mobile",
+                "values": {
+                    "mob": 13,
+                    "global_limit": 10,
+                    "room_limit": 2
+                }
+            },
+            {
+                "command": "mobile",
+                "values": {
+                    "mob": 14,
+                    "global_limit": 10,
+                    "room_limit": 2
+                }
+            }
+        ]
+    }},
+    {"room": {
+        "area": "gnome",
+        "anum": 54,
+        "owner": null,
+        "name": "A Damp Hallway",
+        "description": "You are wandering in a dark, damp, twisting hallway.  The temperature\nseems to be greater here, as well as your fear.\n",
+        "room_flags": "dark indoors no_recall",
+        "sector_type": "field",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [
+            {
+                "dir": "north",
+                "to": 56,
+                "keyword": null,
+                "description": null,
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "east",
+                "to": 55,
+                "keyword": null,
+                "description": null,
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "west",
+                "to": 53,
+                "keyword": null,
+                "description": null,
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            }
+        ],
+        "extra_description": [],
+        "resets": [{
+            "command": "randomize",
+            "values": {"dir_count": 4}
+        }]
+    }},
+    {"room": {
+        "area": "gnome",
+        "anum": 55,
+        "owner": null,
+        "name": "A Damp Hallway",
+        "description": "You are wandering in a dark, damp, twisting hallway.  The temperature\nseems to be greater here, as well as your fear.\n",
+        "room_flags": "dark indoors no_recall",
+        "sector_type": "field",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [
+            {
+                "dir": "north",
+                "to": 50,
+                "keyword": null,
+                "description": null,
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "west",
+                "to": 54,
+                "keyword": null,
+                "description": null,
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            }
+        ],
+        "extra_description": [],
+        "resets": [
+            {
+                "command": "randomize",
+                "values": {"dir_count": 4}
+            },
+            {
+                "command": "mobile",
+                "values": {
+                    "mob": 13,
+                    "global_limit": 10,
+                    "room_limit": 2
+                }
+            },
+            {
+                "command": "mobile",
+                "values": {
+                    "mob": 14,
+                    "global_limit": 10,
+                    "room_limit": 2
+                }
+            }
+        ]
+    }},
+    {"room": {
+        "area": "gnome",
+        "anum": 56,
+        "owner": null,
+        "name": "The End of the Hallway",
+        "description": "You make your way out of the hallway, just to find yourself in greater\ndanger.  Before you looms the source of the great heat.\n",
+        "room_flags": "dark indoors no_recall",
+        "sector_type": "field",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [
+            {
+                "dir": "east",
+                "to": 57,
+                "keyword": null,
+                "description": null,
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "south",
+                "to": 54,
+                "keyword": null,
+                "description": null,
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            }
+        ],
+        "extra_description": [],
+        "resets": [
+            {
+                "command": "mobile",
+                "values": {
+                    "mob": 15,
+                    "global_limit": 1,
+                    "room_limit": 1
+                }
+            },
+            {
+                "command": "give",
+                "values": {
+                    "obj": 5,
+                    "global_limit": 18
+                }
+            },
+            {
+                "command": "give",
+                "values": {
+                    "obj": 12,
+                    "global_limit": 20
+                }
+            },
+            {
+                "command": "give",
+                "values": {
+                    "obj": 16,
+                    "global_limit": 3
+                }
+            }
+        ]
+    }},
+    {"room": {
+        "area": "gnome",
+        "anum": 57,
+        "owner": null,
+        "name": "The Altar",
+        "description": "You finally reach the end of the maze.  There is a great altar here in the\nshape of a bat.  A passageway leads off to the west.\n",
+        "room_flags": "dark indoors no_recall",
+        "sector_type": "field",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [{
+            "dir": "west",
+            "to": 56,
+            "keyword": null,
+            "description": null,
+            "exit_flags": null,
+            "key": -1,
+            "portal": null
+        }],
+        "extra_description": [],
+        "resets": [{
+            "command": "object",
+            "values": {
+                "obj": 17,
+                "global_limit": 3,
+                "room_limit": 0
+            }
+        }]
+    }},
+    {"room": {
+        "area": "gnome",
+        "anum": 58,
+        "owner": null,
+        "name": "The Chief's House",
+        "description": "You enter into a large and luxurious house.  The floor is coated with carpets\nand the walls are covered in paintings.  You feel privileged just for stepping\ninside.\n",
+        "room_flags": "indoors",
+        "sector_type": "inside",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [{
+            "dir": "south",
+            "to": 26,
+            "keyword": null,
+            "description": "You see a path.\n",
+            "exit_flags": null,
+            "key": -1,
+            "portal": null
+        }],
+        "extra_description": [],
+        "resets": [
+            {
+                "command": "mobile",
+                "values": {
+                    "mob": 5,
+                    "global_limit": 1,
+                    "room_limit": 1
+                }
+            },
+            {
+                "command": "equip",
+                "values": {
+                    "obj": 8,
+                    "wear_loc": "lfinger",
+                    "global_limit": 5
+                }
+            },
+            {
+                "command": "equip",
+                "values": {
+                    "obj": 9,
+                    "wear_loc": "neck1",
+                    "global_limit": 12
+                }
+            },
+            {
+                "command": "equip",
+                "values": {
+                    "obj": 10,
+                    "wear_loc": "wielded",
+                    "global_limit": 5
+                }
+            }
+        ]
+    }},
+    {"room": {
+        "area": "gnome",
+        "anum": 59,
+        "owner": null,
+        "name": "The Unused Path",
+        "description": "You are now on a fairly unused path that leads east out of the village.  \nYou wonder what could be out this way.\n",
+        "room_flags": "no_mob",
+        "sector_type": "city",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [
+            {
+                "dir": "east",
+                "to": 60,
+                "keyword": null,
+                "description": "You see a path.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "west",
+                "to": 4,
+                "keyword": null,
+                "description": "You see a path.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            }
+        ],
+        "extra_description": [],
+        "resets": []
+    }},
+    {"room": {
+        "area": "gnome",
+        "anum": 60,
+        "owner": null,
+        "name": "The Overgrown Path",
+        "description": "As the path continues on, the grass grows higher.  You can't imagine\nwhat could possibly be out this way.\n",
+        "room_flags": null,
+        "sector_type": "field",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [
+            {
+                "dir": "east",
+                "to": 61,
+                "keyword": null,
+                "description": "You see a clearing.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "west",
+                "to": 59,
+                "keyword": null,
+                "description": "You see a path.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            }
+        ],
+        "extra_description": [],
+        "resets": []
+    }},
+    {"room": {
+        "area": "gnome",
+        "anum": 61,
+        "owner": null,
+        "name": "The Clearing",
+        "description": "Your progress is suddenly stopped by mountains on all sides.  The path leads\nback to the west, and there appears to be an old mine shaft to the north.\n",
+        "room_flags": null,
+        "sector_type": "field",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [
+            {
+                "dir": "north",
+                "to": 62,
+                "keyword": null,
+                "description": "You see a mine shaft.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "west",
+                "to": 60,
+                "keyword": null,
+                "description": "You see a path.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            }
+        ],
+        "extra_description": [],
+        "resets": []
+    }},
+    {"room": {
+        "area": "gnome",
+        "anum": 62,
+        "owner": null,
+        "name": "Entrance to the Mine Shaft",
+        "description": "As you enter the mine shaft, you get a sudden fear of the walls closing\nin on you.  You are surprised to notice that you don't need a light.\n",
+        "room_flags": "indoors",
+        "sector_type": "field",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [
+            {
+                "dir": "east",
+                "to": 63,
+                "keyword": null,
+                "description": "You see the shaft.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "south",
+                "to": 61,
+                "keyword": null,
+                "description": "You see the clearing.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            }
+        ],
+        "extra_description": [],
+        "resets": []
+    }},
+    {"room": {
+        "area": "gnome",
+        "anum": 63,
+        "owner": null,
+        "name": "Mine Shaft",
+        "description": "This mine shaft looks stable, at least in this area.  The wooden supports are\nthick and strong.  Torches line the walls.  Exits lead in all directions.\n",
+        "room_flags": "indoors",
+        "sector_type": "field",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [
+            {
+                "dir": "north",
+                "to": 82,
+                "keyword": null,
+                "description": "You see a small mine shaft.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "east",
+                "to": 64,
+                "keyword": null,
+                "description": "You see the shaft.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "south",
+                "to": 74,
+                "keyword": null,
+                "description": "You see the shaft.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "west",
+                "to": 62,
+                "keyword": null,
+                "description": "You see the entrance.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            }
+        ],
+        "extra_description": [],
+        "resets": [{
+            "command": "mobile",
+            "values": {
+                "mob": 20,
+                "global_limit": 6,
+                "room_limit": 2
+            }
+        }]
+    }},
+    {"room": {
+        "area": "gnome",
+        "anum": 64,
+        "owner": null,
+        "name": "Mine Shaft",
+        "description": "This mine shaft looks stable, at least in this area.  The wooden supports are\nthick and strong.  Torches line the walls.  Exits lead in all directions.\n",
+        "room_flags": "indoors",
+        "sector_type": "field",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [
+            {
+                "dir": "north",
+                "to": 83,
+                "keyword": null,
+                "description": "You see a large room.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "east",
+                "to": 65,
+                "keyword": null,
+                "description": "You see the shaft.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "south",
+                "to": 73,
+                "keyword": null,
+                "description": "You see a large room.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "west",
+                "to": 63,
+                "keyword": null,
+                "description": "You see the shaft.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            }
+        ],
+        "extra_description": [],
+        "resets": []
+    }},
+    {"room": {
+        "area": "gnome",
+        "anum": 65,
+        "owner": null,
+        "name": "Mine Shaft",
+        "description": "This mine shaft looks stable, at least in this area.  The wooden supports are\nthick and strong.  Torches line the walls.  Exits lead in all directions\nexcept north.\n",
+        "room_flags": "indoors",
+        "sector_type": "field",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [
+            {
+                "dir": "east",
+                "to": 66,
+                "keyword": null,
+                "description": "You see the walkway.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "south",
+                "to": 72,
+                "keyword": null,
+                "description": "You see a large room.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "west",
+                "to": 64,
+                "keyword": null,
+                "description": "You see the shaft.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            }
+        ],
+        "extra_description": [],
+        "resets": [{
+            "command": "mobile",
+            "values": {
+                "mob": 20,
+                "global_limit": 6,
+                "room_limit": 2
+            }
+        }]
+    }},
+    {"room": {
+        "area": "gnome",
+        "anum": 66,
+        "owner": null,
+        "name": "Walkway",
+        "description": "You are on a well built path in the middle of a mountain.  You sense something\ngreat up ahead, considering the hard work that must have gone into creating\nthis passage.\n",
+        "room_flags": "indoors",
+        "sector_type": "city",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [
+            {
+                "dir": "south",
+                "to": 67,
+                "keyword": null,
+                "description": "You see the walkway.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "west",
+                "to": 65,
+                "keyword": null,
+                "description": "You see the shaft.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            }
+        ],
+        "extra_description": [],
+        "resets": []
+    }},
+    {"room": {
+        "area": "gnome",
+        "anum": 67,
+        "owner": null,
+        "name": "Walkway",
+        "description": "You are on a well built path in the middle of a mountain.  You sense something\ngreat up ahead, considering the hard work that must have gone into creating\nthis passage.\n",
+        "room_flags": "indoors",
+        "sector_type": "city",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [
+            {
+                "dir": "north",
+                "to": 66,
+                "keyword": null,
+                "description": "You see the walkway.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "south",
+                "to": 68,
+                "keyword": null,
+                "description": "You see a large hall.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            }
+        ],
+        "extra_description": [],
+        "resets": []
+    }},
+    {"room": {
+        "area": "gnome",
+        "anum": 68,
+        "owner": null,
+        "name": "The Grand Hall",
+        "description": "You have stepped into the Grand Hall of the hobgoblin kingdom; your luck\nmust be running low by now.  Golden pillars span the hallway, and you\nnotice a red carpet beneath your feet.\n",
+        "room_flags": "indoors",
+        "sector_type": "inside",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [
+            {
+                "dir": "north",
+                "to": 67,
+                "keyword": null,
+                "description": "You see the walkway.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "south",
+                "to": 69,
+                "keyword": null,
+                "description": "You see a large room.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            }
+        ],
+        "extra_description": [],
+        "resets": []
+    }},
+    {"room": {
+        "area": "gnome",
+        "anum": 69,
+        "owner": null,
+        "name": "The Throne Room",
+        "description": "This is large bright room filled with Hobgoblins.  To the south there is\na large golden throne against the wall.\n",
+        "room_flags": "indoors",
+        "sector_type": "inside",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [{
+            "dir": "north",
+            "to": 68,
+            "keyword": null,
+            "description": "You see a large hall.\n",
+            "exit_flags": null,
+            "key": -1,
+            "portal": null
+        }],
+        "extra_description": [],
+        "resets": [
+            {
+                "command": "mobile",
+                "values": {
+                    "mob": 18,
+                    "global_limit": 5,
+                    "room_limit": 5
+                }
+            },
+            {
+                "command": "equip",
+                "values": {
+                    "obj": 21,
+                    "wear_loc": "wielded",
+                    "global_limit": 30
+                }
+            },
+            {
+                "command": "mobile",
+                "values": {
+                    "mob": 18,
+                    "global_limit": 5,
+                    "room_limit": 5
+                }
+            },
+            {
+                "command": "equip",
+                "values": {
+                    "obj": 21,
+                    "wear_loc": "wielded",
+                    "global_limit": 30
+                }
+            },
+            {
+                "command": "mobile",
+                "values": {
+                    "mob": 18,
+                    "global_limit": 5,
+                    "room_limit": 5
+                }
+            },
+            {
+                "command": "equip",
+                "values": {
+                    "obj": 21,
+                    "wear_loc": "wielded",
+                    "global_limit": 30
+                }
+            },
+            {
+                "command": "mobile",
+                "values": {
+                    "mob": 18,
+                    "global_limit": 5,
+                    "room_limit": 5
+                }
+            },
+            {
+                "command": "equip",
+                "values": {
+                    "obj": 21,
+                    "wear_loc": "wielded",
+                    "global_limit": 30
+                }
+            },
+            {
+                "command": "mobile",
+                "values": {
+                    "mob": 18,
+                    "global_limit": 5,
+                    "room_limit": 5
+                }
+            },
+            {
+                "command": "equip",
+                "values": {
+                    "obj": 21,
+                    "wear_loc": "wielded",
+                    "global_limit": 30
+                }
+            },
+            {
+                "command": "mobile",
+                "values": {
+                    "mob": 19,
+                    "global_limit": 1,
+                    "room_limit": 1
+                }
+            },
+            {
+                "command": "equip",
+                "values": {
+                    "obj": 20,
+                    "wear_loc": "body",
+                    "global_limit": 5
+                }
+            }
+        ]
+    }},
+    {"room": {
+        "area": "gnome",
+        "anum": 70,
+        "owner": null,
+        "name": "The Treasury",
+        "description": "You are inside the hobgoblin's treasury.  Your eyes are almost blinded by the\ngold, silver and copper coins.\n",
+        "room_flags": "indoors",
+        "sector_type": "inside",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [{
+            "dir": "north",
+            "to": 71,
+            "keyword": null,
+            "description": "You see a large room.\n",
+            "exit_flags": null,
+            "key": -1,
+            "portal": null
+        }],
+        "extra_description": [],
+        "resets": [
+            {
+                "command": "mobile",
+                "values": {
+                    "mob": 21,
+                    "global_limit": 1,
+                    "room_limit": 1
+                }
+            },
+            {
+                "command": "object",
+                "values": {
+                    "obj": 16,
+                    "global_limit": 10,
+                    "room_limit": 0
+                }
+            },
+            {
+                "command": "object",
+                "values": {
+                    "obj": 17,
+                    "global_limit": 10,
+                    "room_limit": 0
+                }
+            }
+        ]
+    }},
+    {"room": {
+        "area": "gnome",
+        "anum": 71,
+        "owner": null,
+        "name": "Guarded Room",
+        "description": "You are inside a well guarded room.  The place is slightly better built than\nthe mine shafts, and is lit by lanterns.\n",
+        "room_flags": "indoors",
+        "sector_type": "city",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [
+            {
+                "dir": "north",
+                "to": 72,
+                "keyword": null,
+                "description": "You see a large room.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "south",
+                "to": 70,
+                "keyword": null,
+                "description": "You see a large room.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            }
+        ],
+        "extra_description": [],
+        "resets": [
+            {
+                "command": "mobile",
+                "values": {
+                    "mob": 17,
+                    "global_limit": 30,
+                    "room_limit": 10
+                }
+            },
+            {
+                "command": "equip",
+                "values": {
+                    "obj": 24,
+                    "wear_loc": "wielded",
+                    "global_limit": 40
+                }
+            },
+            {
+                "command": "mobile",
+                "values": {
+                    "mob": 17,
+                    "global_limit": 30,
+                    "room_limit": 10
+                }
+            },
+            {
+                "command": "equip",
+                "values": {
+                    "obj": 24,
+                    "wear_loc": "wielded",
+                    "global_limit": 40
+                }
+            },
+            {
+                "command": "mobile",
+                "values": {
+                    "mob": 17,
+                    "global_limit": 30,
+                    "room_limit": 10
+                }
+            },
+            {
+                "command": "equip",
+                "values": {
+                    "obj": 24,
+                    "wear_loc": "wielded",
+                    "global_limit": 40
+                }
+            },
+            {
+                "command": "mobile",
+                "values": {
+                    "mob": 17,
+                    "global_limit": 30,
+                    "room_limit": 10
+                }
+            },
+            {
+                "command": "equip",
+                "values": {
+                    "obj": 24,
+                    "wear_loc": "wielded",
+                    "global_limit": 40
+                }
+            }
+        ]
+    }},
+    {"room": {
+        "area": "gnome",
+        "anum": 72,
+        "owner": null,
+        "name": "Guarded Room",
+        "description": "You are inside a well guarded room.  The place is slightly better built than\nthe mine shafts, and is lit by lanterns.\n",
+        "room_flags": "indoors",
+        "sector_type": "city",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [
+            {
+                "dir": "north",
+                "to": 65,
+                "keyword": null,
+                "description": "You see a large room.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "south",
+                "to": 71,
+                "keyword": null,
+                "description": "You see a large room.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            }
+        ],
+        "extra_description": [],
+        "resets": [
+            {
+                "command": "mobile",
+                "values": {
+                    "mob": 17,
+                    "global_limit": 30,
+                    "room_limit": 10
+                }
+            },
+            {
+                "command": "equip",
+                "values": {
+                    "obj": 24,
+                    "wear_loc": "wielded",
+                    "global_limit": 40
+                }
+            },
+            {
+                "command": "mobile",
+                "values": {
+                    "mob": 17,
+                    "global_limit": 30,
+                    "room_limit": 10
+                }
+            },
+            {
+                "command": "equip",
+                "values": {
+                    "obj": 24,
+                    "wear_loc": "wielded",
+                    "global_limit": 40
+                }
+            },
+            {
+                "command": "mobile",
+                "values": {
+                    "mob": 17,
+                    "global_limit": 30,
+                    "room_limit": 10
+                }
+            },
+            {
+                "command": "equip",
+                "values": {
+                    "obj": 24,
+                    "wear_loc": "wielded",
+                    "global_limit": 40
+                }
+            },
+            {
+                "command": "mobile",
+                "values": {
+                    "mob": 17,
+                    "global_limit": 30,
+                    "room_limit": 10
+                }
+            },
+            {
+                "command": "equip",
+                "values": {
+                    "obj": 24,
+                    "wear_loc": "wielded",
+                    "global_limit": 40
+                }
+            }
+        ]
+    }},
+    {"room": {
+        "area": "gnome",
+        "anum": 73,
+        "owner": null,
+        "name": "Hobgoblin Armory",
+        "description": "The guards store their spare weapons and armor here.  There are rusty swords\non rotting shelves, and armor hanging from hooks or laying on the floor.\n",
+        "room_flags": "indoors",
+        "sector_type": "city",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [{
+            "dir": "north",
+            "to": 64,
+            "keyword": null,
+            "description": "You see the shaft.\n",
+            "exit_flags": null,
+            "key": -1,
+            "portal": null
+        }],
+        "extra_description": [],
+        "resets": [{
+            "command": "object",
+            "values": {
+                "obj": 21,
+                "global_limit": 40,
+                "room_limit": 0
+            }
+        }]
+    }},
+    {"room": {
+        "area": "gnome",
+        "anum": 74,
+        "owner": null,
+        "name": "Mine Shaft",
+        "description": "You enter a part of the mine shaft where the torches have grown dim\nand are almost ready to go out.  From what you can see, there are plenty\nof cobwebs on the walls and rats at your feet.\n",
+        "room_flags": "indoors",
+        "sector_type": "field",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [
+            {
+                "dir": "north",
+                "to": 63,
+                "keyword": null,
+                "description": "You see the shaft.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "south",
+                "to": 75,
+                "keyword": null,
+                "description": "You see a dark and nasty room.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            }
+        ],
+        "extra_description": [],
+        "resets": []
+    }},
+    {"room": {
+        "area": "gnome",
+        "anum": 75,
+        "owner": null,
+        "name": "Entrance to a Dungeon",
+        "description": "The floor dips slightly as you walk into this dark and nasty place.  Your\nskin crawls as you look at the filth on the walls and see it move.  Most\nof the exits lead into jail cells.\n",
+        "room_flags": "indoors",
+        "sector_type": "field",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [
+            {
+                "dir": "north",
+                "to": 74,
+                "keyword": null,
+                "description": "You see the shaft.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "east",
+                "to": 77,
+                "keyword": null,
+                "description": "You see a cell.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "south",
+                "to": 76,
+                "keyword": null,
+                "description": "You see a dark and nasty room.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "west",
+                "to": 81,
+                "keyword": null,
+                "description": "You see a cell.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            }
+        ],
+        "extra_description": [],
+        "resets": []
+    }},
+    {"room": {
+        "area": "gnome",
+        "anum": 76,
+        "owner": null,
+        "name": "A Dungeon",
+        "description": "You are in the deepest and darkest part of the mine shafts.  The light from\nthe torches barely reaches to where you are.  Most directions from here\nlead to jail cells.\n",
+        "room_flags": "indoors",
+        "sector_type": "field",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [
+            {
+                "dir": "north",
+                "to": 75,
+                "keyword": null,
+                "description": "You see a dark and nasty room.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "east",
+                "to": 78,
+                "keyword": null,
+                "description": "You see a cell.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "south",
+                "to": 79,
+                "keyword": null,
+                "description": "You see a cell.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "west",
+                "to": 80,
+                "keyword": null,
+                "description": "You see a cell.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            }
+        ],
+        "extra_description": [],
+        "resets": []
+    }},
+    {"room": {
+        "area": "gnome",
+        "anum": 77,
+        "owner": null,
+        "name": "A Jail Cell",
+        "description": "You are in a musty, dark jail cell.  Wet and dirty straw covers the floor.\nThe walls glisten with slime.  You see something stir in the straw.\n",
+        "room_flags": "indoors",
+        "sector_type": "field",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [{
+            "dir": "west",
+            "to": 75,
+            "keyword": null,
+            "description": "You see a dark and nasty room.\n",
+            "exit_flags": null,
+            "key": -1,
+            "portal": null
+        }],
+        "extra_description": [],
+        "resets": [{
+            "command": "mobile",
+            "values": {
+                "mob": 22,
+                "global_limit": 5,
+                "room_limit": 1
+            }
+        }]
+    }},
+    {"room": {
+        "area": "gnome",
+        "anum": 78,
+        "owner": null,
+        "name": "The Jail Cell",
+        "description": "You are in a musty, dark jail cell.  Wet and dirty straw covers the floor.\nThe walls glisten with slime.  You see something stir in the straw.\n",
+        "room_flags": "indoors",
+        "sector_type": "field",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [{
+            "dir": "west",
+            "to": 76,
+            "keyword": null,
+            "description": "You see a dark and nasty room.\n",
+            "exit_flags": null,
+            "key": -1,
+            "portal": null
+        }],
+        "extra_description": [],
+        "resets": [{
+            "command": "mobile",
+            "values": {
+                "mob": 22,
+                "global_limit": 5,
+                "room_limit": 1
+            }
+        }]
+    }},
+    {"room": {
+        "area": "gnome",
+        "anum": 79,
+        "owner": null,
+        "name": "The Jail Cell",
+        "description": "You are in a musty, dark jail cell.  Wet and dirty straw covers the floor.\nThe walls glisten with slime.  You see something stir in the straw.\n",
+        "room_flags": "indoors",
+        "sector_type": "field",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [{
+            "dir": "north",
+            "to": 76,
+            "keyword": null,
+            "description": "You see a dark and nasty room.\n",
+            "exit_flags": null,
+            "key": -1,
+            "portal": null
+        }],
+        "extra_description": [],
+        "resets": [{
+            "command": "mobile",
+            "values": {
+                "mob": 22,
+                "global_limit": 5,
+                "room_limit": 1
+            }
+        }]
+    }},
+    {"room": {
+        "area": "gnome",
+        "anum": 80,
+        "owner": null,
+        "name": "The Jail Cell",
+        "description": "You are in a musty, dark jail cell.  Wet and dirty straw covers the floor.\nThe walls glisten with slime.  You see something stir in the straw.\n",
+        "room_flags": "indoors",
+        "sector_type": "field",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [{
+            "dir": "east",
+            "to": 76,
+            "keyword": null,
+            "description": "You see a dark and nasty room.\n",
+            "exit_flags": null,
+            "key": -1,
+            "portal": null
+        }],
+        "extra_description": [],
+        "resets": [{
+            "command": "mobile",
+            "values": {
+                "mob": 23,
+                "global_limit": 5,
+                "room_limit": 1
+            }
+        }]
+    }},
+    {"room": {
+        "area": "gnome",
+        "anum": 81,
+        "owner": null,
+        "name": "The Jail Cell",
+        "description": "You are in a musty, dark jail cell.  Wet and dirty straw covers the floor.\nThe walls glisten with slime.  You see something stir in the straw.\n",
+        "room_flags": "indoors",
+        "sector_type": "field",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [{
+            "dir": "east",
+            "to": 75,
+            "keyword": null,
+            "description": "You see a dark and nasty room.\n",
+            "exit_flags": null,
+            "key": -1,
+            "portal": null
+        }],
+        "extra_description": [],
+        "resets": [{
+            "command": "mobile",
+            "values": {
+                "mob": 23,
+                "global_limit": 5,
+                "room_limit": 1
+            }
+        }]
+    }},
+    {"room": {
+        "area": "gnome",
+        "anum": 82,
+        "owner": null,
+        "name": "Small Mine Shaft",
+        "description": "You are in a small extension of the mine shaft.  The dust on the floor is\nundisturbed by footprints.\n",
+        "room_flags": "indoors",
+        "sector_type": "field",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [
+            {
+                "dir": "north",
+                "to": 88,
+                "keyword": null,
+                "description": "You see a small mine shaft.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "south",
+                "to": 63,
+                "keyword": null,
+                "description": "You see the shaft.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            }
+        ],
+        "extra_description": [],
+        "resets": []
+    }},
+    {"room": {
+        "area": "gnome",
+        "anum": 83,
+        "owner": null,
+        "name": "Hobgoblin Barracks",
+        "description": "You are suddenly surrounded by a small army of hobgoblin guards.  The room\nitself is a mess with clothes and armor everywhere.  The beds are unmade and\nstained.\n",
+        "room_flags": "indoors",
+        "sector_type": "field",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [
+            {
+                "dir": "north",
+                "to": 84,
+                "keyword": null,
+                "description": "You see a large room.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "east",
+                "to": 85,
+                "keyword": null,
+                "description": "You see the mess hall.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "south",
+                "to": 64,
+                "keyword": null,
+                "description": "You see the mine shaft.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            }
+        ],
+        "extra_description": [],
+        "resets": [
+            {
+                "command": "mobile",
+                "values": {
+                    "mob": 17,
+                    "global_limit": 30,
+                    "room_limit": 5
+                }
+            },
+            {
+                "command": "mobile",
+                "values": {
+                    "mob": 17,
+                    "global_limit": 30,
+                    "room_limit": 5
+                }
+            }
+        ]
+    }},
+    {"room": {
+        "area": "gnome",
+        "anum": 84,
+        "owner": null,
+        "name": "Hobgoblin Barracks",
+        "description": "Yech!  As you continue forward, the smell just keeps getting worse.\nWhat are you DOING here?\n",
+        "room_flags": "indoors",
+        "sector_type": "field",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [{
+            "dir": "south",
+            "to": 83,
+            "keyword": null,
+            "description": "You see a large room",
+            "exit_flags": null,
+            "key": -1,
+            "portal": null
+        }],
+        "extra_description": [],
+        "resets": [
+            {
+                "command": "mobile",
+                "values": {
+                    "mob": 17,
+                    "global_limit": 30,
+                    "room_limit": 5
+                }
+            },
+            {
+                "command": "mobile",
+                "values": {
+                    "mob": 17,
+                    "global_limit": 30,
+                    "room_limit": 5
+                }
+            }
+        ]
+    }},
+    {"room": {
+        "area": "gnome",
+        "anum": 85,
+        "owner": null,
+        "name": "Mess Hall",
+        "description": "You stand in the hobgoblin eating area.  There are a few rotting tables\nand many broken dishes scattered around the room.  You almost slip on a\nrotten piece of meat, but catch yourself just in time.\n",
+        "room_flags": "indoors",
+        "sector_type": "field",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [
+            {
+                "dir": "north",
+                "to": 86,
+                "keyword": null,
+                "description": "You see a small room.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "east",
+                "to": 87,
+                "keyword": null,
+                "description": "You see a kitchen.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "west",
+                "to": 83,
+                "keyword": null,
+                "description": "You see a large room.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            }
+        ],
+        "extra_description": [],
+        "resets": []
+    }},
+    {"room": {
+        "area": "gnome",
+        "anum": 86,
+        "owner": null,
+        "name": "A Store Room",
+        "description": "You stand in a small room filled with flour, grain, fruit, and bat droppings.\n",
+        "room_flags": "indoors",
+        "sector_type": "city",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [{
+            "dir": "south",
+            "to": 85,
+            "keyword": null,
+            "description": "You see the mess hall.\n",
+            "exit_flags": null,
+            "key": -1,
+            "portal": null
+        }],
+        "extra_description": [],
+        "resets": []
+    }},
+    {"room": {
+        "area": "gnome",
+        "anum": 87,
+        "owner": null,
+        "name": "The Kitchen",
+        "description": "This kitchen hasn't been cleaned since the creation of humans.  The trash and\nspoiled food laying on the floor reach up to your knees.  Off to the side a\npot is boiling over.  A human hand floats in it.\n",
+        "room_flags": "indoors",
+        "sector_type": "field",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [{
+            "dir": "west",
+            "to": 85,
+            "keyword": null,
+            "description": "You see the mess hall.\n",
+            "exit_flags": null,
+            "key": -1,
+            "portal": null
+        }],
+        "extra_description": [],
+        "resets": [{
+            "command": "mobile",
+            "values": {
+                "mob": 26,
+                "global_limit": 1,
+                "room_limit": 1
+            }
+        }]
+    }},
+    {"room": {
+        "area": "gnome",
+        "anum": 88,
+        "owner": null,
+        "name": "A Small Mine Shaft",
+        "description": "You come to a place in the mine shaft where a tunnel leads down.  The\nsmall passage continues north and south.\n",
+        "room_flags": "indoors",
+        "sector_type": "field",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [
+            {
+                "dir": "north",
+                "to": 89,
+                "keyword": null,
+                "description": "You see an almost caved in area.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "south",
+                "to": 82,
+                "keyword": null,
+                "description": "You see a small mine shaft.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "down",
+                "to": 90,
+                "keyword": null,
+                "description": "You see a hole.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            }
+        ],
+        "extra_description": [],
+        "resets": []
+    }},
+    {"room": {
+        "area": "gnome",
+        "anum": 89,
+        "owner": null,
+        "name": "Hermit's Lair",
+        "description": "You are in a small section where the mine wall has collapsed to reveal a\ntiny one-room cave.  The area is barely lit, but you can make out something\nmoving towards you.\n",
+        "room_flags": "indoors",
+        "sector_type": "field",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [{
+            "dir": "south",
+            "to": 88,
+            "keyword": null,
+            "description": "You see a small mine shaft.\n",
+            "exit_flags": null,
+            "key": -1,
+            "portal": null
+        }],
+        "extra_description": [],
+        "resets": [{
+            "command": "mobile",
+            "values": {
+                "mob": 24,
+                "global_limit": 1,
+                "room_limit": 1
+            }
+        }]
+    }},
+    {"room": {
+        "area": "gnome",
+        "anum": 90,
+        "owner": null,
+        "name": "A Hole",
+        "description": "You are in a hole.\n",
+        "room_flags": "indoors",
+        "sector_type": "forest",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [{
+            "dir": "up",
+            "to": 88,
+            "keyword": null,
+            "description": "You see a small mine shaft.\n",
+            "exit_flags": null,
+            "key": -1,
+            "portal": null
+        }],
+        "extra_description": [],
+        "resets": [{
+            "command": "mobile",
+            "values": {
+                "mob": 20,
+                "global_limit": 6,
+                "room_limit": 2
+            }
+        }]
+    }}
+]

@@ -1,0 +1,2389 @@
+[
+    {"room": {
+        "area": "midennir",
+        "anum": 0,
+        "owner": null,
+        "name": "The Plains",
+        "description": "You are standing on the plains. This is a vast desolate place where the\nwind can howl undisturbed since nothing but you bars its way. However you\nare not the first to wander here. Before you somebody has left a small path.\nThe path looks rather bewildered and is not the kind of path to lead to\nanywhere significant or important but it seems to have made up its mind to\nenter the hills far away north.\n",
+        "room_flags": null,
+        "sector_type": "city",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [
+            {
+                "dir": "north",
+                "to": null,
+                "keyword": null,
+                "description": null,
+                "exit_flags": null,
+                "key": 0,
+                "portal": "midennir-6-north"
+            },
+            {
+                "dir": "south",
+                "to": 1,
+                "keyword": null,
+                "description": null,
+                "exit_flags": null,
+                "key": 0,
+                "portal": null
+            }
+        ],
+        "extra_description": [],
+        "resets": []
+    }},
+    {"room": {
+        "area": "midennir",
+        "anum": 1,
+        "owner": null,
+        "name": "The Lane",
+        "description": "You are strolling along a pleasant, shady lane. The road is lined on both\nsides by tall, stately trees which lend the scene with a sense of quiet\nserenity. You can follow the road north or south.\n",
+        "room_flags": null,
+        "sector_type": "city",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [
+            {
+                "dir": "north",
+                "to": 0,
+                "keyword": null,
+                "description": null,
+                "exit_flags": null,
+                "key": 0,
+                "portal": null
+            },
+            {
+                "dir": "south",
+                "to": 2,
+                "keyword": null,
+                "description": null,
+                "exit_flags": null,
+                "key": 0,
+                "portal": null
+            }
+        ],
+        "extra_description": [],
+        "resets": []
+    }},
+    {"room": {
+        "area": "midennir",
+        "anum": 2,
+        "owner": null,
+        "name": "The Cross Roads",
+        "description": "Here, the great eastern road intersects with an older road between the mines\nof Moria and the ruined city of Thalos.  The outskirts of Midgaard lie to your\nwest, and the highway continues the the east.  An old northern road leads to\nthe dwarven kingdom and the abandoned mines of Moria, while the southern road\nshows the scars of the war which destroyed Thalos.\n",
+        "room_flags": null,
+        "sector_type": "city",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [
+            {
+                "dir": "north",
+                "to": 1,
+                "keyword": null,
+                "description": "An old road leads towards the abandoned mines of Moria and the Dwarven Kingom.\n",
+                "exit_flags": null,
+                "key": 0,
+                "portal": null
+            },
+            {
+                "dir": "east",
+                "to": 25,
+                "keyword": null,
+                "description": "The road continues east, where you hear faint singing.\n",
+                "exit_flags": null,
+                "key": 0,
+                "portal": null
+            },
+            {
+                "dir": "south",
+                "to": null,
+                "keyword": null,
+                "description": "A once mighty road leads through the dwarf forest towards ruined Thalos.\n",
+                "exit_flags": null,
+                "key": 0,
+                "portal": "midennir-3-south"
+            },
+            {
+                "dir": "west",
+                "to": 3,
+                "keyword": null,
+                "description": "The road leads west towards Midgaard.\n",
+                "exit_flags": null,
+                "key": 0,
+                "portal": null
+            }
+        ],
+        "extra_description": [],
+        "resets": []
+    }},
+    {"room": {
+        "area": "midennir",
+        "anum": 3,
+        "owner": null,
+        "name": "City Entrance",
+        "description": "You stand on the outskirts of a large city - Midgaard; the capital of this\nland. The road leads east into the peace and quiet - and dangers - of the\nforest; and to the west it becomes the main street of the town; surrounded by\na confusion of shops, bars, and market places.\n",
+        "room_flags": "no_mob",
+        "sector_type": "city",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [
+            {
+                "dir": "east",
+                "to": 2,
+                "keyword": null,
+                "description": null,
+                "exit_flags": null,
+                "key": 0,
+                "portal": null
+            },
+            {
+                "dir": "west",
+                "to": null,
+                "keyword": null,
+                "description": null,
+                "exit_flags": null,
+                "key": 0,
+                "portal": "midennir-1-west"
+            }
+        ],
+        "extra_description": [],
+        "resets": []
+    }},
+    {"room": {
+        "area": "midennir",
+        "anum": 5,
+        "owner": null,
+        "name": "The Trail to Miden'nir",
+        "description": "You are in a light forest. A path leads south, but the passage to the\neast is easy enough. To the west, smoke can be seen rising above the\ntreetops. The sprawl of Midgaard lies north of here.\n",
+        "room_flags": null,
+        "sector_type": "forest",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [
+            {
+                "dir": "north",
+                "to": null,
+                "keyword": null,
+                "description": "To the north, you see the southern gates of Midgaard.\n",
+                "exit_flags": null,
+                "key": 0,
+                "portal": "midennir-2-north"
+            },
+            {
+                "dir": "east",
+                "to": 6,
+                "keyword": null,
+                "description": "More light forest.\n",
+                "exit_flags": null,
+                "key": 0,
+                "portal": null
+            },
+            {
+                "dir": "south",
+                "to": 7,
+                "keyword": null,
+                "description": "This path cuts through the darkness of the Miden'nir.\n",
+                "exit_flags": null,
+                "key": 0,
+                "portal": null
+            },
+            {
+                "dir": "west",
+                "to": 70,
+                "keyword": null,
+                "description": "The Woodsman's Inn.\n",
+                "exit_flags": null,
+                "key": 0,
+                "portal": null
+            }
+        ],
+        "extra_description": [{
+            "keyword": "credits credit author",
+            "description": "+-------------------------------------------------+\n| This area originally written for Copper II DIKU |\n|   by ?                                          |\n| Modifications and alterations for MERCmud DIKU  |\n|   by VampLestat                        1 JAN 93 |\n+-------------------------------------------------+\n"
+        }],
+        "resets": []
+    }},
+    {"room": {
+        "area": "midennir",
+        "anum": 6,
+        "owner": null,
+        "name": "The Miden'nir",
+        "description": "You are in a dark forest. To the east, mountains block passage. From\nhere, only the lighter forest to the west or south offer a way to travel.\n",
+        "room_flags": null,
+        "sector_type": "forest",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [
+            {
+                "dir": "east",
+                "to": 50,
+                "keyword": null,
+                "description": null,
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "south",
+                "to": 9,
+                "keyword": null,
+                "description": "The forest is darker to the south.\n",
+                "exit_flags": null,
+                "key": 0,
+                "portal": null
+            },
+            {
+                "dir": "west",
+                "to": 5,
+                "keyword": null,
+                "description": "The forest gets lighter as you go west.\n",
+                "exit_flags": null,
+                "key": 0,
+                "portal": null
+            }
+        ],
+        "extra_description": [],
+        "resets": [
+            {
+                "command": "mobile",
+                "values": {
+                    "mob": 1,
+                    "global_limit": 10,
+                    "room_limit": 2
+                }
+            },
+            {
+                "command": "equip",
+                "values": {
+                    "obj": 0,
+                    "wear_loc": "wielded",
+                    "global_limit": 18
+                }
+            },
+            {
+                "command": "equip",
+                "values": {
+                    "obj": {
+                        "area": "midgaard",
+                        "anum": 74
+                    },
+                    "wear_loc": "legs",
+                    "global_limit": 6
+                }
+            }
+        ]
+    }},
+    {"room": {
+        "area": "midennir",
+        "anum": 7,
+        "owner": null,
+        "name": "The Miden'nir",
+        "description": "The forest is deep here and the wind blows through the trees and\nthrough your hair. To the north, the forest gets lighter. However, the\nsouthern and western paths place you even deeper in the wood.\n",
+        "room_flags": null,
+        "sector_type": "forest",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [
+            {
+                "dir": "north",
+                "to": 5,
+                "keyword": null,
+                "description": "The forest is lighter in this direction.\n",
+                "exit_flags": null,
+                "key": 0,
+                "portal": null
+            },
+            {
+                "dir": "south",
+                "to": 10,
+                "keyword": null,
+                "description": "More and darker woods.\n",
+                "exit_flags": null,
+                "key": 0,
+                "portal": null
+            },
+            {
+                "dir": "west",
+                "to": 8,
+                "keyword": null,
+                "description": "There is a small path leading west.\n",
+                "exit_flags": null,
+                "key": 0,
+                "portal": null
+            }
+        ],
+        "extra_description": [],
+        "resets": []
+    }},
+    {"room": {
+        "area": "midennir",
+        "anum": 8,
+        "owner": null,
+        "name": "On a Small Path",
+        "description": "A path is here, leading east and south through the dark woods of\nMiden'nir. Mountains slash the scenery to the west of here.\n",
+        "room_flags": null,
+        "sector_type": "forest",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [
+            {
+                "dir": "east",
+                "to": 7,
+                "keyword": null,
+                "description": "Wind-swept forest.\n",
+                "exit_flags": null,
+                "key": 0,
+                "portal": null
+            },
+            {
+                "dir": "south",
+                "to": 11,
+                "keyword": null,
+                "description": "To the south, the trail continues.\n",
+                "exit_flags": null,
+                "key": 0,
+                "portal": null
+            }
+        ],
+        "extra_description": [],
+        "resets": []
+    }},
+    {"room": {
+        "area": "midennir",
+        "anum": 9,
+        "owner": null,
+        "name": "The Miden'nir",
+        "description": "The trees of Miden'nir are lush and green, hiding the evil that lurks\nin these woods. The trees become too thick to the west, but you may go\nnorth, south or travel toward the mountains that lie east of here.\n",
+        "room_flags": null,
+        "sector_type": "forest",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [
+            {
+                "dir": "north",
+                "to": 6,
+                "keyword": null,
+                "description": "The trees lighten up a bit this way.\n",
+                "exit_flags": null,
+                "key": 0,
+                "portal": null
+            },
+            {
+                "dir": "east",
+                "to": 12,
+                "keyword": null,
+                "description": "Huge grey mountains lie in this direction.\n",
+                "exit_flags": null,
+                "key": 0,
+                "portal": null
+            },
+            {
+                "dir": "south",
+                "to": 14,
+                "keyword": null,
+                "description": "The forest continues.\n",
+                "exit_flags": null,
+                "key": 0,
+                "portal": null
+            }
+        ],
+        "extra_description": [],
+        "resets": [
+            {
+                "command": "mobile",
+                "values": {
+                    "mob": 1,
+                    "global_limit": 10,
+                    "room_limit": 2
+                }
+            },
+            {
+                "command": "equip",
+                "values": {
+                    "obj": 0,
+                    "wear_loc": "wielded",
+                    "global_limit": 18
+                }
+            },
+            {
+                "command": "equip",
+                "values": {
+                    "obj": {
+                        "area": "midgaard",
+                        "anum": 72
+                    },
+                    "wear_loc": "body",
+                    "global_limit": 6
+                }
+            }
+        ]
+    }},
+    {"room": {
+        "area": "midennir",
+        "anum": 10,
+        "owner": null,
+        "name": "A Crossroads",
+        "description": "Here footworn paths meet leading north, south and east. The trees seem to\nbe closing in on you at this point, and you can barely see the sky\nthrough the thick branches above your head.\n",
+        "room_flags": null,
+        "sector_type": "forest",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [
+            {
+                "dir": "north",
+                "to": 7,
+                "keyword": null,
+                "description": "Trees as far as the eye can see.\n",
+                "exit_flags": null,
+                "key": 0,
+                "portal": null
+            },
+            {
+                "dir": "east",
+                "to": 14,
+                "keyword": null,
+                "description": "There is an especially dark part of the forest this way.\n",
+                "exit_flags": null,
+                "key": 0,
+                "portal": null
+            },
+            {
+                "dir": "south",
+                "to": 16,
+                "keyword": null,
+                "description": "There is an especially dark section of forest this way.\n",
+                "exit_flags": null,
+                "key": 0,
+                "portal": null
+            }
+        ],
+        "extra_description": [],
+        "resets": []
+    }},
+    {"room": {
+        "area": "midennir",
+        "anum": 11,
+        "owner": null,
+        "name": "The Trail",
+        "description": "You are on a north-south trail through the woods. To the west, impassable\nmountains glare at you, and the thick woods and undergrowth prevent any\nmovement westward.\n",
+        "room_flags": null,
+        "sector_type": "forest",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [
+            {
+                "dir": "north",
+                "to": 8,
+                "keyword": null,
+                "description": "The trail bends to the north.\n",
+                "exit_flags": null,
+                "key": 0,
+                "portal": null
+            },
+            {
+                "dir": "south",
+                "to": 15,
+                "keyword": null,
+                "description": "To the south, the path re-enters the forest.\n",
+                "exit_flags": null,
+                "key": 0,
+                "portal": null
+            }
+        ],
+        "extra_description": [],
+        "resets": []
+    }},
+    {"room": {
+        "area": "midennir",
+        "anum": 12,
+        "owner": null,
+        "name": "The Miden'nir",
+        "description": "The trees of Miden'nir are lush and green, hiding the evil that lurks\nin these woods. You can go north toward the mountains, or west to the\nforest, but the steep mountains prevent any movement east.\n",
+        "room_flags": null,
+        "sector_type": "forest",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [
+            {
+                "dir": "north",
+                "to": 50,
+                "keyword": null,
+                "description": null,
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "south",
+                "to": 13,
+                "keyword": null,
+                "description": "A light section of forest.\n",
+                "exit_flags": null,
+                "key": 0,
+                "portal": null
+            },
+            {
+                "dir": "west",
+                "to": 9,
+                "keyword": null,
+                "description": "The forest continues here.\n",
+                "exit_flags": null,
+                "key": 0,
+                "portal": null
+            }
+        ],
+        "extra_description": [],
+        "resets": [
+            {
+                "command": "mobile",
+                "values": {
+                    "mob": 1,
+                    "global_limit": 8,
+                    "room_limit": 2
+                }
+            },
+            {
+                "command": "equip",
+                "values": {
+                    "obj": 0,
+                    "wear_loc": "wielded",
+                    "global_limit": 18
+                }
+            },
+            {
+                "command": "equip",
+                "values": {
+                    "obj": {
+                        "area": "midgaard",
+                        "anum": 45
+                    },
+                    "wear_loc": "body",
+                    "global_limit": 6
+                }
+            },
+            {
+                "command": "mobile",
+                "values": {
+                    "mob": 1,
+                    "global_limit": 10,
+                    "room_limit": 2
+                }
+            },
+            {
+                "command": "equip",
+                "values": {
+                    "obj": 0,
+                    "wear_loc": "wielded",
+                    "global_limit": 18
+                }
+            },
+            {
+                "command": "equip",
+                "values": {
+                    "obj": 2,
+                    "wear_loc": "head",
+                    "global_limit": 6
+                }
+            },
+            {
+                "command": "equip",
+                "values": {
+                    "obj": {
+                        "area": "midgaard",
+                        "anum": 75
+                    },
+                    "wear_loc": "feet",
+                    "global_limit": 6
+                }
+            }
+        ]
+    }},
+    {"room": {
+        "area": "midennir",
+        "anum": 13,
+        "owner": null,
+        "name": "The Miden'nir",
+        "description": "The forest is dark, and becomes even darker west.  You sense\nthat there is something evil hidden in these woods.  The forest gets\nlighter to the north.  The wind kicks up as you ponder your options.\n",
+        "room_flags": null,
+        "sector_type": "forest",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [
+            {
+                "dir": "north",
+                "to": 12,
+                "keyword": null,
+                "description": "There is a small clearing to the north.\n",
+                "exit_flags": null,
+                "key": 0,
+                "portal": null
+            },
+            {
+                "dir": "west",
+                "to": 14,
+                "keyword": null,
+                "description": "It gets darker and thicker this way.\n",
+                "exit_flags": null,
+                "key": 0,
+                "portal": null
+            }
+        ],
+        "extra_description": [],
+        "resets": [
+            {
+                "command": "mobile",
+                "values": {
+                    "mob": 1,
+                    "global_limit": 10,
+                    "room_limit": 2
+                }
+            },
+            {
+                "command": "equip",
+                "values": {
+                    "obj": 0,
+                    "wear_loc": "wielded",
+                    "global_limit": 18
+                }
+            },
+            {
+                "command": "equip",
+                "values": {
+                    "obj": {
+                        "area": "midgaard",
+                        "anum": 77
+                    },
+                    "wear_loc": "arms",
+                    "global_limit": 6
+                }
+            }
+        ]
+    }},
+    {"room": {
+        "area": "midennir",
+        "anum": 14,
+        "owner": null,
+        "name": "Deep Forest",
+        "description": "It is quite dark here, forest surrounds you. With each step, the forest\nseems to close around you, and get darker and more foreboding.  It might just\nbe time to head back to somewhere safe.\n",
+        "room_flags": null,
+        "sector_type": "forest",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [
+            {
+                "dir": "north",
+                "to": 9,
+                "keyword": null,
+                "description": "More forest.\n",
+                "exit_flags": null,
+                "key": 0,
+                "portal": null
+            },
+            {
+                "dir": "east",
+                "to": 13,
+                "keyword": null,
+                "description": "Lighter forest and mountains in the distance.\n",
+                "exit_flags": null,
+                "key": 0,
+                "portal": null
+            },
+            {
+                "dir": "south",
+                "to": 17,
+                "keyword": null,
+                "description": "More trees.\n",
+                "exit_flags": null,
+                "key": 0,
+                "portal": null
+            },
+            {
+                "dir": "west",
+                "to": 10,
+                "keyword": null,
+                "description": "The forest continues.\n",
+                "exit_flags": null,
+                "key": 0,
+                "portal": null
+            }
+        ],
+        "extra_description": [],
+        "resets": []
+    }},
+    {"room": {
+        "area": "midennir",
+        "anum": 15,
+        "owner": null,
+        "name": "Light Forest",
+        "description": "The forest is light here and you can easily pick your way through the \ntrail.  To the east, the forest becomes thick and darker. South, the trail\ncontinues.\n",
+        "room_flags": null,
+        "sector_type": "forest",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [
+            {
+                "dir": "north",
+                "to": 11,
+                "keyword": null,
+                "description": "A trail leading north-south.\n",
+                "exit_flags": null,
+                "key": 0,
+                "portal": null
+            },
+            {
+                "dir": "east",
+                "to": 16,
+                "keyword": null,
+                "description": "The trees get thicker as you go east.\n",
+                "exit_flags": null,
+                "key": 0,
+                "portal": null
+            },
+            {
+                "dir": "south",
+                "to": 18,
+                "keyword": null,
+                "description": "More trees and some small hills.\n",
+                "exit_flags": null,
+                "key": 0,
+                "portal": null
+            }
+        ],
+        "extra_description": [],
+        "resets": []
+    }},
+    {"room": {
+        "area": "midennir",
+        "anum": 16,
+        "owner": null,
+        "name": "Muddy Ground",
+        "description": "The ground is quite muddy here and puddles are all around. Your boots\nmake a disgusting SQUISH as you walk here. You can go in any of the\nfour cardinal directions from here. Hopefully, it will be dryer.\n",
+        "room_flags": null,
+        "sector_type": "forest",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [
+            {
+                "dir": "north",
+                "to": 10,
+                "keyword": null,
+                "description": "The Miden'nir continues.\n",
+                "exit_flags": null,
+                "key": 0,
+                "portal": null
+            },
+            {
+                "dir": "east",
+                "to": 17,
+                "keyword": null,
+                "description": "More trees.\n",
+                "exit_flags": null,
+                "key": 0,
+                "portal": null
+            },
+            {
+                "dir": "south",
+                "to": 19,
+                "keyword": null,
+                "description": "The trees get VERY thick to the south. You can barely see...\n",
+                "exit_flags": null,
+                "key": 0,
+                "portal": null
+            },
+            {
+                "dir": "west",
+                "to": 15,
+                "keyword": null,
+                "description": "Some light trees and daylight.\n",
+                "exit_flags": null,
+                "key": 0,
+                "portal": null
+            }
+        ],
+        "extra_description": [],
+        "resets": []
+    }},
+    {"room": {
+        "area": "midennir",
+        "anum": 17,
+        "owner": null,
+        "name": "Near the Mountains",
+        "description": "The most prominent feature here is the mountains that lie to the east.\nYou can only go north and west from here as the rocks stop all other\nmovement.\n",
+        "room_flags": null,
+        "sector_type": "forest",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [
+            {
+                "dir": "north",
+                "to": 14,
+                "keyword": null,
+                "description": "Many trees to the north.\n",
+                "exit_flags": null,
+                "key": 0,
+                "portal": null
+            },
+            {
+                "dir": "west",
+                "to": 16,
+                "keyword": null,
+                "description": "There is a bit of a slope downward to the west.\n",
+                "exit_flags": null,
+                "key": 0,
+                "portal": null
+            }
+        ],
+        "extra_description": [],
+        "resets": []
+    }},
+    {"room": {
+        "area": "midennir",
+        "anum": 18,
+        "owner": null,
+        "name": "The Fading Trail",
+        "description": "The trail becomes nearly unpassable here. You can go north\nas the forest is relatively light. To the south, you can see a path.\n",
+        "room_flags": null,
+        "sector_type": "forest",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [
+            {
+                "dir": "north",
+                "to": 15,
+                "keyword": null,
+                "description": "You can see a trail this way.\n",
+                "exit_flags": null,
+                "key": 0,
+                "portal": null
+            },
+            {
+                "dir": "east",
+                "to": null,
+                "keyword": null,
+                "description": "The trees are nearly trunk-to-trunk this way.\n",
+                "exit_flags": null,
+                "key": 0,
+                "portal": "midennir-7-east"
+            },
+            {
+                "dir": "south",
+                "to": 22,
+                "keyword": null,
+                "description": "Dark forests.\n",
+                "exit_flags": null,
+                "key": 0,
+                "portal": null
+            }
+        ],
+        "extra_description": [],
+        "resets": []
+    }},
+    {"room": {
+        "area": "midennir",
+        "anum": 19,
+        "owner": null,
+        "name": "The Dark Path",
+        "description": "You are hemmed in by trees on either side of you.  The path\ncontinues north and south, and while is much to thick to explore west,\nyou can head off into the woods to the east.\n",
+        "room_flags": null,
+        "sector_type": "forest",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [
+            {
+                "dir": "north",
+                "to": 16,
+                "keyword": null,
+                "description": "The forest gets lighter this way.\n",
+                "exit_flags": null,
+                "key": 0,
+                "portal": null
+            },
+            {
+                "dir": "east",
+                "to": 20,
+                "keyword": null,
+                "description": "The forest continues.\n",
+                "exit_flags": null,
+                "key": 0,
+                "portal": null
+            },
+            {
+                "dir": "south",
+                "to": 21,
+                "keyword": null,
+                "description": "There is a strong stench coming from this direction.\n",
+                "exit_flags": null,
+                "key": 0,
+                "portal": null
+            },
+            {
+                "dir": "west",
+                "to": null,
+                "keyword": null,
+                "description": "The trees are nearly trunk-to-trunk this way.\n",
+                "exit_flags": null,
+                "key": 0,
+                "portal": "midennir-8-west"
+            }
+        ],
+        "extra_description": [],
+        "resets": []
+    }},
+    {"room": {
+        "area": "midennir",
+        "anum": 20,
+        "owner": null,
+        "name": "The Dark Forest",
+        "description": "You stomp your way through the underbrush.  The dark forest of Miden'nir\nget pretty thick here, and the branches high above your head are so thick that\nthey block out all direct sunlight.  While it is much too thick to go\nfurther east, you might be able to make your way though the forest to the\nsouth and west.\n",
+        "room_flags": null,
+        "sector_type": "forest",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [
+            {
+                "dir": "south",
+                "to": 23,
+                "keyword": null,
+                "description": "The thick forest continues.\n",
+                "exit_flags": null,
+                "key": 0,
+                "portal": null
+            },
+            {
+                "dir": "west",
+                "to": 19,
+                "keyword": null,
+                "description": "The thick forest continues.\n",
+                "exit_flags": null,
+                "key": 0,
+                "portal": null
+            }
+        ],
+        "extra_description": [],
+        "resets": []
+    }},
+    {"room": {
+        "area": "midennir",
+        "anum": 21,
+        "owner": null,
+        "name": "Carnage",
+        "description": "Here, you see a gruesome sight. Blood is everywhere... on the trees and\nsoaked into the ground. Two carcasses lie in front of you, seeming to look\nup at you. The forest is impassible to the south, but the other directions\nlook ok.\n",
+        "room_flags": "dark",
+        "sector_type": "forest",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [
+            {
+                "dir": "north",
+                "to": 19,
+                "keyword": null,
+                "description": "Darkness...\n",
+                "exit_flags": null,
+                "key": 0,
+                "portal": null
+            },
+            {
+                "dir": "east",
+                "to": 23,
+                "keyword": null,
+                "description": "Your light does not extend that far.\n",
+                "exit_flags": null,
+                "key": 0,
+                "portal": null
+            },
+            {
+                "dir": "west",
+                "to": 22,
+                "keyword": null,
+                "description": "More dark forest.\n",
+                "exit_flags": null,
+                "key": 0,
+                "portal": null
+            }
+        ],
+        "extra_description": [{
+            "keyword": "carcass body corpse carcasses bodies corpses",
+            "description": "The corpses looked as if they have been pierced by a large, jagged\nspear. The damage these people sustained is simply amazing. Worse, the\nlips on the bodies are a light shade of blue, hinting at poison in\ntheir systems.\n"
+        }],
+        "resets": [
+            {
+                "command": "mobile",
+                "values": {
+                    "mob": 0,
+                    "global_limit": 2,
+                    "room_limit": 2
+                }
+            },
+            {
+                "command": "mobile",
+                "values": {
+                    "mob": 0,
+                    "global_limit": 2,
+                    "room_limit": 2
+                }
+            }
+        ]
+    }},
+    {"room": {
+        "area": "midennir",
+        "anum": 22,
+        "owner": null,
+        "name": "Deep in the Forest of Miden'nir",
+        "description": "There is a sickening stench here. It smells of blood and death.\nTo the north, you catch glimpses of daylight. To the east, you\nsimply cannot see. The trees are close and stifling.\n",
+        "room_flags": null,
+        "sector_type": "forest",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [
+            {
+                "dir": "north",
+                "to": 18,
+                "keyword": null,
+                "description": "You see daylight and a trail to follow.\n",
+                "exit_flags": null,
+                "key": 0,
+                "portal": null
+            },
+            {
+                "dir": "east",
+                "to": 21,
+                "keyword": null,
+                "description": "The stench seems to becoming from this direction.\n",
+                "exit_flags": null,
+                "key": 0,
+                "portal": null
+            }
+        ],
+        "extra_description": [],
+        "resets": []
+    }},
+    {"room": {
+        "area": "midennir",
+        "anum": 23,
+        "owner": null,
+        "name": "The Dark Forest",
+        "description": "The branches above you block out all direct sunlight, making the forest\nin this area rather dark.  The forest continues east, where it meets the\nmountains. The air is still and stuffy - a stench comes from the west and an\nugly feeling causes the hair to rise on the back of your neck!\n",
+        "room_flags": null,
+        "sector_type": "forest",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [
+            {
+                "dir": "north",
+                "to": 20,
+                "keyword": null,
+                "description": "It appears to get much darker that direction.\n",
+                "exit_flags": null,
+                "key": 0,
+                "portal": null
+            },
+            {
+                "dir": "east",
+                "to": 51,
+                "keyword": null,
+                "description": null,
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "west",
+                "to": 21,
+                "keyword": null,
+                "description": "The sky becomes lighter in this direction.\n",
+                "exit_flags": null,
+                "key": 0,
+                "portal": null
+            }
+        ],
+        "extra_description": [],
+        "resets": []
+    }},
+    {"room": {
+        "area": "midennir",
+        "anum": 25,
+        "owner": null,
+        "name": "Along the Eastern Road",
+        "description": "You are walking along a well-travelled road between Midgaard and lands\neast.  A northern road crosses this one to the west, towards Midgaard.  You\nhear faint, happy singing to the north.\n",
+        "room_flags": null,
+        "sector_type": "city",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [
+            {
+                "dir": "north",
+                "to": null,
+                "keyword": null,
+                "description": "You see a faint trail, covered with tiny footprints. The singing grows louder.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": "midennir-9-north"
+            },
+            {
+                "dir": "east",
+                "to": 26,
+                "keyword": null,
+                "description": "The road continues to the east.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "west",
+                "to": 2,
+                "keyword": null,
+                "description": "You can see the crossroads.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            }
+        ],
+        "extra_description": [],
+        "resets": []
+    }},
+    {"room": {
+        "area": "midennir",
+        "anum": 26,
+        "owner": null,
+        "name": "Along the Eastern Road",
+        "description": "You are travelling down the eastern road between Midgaard and the eastern\nlands.  The road back to Midgaard is west of you, and a heavily guarded\ncheckpoint is east.  A beautiful grove of trees is north, and a dirt path \nwanders off to the south.\n",
+        "room_flags": null,
+        "sector_type": "city",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [
+            {
+                "dir": "north",
+                "to": null,
+                "keyword": null,
+                "description": "You see a beautiful, shady grove -- it looks like a peaceful place to relax.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": "midennir-5-north"
+            },
+            {
+                "dir": "east",
+                "to": 27,
+                "keyword": null,
+                "description": "The road continues west towards a guarded checkpoint.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "south",
+                "to": null,
+                "keyword": null,
+                "description": "A dirt path leads to the gnome village.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": "midennir-4-south"
+            },
+            {
+                "dir": "west",
+                "to": 25,
+                "keyword": null,
+                "description": "The road continues west towards midgaard.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            }
+        ],
+        "extra_description": [],
+        "resets": []
+    }},
+    {"room": {
+        "area": "midennir",
+        "anum": 27,
+        "owner": null,
+        "name": "The Checkpoint",
+        "description": "You are met by a group of heavily armored knights.  They check you over\nfor contraband, and then allow you to pass on.  One of the knights cautions to\nnot stray into the desert, lest you lose your way.\n",
+        "room_flags": null,
+        "sector_type": "city",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [
+            {
+                "dir": "east",
+                "to": 28,
+                "keyword": null,
+                "description": "The continues east towards New Thalos.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "west",
+                "to": 26,
+                "keyword": null,
+                "description": "The road continues west towards midgaard.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            }
+        ],
+        "extra_description": [],
+        "resets": []
+    }},
+    {"room": {
+        "area": "midennir",
+        "anum": 28,
+        "owner": null,
+        "name": "Along the Eastern Road",
+        "description": "You are walking along a well-travelled road, just east of a heavily \nguarded checkpoint.  You have covered about half the distance between\nthe city of Midgaard and New Thalos.  The air is getting drier and the heat\nmore oppressive as you near the the barren wastes of the Sands of Sorrow.\n",
+        "room_flags": null,
+        "sector_type": "city",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [
+            {
+                "dir": "east",
+                "to": 29,
+                "keyword": null,
+                "description": "The road continues ahead, growing more arid as you near the desert.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "west",
+                "to": 27,
+                "keyword": null,
+                "description": "You see a heavily guarded checkpoint to the west.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            }
+        ],
+        "extra_description": [],
+        "resets": []
+    }},
+    {"room": {
+        "area": "midennir",
+        "anum": 29,
+        "owner": null,
+        "name": "Along the Eastern Road",
+        "description": "The tempatures are climbing as you near the Sands of Sorrow, a barren\nwasteland blasted by arcane powers.  Ahead of you, the road is partially\nburied by the creeping sands, and the air grows even hotter.\n",
+        "room_flags": null,
+        "sector_type": "city",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [
+            {
+                "dir": "east",
+                "to": 30,
+                "keyword": null,
+                "description": "You see the Sands of Sorrow spilling over the road.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "west",
+                "to": 28,
+                "keyword": null,
+                "description": "The road continues to the west, towards distant Midgaard.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            }
+        ],
+        "extra_description": [],
+        "resets": []
+    }},
+    {"room": {
+        "area": "midennir",
+        "anum": 30,
+        "owner": null,
+        "name": "Near the Sands of Sorrow",
+        "description": "The eastern road is losing ground to the creeping desert here.  You stagger\nin the growing heat, and wonder if you have enough water.  The endless waste\nof the Sands of Sorrows is south, and the road continues east and west.  The \nsun paints illusions at the edge of your vision, one of them looks like a far \noff city...\n",
+        "room_flags": null,
+        "sector_type": "desert",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [
+            {
+                "dir": "east",
+                "to": 31,
+                "keyword": null,
+                "description": "The road ahead is almost lost in the desert.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "west",
+                "to": 29,
+                "keyword": null,
+                "description": "You see a clearer section of road. \n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            }
+        ],
+        "extra_description": [],
+        "resets": []
+    }},
+    {"room": {
+        "area": "midennir",
+        "anum": 31,
+        "owner": null,
+        "name": "Near the Sands of Sorrow",
+        "description": "The road is almost completely swallowed by the desert here.  The heat is\nsucking the life from your body, you wonder if it will ever end.  To your\nsouth, the Sands of Sorrow stretch on for miles, and to the east you think\nyou see the towers of a magnificent city...or is it just a mirage?\n",
+        "room_flags": null,
+        "sector_type": "desert",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [
+            {
+                "dir": "east",
+                "to": 32,
+                "keyword": null,
+                "description": "You can barely make out enough road to follow.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "west",
+                "to": 30,
+                "keyword": null,
+                "description": "The desert thins a little to the west.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            }
+        ],
+        "extra_description": [],
+        "resets": []
+    }},
+    {"room": {
+        "area": "midennir",
+        "anum": 32,
+        "owner": null,
+        "name": "On the Outskirts of New Thalos",
+        "description": "The sun is hot enough to melt your armor, but salvation is at hand.  To the\neast, you see the mighty gates of New Thalos, one of the most prosperous cities\nof all of Thera.  To the south, you see the endless wasteland of the Sands\nof Sorrows, and to the west you can barely make out a faint, but well-used,\nroad leading to the City of Midgaard. \n",
+        "room_flags": null,
+        "sector_type": "desert",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [
+            {
+                "dir": "east",
+                "to": null,
+                "keyword": null,
+                "description": "You see the west gate of New Thalos.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": "midennir-10-east"
+            },
+            {
+                "dir": "west",
+                "to": 31,
+                "keyword": null,
+                "description": "You see the road to Midgaard, covered with sand.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            }
+        ],
+        "extra_description": [],
+        "resets": []
+    }},
+    {"room": {
+        "area": "midennir",
+        "anum": 50,
+        "owner": null,
+        "name": "At The Foot of The Mountains",
+        "description": "You find yourself at the foot of the mountains, where it is much to steep\nto continue north or east.  You see the lush, green forest of Miden'nir to the\nsouth and west.\n",
+        "room_flags": null,
+        "sector_type": "mountain",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [
+            {
+                "dir": "south",
+                "to": 12,
+                "keyword": null,
+                "description": "The forest of Miden'nir spreads out before you.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "west",
+                "to": 6,
+                "keyword": null,
+                "description": "The forest of Miden'nir spreads out before you.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            }
+        ],
+        "extra_description": [],
+        "resets": []
+    }},
+    {"room": {
+        "area": "midennir",
+        "anum": 51,
+        "owner": null,
+        "name": "The Deep in the Forest of Miden'nir",
+        "description": "The branches above you block out all direct sunlight, making the forest\nin this area very dark.  The forest continues west, but mountains block\nfurther exploration in all other directions, except south, where you notice a\nsmall tunnel dug into the mountainside.\n",
+        "room_flags": "dark",
+        "sector_type": "forest",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [
+            {
+                "dir": "south",
+                "to": 52,
+                "keyword": null,
+                "description": null,
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "west",
+                "to": 23,
+                "keyword": null,
+                "description": null,
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            }
+        ],
+        "extra_description": [],
+        "resets": [
+            {
+                "command": "mobile",
+                "values": {
+                    "mob": 6,
+                    "global_limit": 4,
+                    "room_limit": 2
+                }
+            },
+            {
+                "command": "equip",
+                "values": {
+                    "obj": 2,
+                    "wear_loc": "head",
+                    "global_limit": -1
+                }
+            },
+            {
+                "command": "equip",
+                "values": {
+                    "obj": 0,
+                    "wear_loc": "wielded",
+                    "global_limit": 20
+                }
+            },
+            {
+                "command": "equip",
+                "values": {
+                    "obj": {
+                        "area": "midgaard",
+                        "anum": 72
+                    },
+                    "wear_loc": "body",
+                    "global_limit": 8
+                }
+            }
+        ]
+    }},
+    {"room": {
+        "area": "midennir",
+        "anum": 52,
+        "owner": null,
+        "name": "A Tunnel in the Mountains",
+        "description": "The walls of this tunnel were carved out many years ago by the goblins of\nthis forest.  The floor is well worn, and continues south, into the\nmountain, or back north out into the forest.\n",
+        "room_flags": "dark",
+        "sector_type": "city",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [
+            {
+                "dir": "north",
+                "to": 51,
+                "keyword": null,
+                "description": "Outside, you see the forest of Miden'nir.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "south",
+                "to": 53,
+                "keyword": null,
+                "description": "The tunnel continues to the south.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            }
+        ],
+        "extra_description": [],
+        "resets": []
+    }},
+    {"room": {
+        "area": "midennir",
+        "anum": 53,
+        "owner": null,
+        "name": "A Tunnel in the Mountains",
+        "description": "The tunnel gets lighter to the north, presumably leading out, while to\nthe south the passage gets smaller and smaller.  A small alcove has been\ncarved into the east wall.\n",
+        "room_flags": "dark",
+        "sector_type": "city",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [
+            {
+                "dir": "north",
+                "to": 52,
+                "keyword": null,
+                "description": "The tunnel gets wider in this direction.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "east",
+                "to": 54,
+                "keyword": null,
+                "description": "You see a small alcove.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "south",
+                "to": 55,
+                "keyword": null,
+                "description": "The tunnel gets smaller in this direction.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            }
+        ],
+        "extra_description": [],
+        "resets": []
+    }},
+    {"room": {
+        "area": "midennir",
+        "anum": 54,
+        "owner": null,
+        "name": "A Small Alcove",
+        "description": "A small alcove has been carved out here.  There are a bunch of twigs\nand leaves thrown into a pile here, probably serving as a bed.\n",
+        "room_flags": "dark",
+        "sector_type": "city",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [{
+            "dir": "west",
+            "to": 53,
+            "keyword": null,
+            "description": "You see the main passageway.\n",
+            "exit_flags": null,
+            "key": -1,
+            "portal": null
+        }],
+        "extra_description": [{
+            "keyword": "twigs leaves bead",
+            "description": "The twigs and leaves have all been piled together as a makeshift bed for\nsome small humanoid.\n"
+        }],
+        "resets": []
+    }},
+    {"room": {
+        "area": "midennir",
+        "anum": 55,
+        "owner": null,
+        "name": "A Tunnel in the Mountains",
+        "description": "As you explore further into the mountainside, the tunnel gets smaller and\nsmaller to the south.  You almost have to hunch over to make your way thru\nthis area.  A small archway to the south leads into a large chamber.\n",
+        "room_flags": "dark",
+        "sector_type": "city",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [
+            {
+                "dir": "north",
+                "to": 53,
+                "keyword": null,
+                "description": "The tunnel continues north.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "south",
+                "to": 56,
+                "keyword": null,
+                "description": "You see a small cavern.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            }
+        ],
+        "extra_description": [],
+        "resets": []
+    }},
+    {"room": {
+        "area": "midennir",
+        "anum": 56,
+        "owner": null,
+        "name": "The Goblin Headquarters",
+        "description": "The tunnel widens into a large (well, large for goblins) cavern that\nserves as the living quarters for the goblins of Miden'nir.  The bones of\nnumbers woodland creatures are strewn about the room, the remanents of a\nrecent meal.\n",
+        "room_flags": "dark",
+        "sector_type": "city",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [{
+            "dir": "north",
+            "to": 55,
+            "keyword": null,
+            "description": "The tunnel heads north.\n",
+            "exit_flags": null,
+            "key": -1,
+            "portal": null
+        }],
+        "extra_description": [],
+        "resets": [
+            {
+                "command": "mobile",
+                "values": {
+                    "mob": 1,
+                    "global_limit": 10,
+                    "room_limit": 2
+                }
+            },
+            {
+                "command": "equip",
+                "values": {
+                    "obj": 0,
+                    "wear_loc": "wielded",
+                    "global_limit": 18
+                }
+            },
+            {
+                "command": "equip",
+                "values": {
+                    "obj": {
+                        "area": "midgaard",
+                        "anum": 76
+                    },
+                    "wear_loc": "hands",
+                    "global_limit": 6
+                }
+            },
+            {
+                "command": "mobile",
+                "values": {
+                    "mob": 6,
+                    "global_limit": 4,
+                    "room_limit": 2
+                }
+            },
+            {
+                "command": "equip",
+                "values": {
+                    "obj": 0,
+                    "wear_loc": "wielded",
+                    "global_limit": 20
+                }
+            },
+            {
+                "command": "equip",
+                "values": {
+                    "obj": 2,
+                    "wear_loc": "head",
+                    "global_limit": -1
+                }
+            },
+            {
+                "command": "equip",
+                "values": {
+                    "obj": {
+                        "area": "midgaard",
+                        "anum": 72
+                    },
+                    "wear_loc": "body",
+                    "global_limit": 8
+                }
+            },
+            {
+                "command": "mobile",
+                "values": {
+                    "mob": 7,
+                    "global_limit": 1,
+                    "room_limit": 1
+                }
+            },
+            {
+                "command": "equip",
+                "values": {
+                    "obj": {
+                        "area": "midgaard",
+                        "anum": 72
+                    },
+                    "wear_loc": "body",
+                    "global_limit": -1
+                }
+            },
+            {
+                "command": "equip",
+                "values": {
+                    "obj": 1,
+                    "wear_loc": "wielded",
+                    "global_limit": 6
+                }
+            },
+            {
+                "command": "equip",
+                "values": {
+                    "obj": 2,
+                    "wear_loc": "head",
+                    "global_limit": -1
+                }
+            }
+        ]
+    }},
+    {"room": {
+        "area": "midennir",
+        "anum": 70,
+        "owner": null,
+        "name": "The Front of the Inn",
+        "description": "You are standing on a well-worn path which opens into a clearing.\nAn old, wooden building is here with smoke billowing from its\nchimney. A painted sign is visible on the porch to the west. You\ncould go north or south around the building or leave this place and\nreturn to the forest.\n",
+        "room_flags": null,
+        "sector_type": "forest",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [
+            {
+                "dir": "north",
+                "to": 71,
+                "keyword": null,
+                "description": "You can go north around the inn.\n",
+                "exit_flags": null,
+                "key": 0,
+                "portal": null
+            },
+            {
+                "dir": "east",
+                "to": 5,
+                "keyword": null,
+                "description": "Back through the trees to the Miden'nir.\n",
+                "exit_flags": null,
+                "key": 0,
+                "portal": null
+            },
+            {
+                "dir": "south",
+                "to": 72,
+                "keyword": null,
+                "description": "You can go south around the inn.\n",
+                "exit_flags": null,
+                "key": 0,
+                "portal": null
+            },
+            {
+                "dir": "west",
+                "to": 74,
+                "keyword": null,
+                "description": "The front door of the inn beckons.\n",
+                "exit_flags": null,
+                "key": 0,
+                "portal": null
+            }
+        ],
+        "extra_description": [
+            {
+                "keyword": "credits credit author",
+                "description": "+-------------------------------------------------+\n| This zone originally written for Copper II DIKU |\n|   by ?                                          |\n| Modification and alterations for MERCmud DIKU   |\n|   by VampLestat                        1 JAN 93 |\n+-------------------------------------------------+\n"
+            },
+            {
+                "keyword": "sign",
+                "description": "The sign reads:\n   The Woodsman\n"
+            }
+        ],
+        "resets": []
+    }},
+    {"room": {
+        "area": "midennir",
+        "anum": 71,
+        "owner": null,
+        "name": "North of the Inn",
+        "description": "You are standing north of the inn. Things don't look much different\nfrom this angle.  The air here is filled with smells of smoke and cooking.\nSouth, the front porch is waiting for you... or you can see if there is\na back door.\n",
+        "room_flags": null,
+        "sector_type": "forest",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [{
+            "dir": "south",
+            "to": 70,
+            "keyword": null,
+            "description": "You see the front of the Inn.\n",
+            "exit_flags": null,
+            "key": -1,
+            "portal": null
+        }],
+        "extra_description": [],
+        "resets": []
+    }},
+    {"room": {
+        "area": "midennir",
+        "anum": 72,
+        "owner": null,
+        "name": "South of the Inn",
+        "description": "You are standing south of the inn.  You could easily go north and enter\nthrough the front door, or west and to the rear of the establishment.  You\nhere some muffled cries from a tiny trail leading south of here.\n",
+        "room_flags": null,
+        "sector_type": "forest",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [
+            {
+                "dir": "north",
+                "to": 70,
+                "keyword": null,
+                "description": "This way leads to the front of the inn.\n",
+                "exit_flags": null,
+                "key": 0,
+                "portal": null
+            },
+            {
+                "dir": "south",
+                "to": 75,
+                "keyword": null,
+                "description": "The trail heads south.\n",
+                "exit_flags": null,
+                "key": 0,
+                "portal": null
+            },
+            {
+                "dir": "west",
+                "to": 73,
+                "keyword": null,
+                "description": "This way leads to the back of the inn.\n",
+                "exit_flags": null,
+                "key": 0,
+                "portal": null
+            }
+        ],
+        "extra_description": [],
+        "resets": []
+    }},
+    {"room": {
+        "area": "midennir",
+        "anum": 73,
+        "owner": null,
+        "name": "Behind the Inn",
+        "description": "You now stand behind the inn. The smell here is not so pleasant as\nthe keeper and his help throw a good deal of garbage here. A couple of\npiles of rubbish are to the west, but you will smell the worse for\nmeddling there. As a clean alternative, you can go north or east around\nthe inn.\n",
+        "room_flags": null,
+        "sector_type": "forest",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [
+            {
+                "dir": "east",
+                "to": 72,
+                "keyword": null,
+                "description": "You can go around the inn this way.\n",
+                "exit_flags": null,
+                "key": 0,
+                "portal": null
+            },
+            {
+                "dir": "west",
+                "to": 78,
+                "keyword": null,
+                "description": "Only rats and fool adventurers play in garbage.\n",
+                "exit_flags": null,
+                "key": 0,
+                "portal": null
+            }
+        ],
+        "extra_description": [],
+        "resets": []
+    }},
+    {"room": {
+        "area": "midennir",
+        "anum": 74,
+        "owner": null,
+        "name": "The Woodsman Inn",
+        "description": "You are in the common room of the Woodsman Inn. A thin haze of smoke sits\nin the air here. The Inn is often empty, as the forest has become overrun by\ngoblins as of late, and it is no longer safe in these parts. The bar is just\nnorth of here. If you'd rather have your own table, one is empty to the\nsouth.\n",
+        "room_flags": "no_mob indoors",
+        "sector_type": "city",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [
+            {
+                "dir": "north",
+                "to": 76,
+                "keyword": null,
+                "description": "The bar is here, manned by the innkeeper.\n",
+                "exit_flags": null,
+                "key": 0,
+                "portal": null
+            },
+            {
+                "dir": "east",
+                "to": 70,
+                "keyword": null,
+                "description": "You can leave now and return to fresher air.\n",
+                "exit_flags": null,
+                "key": 0,
+                "portal": null
+            },
+            {
+                "dir": "south",
+                "to": 79,
+                "keyword": null,
+                "description": "An empty table is a rare commodity.\n",
+                "exit_flags": null,
+                "key": 0,
+                "portal": null
+            },
+            {
+                "dir": "west",
+                "to": 77,
+                "keyword": null,
+                "description": null,
+                "exit_flags": null,
+                "key": 0,
+                "portal": null
+            }
+        ],
+        "extra_description": [],
+        "resets": []
+    }},
+    {"room": {
+        "area": "midennir",
+        "anum": 75,
+        "owner": null,
+        "name": "The Ambush Point",
+        "description": "This is a overgrown foot-trail south of the inn. It leads west, but you\nwould be hard pressed to follow it far. A number of bushes are trampled on\nand some medium sized branches have been knocked down.  Obviously there has\nbeen a battle here rather recently.\n",
+        "room_flags": null,
+        "sector_type": "forest",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [
+            {
+                "dir": "north",
+                "to": 72,
+                "keyword": null,
+                "description": "The inn lies to the north.\n",
+                "exit_flags": null,
+                "key": 0,
+                "portal": null
+            },
+            {
+                "dir": "west",
+                "to": 81,
+                "keyword": null,
+                "description": "A trail thru the woods.\n",
+                "exit_flags": null,
+                "key": 0,
+                "portal": null
+            }
+        ],
+        "extra_description": [],
+        "resets": [{
+            "command": "mobile",
+            "values": {
+                "mob": 2,
+                "global_limit": 1,
+                "room_limit": 1
+            }
+        }]
+    }},
+    {"room": {
+        "area": "midennir",
+        "anum": 76,
+        "owner": null,
+        "name": "The Bar",
+        "description": "This is where people use to come and enjoy the food, drink and hospitality\nof the innkeeper, but as of late, he only serves the few adventurers that\nmanage to survive a trip thru the forest. You can leave south and return to the\ncommon room.\n",
+        "room_flags": null,
+        "sector_type": "city",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [{
+            "dir": "south",
+            "to": 74,
+            "keyword": null,
+            "description": "You may retreat south back to the common room.\n",
+            "exit_flags": null,
+            "key": 0,
+            "portal": null
+        }],
+        "extra_description": [],
+        "resets": [{
+            "command": "mobile",
+            "values": {
+                "mob": 3,
+                "global_limit": 1,
+                "room_limit": 1
+            }
+        }]
+    }},
+    {"room": {
+        "area": "midennir",
+        "anum": 77,
+        "owner": null,
+        "name": "The Bard's Table",
+        "description": "You are in a darker corner in the Inn.  A large round table with a few\nwooden chairs sits here.  There is a large stain on the table, the remnants\nof a spilled drink.\n",
+        "room_flags": "indoors",
+        "sector_type": "city",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [{
+            "dir": "east",
+            "to": 74,
+            "keyword": null,
+            "description": "You see the main floor of the Inn to the east.\n",
+            "exit_flags": null,
+            "key": 0,
+            "portal": null
+        }],
+        "extra_description": [],
+        "resets": [
+            {
+                "command": "mobile",
+                "values": {
+                    "mob": 4,
+                    "global_limit": 1,
+                    "room_limit": 1
+                }
+            },
+            {
+                "command": "equip",
+                "values": {
+                    "obj": 5,
+                    "wear_loc": "wielded",
+                    "global_limit": 3
+                }
+            }
+        ]
+    }},
+    {"room": {
+        "area": "midennir",
+        "anum": 78,
+        "owner": null,
+        "name": "Garbage dump",
+        "description": "You stand knee deep in garbage.  YECCH!!! It smells terrible and who knows\nwhat vermin live in these piles of filth ...\n",
+        "room_flags": null,
+        "sector_type": "forest",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [{
+            "dir": "east",
+            "to": 73,
+            "keyword": null,
+            "description": "You can return to cleaner lands this way.\n",
+            "exit_flags": null,
+            "key": 0,
+            "portal": null
+        }],
+        "extra_description": [],
+        "resets": []
+    }},
+    {"room": {
+        "area": "midennir",
+        "anum": 79,
+        "owner": null,
+        "name": "A Quieter Section of the Inn",
+        "description": "There seems to be no one in this end of the Woodsman, probably a safe place\nto rest and lick your wounds ...\n",
+        "room_flags": "indoors",
+        "sector_type": "inside",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [{
+            "dir": "north",
+            "to": 74,
+            "keyword": null,
+            "description": "You see the common room.\n",
+            "exit_flags": null,
+            "key": 0,
+            "portal": null
+        }],
+        "extra_description": [],
+        "resets": []
+    }},
+    {"room": {
+        "area": "midennir",
+        "anum": 81,
+        "owner": null,
+        "name": "On the Trail of the Horsemen",
+        "description": "The path continues east and west of here.  You notice fresh tracks in\nthe soft ground that show the horsemen fled to the west.\n",
+        "room_flags": null,
+        "sector_type": "forest",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [
+            {
+                "dir": "east",
+                "to": 75,
+                "keyword": null,
+                "description": "Back to ambush point.\n",
+                "exit_flags": null,
+                "key": 0,
+                "portal": null
+            },
+            {
+                "dir": "west",
+                "to": 82,
+                "keyword": null,
+                "description": "The trail continues.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            }
+        ],
+        "extra_description": [],
+        "resets": []
+    }},
+    {"room": {
+        "area": "midennir",
+        "anum": 82,
+        "owner": null,
+        "name": "On the Trail of the Horsemen",
+        "description": "The path continues east and south.  You notice fresh tracks in\nthe soft ground that show the horsemen turned, and fled south.\n",
+        "room_flags": null,
+        "sector_type": "forest",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [
+            {
+                "dir": "east",
+                "to": 81,
+                "keyword": null,
+                "description": "The trail continues.\n",
+                "exit_flags": null,
+                "key": 0,
+                "portal": null
+            },
+            {
+                "dir": "south",
+                "to": 83,
+                "keyword": null,
+                "description": "The tracks lead south.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            }
+        ],
+        "extra_description": [],
+        "resets": []
+    }},
+    {"room": {
+        "area": "midennir",
+        "anum": 83,
+        "owner": null,
+        "name": "On the Trail of the Horsemen",
+        "description": "The trail of the horsemen continues east and north along this path through\nthe forest.  The tracks are still fresh, so they must be near.\n",
+        "room_flags": null,
+        "sector_type": "forest",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [
+            {
+                "dir": "north",
+                "to": 82,
+                "keyword": null,
+                "description": "The trail continues.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "west",
+                "to": 84,
+                "keyword": null,
+                "description": "The tracks lead east.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            }
+        ],
+        "extra_description": [],
+        "resets": [
+            {
+                "command": "mobile",
+                "values": {
+                    "mob": 5,
+                    "global_limit": 4,
+                    "room_limit": 2
+                }
+            },
+            {
+                "command": "equip",
+                "values": {
+                    "obj": 3,
+                    "wear_loc": "neck1",
+                    "global_limit": 8
+                }
+            },
+            {
+                "command": "equip",
+                "values": {
+                    "obj": {
+                        "area": "midgaard",
+                        "anum": 22
+                    },
+                    "wear_loc": "wielded",
+                    "global_limit": -1
+                }
+            }
+        ]
+    }},
+    {"room": {
+        "area": "midennir",
+        "anum": 84,
+        "owner": null,
+        "name": "A Dead End Trail",
+        "description": "The path comes to an abrupt end here, as the trees close around you and\nmake any further exploration impossible.  Fresh tracks cover the ground, and\nend right here.  The horsemen must be nearby.\n",
+        "room_flags": null,
+        "sector_type": "forest",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [{
+            "dir": "east",
+            "to": 83,
+            "keyword": null,
+            "description": "Back to along the trail.\n",
+            "exit_flags": null,
+            "key": 0,
+            "portal": null
+        }],
+        "extra_description": [],
+        "resets": [
+            {
+                "command": "mobile",
+                "values": {
+                    "mob": 5,
+                    "global_limit": 4,
+                    "room_limit": 2
+                }
+            },
+            {
+                "command": "equip",
+                "values": {
+                    "obj": 4,
+                    "wear_loc": "lwrist",
+                    "global_limit": 4
+                }
+            },
+            {
+                "command": "equip",
+                "values": {
+                    "obj": {
+                        "area": "midgaard",
+                        "anum": 22
+                    },
+                    "wear_loc": "wielded",
+                    "global_limit": -1
+                }
+            }
+        ]
+    }}
+]

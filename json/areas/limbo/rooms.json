@@ -1,0 +1,42 @@
+[
+    {"room": {
+        "area": "limbo",
+        "anum": 1,
+        "owner": null,
+        "name": "The Void",
+        "description": "You are floating in nothing.\n",
+        "room_flags": "no_mob indoors",
+        "sector_type": "city",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": "limbo-1",
+        "doors": [],
+        "extra_description": [],
+        "resets": []
+    }},
+    {"room": {
+        "area": "limbo",
+        "anum": 2,
+        "owner": null,
+        "name": "Limbo",
+        "description": "You are floating in a formless void, detached from all sensation of physical\nmatter, surrounded by swirling glowing light, which fades into the relative\ndarkness around you without any trace of edges or shadow.\n   There is a \"No Tipping\" notice pinned to the darkness.\n",
+        "room_flags": "indoors",
+        "sector_type": "city",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": "limbo-2",
+        "doors": [{
+            "dir": "up",
+            "to": null,
+            "keyword": null,
+            "description": null,
+            "exit_flags": null,
+            "key": -1,
+            "portal": "limbo-3-up"
+        }],
+        "extra_description": [],
+        "resets": []
+    }}
+]

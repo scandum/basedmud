@@ -1,0 +1,12 @@
+[{"area": {
+    "name": "shire",
+    "filename": "shire.are",
+    "title": "Shire",
+    "credits": "{ 5 35} Poohb   The Shire",
+    "low_range": 0,
+    "high_range": 0,
+    "min_vnum": 1100,
+    "max_vnum": 1199,
+    "builders": "None",
+    "security": 9
+}}]

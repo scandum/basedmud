@@ -1,0 +1,12 @@
+[{"area": {
+    "name": "tohell",
+    "filename": "tohell.are",
+    "title": "Hell",
+    "credits": "{32 51} Strahd  Descent to Hell",
+    "low_range": 0,
+    "high_range": 0,
+    "min_vnum": 10400,
+    "max_vnum": 10599,
+    "builders": "None",
+    "security": 9
+}}]

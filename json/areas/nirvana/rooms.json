@@ -1,0 +1,2432 @@
+[
+    {"room": {
+        "area": "nirvana",
+        "anum": 0,
+        "owner": null,
+        "name": "Entrance to the Plane of Nirvana",
+        "description": "You stand before the entrance to a plane of absolute balance and order.  It is\nequally hot and cold, equally light and dark, and made of equal parts of solid\nand liquid.\n \nThe plane extends to the west and east, while an exit lies downward.\n",
+        "room_flags": null,
+        "sector_type": "field",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [
+            {
+                "dir": "east",
+                "to": 1,
+                "keyword": null,
+                "description": "To the east, the plane extends for what seems to be forever.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "west",
+                "to": 2,
+                "keyword": null,
+                "description": "To the west, the plane extends for what seems to be forever.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "down",
+                "to": null,
+                "keyword": null,
+                "description": "Downwards, you see the portal leading back to home.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": "nirvana-1-down"
+            }
+        ],
+        "extra_description": [],
+        "resets": []
+    }},
+    {"room": {
+        "area": "nirvana",
+        "anum": 1,
+        "owner": null,
+        "name": "The Plane of Nirvana",
+        "description": "You are traveling the Plane of Nirvana.  It has endless boundaries to the east\nand west\n",
+        "room_flags": null,
+        "sector_type": "field",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [
+            {
+                "dir": "east",
+                "to": 3,
+                "keyword": null,
+                "description": "To the east, there seems to be a bend in direction of travel.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "west",
+                "to": 0,
+                "keyword": null,
+                "description": "To the west, the plane seems to extend forever.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            }
+        ],
+        "extra_description": [],
+        "resets": [{
+            "command": "mobile",
+            "values": {
+                "mob": 1,
+                "global_limit": 9,
+                "room_limit": 3
+            }
+        }]
+    }},
+    {"room": {
+        "area": "nirvana",
+        "anum": 2,
+        "owner": null,
+        "name": "The Plane of Nirvana",
+        "description": "You are on a western strech of the plane.  Boundaries to the east and west seem \nnonexistent.\n",
+        "room_flags": null,
+        "sector_type": "field",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [
+            {
+                "dir": "east",
+                "to": 0,
+                "keyword": null,
+                "description": "The plane seems to strech forever to the east\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "west",
+                "to": 4,
+                "keyword": null,
+                "description": "The plane continues to the west where is appears to change direction\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            }
+        ],
+        "extra_description": [],
+        "resets": [{
+            "command": "mobile",
+            "values": {
+                "mob": 0,
+                "global_limit": 10,
+                "room_limit": 2
+            }
+        }]
+    }},
+    {"room": {
+        "area": "nirvana",
+        "anum": 3,
+        "owner": null,
+        "name": "A Change in Direction",
+        "description": "Here, the plane seems to direct you to the north.  Also, the plane continues \nto the west.\n",
+        "room_flags": null,
+        "sector_type": "field",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [
+            {
+                "dir": "north",
+                "to": 5,
+                "keyword": null,
+                "description": "The plane continues to the north with no end in sight\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "west",
+                "to": 1,
+                "keyword": null,
+                "description": "The plane contiues to the west with no end in sight\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            }
+        ],
+        "extra_description": [],
+        "resets": [{
+            "command": "mobile",
+            "values": {
+                "mob": 0,
+                "global_limit": 10,
+                "room_limit": 2
+            }
+        }]
+    }},
+    {"room": {
+        "area": "nirvana",
+        "anum": 4,
+        "owner": null,
+        "name": "A Change in Direction",
+        "description": "Here, the plane goes to the north and bends to the east\n",
+        "room_flags": null,
+        "sector_type": "field",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [
+            {
+                "dir": "north",
+                "to": 6,
+                "keyword": null,
+                "description": "The vast plane seems to have no end to the north\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "east",
+                "to": 2,
+                "keyword": null,
+                "description": "To the east, the plane has no visible end\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            }
+        ],
+        "extra_description": [],
+        "resets": []
+    }},
+    {"room": {
+        "area": "nirvana",
+        "anum": 5,
+        "owner": null,
+        "name": "A North-South direction of the plane",
+        "description": "The plane continues to the north and south\n",
+        "room_flags": null,
+        "sector_type": "field",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [
+            {
+                "dir": "north",
+                "to": 12,
+                "keyword": null,
+                "description": "To the north, the plane stretches as far as the eye can see.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "south",
+                "to": 3,
+                "keyword": null,
+                "description": "To the south, the plane stretches as far as the eye can see.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            }
+        ],
+        "extra_description": [],
+        "resets": []
+    }},
+    {"room": {
+        "area": "nirvana",
+        "anum": 6,
+        "owner": null,
+        "name": "A North-South stretch of the plane",
+        "description": "The plane continues to the north and the south\n",
+        "room_flags": null,
+        "sector_type": "field",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [
+            {
+                "dir": "north",
+                "to": 13,
+                "keyword": null,
+                "description": "To the north, the plane stretches as far as the eye can see.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "south",
+                "to": 4,
+                "keyword": null,
+                "description": "To the south, the plane stretches as far as the eye can see.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            }
+        ],
+        "extra_description": [],
+        "resets": []
+    }},
+    {"room": {
+        "area": "nirvana",
+        "anum": 7,
+        "owner": null,
+        "name": "In the Tower of Nirvana",
+        "description": "Entering the tower, there seems to be enough light to see by, but no source is \nvisible.  The hall continues to the east, while a door lies to the west.\n",
+        "room_flags": "indoors",
+        "sector_type": "inside",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [
+            {
+                "dir": "east",
+                "to": 10,
+                "keyword": null,
+                "description": "The hall continues east into oblivion.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "west",
+                "to": 13,
+                "keyword": "door",
+                "description": "A great door lies to the west\n",
+                "exit_flags": "door pickproof",
+                "key": -1,
+                "portal": null
+            }
+        ],
+        "extra_description": [],
+        "resets": []
+    }},
+    {"room": {
+        "area": "nirvana",
+        "anum": 8,
+        "owner": null,
+        "name": "A hallway in the Tower of Nirvana",
+        "description": "You are in a east-west hallway in the tower.  to the west, the hall continues \nand a door lies to the east.\n",
+        "room_flags": "indoors",
+        "sector_type": "inside",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [
+            {
+                "dir": "east",
+                "to": 12,
+                "keyword": "door",
+                "description": "A great door lies to the east\n",
+                "exit_flags": "door pickproof",
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "west",
+                "to": 9,
+                "keyword": null,
+                "description": "the hallway continues west into oblivion.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            }
+        ],
+        "extra_description": [],
+        "resets": []
+    }},
+    {"room": {
+        "area": "nirvana",
+        "anum": 9,
+        "owner": null,
+        "name": "An east-west hallway in the Tower of Nirvana",
+        "description": "The hallway continues to the east, and stretches to the west.\n",
+        "room_flags": "indoors",
+        "sector_type": "inside",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [
+            {
+                "dir": "east",
+                "to": 8,
+                "keyword": null,
+                "description": "The hallway continues east into oblivion.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "west",
+                "to": 11,
+                "keyword": null,
+                "description": "The Hallway continues west into oblivion.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            }
+        ],
+        "extra_description": [],
+        "resets": []
+    }},
+    {"room": {
+        "area": "nirvana",
+        "anum": 10,
+        "owner": null,
+        "name": "An east-west passage in the Tower of Nirvana",
+        "description": null,
+        "room_flags": "indoors",
+        "sector_type": "inside",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [
+            {
+                "dir": "east",
+                "to": 11,
+                "keyword": null,
+                "description": "The Hallway contiues east into oblivion\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "west",
+                "to": 7,
+                "keyword": null,
+                "description": "The Hallway contiues west into oblivion\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            }
+        ],
+        "extra_description": [],
+        "resets": []
+    }},
+    {"room": {
+        "area": "nirvana",
+        "anum": 11,
+        "owner": null,
+        "name": "An intersection in the Tower of Nirvana",
+        "description": "You are at an intersection where the east-west passage continues, but a large \npassage leads to the north.\n",
+        "room_flags": "indoors",
+        "sector_type": "inside",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [
+            {
+                "dir": "north",
+                "to": 23,
+                "keyword": null,
+                "description": "The passage continues to the north where it seems to get wider.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "east",
+                "to": 9,
+                "keyword": null,
+                "description": "The passage ontinues eastward into oblivion.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "west",
+                "to": 10,
+                "keyword": null,
+                "description": "The passage continues westward into oblivion.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            }
+        ],
+        "extra_description": [],
+        "resets": [{
+            "command": "mobile",
+            "values": {
+                "mob": 2,
+                "global_limit": 6,
+                "room_limit": 1
+            }
+        }]
+    }},
+    {"room": {
+        "area": "nirvana",
+        "anum": 12,
+        "owner": null,
+        "name": "At the door to the Tower of Nirvana",
+        "description": "You stand on the plane where a mighty door lies to the west.\nThe plane also continues north and southward.  There is a large sign on the \ndoor.\n",
+        "room_flags": null,
+        "sector_type": "field",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [
+            {
+                "dir": "north",
+                "to": 14,
+                "keyword": null,
+                "description": "The plane continues northward as far as the eye can see.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "south",
+                "to": 5,
+                "keyword": null,
+                "description": "The plane continues southward as far as the eye can see.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "west",
+                "to": 8,
+                "keyword": "door",
+                "description": "A mighty door lies to the west\n",
+                "exit_flags": "door pickproof",
+                "key": -1,
+                "portal": null
+            }
+        ],
+        "extra_description": [{
+            "keyword": "sign",
+            "description": "The sign reads:\n                     WARNING\nOnly those brave of heart and high of level should\nenter the Tower of Nirvana.\n"
+        }],
+        "resets": [{
+            "command": "mobile",
+            "values": {
+                "mob": 1,
+                "global_limit": 9,
+                "room_limit": 3
+            }
+        }]
+    }},
+    {"room": {
+        "area": "nirvana",
+        "anum": 13,
+        "owner": null,
+        "name": "At the door to the Tower of Nirvana",
+        "description": "The plane continue to the north and south, while a mighty door lies to the \neast.  There is a sign on the door.\n",
+        "room_flags": null,
+        "sector_type": "field",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [
+            {
+                "dir": "north",
+                "to": 15,
+                "keyword": null,
+                "description": "The plane stretches to the north as far as the eye can see.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "east",
+                "to": 7,
+                "keyword": "door",
+                "description": "A mighty door sits to the east\n",
+                "exit_flags": "door pickproof",
+                "key": 0,
+                "portal": null
+            },
+            {
+                "dir": "south",
+                "to": 6,
+                "keyword": null,
+                "description": "The plane continues to the south as far as the eye can see\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            }
+        ],
+        "extra_description": [{
+            "keyword": "sign",
+            "description": "The sign reads:\n                  WARNING!\nOnly those brave of heart and high of level\nshould attempt to enter the Tower of Nirvana.\n"
+        }],
+        "resets": [{
+            "command": "mobile",
+            "values": {
+                "mob": 0,
+                "global_limit": 10,
+                "room_limit": 2
+            }
+        }]
+    }},
+    {"room": {
+        "area": "nirvana",
+        "anum": 14,
+        "owner": null,
+        "name": "A north-south area of the Plane of Nirvana",
+        "description": "The plane continues to the north and southward.\n",
+        "room_flags": null,
+        "sector_type": "field",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [
+            {
+                "dir": "north",
+                "to": 27,
+                "keyword": null,
+                "description": "The plane continues endlessly to the north.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "south",
+                "to": 12,
+                "keyword": null,
+                "description": "The plane continues endlessly to the south.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            }
+        ],
+        "extra_description": [],
+        "resets": []
+    }},
+    {"room": {
+        "area": "nirvana",
+        "anum": 15,
+        "owner": null,
+        "name": "A north-south area on the Plane of Nirvana",
+        "description": "the plane continues to the north and south\n",
+        "room_flags": null,
+        "sector_type": "field",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [
+            {
+                "dir": "north",
+                "to": 28,
+                "keyword": null,
+                "description": "The plane continues endlessly to the north\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "south",
+                "to": 13,
+                "keyword": null,
+                "description": "The plane continues endlessly to the south\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            }
+        ],
+        "extra_description": [],
+        "resets": []
+    }},
+    {"room": {
+        "area": "nirvana",
+        "anum": 16,
+        "owner": null,
+        "name": "Dead End",
+        "description": "You stand at a dead end where the only exit appears to be west.\n",
+        "room_flags": "indoors",
+        "sector_type": "inside",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [{
+            "dir": "west",
+            "to": 18,
+            "keyword": null,
+            "description": "The passage continue to the west.\n",
+            "exit_flags": null,
+            "key": -1,
+            "portal": null
+        }],
+        "extra_description": [],
+        "resets": [{
+            "command": "mobile",
+            "values": {
+                "mob": 8,
+                "global_limit": 4,
+                "room_limit": 1
+            }
+        }]
+    }},
+    {"room": {
+        "area": "nirvana",
+        "anum": 17,
+        "owner": null,
+        "name": "Dead End",
+        "description": "You are at what appears to be a dead end.  The only exit is back east.\n",
+        "room_flags": "indoors",
+        "sector_type": "inside",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [{
+            "dir": "east",
+            "to": 19,
+            "keyword": null,
+            "description": "The passage continues to the east.\n",
+            "exit_flags": null,
+            "key": -1,
+            "portal": null
+        }],
+        "extra_description": [],
+        "resets": [{
+            "command": "mobile",
+            "values": {
+                "mob": 8,
+                "global_limit": 4,
+                "room_limit": 1
+            }
+        }]
+    }},
+    {"room": {
+        "area": "nirvana",
+        "anum": 18,
+        "owner": null,
+        "name": "A Tertain's lair",
+        "description": "You quite possibly have made a terrible mistake coming in here.\nExits lead east and west.\n",
+        "room_flags": "indoors",
+        "sector_type": "inside",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [
+            {
+                "dir": "east",
+                "to": 16,
+                "keyword": null,
+                "description": "The passage continues to the east\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "west",
+                "to": 20,
+                "keyword": null,
+                "description": "The passage leads west where you can see a bright light ahead.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            }
+        ],
+        "extra_description": [],
+        "resets": [{
+            "command": "mobile",
+            "values": {
+                "mob": 9,
+                "global_limit": 4,
+                "room_limit": 1
+            }
+        }]
+    }},
+    {"room": {
+        "area": "nirvana",
+        "anum": 19,
+        "owner": null,
+        "name": "A Tertian's lair",
+        "description": "You might have made a terrible mistake coming into here.\nExits lead east and west.\n",
+        "room_flags": "indoors",
+        "sector_type": "inside",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [
+            {
+                "dir": "east",
+                "to": 20,
+                "keyword": null,
+                "description": "The passage continues eastward where you can see a bright light.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "west",
+                "to": 17,
+                "keyword": null,
+                "description": "The passage continues westward into oblivion.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            }
+        ],
+        "extra_description": [],
+        "resets": [{
+            "command": "mobile",
+            "values": {
+                "mob": 9,
+                "global_limit": 4,
+                "room_limit": 1
+            }
+        }]
+    }},
+    {"room": {
+        "area": "nirvana",
+        "anum": 20,
+        "owner": null,
+        "name": "The Lair of Primus",
+        "description": "You are in a large hall, with a massive pool of what appears to be pure energy \nin the center of the room.  Exits lead in all the cardinal directions.  From \nthe pool rises the master of the Plane of Nirvana....\n",
+        "room_flags": "indoors",
+        "sector_type": "inside",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [
+            {
+                "dir": "north",
+                "to": 24,
+                "keyword": null,
+                "description": "A passage leads north into the unknown.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "east",
+                "to": 18,
+                "keyword": null,
+                "description": "A passage leads east into the unknown.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "south",
+                "to": 21,
+                "keyword": null,
+                "description": "A passage leads south into the unknown.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "west",
+                "to": 19,
+                "keyword": null,
+                "description": "A passage leads west into the unknown.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            }
+        ],
+        "extra_description": [],
+        "resets": [
+            {
+                "command": "mobile",
+                "values": {
+                    "mob": 11,
+                    "global_limit": 1,
+                    "room_limit": 1
+                }
+            },
+            {
+                "command": "equip",
+                "values": {
+                    "obj": 0,
+                    "wear_loc": "wielded",
+                    "global_limit": 2
+                }
+            }
+        ]
+    }},
+    {"room": {
+        "area": "nirvana",
+        "anum": 21,
+        "owner": null,
+        "name": "A Tertian's lair",
+        "description": "Maybe coming here wasn't such a hot idea.  You feel very unwelcome here.  \nExits lead north and south\n",
+        "room_flags": "indoors",
+        "sector_type": "inside",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [
+            {
+                "dir": "north",
+                "to": 20,
+                "keyword": null,
+                "description": "The passage leads north where you can see a bright light.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "south",
+                "to": 22,
+                "keyword": null,
+                "description": "The passage leads south into the unknown.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            }
+        ],
+        "extra_description": [],
+        "resets": [{
+            "command": "mobile",
+            "values": {
+                "mob": 9,
+                "global_limit": 4,
+                "room_limit": 1
+            }
+        }]
+    }},
+    {"room": {
+        "area": "nirvana",
+        "anum": 22,
+        "owner": null,
+        "name": "The office of a Quinton",
+        "description": "You have stumbled upon the office of a page to Primus.\nScrolls lie about the room along with many strange objects...you can't imagine \nwhat kind of creature would use them.  Exits lead in all the cardinal \ndirections.\n",
+        "room_flags": "indoors",
+        "sector_type": "inside",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [
+            {
+                "dir": "north",
+                "to": 21,
+                "keyword": null,
+                "description": "The passage heads northward where you can see nothing.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "east",
+                "to": 46,
+                "keyword": null,
+                "description": "The passage goes east where you feel it might be bad to go.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "south",
+                "to": 23,
+                "keyword": null,
+                "description": "The passage goes south into oblivion.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "west",
+                "to": 53,
+                "keyword": null,
+                "description": "The passage heads westward into oblivion.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            }
+        ],
+        "extra_description": [],
+        "resets": [{
+            "command": "mobile",
+            "values": {
+                "mob": 8,
+                "global_limit": 4,
+                "room_limit": 1
+            }
+        }]
+    }},
+    {"room": {
+        "area": "nirvana",
+        "anum": 23,
+        "owner": null,
+        "name": "A wide north-south passageway",
+        "description": "you find yourself in a passage where the exits are north and south\n",
+        "room_flags": "indoors",
+        "sector_type": "inside",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [
+            {
+                "dir": "north",
+                "to": 22,
+                "keyword": null,
+                "description": "To the north, you spy an intersection of tunnels.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "south",
+                "to": 11,
+                "keyword": null,
+                "description": "To the south you can barely make out a junction of passageways.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            }
+        ],
+        "extra_description": [],
+        "resets": []
+    }},
+    {"room": {
+        "area": "nirvana",
+        "anum": 24,
+        "owner": null,
+        "name": "A Tertian's lair",
+        "description": "You find yourself in a lair of a Tertian.  Exits lead north and south.\n",
+        "room_flags": "indoors",
+        "sector_type": "inside",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [
+            {
+                "dir": "north",
+                "to": 25,
+                "keyword": null,
+                "description": "To the north, you can make out a intersection of tunnels.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "south",
+                "to": 20,
+                "keyword": null,
+                "description": "To the south, you can see a bright light.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            }
+        ],
+        "extra_description": [],
+        "resets": [{
+            "command": "mobile",
+            "values": {
+                "mob": 9,
+                "global_limit": 4,
+                "room_limit": 1
+            }
+        }]
+    }},
+    {"room": {
+        "area": "nirvana",
+        "anum": 25,
+        "owner": null,
+        "name": "A north south tunnel",
+        "description": "You are in a passage where the only exits are north and south.\n",
+        "room_flags": "indoors",
+        "sector_type": "inside",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [
+            {
+                "dir": "north",
+                "to": 26,
+                "keyword": null,
+                "description": "Far to the north you can see a door.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "south",
+                "to": 24,
+                "keyword": null,
+                "description": "To the south you stare into darkness.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            }
+        ],
+        "extra_description": [],
+        "resets": [{
+            "command": "mobile",
+            "values": {
+                "mob": 8,
+                "global_limit": 4,
+                "room_limit": 1
+            }
+        }]
+    }},
+    {"room": {
+        "area": "nirvana",
+        "anum": 26,
+        "owner": null,
+        "name": "An intersection of passages",
+        "description": "You stand at an intersection.  Exits lead off to the east and south. \nA door lies to the north\n",
+        "room_flags": "indoors",
+        "sector_type": "inside",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [
+            {
+                "dir": "north",
+                "to": 31,
+                "keyword": "door",
+                "description": "you see a massive door\n",
+                "exit_flags": "door pickproof",
+                "key": 0,
+                "portal": null
+            },
+            {
+                "dir": "east",
+                "to": 32,
+                "keyword": null,
+                "description": "To the east, you spy a dark passage\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "south",
+                "to": 25,
+                "keyword": null,
+                "description": "To the south you stare into oblivion.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            }
+        ],
+        "extra_description": [],
+        "resets": []
+    }},
+    {"room": {
+        "area": "nirvana",
+        "anum": 27,
+        "owner": null,
+        "name": "A change of direction",
+        "description": "The plane curves from the south to west\n",
+        "room_flags": null,
+        "sector_type": "field",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [
+            {
+                "dir": "south",
+                "to": 14,
+                "keyword": null,
+                "description": "looking south, you see the plane extending beyond view.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "west",
+                "to": 30,
+                "keyword": null,
+                "description": "looking west, you can't fathom how far the plane extends.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            }
+        ],
+        "extra_description": [],
+        "resets": [{
+            "command": "mobile",
+            "values": {
+                "mob": 0,
+                "global_limit": 10,
+                "room_limit": 2
+            }
+        }]
+    }},
+    {"room": {
+        "area": "nirvana",
+        "anum": 28,
+        "owner": null,
+        "name": "A change of direction",
+        "description": "Here, the plane takes a turm from the south to heading east.\n",
+        "room_flags": null,
+        "sector_type": "field",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [
+            {
+                "dir": "east",
+                "to": 29,
+                "keyword": null,
+                "description": "The plane heads east from here. You can't see the end of it.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "south",
+                "to": 15,
+                "keyword": null,
+                "description": "Looking south, you view the plane extending for miles.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            }
+        ],
+        "extra_description": [],
+        "resets": [{
+            "command": "mobile",
+            "values": {
+                "mob": 1,
+                "global_limit": 9,
+                "room_limit": 3
+            }
+        }]
+    }},
+    {"room": {
+        "area": "nirvana",
+        "anum": 29,
+        "owner": null,
+        "name": "An east-west route on the Plane of Nirvana",
+        "description": "Exits lead east and west.\n",
+        "room_flags": null,
+        "sector_type": "field",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [
+            {
+                "dir": "east",
+                "to": 31,
+                "keyword": null,
+                "description": "looking east, you spy a door far off in the distance.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "west",
+                "to": 28,
+                "keyword": null,
+                "description": "looking west, in the distance you can spy a curve south.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            }
+        ],
+        "extra_description": [],
+        "resets": [{
+            "command": "mobile",
+            "values": {
+                "mob": 0,
+                "global_limit": 10,
+                "room_limit": 2
+            }
+        }]
+    }},
+    {"room": {
+        "area": "nirvana",
+        "anum": 30,
+        "owner": null,
+        "name": "An east-west route on The Plane of Nirvana",
+        "description": "Exits lead east and west\n",
+        "room_flags": null,
+        "sector_type": "field",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [
+            {
+                "dir": "east",
+                "to": 27,
+                "keyword": null,
+                "description": "looking east, you can see a bend in the distance.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "west",
+                "to": 31,
+                "keyword": null,
+                "description": "glancing west, you can spy a door far off in the distance.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            }
+        ],
+        "extra_description": [],
+        "resets": []
+    }},
+    {"room": {
+        "area": "nirvana",
+        "anum": 31,
+        "owner": null,
+        "name": "A large door in the passage",
+        "description": "The passages goes east and west, with a large door to the south.\n",
+        "room_flags": null,
+        "sector_type": "field",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [
+            {
+                "dir": "east",
+                "to": 30,
+                "keyword": null,
+                "description": "looking east, you see more of the passage.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "south",
+                "to": 26,
+                "keyword": "door",
+                "description": "A large door blocks the way to the south.\n",
+                "exit_flags": "door pickproof",
+                "key": 0,
+                "portal": null
+            },
+            {
+                "dir": "west",
+                "to": 29,
+                "keyword": null,
+                "description": "looking west, you see more of the passage.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            }
+        ],
+        "extra_description": [],
+        "resets": [{
+            "command": "mobile",
+            "values": {
+                "mob": 2,
+                "global_limit": 6,
+                "room_limit": 1
+            }
+        }]
+    }},
+    {"room": {
+        "area": "nirvana",
+        "anum": 32,
+        "owner": null,
+        "name": "A Junction in the passage",
+        "description": "Here, passages lead off in all cardinal directions.\n",
+        "room_flags": "indoors",
+        "sector_type": "inside",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [
+            {
+                "dir": "north",
+                "to": 33,
+                "keyword": null,
+                "description": "Looking north, you spy a small room in the distance\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "east",
+                "to": 35,
+                "keyword": null,
+                "description": "Eastward, the passage continues in the darkness.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "south",
+                "to": 34,
+                "keyword": null,
+                "description": "South of here is a small room.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "west",
+                "to": 26,
+                "keyword": null,
+                "description": "West, you spy an intersection.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            }
+        ],
+        "extra_description": [],
+        "resets": []
+    }},
+    {"room": {
+        "area": "nirvana",
+        "anum": 33,
+        "owner": null,
+        "name": "The office of the Octon",
+        "description": "you are in a small room, the only exit is south.\n",
+        "room_flags": "indoors",
+        "sector_type": "inside",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [{
+            "dir": "south",
+            "to": 32,
+            "keyword": null,
+            "description": "looking south, you see an intersection.\n",
+            "exit_flags": null,
+            "key": -1,
+            "portal": null
+        }],
+        "extra_description": [],
+        "resets": [{
+            "command": "mobile",
+            "values": {
+                "mob": 5,
+                "global_limit": 4,
+                "room_limit": 1
+            }
+        }]
+    }},
+    {"room": {
+        "area": "nirvana",
+        "anum": 34,
+        "owner": null,
+        "name": "A small room",
+        "description": "The only exit is north\n",
+        "room_flags": "indoors",
+        "sector_type": "inside",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [{
+            "dir": "north",
+            "to": 32,
+            "keyword": null,
+            "description": "Looking north, you spy an intersection.\n",
+            "exit_flags": null,
+            "key": -1,
+            "portal": null
+        }],
+        "extra_description": [],
+        "resets": [{
+            "command": "mobile",
+            "values": {
+                "mob": 6,
+                "global_limit": 2,
+                "room_limit": 1
+            }
+        }]
+    }},
+    {"room": {
+        "area": "nirvana",
+        "anum": 35,
+        "owner": null,
+        "name": "A passageway",
+        "description": "Exits lead in all cardinal directions.\n",
+        "room_flags": "indoors",
+        "sector_type": "inside",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [
+            {
+                "dir": "north",
+                "to": 36,
+                "keyword": null,
+                "description": "Looking north you spy a average sized room.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "east",
+                "to": 38,
+                "keyword": null,
+                "description": "Looking east, you can make out a large room\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "south",
+                "to": 37,
+                "keyword": null,
+                "description": "Looking south, you can see an average room.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "west",
+                "to": 32,
+                "keyword": null,
+                "description": "Looking west, you can see an intersection ahead.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            }
+        ],
+        "extra_description": [],
+        "resets": []
+    }},
+    {"room": {
+        "area": "nirvana",
+        "anum": 36,
+        "owner": null,
+        "name": "Lair of a Hexton",
+        "description": "You are in a room that is in complete disrepair.  Items are thrown throughout \nthe room making them worthless piles of junk.\nThe only exit is back south\n",
+        "room_flags": "indoors",
+        "sector_type": "inside",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [{
+            "dir": "south",
+            "to": 35,
+            "keyword": null,
+            "description": "Looking south, you can make out a passage.\n",
+            "exit_flags": null,
+            "key": -1,
+            "portal": null
+        }],
+        "extra_description": [],
+        "resets": [{
+            "command": "mobile",
+            "values": {
+                "mob": 7,
+                "global_limit": 8,
+                "room_limit": 1
+            }
+        }]
+    }},
+    {"room": {
+        "area": "nirvana",
+        "anum": 37,
+        "owner": null,
+        "name": "Office of a Hexton",
+        "description": "A makeshift desk forms the center of this room.  The only exit is north.\n",
+        "room_flags": "indoors",
+        "sector_type": "inside",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [{
+            "dir": "north",
+            "to": 35,
+            "keyword": null,
+            "description": "Looking north, you can make out a hallway.\n",
+            "exit_flags": null,
+            "key": -1,
+            "portal": null
+        }],
+        "extra_description": [],
+        "resets": [{
+            "command": "mobile",
+            "values": {
+                "mob": 7,
+                "global_limit": 8,
+                "room_limit": 1
+            }
+        }]
+    }},
+    {"room": {
+        "area": "nirvana",
+        "anum": 38,
+        "owner": null,
+        "name": "Office of a Secundus",
+        "description": "You are standing in a office of one of the Viceroys of the Plane of Nirvana.  \nThe occupant doesn't look real thrilled with your presence.  The only exits is \nwest.\n",
+        "room_flags": "indoors",
+        "sector_type": "inside",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [{
+            "dir": "west",
+            "to": 35,
+            "keyword": null,
+            "description": "Looking west you can see a long hallway\n",
+            "exit_flags": null,
+            "key": -1,
+            "portal": null
+        }],
+        "extra_description": [],
+        "resets": [
+            {
+                "command": "mobile",
+                "values": {
+                    "mob": 2,
+                    "global_limit": 6,
+                    "room_limit": 1
+                }
+            },
+            {
+                "command": "mobile",
+                "values": {
+                    "mob": 10,
+                    "global_limit": 4,
+                    "room_limit": 1
+                }
+            }
+        ]
+    }},
+    {"room": {
+        "area": "nirvana",
+        "anum": 39,
+        "owner": null,
+        "name": "A Junction in the hallway",
+        "description": "Your are standing in a junction, exits lead in all the cardinal directions.\n",
+        "room_flags": "indoors",
+        "sector_type": "inside",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [
+            {
+                "dir": "north",
+                "to": 40,
+                "keyword": null,
+                "description": "To the north, you spy a small room\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "east",
+                "to": 25,
+                "keyword": null,
+                "description": "To the east, you see a quadruple junction\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "south",
+                "to": 41,
+                "keyword": null,
+                "description": "To the south you see a small room\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "west",
+                "to": 42,
+                "keyword": null,
+                "description": "To the west, the passageway continues\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            }
+        ],
+        "extra_description": [],
+        "resets": []
+    }},
+    {"room": {
+        "area": "nirvana",
+        "anum": 40,
+        "owner": null,
+        "name": "Office of an Octon",
+        "description": "You see a messy room with papers scattered everywhere.\nThe only exit leads back to the south\n",
+        "room_flags": "indoors",
+        "sector_type": "inside",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [{
+            "dir": "south",
+            "to": 39,
+            "keyword": null,
+            "description": "To the south you can make out a junction.\n",
+            "exit_flags": null,
+            "key": -1,
+            "portal": null
+        }],
+        "extra_description": [],
+        "resets": [{
+            "command": "mobile",
+            "values": {
+                "mob": 5,
+                "global_limit": 4,
+                "room_limit": 1
+            }
+        }]
+    }},
+    {"room": {
+        "area": "nirvana",
+        "anum": 41,
+        "owner": null,
+        "name": "Office of a Septon",
+        "description": "A neat and tidy room, it appear to be inhabited my a neatenss freak.  The only \nexit lies to the north.\n",
+        "room_flags": "indoors",
+        "sector_type": "inside",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [{
+            "dir": "north",
+            "to": 39,
+            "keyword": null,
+            "description": "To the north you see a junction.\n",
+            "exit_flags": null,
+            "key": -1,
+            "portal": null
+        }],
+        "extra_description": [],
+        "resets": [{
+            "command": "mobile",
+            "values": {
+                "mob": 6,
+                "global_limit": 2,
+                "room_limit": 1
+            }
+        }]
+    }},
+    {"room": {
+        "area": "nirvana",
+        "anum": 42,
+        "owner": null,
+        "name": "An east-west passage",
+        "description": "In east west passage is here with exits in all of the cardinal directions.\n",
+        "room_flags": "indoors",
+        "sector_type": "inside",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [
+            {
+                "dir": "north",
+                "to": 43,
+                "keyword": null,
+                "description": "You can see a room to the north.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "east",
+                "to": 39,
+                "keyword": null,
+                "description": "To the east you can see a junction\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "south",
+                "to": 44,
+                "keyword": null,
+                "description": "To the south you can make out a averaged sized room.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "west",
+                "to": 45,
+                "keyword": null,
+                "description": "To the west you can see what appears to be a cavernous room.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            }
+        ],
+        "extra_description": [],
+        "resets": []
+    }},
+    {"room": {
+        "area": "nirvana",
+        "anum": 43,
+        "owner": null,
+        "name": "The Barracks",
+        "description": "A dusty room, with a almost untolerable odor, the barracks are being inspected \nby a Hexton and his personal enterage.\nThe only exit lies to the south.\n",
+        "room_flags": "indoors",
+        "sector_type": "inside",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [{
+            "dir": "south",
+            "to": 42,
+            "keyword": null,
+            "description": "To the south you can see junction\n",
+            "exit_flags": null,
+            "key": -1,
+            "portal": null
+        }],
+        "extra_description": [],
+        "resets": [{
+            "command": "mobile",
+            "values": {
+                "mob": 7,
+                "global_limit": 8,
+                "room_limit": 1
+            }
+        }]
+    }},
+    {"room": {
+        "area": "nirvana",
+        "anum": 44,
+        "owner": null,
+        "name": "The Commander's Post",
+        "description": "You have stumbled on to the office of the Commander of the forces in the Plane \nOf Nirvana.  The room is well furnished and a sense of courage and bravery \novertakes you as you enter the room.  The only exit lies to the north.\n",
+        "room_flags": "indoors",
+        "sector_type": "inside",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [{
+            "dir": "north",
+            "to": 42,
+            "keyword": null,
+            "description": "To the north you can visualize a junction of passages.\n",
+            "exit_flags": null,
+            "key": -1,
+            "portal": null
+        }],
+        "extra_description": [],
+        "resets": [{
+            "command": "mobile",
+            "values": {
+                "mob": 7,
+                "global_limit": 8,
+                "room_limit": 1
+            }
+        }]
+    }},
+    {"room": {
+        "area": "nirvana",
+        "anum": 45,
+        "owner": null,
+        "name": "The chamber of the second Secundus",
+        "description": "This huge room is furnished with the finest, and a personal legion guards the \nSecundus. the only exit is to the east.\n",
+        "room_flags": "indoors",
+        "sector_type": "inside",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [{
+            "dir": "east",
+            "to": 42,
+            "keyword": null,
+            "description": "To the east you can see a junction\n",
+            "exit_flags": null,
+            "key": -1,
+            "portal": null
+        }],
+        "extra_description": [],
+        "resets": [
+            {
+                "command": "mobile",
+                "values": {
+                    "mob": 2,
+                    "global_limit": 6,
+                    "room_limit": 1
+                }
+            },
+            {
+                "command": "mobile",
+                "values": {
+                    "mob": 10,
+                    "global_limit": 4,
+                    "room_limit": 1
+                }
+            }
+        ]
+    }},
+    {"room": {
+        "area": "nirvana",
+        "anum": 46,
+        "owner": null,
+        "name": "A Passageway",
+        "description": "You are in a well lit passage.  A sense of forboding danger envelopes you.  \nExits lead in all cardinal directions.\n",
+        "room_flags": "indoors",
+        "sector_type": "inside",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [
+            {
+                "dir": "north",
+                "to": 47,
+                "keyword": null,
+                "description": "To the north you can see a small chamber\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "east",
+                "to": 49,
+                "keyword": null,
+                "description": "To the east, the passage continues,.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "south",
+                "to": 48,
+                "keyword": null,
+                "description": "To the south, a chamber can be seen\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "west",
+                "to": 22,
+                "keyword": null,
+                "description": "To the west, a large tunnel can be found.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            }
+        ],
+        "extra_description": [],
+        "resets": []
+    }},
+    {"room": {
+        "area": "nirvana",
+        "anum": 47,
+        "owner": null,
+        "name": "Chamber of the Octon",
+        "description": "A small room, sparsely furnished, it leaves you with a sense of fear.  The \nonly exit is to the south\n",
+        "room_flags": "indoors",
+        "sector_type": "inside",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [{
+            "dir": "south",
+            "to": 46,
+            "keyword": null,
+            "description": "To the south you can see a passage.\n",
+            "exit_flags": null,
+            "key": -1,
+            "portal": null
+        }],
+        "extra_description": [],
+        "resets": [{
+            "command": "mobile",
+            "values": {
+                "mob": 5,
+                "global_limit": 4,
+                "room_limit": 1
+            }
+        }]
+    }},
+    {"room": {
+        "area": "nirvana",
+        "anum": 48,
+        "owner": null,
+        "name": "Chamber of the Nonaton",
+        "description": "You have entered the chamber of the principal law and order overseers.  The \nonly exit lies to the north\n",
+        "room_flags": "indoors",
+        "sector_type": "inside",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [{
+            "dir": "north",
+            "to": 46,
+            "keyword": null,
+            "description": "To the north you can see a passageway.\n",
+            "exit_flags": null,
+            "key": -1,
+            "portal": null
+        }],
+        "extra_description": [],
+        "resets": [
+            {
+                "command": "mobile",
+                "values": {
+                    "mob": 4,
+                    "global_limit": 1,
+                    "room_limit": 1
+                }
+            },
+            {
+                "command": "give",
+                "values": {
+                    "obj": 1,
+                    "global_limit": -1
+                }
+            }
+        ]
+    }},
+    {"room": {
+        "area": "nirvana",
+        "anum": 49,
+        "owner": null,
+        "name": "End of the passageway",
+        "description": "You have reached the end of a long east-west passage.  The passage contiues to \nthe west, and rooms lie to the north, south, and east.\n",
+        "room_flags": "indoors",
+        "sector_type": "inside",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [
+            {
+                "dir": "north",
+                "to": 50,
+                "keyword": null,
+                "description": "To the north you can see a room\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "east",
+                "to": 52,
+                "keyword": null,
+                "description": "To the east you can make out a large chamber\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "south",
+                "to": 51,
+                "keyword": null,
+                "description": "To the south, a room can be seen.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "west",
+                "to": 46,
+                "keyword": null,
+                "description": "to the west, the passageway continues\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            }
+        ],
+        "extra_description": [],
+        "resets": []
+    }},
+    {"room": {
+        "area": "nirvana",
+        "anum": 50,
+        "owner": null,
+        "name": "Chamber of a Hexton",
+        "description": "You have entered the chamber of a Hexton.  Trophies adorn the walls, some of \nwhich are human. the only exit is to the south.\n",
+        "room_flags": "indoors",
+        "sector_type": "inside",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [{
+            "dir": "south",
+            "to": 49,
+            "keyword": null,
+            "description": "To the south you can see a passageway.\n",
+            "exit_flags": null,
+            "key": -1,
+            "portal": null
+        }],
+        "extra_description": [],
+        "resets": [{
+            "command": "mobile",
+            "values": {
+                "mob": 7,
+                "global_limit": 8,
+                "room_limit": 1
+            }
+        }]
+    }},
+    {"room": {
+        "area": "nirvana",
+        "anum": 51,
+        "owner": null,
+        "name": "Chamber of a Hexton",
+        "description": "You have entered a room where you are not very popular. The only exit lies \nnorthbound.\n",
+        "room_flags": "indoors",
+        "sector_type": "inside",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [{
+            "dir": "north",
+            "to": 49,
+            "keyword": null,
+            "description": "To the north you can see a passage.\n",
+            "exit_flags": null,
+            "key": -1,
+            "portal": null
+        }],
+        "extra_description": [],
+        "resets": [{
+            "command": "mobile",
+            "values": {
+                "mob": 7,
+                "global_limit": 8,
+                "room_limit": 1
+            }
+        }]
+    }},
+    {"room": {
+        "area": "nirvana",
+        "anum": 52,
+        "owner": null,
+        "name": "Chamber of the Secudus",
+        "description": "A large canvernous room, this chamber serves as the sleeping quarters for the \nthird Secudus, Viceroy to Primus. The only exit lies to the west.\n",
+        "room_flags": "indoors",
+        "sector_type": "inside",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [{
+            "dir": "west",
+            "to": 49,
+            "keyword": null,
+            "description": "To the west you can see a passageway.\n",
+            "exit_flags": null,
+            "key": -1,
+            "portal": null
+        }],
+        "extra_description": [],
+        "resets": [
+            {
+                "command": "mobile",
+                "values": {
+                    "mob": 2,
+                    "global_limit": 6,
+                    "room_limit": 1
+                }
+            },
+            {
+                "command": "mobile",
+                "values": {
+                    "mob": 10,
+                    "global_limit": 4,
+                    "room_limit": 1
+                }
+            }
+        ]
+    }},
+    {"room": {
+        "area": "nirvana",
+        "anum": 53,
+        "owner": null,
+        "name": "A passageway",
+        "description": "You are in a passagway where you may go in any cardinal direction.\n",
+        "room_flags": "indoors",
+        "sector_type": "inside",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [
+            {
+                "dir": "north",
+                "to": 54,
+                "keyword": null,
+                "description": "To the north lies a small chamber\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "east",
+                "to": 22,
+                "keyword": null,
+                "description": "To the east, a main passage forms a junction.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "south",
+                "to": 55,
+                "keyword": null,
+                "description": "To the south, you can spot a small room\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "west",
+                "to": 59,
+                "keyword": null,
+                "description": "To the west, the passageway continues\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            }
+        ],
+        "extra_description": [],
+        "resets": []
+    }},
+    {"room": {
+        "area": "nirvana",
+        "anum": 54,
+        "owner": null,
+        "name": "A small chamber",
+        "description": "You are in a small cramped chamber.  The only exit lies to the south.\n",
+        "room_flags": "indoors",
+        "sector_type": "inside",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [{
+            "dir": "south",
+            "to": 53,
+            "keyword": null,
+            "description": "To the south you can see a passage\n",
+            "exit_flags": null,
+            "key": -1,
+            "portal": null
+        }],
+        "extra_description": [],
+        "resets": [{
+            "command": "mobile",
+            "values": {
+                "mob": 5,
+                "global_limit": 4,
+                "room_limit": 1
+            }
+        }]
+    }},
+    {"room": {
+        "area": "nirvana",
+        "anum": 55,
+        "owner": null,
+        "name": "A cramped room",
+        "description": "You are in a small, crowded room.  The only exit appears to lie to the north.\n",
+        "room_flags": "indoors",
+        "sector_type": "inside",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [{
+            "dir": "north",
+            "to": 53,
+            "keyword": null,
+            "description": "To the north, you can see a passageway.\n",
+            "exit_flags": null,
+            "key": -1,
+            "portal": null
+        }],
+        "extra_description": [],
+        "resets": [{
+            "command": "mobile",
+            "values": {
+                "mob": 3,
+                "global_limit": 1,
+                "room_limit": 1
+            }
+        }]
+    }},
+    {"room": {
+        "area": "nirvana",
+        "anum": 56,
+        "owner": null,
+        "name": "A large room",
+        "description": "You have entered a room where you are not wanted.  The only exit lies to the \nsouth.\n",
+        "room_flags": "indoors",
+        "sector_type": "inside",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [{
+            "dir": "south",
+            "to": 59,
+            "keyword": null,
+            "description": "To the south you can visualize a east-west passage.\n",
+            "exit_flags": null,
+            "key": -1,
+            "portal": null
+        }],
+        "extra_description": [],
+        "resets": [{
+            "command": "mobile",
+            "values": {
+                "mob": 7,
+                "global_limit": 8,
+                "room_limit": 1
+            }
+        }]
+    }},
+    {"room": {
+        "area": "nirvana",
+        "anum": 57,
+        "owner": null,
+        "name": "A room",
+        "description": "You have entered a room where there was obviously a hurried move going on.  \nThe only exit lies to the north.\n",
+        "room_flags": "indoors",
+        "sector_type": "inside",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [{
+            "dir": "north",
+            "to": 59,
+            "keyword": null,
+            "description": "To the north you can make out a passageway.\n",
+            "exit_flags": null,
+            "key": -1,
+            "portal": null
+        }],
+        "extra_description": [],
+        "resets": [{
+            "command": "mobile",
+            "values": {
+                "mob": 7,
+                "global_limit": 8,
+                "room_limit": 1
+            }
+        }]
+    }},
+    {"room": {
+        "area": "nirvana",
+        "anum": 58,
+        "owner": null,
+        "name": "Chamber of The First Secundus",
+        "description": "You have disturbed the rest of the First Viceroy to Primus the Prime, The \nSecundus.  He does not look like a happy camper. The only exit lies to the \neast.\n",
+        "room_flags": "indoors",
+        "sector_type": "inside",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [{
+            "dir": "east",
+            "to": 59,
+            "keyword": null,
+            "description": "To the east you can spot a hallway\n",
+            "exit_flags": null,
+            "key": -1,
+            "portal": null
+        }],
+        "extra_description": [],
+        "resets": [
+            {
+                "command": "mobile",
+                "values": {
+                    "mob": 2,
+                    "global_limit": 6,
+                    "room_limit": 1
+                }
+            },
+            {
+                "command": "mobile",
+                "values": {
+                    "mob": 10,
+                    "global_limit": 4,
+                    "room_limit": 1
+                }
+            }
+        ]
+    }},
+    {"room": {
+        "area": "nirvana",
+        "anum": 59,
+        "owner": null,
+        "name": "Junction in the hallway",
+        "description": "Exits lead off in all of the cardinal directions\n",
+        "room_flags": "indoors",
+        "sector_type": "inside",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [
+            {
+                "dir": "north",
+                "to": 56,
+                "keyword": null,
+                "description": "To the north lies a large chamber\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "east",
+                "to": 53,
+                "keyword": null,
+                "description": "To the east , the passage continues.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "south",
+                "to": 57,
+                "keyword": null,
+                "description": "To the south, a small chamber can be found.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "west",
+                "to": 58,
+                "keyword": null,
+                "description": "To the west, lies a monstrous room.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            }
+        ],
+        "extra_description": [],
+        "resets": []
+    }}
+]

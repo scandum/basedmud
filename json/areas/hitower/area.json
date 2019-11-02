@@ -1,0 +1,12 @@
+[{"area": {
+    "name": "hitower",
+    "filename": "hitower.are",
+    "title": "High Tower",
+    "credits": "{10 30} Skylar  High Tower of Sorcery",
+    "low_range": 0,
+    "high_range": 0,
+    "min_vnum": 1300,
+    "max_vnum": 1499,
+    "builders": "None",
+    "security": 9
+}}]

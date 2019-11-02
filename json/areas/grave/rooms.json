@@ -1,0 +1,1413 @@
+[
+    {"room": {
+        "area": "grave",
+        "anum": 0,
+        "owner": null,
+        "name": "A Gravel Road in the Graveyard",
+        "description": "You are on a well-kept gravel road that leads north-south through the\ngraveyard.  On both sides of the road grow dark evergreen trees.  An iron\ngrate is to the north and narrow gravel paths lead east and west.\n",
+        "room_flags": null,
+        "sector_type": "field",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [
+            {
+                "dir": "north",
+                "to": null,
+                "keyword": "grate",
+                "description": "Through the solid iron bars you see Elm Street. \n",
+                "exit_flags": "door closed locked",
+                "key": 3121,
+                "portal": "grave-1-north"
+            },
+            {
+                "dir": "east",
+                "to": 50,
+                "keyword": null,
+                "description": "The gravel path leads eastwards between the dark evergreen trees.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "south",
+                "to": 1,
+                "keyword": null,
+                "description": "The gravel road continues southwards.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "west",
+                "to": 6,
+                "keyword": null,
+                "description": "The gravel path leads westwards between the dark evergreen trees.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            }
+        ],
+        "extra_description": [],
+        "resets": []
+    }},
+    {"room": {
+        "area": "grave",
+        "anum": 1,
+        "owner": null,
+        "name": "A Gravel Road in the Graveyard",
+        "description": "You are on a well-kept gravel road that leads north-south through the\ngraveyard.  On both sides of the road grow dark evergreen trees.\n",
+        "room_flags": null,
+        "sector_type": "field",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [
+            {
+                "dir": "north",
+                "to": 0,
+                "keyword": null,
+                "description": "The gravel road continues northwards.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "south",
+                "to": 2,
+                "keyword": null,
+                "description": "The gravel road continues southwards.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            }
+        ],
+        "extra_description": [],
+        "resets": []
+    }},
+    {"room": {
+        "area": "grave",
+        "anum": 2,
+        "owner": null,
+        "name": "A Gravel Road in the Graveyard",
+        "description": "You are on a well-kept gravel road that leads north-south through the\ngraveyard.  On both sides of the road grow dark evergreen trees.\n",
+        "room_flags": null,
+        "sector_type": "field",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [
+            {
+                "dir": "north",
+                "to": 1,
+                "keyword": null,
+                "description": "The gravel road continues northwards.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "south",
+                "to": 3,
+                "keyword": null,
+                "description": "The gravel road continues southwards.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            }
+        ],
+        "extra_description": [],
+        "resets": []
+    }},
+    {"room": {
+        "area": "grave",
+        "anum": 3,
+        "owner": null,
+        "name": "A Gravel Road in the Graveyard",
+        "description": "You are on a well-kept gravel road that leads north-south through the\ngraveyard.  On both sides of the road grow dark evergreen trees.\n",
+        "room_flags": null,
+        "sector_type": "field",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [
+            {
+                "dir": "north",
+                "to": 2,
+                "keyword": null,
+                "description": "The gravel road continues northwards.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "south",
+                "to": 4,
+                "keyword": null,
+                "description": "The gravel road continues southwards to an open space before a small\nbuilding.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            }
+        ],
+        "extra_description": [],
+        "resets": []
+    }},
+    {"room": {
+        "area": "grave",
+        "anum": 4,
+        "owner": null,
+        "name": "In front of the Chapel",
+        "description": "You are on an open space before a small chapel.  A gravel road leads north\nthrough the graveyard and the chapel entrance is to the south.\n",
+        "room_flags": null,
+        "sector_type": "field",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [
+            {
+                "dir": "north",
+                "to": 3,
+                "keyword": null,
+                "description": "The gravel road continues northwards.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "east",
+                "to": 38,
+                "keyword": null,
+                "description": "The gravel path leads eastwards between the dark evergreen trees.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "south",
+                "to": null,
+                "keyword": "door",
+                "description": "The chapel door is made of dark wood.\n",
+                "exit_flags": "door closed locked",
+                "key": -1,
+                "portal": "grave-2-south"
+            },
+            {
+                "dir": "west",
+                "to": 18,
+                "keyword": null,
+                "description": "The gravel path leads westwards between the dark evergreen trees.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            }
+        ],
+        "extra_description": [],
+        "resets": [{
+            "command": "mobile",
+            "values": {
+                "mob": 4,
+                "global_limit": 4,
+                "room_limit": 1
+            }
+        }]
+    }},
+    {"room": {
+        "area": "grave",
+        "anum": 6,
+        "owner": null,
+        "name": "A Gravel Path on the Graveyard",
+        "description": "You are on a gravel path winding its way between dark evergreen trees on\nthe graveyard.  An old tomb is here.\n",
+        "room_flags": null,
+        "sector_type": "field",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [
+            {
+                "dir": "east",
+                "to": 0,
+                "keyword": null,
+                "description": "The gravel path continues eastwards towards a gravel road.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "south",
+                "to": 8,
+                "keyword": null,
+                "description": "The gravel path continues southwards.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "down",
+                "to": 7,
+                "keyword": "tomb stone",
+                "description": null,
+                "exit_flags": "door closed",
+                "key": -1,
+                "portal": null
+            }
+        ],
+        "extra_description": [{
+            "keyword": "tomb stone",
+            "description": "It is a large rectangular slab of dark grey stone that has been placed face\nup in the ground.  The name has been erased by the ravages of time.\n"
+        }],
+        "resets": [{
+            "command": "mobile",
+            "values": {
+                "mob": 4,
+                "global_limit": 4,
+                "room_limit": 1
+            }
+        }]
+    }},
+    {"room": {
+        "area": "grave",
+        "anum": 7,
+        "owner": null,
+        "name": "In a dusty Tomb",
+        "description": "You are in a dark burial chamber beneath a large tomb stone.\nThe only exit appears to be up.\n",
+        "room_flags": "dark indoors",
+        "sector_type": "city",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [{
+            "dir": "up",
+            "to": 6,
+            "keyword": "tomb stone",
+            "description": null,
+            "exit_flags": "door closed",
+            "key": -1,
+            "portal": null
+        }],
+        "extra_description": [],
+        "resets": [{
+            "command": "object",
+            "values": {
+                "obj": 10,
+                "global_limit": 13,
+                "room_limit": 0
+            }
+        }]
+    }},
+    {"room": {
+        "area": "grave",
+        "anum": 8,
+        "owner": null,
+        "name": "A Gravel Path on the Graveyard",
+        "description": "You are on a gravel path winding its way between dark evergreen trees on\nthe graveyard.  The path leads north and west.  An old tomb is here.\n",
+        "room_flags": null,
+        "sector_type": "field",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [
+            {
+                "dir": "north",
+                "to": 6,
+                "keyword": null,
+                "description": "The gravel path continues northwards.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "west",
+                "to": 10,
+                "keyword": null,
+                "description": "The gravel path continues westwards.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "down",
+                "to": 9,
+                "keyword": "tomb stone",
+                "description": null,
+                "exit_flags": "door closed",
+                "key": -1,
+                "portal": null
+            }
+        ],
+        "extra_description": [{
+            "keyword": "tomb stone",
+            "description": "It is a large rectangular slab of dark grey stone that has been placed face\nup in the ground.  The name has been erased by the ravages of time.\n"
+        }],
+        "resets": []
+    }},
+    {"room": {
+        "area": "grave",
+        "anum": 9,
+        "owner": null,
+        "name": "In a dusty Tomb",
+        "description": "You are in a dark burial chamber beneath a large tomb stone.\nThe only exit appears to be up.\n",
+        "room_flags": "dark indoors",
+        "sector_type": "city",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [{
+            "dir": "up",
+            "to": 8,
+            "keyword": "tomb stone",
+            "description": null,
+            "exit_flags": "door closed",
+            "key": -1,
+            "portal": null
+        }],
+        "extra_description": [],
+        "resets": [{
+            "command": "mobile",
+            "values": {
+                "mob": 3,
+                "global_limit": 4,
+                "room_limit": 1
+            }
+        }]
+    }},
+    {"room": {
+        "area": "grave",
+        "anum": 10,
+        "owner": null,
+        "name": "A Gravel Path on the Graveyard",
+        "description": "You are on a gravel path winding its way between dark evergreen trees on\nthe graveyard.  The path leads east and south.  An old tomb is here.\n",
+        "room_flags": null,
+        "sector_type": "field",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [
+            {
+                "dir": "east",
+                "to": 8,
+                "keyword": null,
+                "description": "The gravel path continues eastwards.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "south",
+                "to": 12,
+                "keyword": null,
+                "description": "The gravel path continues southwards.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "down",
+                "to": 11,
+                "keyword": "tomb stone",
+                "description": null,
+                "exit_flags": "door closed",
+                "key": -1,
+                "portal": null
+            }
+        ],
+        "extra_description": [{
+            "keyword": "tomb stone",
+            "description": "It is a large rectangular slab of dark grey stone that has been placed face\nup in the ground.  The name has been erased by the ravages of time.\n"
+        }],
+        "resets": []
+    }},
+    {"room": {
+        "area": "grave",
+        "anum": 11,
+        "owner": null,
+        "name": "In a dusty Tomb",
+        "description": "You are in a dark burial chamber beneath a large tomb stone.\nThe only exit appears to be up.\n",
+        "room_flags": "dark indoors",
+        "sector_type": "city",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [{
+            "dir": "up",
+            "to": 10,
+            "keyword": "tomb stone",
+            "description": null,
+            "exit_flags": "door closed",
+            "key": -1,
+            "portal": null
+        }],
+        "extra_description": [],
+        "resets": [
+            {
+                "command": "mobile",
+                "values": {
+                    "mob": 3,
+                    "global_limit": 4,
+                    "room_limit": 1
+                }
+            },
+            {
+                "command": "object",
+                "values": {
+                    "obj": 13,
+                    "global_limit": 10,
+                    "room_limit": 0
+                }
+            }
+        ]
+    }},
+    {"room": {
+        "area": "grave",
+        "anum": 12,
+        "owner": null,
+        "name": "A Gravel Path on the Graveyard",
+        "description": "You are on a gravel path winding its way between dark evergreen trees on\nthe graveyard.  The path leads north and east.  A small shed is to the west.\n",
+        "room_flags": null,
+        "sector_type": "field",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [
+            {
+                "dir": "north",
+                "to": 10,
+                "keyword": null,
+                "description": "The gravel path continues northwards.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "east",
+                "to": 14,
+                "keyword": null,
+                "description": "The gravel path continues eastwards.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "west",
+                "to": 13,
+                "keyword": "door",
+                "description": "It is a small black-painted shed with a wooden door.\n",
+                "exit_flags": "door closed",
+                "key": -1,
+                "portal": null
+            }
+        ],
+        "extra_description": [],
+        "resets": [{
+            "command": "mobile",
+            "values": {
+                "mob": 4,
+                "global_limit": 4,
+                "room_limit": 1
+            }
+        }]
+    }},
+    {"room": {
+        "area": "grave",
+        "anum": 13,
+        "owner": null,
+        "name": "In a shed on the Graveyard",
+        "description": "You are in a small shed that looks as if it is used to store all sorts of\ngardening equipment.  The only exit appears to be through a door to the east.\n",
+        "room_flags": "indoors",
+        "sector_type": "city",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [{
+            "dir": "east",
+            "to": 12,
+            "keyword": "door",
+            "description": null,
+            "exit_flags": "door closed",
+            "key": -1,
+            "portal": null
+        }],
+        "extra_description": [],
+        "resets": [
+            {
+                "command": "mobile",
+                "values": {
+                    "mob": 0,
+                    "global_limit": 1,
+                    "room_limit": 1
+                }
+            },
+            {
+                "command": "give",
+                "values": {
+                    "obj": 1,
+                    "global_limit": -1
+                }
+            },
+            {
+                "command": "object",
+                "values": {
+                    "obj": 2,
+                    "global_limit": -1,
+                    "room_limit": 0
+                }
+            },
+            {
+                "command": "object",
+                "values": {
+                    "obj": 3,
+                    "global_limit": 1,
+                    "room_limit": 0
+                }
+            },
+            {
+                "command": "object",
+                "values": {
+                    "obj": 4,
+                    "global_limit": -1,
+                    "room_limit": 0
+                }
+            },
+            {
+                "command": "object",
+                "values": {
+                    "obj": 5,
+                    "global_limit": -1,
+                    "room_limit": 0
+                }
+            }
+        ]
+    }},
+    {"room": {
+        "area": "grave",
+        "anum": 14,
+        "owner": null,
+        "name": "A Gravel Path on the Graveyard",
+        "description": "You are on a gravel path winding its way between dark evergreen trees on\nthe graveyard.  The path leads south and west.  An old tomb is here.\n",
+        "room_flags": null,
+        "sector_type": "field",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [
+            {
+                "dir": "south",
+                "to": 16,
+                "keyword": null,
+                "description": "The gravel path continues southwards.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "west",
+                "to": 12,
+                "keyword": null,
+                "description": "The gravel path continues westwards.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "down",
+                "to": 15,
+                "keyword": "tomb stone",
+                "description": null,
+                "exit_flags": "door closed",
+                "key": -1,
+                "portal": null
+            }
+        ],
+        "extra_description": [{
+            "keyword": "tomb stone",
+            "description": "It is a large rectangular slab of dark grey stone that has been placed face\nup in the ground.  The name has been erased by the ravages of time.\n"
+        }],
+        "resets": []
+    }},
+    {"room": {
+        "area": "grave",
+        "anum": 15,
+        "owner": null,
+        "name": "In a dusty Tomb",
+        "description": "You are in a dark burial chamber beneath a large tomb stone.\nThe only exit appears to be up.\n",
+        "room_flags": "dark indoors",
+        "sector_type": "city",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [{
+            "dir": "up",
+            "to": 14,
+            "keyword": "tomb stone",
+            "description": null,
+            "exit_flags": "door closed",
+            "key": -1,
+            "portal": null
+        }],
+        "extra_description": [],
+        "resets": [{
+            "command": "object",
+            "values": {
+                "obj": 10,
+                "global_limit": 13,
+                "room_limit": 0
+            }
+        }]
+    }},
+    {"room": {
+        "area": "grave",
+        "anum": 16,
+        "owner": null,
+        "name": "A Gravel Path on the Graveyard",
+        "description": "You are on a gravel path winding its way between dark evergreen trees on\nthe graveyard.  The path leads north and south.  An old tomb is here.\n",
+        "room_flags": null,
+        "sector_type": "field",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [
+            {
+                "dir": "north",
+                "to": 14,
+                "keyword": null,
+                "description": "The gravel path continues northwards.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "south",
+                "to": 18,
+                "keyword": null,
+                "description": "The gravel path continues southwards.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "down",
+                "to": 17,
+                "keyword": "tomb stone",
+                "description": null,
+                "exit_flags": "door closed",
+                "key": -1,
+                "portal": null
+            }
+        ],
+        "extra_description": [{
+            "keyword": "tomb stone",
+            "description": "It is a large rectangular slab of dark grey stone that has been placed face\nup in the ground.  The name has been erased by the ravages of time.\n"
+        }],
+        "resets": []
+    }},
+    {"room": {
+        "area": "grave",
+        "anum": 17,
+        "owner": null,
+        "name": "In a dusty Tomb",
+        "description": "You are in a dark burial chamber beneath a large tomb stone.\nThe only exit appears to be up.\n",
+        "room_flags": "dark indoors",
+        "sector_type": "city",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [{
+            "dir": "up",
+            "to": 16,
+            "keyword": "tomb stone",
+            "description": null,
+            "exit_flags": "door closed",
+            "key": -1,
+            "portal": null
+        }],
+        "extra_description": [],
+        "resets": [
+            {
+                "command": "mobile",
+                "values": {
+                    "mob": 2,
+                    "global_limit": 1,
+                    "room_limit": 1
+                }
+            },
+            {
+                "command": "give",
+                "values": {
+                    "obj": 12,
+                    "global_limit": -1
+                }
+            }
+        ]
+    }},
+    {"room": {
+        "area": "grave",
+        "anum": 18,
+        "owner": null,
+        "name": "A Gravel Path on the Graveyard",
+        "description": "You are on a gravel path winding its way between dark evergreen trees on\nthe graveyard.  The path leads north and east.  An old tomb is here.\n",
+        "room_flags": null,
+        "sector_type": "field",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [
+            {
+                "dir": "north",
+                "to": 16,
+                "keyword": null,
+                "description": "The gravel path continues northwards.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "east",
+                "to": 4,
+                "keyword": null,
+                "description": "The gravel path continues eastwards towards a building of some sort.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "down",
+                "to": 19,
+                "keyword": "tomb stone",
+                "description": null,
+                "exit_flags": "door closed",
+                "key": -1,
+                "portal": null
+            }
+        ],
+        "extra_description": [{
+            "keyword": "tomb stone",
+            "description": "It is a large rectangular slab of dark grey stone that has been placed face\nup in the ground.  The name has been erased by the ravages of time.\n"
+        }],
+        "resets": []
+    }},
+    {"room": {
+        "area": "grave",
+        "anum": 19,
+        "owner": null,
+        "name": "In a dusty Tomb",
+        "description": "You are in a dark burial chamber beneath a large tomb stone.\nThe only exit appears to be up.\n",
+        "room_flags": "dark indoors",
+        "sector_type": "city",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [{
+            "dir": "up",
+            "to": 18,
+            "keyword": "tomb stone",
+            "description": null,
+            "exit_flags": "door closed",
+            "key": -1,
+            "portal": null
+        }],
+        "extra_description": [],
+        "resets": [{
+            "command": "object",
+            "values": {
+                "obj": 10,
+                "global_limit": 13,
+                "room_limit": 0
+            }
+        }]
+    }},
+    {"room": {
+        "area": "grave",
+        "anum": 38,
+        "owner": null,
+        "name": "A Gravel Path on the Graveyard",
+        "description": "You are on a gravel path winding its way between dark evergreen trees on\nthe graveyard.  The path leads north and west.  An old tomb is here.\n",
+        "room_flags": null,
+        "sector_type": "field",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [
+            {
+                "dir": "north",
+                "to": 40,
+                "keyword": null,
+                "description": "The gravel path continues northwards.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "west",
+                "to": 4,
+                "keyword": null,
+                "description": "The gravel path continues westwards towards a building of some sort.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "down",
+                "to": 39,
+                "keyword": "tomb stone",
+                "description": null,
+                "exit_flags": "door closed",
+                "key": -1,
+                "portal": null
+            }
+        ],
+        "extra_description": [{
+            "keyword": "tomb stone",
+            "description": "It is a large rectangular slab of dark grey stone that has been placed face\nup in the ground.  The name has been erased by the ravages of time.\n"
+        }],
+        "resets": [{
+            "command": "mobile",
+            "values": {
+                "mob": 5,
+                "global_limit": 3,
+                "room_limit": 1
+            }
+        }]
+    }},
+    {"room": {
+        "area": "grave",
+        "anum": 39,
+        "owner": null,
+        "name": "In a dusty Tomb",
+        "description": "You are in a dark burial chamber beneath a large tomb stone.\nThe only exit appears to be up.\n",
+        "room_flags": "dark indoors",
+        "sector_type": "city",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [{
+            "dir": "up",
+            "to": 38,
+            "keyword": "tomb stone",
+            "description": null,
+            "exit_flags": "door closed",
+            "key": -1,
+            "portal": null
+        }],
+        "extra_description": [],
+        "resets": [{
+            "command": "mobile",
+            "values": {
+                "mob": 3,
+                "global_limit": 4,
+                "room_limit": 1
+            }
+        }]
+    }},
+    {"room": {
+        "area": "grave",
+        "anum": 40,
+        "owner": null,
+        "name": "A Gravel Path on the Graveyard",
+        "description": "You are on a gravel path winding its way between dark evergreen trees on\nthe graveyard.  The path leads north and south.  An old tomb is here.\n",
+        "room_flags": null,
+        "sector_type": "field",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [
+            {
+                "dir": "north",
+                "to": 42,
+                "keyword": null,
+                "description": "The gravel path continues northwards.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "south",
+                "to": 38,
+                "keyword": null,
+                "description": "The gravel path continues southwards.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "down",
+                "to": 41,
+                "keyword": "tomb stone",
+                "description": null,
+                "exit_flags": "door closed",
+                "key": -1,
+                "portal": null
+            }
+        ],
+        "extra_description": [{
+            "keyword": "tomb stone",
+            "description": "It is a large rectangular slab of dark grey stone that has been placed face\nup in the ground.  The name has been erased by the ravages of time.\n"
+        }],
+        "resets": [{
+            "command": "mobile",
+            "values": {
+                "mob": 4,
+                "global_limit": 4,
+                "room_limit": 1
+            }
+        }]
+    }},
+    {"room": {
+        "area": "grave",
+        "anum": 41,
+        "owner": null,
+        "name": "In a dusty Tomb",
+        "description": "You are in a dark burial chamber beneath a large tomb stone.\nThe only exit appears to be up.\n",
+        "room_flags": "dark indoors",
+        "sector_type": "city",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [{
+            "dir": "up",
+            "to": 40,
+            "keyword": "tomb stone",
+            "description": null,
+            "exit_flags": "door closed",
+            "key": -1,
+            "portal": null
+        }],
+        "extra_description": [],
+        "resets": [{
+            "command": "object",
+            "values": {
+                "obj": 10,
+                "global_limit": 13,
+                "room_limit": 0
+            }
+        }]
+    }},
+    {"room": {
+        "area": "grave",
+        "anum": 42,
+        "owner": null,
+        "name": "A Gravel Path on the Graveyard",
+        "description": "You are on a gravel path winding its way between dark evergreen trees on\nthe graveyard.  The path leads east and south.  An old tomb is here.\n",
+        "room_flags": null,
+        "sector_type": "field",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [
+            {
+                "dir": "east",
+                "to": 44,
+                "keyword": null,
+                "description": "The gravel path continues eastwards.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "south",
+                "to": 40,
+                "keyword": null,
+                "description": "The gravel path continues southwards.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "down",
+                "to": 43,
+                "keyword": "tomb stone",
+                "description": null,
+                "exit_flags": "door closed",
+                "key": -1,
+                "portal": null
+            }
+        ],
+        "extra_description": [{
+            "keyword": "tomb stone",
+            "description": "It is a large rectangular slab of dark grey stone that has been placed face\nup in the ground.  The name has been erased by the ravages of time.\n"
+        }],
+        "resets": []
+    }},
+    {"room": {
+        "area": "grave",
+        "anum": 43,
+        "owner": null,
+        "name": "In a dusty Tomb",
+        "description": "You are in a dark burial chamber beneath a large tomb stone.\nThe only exit appears to be up.\n",
+        "room_flags": "dark indoors",
+        "sector_type": "city",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [{
+            "dir": "up",
+            "to": 42,
+            "keyword": "tomb stone",
+            "description": null,
+            "exit_flags": "door closed",
+            "key": -1,
+            "portal": null
+        }],
+        "extra_description": [],
+        "resets": [{
+            "command": "object",
+            "values": {
+                "obj": 3,
+                "global_limit": 5,
+                "room_limit": 0
+            }
+        }]
+    }},
+    {"room": {
+        "area": "grave",
+        "anum": 44,
+        "owner": null,
+        "name": "A Gravel Path on the Graveyard",
+        "description": "You are on a gravel path winding its way between dark evergreen trees on\nthe graveyard.  The path leads north and west.  An old tomb is here.\n",
+        "room_flags": null,
+        "sector_type": "field",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [
+            {
+                "dir": "north",
+                "to": 46,
+                "keyword": null,
+                "description": "The gravel path continues northwards.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "west",
+                "to": 42,
+                "keyword": null,
+                "description": "The gravel path continues westwards.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "down",
+                "to": 45,
+                "keyword": "tomb stone",
+                "description": null,
+                "exit_flags": "door closed",
+                "key": -1,
+                "portal": null
+            }
+        ],
+        "extra_description": [{
+            "keyword": "tomb stone",
+            "description": "It is a large rectangular slab of dark grey stone that has been placed face\nup in the ground.  The name has been erased by the ravages of time.\n"
+        }],
+        "resets": [{
+            "command": "mobile",
+            "values": {
+                "mob": 5,
+                "global_limit": 3,
+                "room_limit": 1
+            }
+        }]
+    }},
+    {"room": {
+        "area": "grave",
+        "anum": 45,
+        "owner": null,
+        "name": "In a dusty Tomb",
+        "description": "You are in a dark burial chamber beneath a large tomb stone.\nThe only exit appears to be up.\n",
+        "room_flags": "dark indoors",
+        "sector_type": "city",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [{
+            "dir": "up",
+            "to": 44,
+            "keyword": "tomb stone",
+            "description": null,
+            "exit_flags": "door closed",
+            "key": -1,
+            "portal": null
+        }],
+        "extra_description": [],
+        "resets": [
+            {
+                "command": "mobile",
+                "values": {
+                    "mob": 1,
+                    "global_limit": 1,
+                    "room_limit": 1
+                }
+            },
+            {
+                "command": "give",
+                "values": {
+                    "obj": 11,
+                    "global_limit": -1
+                }
+            }
+        ]
+    }},
+    {"room": {
+        "area": "grave",
+        "anum": 46,
+        "owner": null,
+        "name": "A Gravel Path on the Graveyard",
+        "description": "You are on a gravel path winding its way between dark evergreen trees on\nthe graveyard.  The path leads south and west.  An old tomb is here.\n",
+        "room_flags": null,
+        "sector_type": "field",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [
+            {
+                "dir": "south",
+                "to": 44,
+                "keyword": null,
+                "description": "The gravel path continues southwards.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "west",
+                "to": 48,
+                "keyword": null,
+                "description": "The gravel path continues westwards.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "down",
+                "to": 47,
+                "keyword": "tomb stone",
+                "description": null,
+                "exit_flags": "door closed",
+                "key": -1,
+                "portal": null
+            }
+        ],
+        "extra_description": [{
+            "keyword": "tomb stone",
+            "description": "It is a large rectangular slab of dark grey stone that has been placed face\nup in the ground.  The name has been erased by the ravages of time.\n"
+        }],
+        "resets": []
+    }},
+    {"room": {
+        "area": "grave",
+        "anum": 47,
+        "owner": null,
+        "name": "In a dusty Tomb",
+        "description": "You are in a dark burial chamber beneath a large tomb stone.\nThe only exit appears to be up.\n",
+        "room_flags": "dark indoors",
+        "sector_type": "city",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [{
+            "dir": "up",
+            "to": 46,
+            "keyword": "tomb stone",
+            "description": null,
+            "exit_flags": "door closed",
+            "key": -1,
+            "portal": null
+        }],
+        "extra_description": [],
+        "resets": [{
+            "command": "object",
+            "values": {
+                "obj": 10,
+                "global_limit": 13,
+                "room_limit": 0
+            }
+        }]
+    }},
+    {"room": {
+        "area": "grave",
+        "anum": 48,
+        "owner": null,
+        "name": "A Gravel Path on the Graveyard",
+        "description": "You are on a gravel path winding its way between dark evergreen trees on\nthe graveyard.  The path leads north and east.  An old tomb is here.\n",
+        "room_flags": null,
+        "sector_type": "field",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [
+            {
+                "dir": "north",
+                "to": 50,
+                "keyword": null,
+                "description": "The gravel path continues northwards.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "east",
+                "to": 46,
+                "keyword": null,
+                "description": "The gravel path continues eastwards.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "down",
+                "to": 49,
+                "keyword": "tomb stone",
+                "description": null,
+                "exit_flags": "door closed",
+                "key": -1,
+                "portal": null
+            }
+        ],
+        "extra_description": [{
+            "keyword": "tomb stone",
+            "description": "It is a large rectangular slab of dark grey stone that has been placed face\nup in the ground.  The name has been erased by the ravages of time.\n"
+        }],
+        "resets": []
+    }},
+    {"room": {
+        "area": "grave",
+        "anum": 49,
+        "owner": null,
+        "name": "In a dusty Tomb",
+        "description": "You are in a dark burial chamber beneath a large tomb stone.\nThe only exit appears to be up.\n",
+        "room_flags": "dark indoors",
+        "sector_type": "city",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [{
+            "dir": "up",
+            "to": 48,
+            "keyword": "tomb stone",
+            "description": null,
+            "exit_flags": "door closed",
+            "key": -1,
+            "portal": null
+        }],
+        "extra_description": [],
+        "resets": [{
+            "command": "mobile",
+            "values": {
+                "mob": 3,
+                "global_limit": 4,
+                "room_limit": 1
+            }
+        }]
+    }},
+    {"room": {
+        "area": "grave",
+        "anum": 50,
+        "owner": null,
+        "name": "A Gravel Path on the Graveyard",
+        "description": "You are on a gravel path winding its way between dark evergreen trees on\nthe graveyard.  The path leads south and west.  An old tomb is here.\n",
+        "room_flags": null,
+        "sector_type": "field",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [
+            {
+                "dir": "south",
+                "to": 48,
+                "keyword": null,
+                "description": "The gravel path continues southwards.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "west",
+                "to": 0,
+                "keyword": null,
+                "description": "The gravel path continues westwards towards a gravel road.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "down",
+                "to": 51,
+                "keyword": "tomb stone",
+                "description": null,
+                "exit_flags": "door closed",
+                "key": -1,
+                "portal": null
+            }
+        ],
+        "extra_description": [{
+            "keyword": "tomb stone",
+            "description": "It is a large rectangular slab of dark grey stone that has been placed face\nup in the ground.  The name has been erased by the ravages of time.\n"
+        }],
+        "resets": []
+    }},
+    {"room": {
+        "area": "grave",
+        "anum": 51,
+        "owner": null,
+        "name": "In a dusty Tomb",
+        "description": "You are in a dark burial chamber beneath a large tomb stone.\nThe only exit appears to be up.\n",
+        "room_flags": "dark indoors",
+        "sector_type": "city",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [{
+            "dir": "up",
+            "to": 50,
+            "keyword": "tomb stone",
+            "description": null,
+            "exit_flags": "door closed",
+            "key": -1,
+            "portal": null
+        }],
+        "extra_description": [],
+        "resets": [{
+            "command": "mobile",
+            "values": {
+                "mob": 5,
+                "global_limit": 3,
+                "room_limit": 1
+            }
+        }]
+    }}
+]

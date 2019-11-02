@@ -1,0 +1,12 @@
+[{"area": {
+    "name": "ofcol2",
+    "filename": "ofcol2.are",
+    "title": "New Ofcol",
+    "credits": "{ 5 35} Hatchet New Ofcol",
+    "low_range": 0,
+    "high_range": 0,
+    "min_vnum": 600,
+    "max_vnum": 699,
+    "builders": "None",
+    "security": 9
+}}]

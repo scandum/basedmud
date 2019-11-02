@@ -1,0 +1,1097 @@
+[
+    {"object": {
+        "area": "sewer",
+        "anum": 190,
+        "new_format": true,
+        "name": "ring silver",
+        "short_descr": "a glinting ring of silver",
+        "description": "A lovely silver ring has been left here.",
+        "material": "generic",
+        "item_type": "jewelry",
+        "extra_flags": "magic",
+        "wear_flags": "take finger",
+        "values": {},
+        "level": 7,
+        "weight": 10,
+        "cost": 468,
+        "condition": 100,
+        "extra_description": [],
+        "affects": [
+            {
+                "apply": "hit roll",
+                "level": 7,
+                "modifier": 1,
+                "bit_type": "object",
+                "bits": null
+            },
+            {
+                "apply": "armor class",
+                "level": 7,
+                "modifier": -1,
+                "bit_type": "object",
+                "bits": null
+            }
+        ]
+    }},
+    {"object": {
+        "area": "sewer",
+        "anum": 200,
+        "new_format": true,
+        "name": "rod devil",
+        "short_descr": "the devil rod",
+        "description": "The mysterious devil rod lies on the floor.",
+        "material": "generic",
+        "item_type": "weapon",
+        "extra_flags": "magic",
+        "wear_flags": "take wield",
+        "values": {
+            "weapon_type": "unknown",
+            "dice_num": 3,
+            "dice_size": 4,
+            "attack_type": "pound",
+            "flags": "vampiric"
+        },
+        "level": 15,
+        "weight": 60,
+        "cost": 2300,
+        "condition": 100,
+        "extra_description": [{
+            "keyword": "devil rod",
+            "description": "This is indeed a mysterious rod.  It is dark black at the base but has four\nvery sharp purple tentacles at the end.\n"
+        }],
+        "affects": [
+            {
+                "apply": "strength",
+                "level": 15,
+                "modifier": 1,
+                "bit_type": "object",
+                "bits": null
+            },
+            {
+                "apply": "hit roll",
+                "level": 15,
+                "modifier": 2,
+                "bit_type": "object",
+                "bits": null
+            }
+        ]
+    }},
+    {"object": {
+        "area": "sewer",
+        "anum": 201,
+        "new_format": true,
+        "name": "mace large",
+        "short_descr": "the large mace",
+        "description": "A large mace lies here.",
+        "material": "generic",
+        "item_type": "weapon",
+        "extra_flags": "magic",
+        "wear_flags": "take wield",
+        "values": {
+            "weapon_type": "mace",
+            "dice_num": 1,
+            "dice_size": 10,
+            "attack_type": "crush",
+            "flags": null
+        },
+        "level": 8,
+        "weight": 100,
+        "cost": 610,
+        "condition": 100,
+        "extra_description": [{
+            "keyword": "large mace",
+            "description": "The mace is pretty large with a weight of 10 lbs.  The head is actually four\npurple tentacles tied together.\n"
+        }],
+        "affects": [{
+            "apply": "damage roll",
+            "level": 8,
+            "modifier": 2,
+            "bit_type": "object",
+            "bits": null
+        }]
+    }},
+    {"object": {
+        "area": "sewer",
+        "anum": 202,
+        "new_format": true,
+        "name": "mace small",
+        "short_descr": "the small mace",
+        "description": "A small mace has been left here.",
+        "material": "generic",
+        "item_type": "weapon",
+        "extra_flags": "magic",
+        "wear_flags": "take wield",
+        "values": {
+            "weapon_type": "mace",
+            "dice_num": 2,
+            "dice_size": 5,
+            "attack_type": "crush",
+            "flags": null
+        },
+        "level": 8,
+        "weight": 60,
+        "cost": 480,
+        "condition": 100,
+        "extra_description": [{
+            "keyword": "small mace",
+            "description": "This weapon doesn't look like it does a lot of damage, but then you never know.\nIt consists of a black handle and a purple head.\n"
+        }],
+        "affects": [{
+            "apply": "damage roll",
+            "level": 8,
+            "modifier": 1,
+            "bit_type": "object",
+            "bits": null
+        }]
+    }},
+    {"object": {
+        "area": "sewer",
+        "anum": 203,
+        "new_format": true,
+        "name": "cloak purple",
+        "short_descr": "a purple cloak",
+        "description": "A purple cloak lies on the floor.",
+        "material": "generic",
+        "item_type": "armor",
+        "extra_flags": "magic",
+        "wear_flags": "take neck",
+        "values": {
+            "vs_pierce": 6,
+            "vs_bash": 6,
+            "vs_slash": 6,
+            "vs_magic": 0
+        },
+        "level": 15,
+        "weight": 200,
+        "cost": 1250,
+        "condition": 100,
+        "extra_description": [],
+        "affects": [{
+            "apply": "saves",
+            "level": 15,
+            "modifier": -1,
+            "bit_type": "object",
+            "bits": null
+        }]
+    }},
+    {"object": {
+        "area": "sewer",
+        "anum": 204,
+        "new_format": true,
+        "name": "potion neon blue",
+        "short_descr": "an neon blue potion",
+        "description": "A neon blue potion stands on the floor.",
+        "material": "generic",
+        "item_type": "potion",
+        "extra_flags": "magic",
+        "wear_flags": "take",
+        "values": {
+            "level": 14,
+            "skill1": "cure critical",
+            "skill2": "invisibility",
+            "skill3": "word of recall"
+        },
+        "level": 17,
+        "weight": 40,
+        "cost": 1490,
+        "condition": 100,
+        "extra_description": [],
+        "affects": []
+    }},
+    {"object": {
+        "area": "sewer",
+        "anum": 205,
+        "new_format": true,
+        "name": "key black",
+        "short_descr": "a black key",
+        "description": "A black key has been left on the floor.",
+        "material": "generic",
+        "item_type": "key",
+        "extra_flags": null,
+        "wear_flags": "take",
+        "values": {},
+        "level": 0,
+        "weight": 20,
+        "cost": 0,
+        "condition": 100,
+        "extra_description": [],
+        "affects": []
+    }},
+    {"object": {
+        "area": "sewer",
+        "anum": 206,
+        "new_format": true,
+        "name": "skull white",
+        "short_descr": "a strange white skull",
+        "description": "A strange white skull lies on the floor looking at you.",
+        "material": "generic",
+        "item_type": "armor",
+        "extra_flags": "magic nodrop",
+        "wear_flags": "take head",
+        "values": {
+            "vs_pierce": 1,
+            "vs_bash": 1,
+            "vs_slash": 1,
+            "vs_magic": 0
+        },
+        "level": 0,
+        "weight": 300,
+        "cost": 10,
+        "condition": 100,
+        "extra_description": [
+            {
+                "keyword": "writing text",
+                "description": "You read the number '666'.\n"
+            },
+            {
+                "keyword": "white skull",
+                "description": "The skull has two small horns in the forehead. You notice some writing on\nthe inside.\n"
+            }
+        ],
+        "affects": [{
+            "apply": "dexterity",
+            "level": 0,
+            "modifier": -4,
+            "bit_type": "object",
+            "bits": null
+        }]
+    }},
+    {"object": {
+        "area": "sewer",
+        "anum": 208,
+        "new_format": true,
+        "name": "stick small light",
+        "short_descr": "a small stick",
+        "description": "A small stick lies here.",
+        "material": "generic",
+        "item_type": "light",
+        "extra_flags": null,
+        "wear_flags": "take hold",
+        "values": {"duration": 120},
+        "level": 0,
+        "weight": 10,
+        "cost": 5,
+        "condition": 100,
+        "extra_description": [
+            {
+                "keyword": "letters letter",
+                "description": "It reads 'Hold me'.\n"
+            },
+            {
+                "keyword": "small stick",
+                "description": "The small stick does not look interesting at all.  But just as you are going\nto throw it away you notice some small letters.\n"
+            }
+        ],
+        "affects": []
+    }},
+    {"object": {
+        "area": "sewer",
+        "anum": 209,
+        "new_format": true,
+        "name": "boots muddy",
+        "short_descr": "a pair of muddy boots",
+        "description": "A pair of muddy boots has been dropped here.",
+        "material": "generic",
+        "item_type": "armor",
+        "extra_flags": "magic",
+        "wear_flags": "take feet",
+        "values": {
+            "vs_pierce": 3,
+            "vs_bash": 3,
+            "vs_slash": 3,
+            "vs_magic": 0
+        },
+        "level": 7,
+        "weight": 200,
+        "cost": 900,
+        "condition": 100,
+        "extra_description": [{
+            "keyword": "The boots are muddy and they look well worn, but also very comfortable.",
+            "description": ""
+        }],
+        "affects": [{
+            "apply": "dexterity",
+            "level": 7,
+            "modifier": 1,
+            "bit_type": "object",
+            "bits": null
+        }]
+    }},
+    {"object": {
+        "area": "sewer",
+        "anum": 210,
+        "new_format": true,
+        "name": "treasure coins",
+        "short_descr": "a huge treasure",
+        "description": "There is a huge treasure here, looking very valuable.",
+        "material": "generic",
+        "item_type": "money",
+        "extra_flags": null,
+        "wear_flags": "take",
+        "values": {
+            "silver": 400,
+            "gold": 3
+        },
+        "level": 0,
+        "weight": 0,
+        "cost": 0,
+        "condition": 100,
+        "extra_description": [{
+            "keyword": "treasure",
+            "description": "This looks like a whole lot of coins.\n"
+        }],
+        "affects": []
+    }},
+    {"object": {
+        "area": "sewer",
+        "anum": 211,
+        "new_format": true,
+        "name": "sword short",
+        "short_descr": "a short sword",
+        "description": "There lies a short sword.",
+        "material": "generic",
+        "item_type": "weapon",
+        "extra_flags": null,
+        "wear_flags": "take wield",
+        "values": {
+            "weapon_type": "sword",
+            "dice_num": 2,
+            "dice_size": 4,
+            "attack_type": "pierce",
+            "flags": null
+        },
+        "level": 5,
+        "weight": 40,
+        "cost": 540,
+        "condition": 100,
+        "extra_description": [],
+        "affects": [{
+            "apply": "hit roll",
+            "level": 5,
+            "modifier": 1,
+            "bit_type": "object",
+            "bits": null
+        }]
+    }},
+    {"object": {
+        "area": "sewer",
+        "anum": 216,
+        "new_format": true,
+        "name": "claw red redclaw",
+        "short_descr": "a red dragon claw",
+        "description": "On the floor rests an enormous red claw.",
+        "material": "generic",
+        "item_type": "weapon",
+        "extra_flags": "magic",
+        "wear_flags": "take wield",
+        "values": {
+            "weapon_type": "unknown",
+            "dice_num": 2,
+            "dice_size": 15,
+            "attack_type": "claw",
+            "flags": null
+        },
+        "level": 31,
+        "weight": 190,
+        "cost": 5800,
+        "condition": 100,
+        "extra_description": [{
+            "keyword": "claw red redclaw",
+            "description": "This big claw looks like a part of a dragon.\n"
+        }],
+        "affects": [
+            {
+                "apply": "damage roll",
+                "level": 31,
+                "modifier": 5,
+                "bit_type": "object",
+                "bits": null
+            },
+            {
+                "apply": "armor class",
+                "level": 31,
+                "modifier": 2,
+                "bit_type": "object",
+                "bits": null
+            }
+        ]
+    }},
+    {"object": {
+        "area": "sewer",
+        "anum": 217,
+        "new_format": true,
+        "name": "plate breast silvery",
+        "short_descr": "a silvery breast plate",
+        "description": "There is a silvery breast plate on the floor.",
+        "material": "generic",
+        "item_type": "armor",
+        "extra_flags": "magic bless antievil antineutral",
+        "wear_flags": "take body",
+        "values": {
+            "vs_pierce": 8,
+            "vs_bash": 8,
+            "vs_slash": 8,
+            "vs_magic": 2
+        },
+        "level": 32,
+        "weight": 400,
+        "cost": 12400,
+        "condition": 100,
+        "extra_description": [{
+            "keyword": "plate breast silvery",
+            "description": "On the breast plate you notice a relief of large rose. The metal seems to be \nsome kind of silver or platinum.\n"
+        }],
+        "affects": [{
+            "apply": "strength",
+            "level": 32,
+            "modifier": 3,
+            "bit_type": "object",
+            "bits": null
+        }]
+    }},
+    {"object": {
+        "area": "sewer",
+        "anum": 218,
+        "new_format": true,
+        "name": "plates leg silvery",
+        "short_descr": "some silvery leg plates",
+        "description": "On the floor you see some silvery leg plates.",
+        "material": "generic",
+        "item_type": "armor",
+        "extra_flags": "magic bless antievil antineutral",
+        "wear_flags": "take legs",
+        "values": {
+            "vs_pierce": 8,
+            "vs_bash": 8,
+            "vs_slash": 8,
+            "vs_magic": 2
+        },
+        "level": 32,
+        "weight": 200,
+        "cost": 10100,
+        "condition": 100,
+        "extra_description": [{
+            "keyword": "leg plates silvery",
+            "description": "They seem to be made from silver or platinum.  You see the outline of a rose.\n"
+        }],
+        "affects": [{
+            "apply": "intelligence",
+            "level": 32,
+            "modifier": 3,
+            "bit_type": "object",
+            "bits": null
+        }]
+    }},
+    {"object": {
+        "area": "sewer",
+        "anum": 219,
+        "new_format": true,
+        "name": "gloves silvery",
+        "short_descr": "a pair of silvery gloves",
+        "description": "You can see a pair of silvery gloves on the floor.",
+        "material": "generic",
+        "item_type": "armor",
+        "extra_flags": "magic bless antievil antineutral",
+        "wear_flags": "take hands",
+        "values": {
+            "vs_pierce": 8,
+            "vs_bash": 8,
+            "vs_slash": 8,
+            "vs_magic": 2
+        },
+        "level": 27,
+        "weight": 140,
+        "cost": 3700,
+        "condition": 100,
+        "extra_description": [{
+            "keyword": "gloves silvery",
+            "description": "The gloves are made of silver threads.\n"
+        }],
+        "affects": [
+            {
+                "apply": "damage roll",
+                "level": 27,
+                "modifier": 1,
+                "bit_type": "object",
+                "bits": null
+            },
+            {
+                "apply": "hit roll",
+                "level": 27,
+                "modifier": 2,
+                "bit_type": "object",
+                "bits": null
+            }
+        ]
+    }},
+    {"object": {
+        "area": "sewer",
+        "anum": 220,
+        "new_format": true,
+        "name": "helmet silvery",
+        "short_descr": "a silvery helmet",
+        "description": "The silvery helmet lies here.",
+        "material": "generic",
+        "item_type": "armor",
+        "extra_flags": "magic bless antievil antineutral",
+        "wear_flags": "take head",
+        "values": {
+            "vs_pierce": 9,
+            "vs_bash": 9,
+            "vs_slash": 9,
+            "vs_magic": 2
+        },
+        "level": 32,
+        "weight": 350,
+        "cost": 10600,
+        "condition": 100,
+        "extra_description": [{
+            "keyword": "helmet silvery",
+            "description": "The helmet is made from platinum or silver and has a white fur brush attached\non the top.\n"
+        }],
+        "affects": [{
+            "apply": "wisdom",
+            "level": 32,
+            "modifier": 3,
+            "bit_type": "object",
+            "bits": null
+        }]
+    }},
+    {"object": {
+        "area": "sewer",
+        "anum": 221,
+        "new_format": true,
+        "name": "shield",
+        "short_descr": "the shield of the rose",
+        "description": "The shield of the rose rests on the floor.",
+        "material": "generic",
+        "item_type": "armor",
+        "extra_flags": "magic bless antievil antineutral",
+        "wear_flags": "take shield",
+        "values": {
+            "vs_pierce": 8,
+            "vs_bash": 8,
+            "vs_slash": 8,
+            "vs_magic": 3
+        },
+        "level": 30,
+        "weight": 600,
+        "cost": 5800,
+        "condition": 100,
+        "extra_description": [{
+            "keyword": "shield",
+            "description": "On the shield you see a clear and perfect painting of a dark red rose on a white\nbackground. You also notice the inscription :'Pax Est Sanctuum'.\n"
+        }],
+        "affects": [{
+            "apply": "armor class",
+            "level": 30,
+            "modifier": -7,
+            "bit_type": "object",
+            "bits": null
+        }]
+    }},
+    {"object": {
+        "area": "sewer",
+        "anum": 222,
+        "new_format": true,
+        "name": "boots silvery",
+        "short_descr": "a pair of silvery boots",
+        "description": "A pair of silvery boots stand on the floor.",
+        "material": "generic",
+        "item_type": "armor",
+        "extra_flags": "magic bless antievil antineutral",
+        "wear_flags": "take feet",
+        "values": {
+            "vs_pierce": 8,
+            "vs_bash": 8,
+            "vs_slash": 8,
+            "vs_magic": 2
+        },
+        "level": 32,
+        "weight": 400,
+        "cost": 10100,
+        "condition": 100,
+        "extra_description": [{
+            "keyword": "boots silvery",
+            "description": "The boots are made from a silvery metal.\n"
+        }],
+        "affects": [{
+            "apply": "dexterity",
+            "level": 32,
+            "modifier": 3,
+            "bit_type": "object",
+            "bits": null
+        }]
+    }},
+    {"object": {
+        "area": "sewer",
+        "anum": 223,
+        "new_format": true,
+        "name": "plates arm silvery",
+        "short_descr": "some silvery arm plates",
+        "description": "On the floor you see some silvery arm plates.",
+        "material": "generic",
+        "item_type": "armor",
+        "extra_flags": "magic bless antievil antineutral",
+        "wear_flags": "take arms",
+        "values": {
+            "vs_pierce": 8,
+            "vs_bash": 8,
+            "vs_slash": 8,
+            "vs_magic": 2
+        },
+        "level": 32,
+        "weight": 400,
+        "cost": 10100,
+        "condition": 100,
+        "extra_description": [{
+            "keyword": "plates arm silvery",
+            "description": "They seem to be made from silver or platinum. You see the outline of a rose.\n"
+        }],
+        "affects": [{
+            "apply": "constitution",
+            "level": 32,
+            "modifier": 3,
+            "bit_type": "object",
+            "bits": null
+        }]
+    }},
+    {"object": {
+        "area": "sewer",
+        "anum": 224,
+        "new_format": true,
+        "name": "cloak white",
+        "short_descr": "a white cloak",
+        "description": "A white cloak lies on the floor.",
+        "material": "generic",
+        "item_type": "armor",
+        "extra_flags": "magic bless antievil antineutral",
+        "wear_flags": "take about",
+        "values": {
+            "vs_pierce": 9,
+            "vs_bash": 9,
+            "vs_slash": 9,
+            "vs_magic": 2
+        },
+        "level": 31,
+        "weight": 200,
+        "cost": 3700,
+        "condition": 100,
+        "extra_description": [{
+            "keyword": "cloak white",
+            "description": "This is a very fine made cloak from an unknown material, in a bright white\ncolor.\n"
+        }],
+        "affects": [{
+            "apply": "saves",
+            "level": 31,
+            "modifier": -2,
+            "bit_type": "object",
+            "bits": null
+        }]
+    }},
+    {"object": {
+        "area": "sewer",
+        "anum": 298,
+        "new_format": true,
+        "name": "treasure coins",
+        "short_descr": "a huge treasure",
+        "description": "A huge treasure is lying here, looking very valuable.",
+        "material": "generic",
+        "item_type": "money",
+        "extra_flags": null,
+        "wear_flags": "take",
+        "values": {
+            "silver": 400,
+            "gold": 12
+        },
+        "level": 0,
+        "weight": 0,
+        "cost": 0,
+        "condition": 100,
+        "extra_description": [{
+            "keyword": "treasure",
+            "description": "Looks like a LOT of coins.\n"
+        }],
+        "affects": []
+    }},
+    {"object": {
+        "area": "sewer",
+        "anum": 299,
+        "new_format": true,
+        "name": "sword short",
+        "short_descr": "a short sword",
+        "description": "There lies a short sword.",
+        "material": "generic",
+        "item_type": "weapon",
+        "extra_flags": null,
+        "wear_flags": "take wield",
+        "values": {
+            "weapon_type": "sword",
+            "dice_num": 2,
+            "dice_size": 5,
+            "attack_type": "stab",
+            "flags": null
+        },
+        "level": 7,
+        "weight": 40,
+        "cost": 610,
+        "condition": 100,
+        "extra_description": [{
+            "keyword": "short sword",
+            "description": "This is a very nice little weapon.\n"
+        }],
+        "affects": []
+    }},
+    {"object": {
+        "area": "sewer",
+        "anum": 300,
+        "new_format": true,
+        "name": "backpack pack back",
+        "short_descr": "a backpack",
+        "description": "A backpack stands upright here.",
+        "material": "generic",
+        "item_type": "container",
+        "extra_flags": null,
+        "wear_flags": "take about",
+        "values": {
+            "capacity": 60,
+            "flags": "closeable closed",
+            "key": 0,
+            "max_weight": 6,
+            "weight_mult": 100
+        },
+        "level": 0,
+        "weight": 20,
+        "cost": 100,
+        "condition": 100,
+        "extra_description": [],
+        "affects": []
+    }},
+    {"object": {
+        "area": "sewer",
+        "anum": 301,
+        "new_format": true,
+        "name": "beltpouch pouch",
+        "short_descr": "a large beltpouch",
+        "description": "A large beltpouch lies here on the ground.",
+        "material": "generic",
+        "item_type": "container",
+        "extra_flags": null,
+        "wear_flags": "take waist",
+        "values": {
+            "capacity": 5,
+            "flags": "closeable closed",
+            "key": 0,
+            "max_weight": 1,
+            "weight_mult": 100
+        },
+        "level": 0,
+        "weight": 10,
+        "cost": 20,
+        "condition": 100,
+        "extra_description": [],
+        "affects": []
+    }},
+    {"object": {
+        "area": "sewer",
+        "anum": 303,
+        "new_format": true,
+        "name": "orb dragonorb",
+        "short_descr": "the Red DragonOrb",
+        "description": "A large reddish sphere is in the center of the room.",
+        "material": "generic",
+        "item_type": "staff",
+        "extra_flags": "magic antigood",
+        "wear_flags": "take hold",
+        "values": {
+            "level": 13,
+            "recharge": 10,
+            "charges": 10,
+            "skill": "sanctuary"
+        },
+        "level": 21,
+        "weight": 50,
+        "cost": 18600,
+        "condition": 100,
+        "extra_description": [],
+        "affects": [
+            {
+                "apply": "wisdom",
+                "level": 21,
+                "modifier": 2,
+                "bit_type": "object",
+                "bits": null
+            },
+            {
+                "apply": "intelligence",
+                "level": 21,
+                "modifier": 2,
+                "bit_type": "object",
+                "bits": null
+            }
+        ]
+    }},
+    {"object": {
+        "area": "sewer",
+        "anum": 304,
+        "new_format": true,
+        "name": "red torso",
+        "short_descr": "a red dragon torso",
+        "description": "There is a pile of red dragonscale on the floor.",
+        "material": "generic",
+        "item_type": "armor",
+        "extra_flags": "magic antigood",
+        "wear_flags": "take body",
+        "values": {
+            "vs_pierce": 9,
+            "vs_bash": 9,
+            "vs_slash": 9,
+            "vs_magic": 4
+        },
+        "level": 29,
+        "weight": 300,
+        "cost": 6400,
+        "condition": 100,
+        "extra_description": [],
+        "affects": [
+            {
+                "apply": "damage roll",
+                "level": 29,
+                "modifier": 2,
+                "bit_type": "object",
+                "bits": null
+            },
+            {
+                "apply": "dexterity",
+                "level": 29,
+                "modifier": -1,
+                "bit_type": "object",
+                "bits": null
+            }
+        ]
+    }},
+    {"object": {
+        "area": "sewer",
+        "anum": 305,
+        "new_format": true,
+        "name": "leggings red",
+        "short_descr": "red dragonscale leggings",
+        "description": "On the floor you see two red dragonscale leggings.",
+        "material": "generic",
+        "item_type": "armor",
+        "extra_flags": "magic antigood",
+        "wear_flags": "take legs",
+        "values": {
+            "vs_pierce": 9,
+            "vs_bash": 9,
+            "vs_slash": 9,
+            "vs_magic": 4
+        },
+        "level": 29,
+        "weight": 170,
+        "cost": 3700,
+        "condition": 100,
+        "extra_description": [],
+        "affects": [
+            {
+                "apply": "damage roll",
+                "level": 29,
+                "modifier": 2,
+                "bit_type": "object",
+                "bits": null
+            },
+            {
+                "apply": "dexterity",
+                "level": 29,
+                "modifier": -1,
+                "bit_type": "object",
+                "bits": null
+            }
+        ]
+    }},
+    {"object": {
+        "area": "sewer",
+        "anum": 306,
+        "new_format": true,
+        "name": "claws dragonclaws red",
+        "short_descr": "a pair of red dragon claws",
+        "description": "You can see a pair of large red dragon claws on the floor.",
+        "material": "generic",
+        "item_type": "furniture",
+        "extra_flags": "magic antigood",
+        "wear_flags": "take hands",
+        "values": {
+            "max_people": 9,
+            "max_weight": 0,
+            "flags": null,
+            "heal_rate": 100,
+            "mana_rate": 100
+        },
+        "level": 20,
+        "weight": 40,
+        "cost": 1150,
+        "condition": 100,
+        "extra_description": [],
+        "affects": [{
+            "apply": "damage roll",
+            "level": 20,
+            "modifier": 2,
+            "bit_type": "object",
+            "bits": null
+        }]
+    }},
+    {"object": {
+        "area": "sewer",
+        "anum": 307,
+        "new_format": true,
+        "name": "skull dragonhelm red",
+        "short_descr": "a red dragonhelm",
+        "description": "A helmet fashioned into the likeness of a dragon skull is here.",
+        "material": "generic",
+        "item_type": "armor",
+        "extra_flags": "magic antigood",
+        "wear_flags": "take head",
+        "values": {
+            "vs_pierce": 9,
+            "vs_bash": 9,
+            "vs_slash": 9,
+            "vs_magic": 4
+        },
+        "level": 29,
+        "weight": 150,
+        "cost": 7000,
+        "condition": 100,
+        "extra_description": [],
+        "affects": [
+            {
+                "apply": "wisdom",
+                "level": 29,
+                "modifier": 2,
+                "bit_type": "object",
+                "bits": null
+            },
+            {
+                "apply": "damage roll",
+                "level": 29,
+                "modifier": 2,
+                "bit_type": "object",
+                "bits": null
+            },
+            {
+                "apply": "dexterity",
+                "level": 29,
+                "modifier": -1,
+                "bit_type": "object",
+                "bits": null
+            }
+        ]
+    }},
+    {"object": {
+        "area": "sewer",
+        "anum": 308,
+        "new_format": true,
+        "name": "shield red",
+        "short_descr": "the red dragon shield",
+        "description": "A large red dragon shield rests on the floor.",
+        "material": "generic",
+        "item_type": "armor",
+        "extra_flags": "magic antigood",
+        "wear_flags": "take shield",
+        "values": {
+            "vs_pierce": 10,
+            "vs_bash": 10,
+            "vs_slash": 10,
+            "vs_magic": 5
+        },
+        "level": 35,
+        "weight": 100,
+        "cost": 6900,
+        "condition": 100,
+        "extra_description": [],
+        "affects": [{
+            "apply": "damage roll",
+            "level": 35,
+            "modifier": 2,
+            "bit_type": "object",
+            "bits": null
+        }]
+    }},
+    {"object": {
+        "area": "sewer",
+        "anum": 309,
+        "new_format": true,
+        "name": "greaves red",
+        "short_descr": "a pair of a red dragon's rear claws",
+        "description": "A pair of a red dragon's rear claws is on the floor.",
+        "material": "generic",
+        "item_type": "armor",
+        "extra_flags": "magic antigood",
+        "wear_flags": "take feet",
+        "values": {
+            "vs_pierce": 9,
+            "vs_bash": 9,
+            "vs_slash": 9,
+            "vs_magic": 4
+        },
+        "level": 29,
+        "weight": 400,
+        "cost": 3700,
+        "condition": 100,
+        "extra_description": [],
+        "affects": [
+            {
+                "apply": "dexterity",
+                "level": 29,
+                "modifier": -1,
+                "bit_type": "object",
+                "bits": null
+            },
+            {
+                "apply": "damage roll",
+                "level": 29,
+                "modifier": 2,
+                "bit_type": "object",
+                "bits": null
+            }
+        ]
+    }},
+    {"object": {
+        "area": "sewer",
+        "anum": 310,
+        "new_format": true,
+        "name": "arm guards red",
+        "short_descr": "red dragon arm guards",
+        "description": "On the ground you see two red arm guards.",
+        "material": "generic",
+        "item_type": "armor",
+        "extra_flags": "magic antigood",
+        "wear_flags": "take arms",
+        "values": {
+            "vs_pierce": 9,
+            "vs_bash": 9,
+            "vs_slash": 9,
+            "vs_magic": 4
+        },
+        "level": 29,
+        "weight": 400,
+        "cost": 3700,
+        "condition": 100,
+        "extra_description": [],
+        "affects": [
+            {
+                "apply": "dexterity",
+                "level": 29,
+                "modifier": -1,
+                "bit_type": "object",
+                "bits": null
+            },
+            {
+                "apply": "damage roll",
+                "level": 29,
+                "modifier": 2,
+                "bit_type": "object",
+                "bits": null
+            }
+        ]
+    }}
+]

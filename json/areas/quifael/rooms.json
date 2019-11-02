@@ -1,0 +1,237 @@
+[
+    {"room": {
+        "area": "quifael",
+        "anum": 0,
+        "owner": null,
+        "name": "Quifael's monster pen",
+        "description": "You are in a big, subterranean room with heavy massive stone walls and no\nwindows whatsoever.  A virtual ladder leads upwards.\n",
+        "room_flags": "indoors private",
+        "sector_type": "inside",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [{
+            "dir": "up",
+            "to": 2,
+            "keyword": null,
+            "description": "The ladder leads to the laboratory.\n",
+            "exit_flags": null,
+            "key": -1,
+            "portal": null
+        }],
+        "extra_description": [],
+        "resets": []
+    }},
+    {"room": {
+        "area": "quifael",
+        "anum": 1,
+        "owner": null,
+        "name": "Quifael's study",
+        "description": "You are in a small, comfortable study room.  The walls are lined with\nbookcases filled with dusty volumes of all sizes.  In the fireplace burns a\ncrackling fire that makes the room warm and cosy, and in front of an oakwood\nreading desk is a large old-fashioned chair.\n",
+        "room_flags": "no_mob indoors private",
+        "sector_type": "inside",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [{
+            "dir": "south",
+            "to": 4,
+            "keyword": null,
+            "description": "The corridor leads south to the hall.\n",
+            "exit_flags": null,
+            "key": -1,
+            "portal": null
+        }],
+        "extra_description": [
+            {
+                "keyword": "chair",
+                "description": "It is big and old-fashioned, but quite comfortable nevertheless.\n"
+            },
+            {
+                "keyword": "desk",
+                "description": "It is very massive and but seems worn from many years of use.\n"
+            },
+            {
+                "keyword": "fireplace",
+                "description": "The fireplace isn't particularly big, but the fire crackles merrily in it.\n"
+            },
+            {
+                "keyword": "bookcase bookcases volume volumes book books",
+                "description": "Most of the books are heavy, leatherbound and covered in a thin layer of dust.\nThere are many titles on necromancy, conjuring and other spheres of Magick,\nbut also some on computer science (although these seem to be VERY dusty\nindeed) and a fair collection of horror literature, ranging from Bram Stoker\nand H. P. Lovecraft to Anne Rice and Stephen King.\n"
+            }
+        ],
+        "resets": []
+    }},
+    {"room": {
+        "area": "quifael",
+        "anum": 2,
+        "owner": null,
+        "name": "Quifael's laboratory",
+        "description": "You are in a room filled with shelves containing all sorts of weird equipment.\nThe walls are lined with numerous shelves and a massive working desk is by\nthe north wall.  The air smells of rare chemicals and spices.\nA virtual ladder leads downwards.\nA magical portal is hovering in the air just in front of the east wall.\n",
+        "room_flags": "no_mob indoors private",
+        "sector_type": "inside",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [
+            {
+                "dir": "east",
+                "to": 3,
+                "keyword": null,
+                "description": "To the east is the magical portal.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "west",
+                "to": 4,
+                "keyword": null,
+                "description": "To the west is the hall.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "down",
+                "to": 0,
+                "keyword": null,
+                "description": "The virtual ladder leads down to the monster pen.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            }
+        ],
+        "extra_description": [
+            {
+                "keyword": "desk",
+                "description": "On the desk is a peculiar apparatus of glass bottles and globes connected by\nsmall pipelines.  The green liquid inside the apparatus' globes and pipelines\nis bubbling steadily.\n"
+            },
+            {
+                "keyword": "shelves",
+                "description": "The shelves contain a mass of bottles, jars and boxes of different shapes and\nsizes, of which some contain powders and liquids in various colours.  Others\ncontain dragon's claws, giant's eyes, rabbit's ears and other body parts of\ndifferent monsters.\n"
+            }
+        ],
+        "resets": []
+    }},
+    {"room": {
+        "area": "quifael",
+        "anum": 3,
+        "owner": null,
+        "name": "Quifael's virtual balcony",
+        "description": "You are on a transparent balcony hanging in mid-air.  You notice a faint blue\nglow surrounding everything, even yourself, making it seem as transparent as\nthe balcony itself.  From here, you have a terrific view of the whole Forest\nof Haon-Dor.\nA transparent bronze plate has been bolted to the balcony railing.\nA magical portal is hovering in the air to the west.\n",
+        "room_flags": "indoors private",
+        "sector_type": "inside",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [{
+            "dir": "west",
+            "to": 2,
+            "keyword": null,
+            "description": "The magical portal is to the west.\n",
+            "exit_flags": null,
+            "key": -1,
+            "portal": null
+        }],
+        "extra_description": [
+            {
+                "keyword": "forest Haon-Dor view",
+                "description": "Through the tree crowns, you see fellow adventurers walking around in the\nforest, gathering mushrooms, eating blackberries, committing rabbit genocide\nand generally having a good time.\n"
+            },
+            {
+                "keyword": "plate",
+                "description": "The transparent bronze plate looks quite strange, but the engraved letters are\nquite easy to read, nevertheless :-\n \n              Quifael's Virtual Balcony\n \n                   Do not lean out!\n \n  Please do not try to attract the attention of any\n      adventurers in the forest, as you are not\n         really in existence at the moment.\n \n        (This could possibly mess up Reality,\n      and we wouldn't want to do that, would we?)\n"
+            },
+            {
+                "keyword": "balcony railing",
+                "description": "Quite transparent, but visible anyway, because of the blue glow that surrounds\nthe whole place.\n"
+            }
+        ],
+        "resets": []
+    }},
+    {"room": {
+        "area": "quifael",
+        "anum": 4,
+        "owner": null,
+        "name": "Quifael's hall",
+        "description": "You are in sparsely decorated and quite dusty hall.  Old wooden doors lead\nnorth, east and south and to the west is the front door.\nAn old mirror hangs on the wall.\n",
+        "room_flags": "indoors private",
+        "sector_type": "inside",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [
+            {
+                "dir": "north",
+                "to": 1,
+                "keyword": null,
+                "description": "The study is to the north.",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "east",
+                "to": 2,
+                "keyword": null,
+                "description": "The laboratory is to the east.",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "south",
+                "to": 5,
+                "keyword": null,
+                "description": "The kitchen is to the south.",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "west",
+                "to": null,
+                "keyword": "door",
+                "description": "The front door leads to Park Road.",
+                "exit_flags": "door pickproof",
+                "key": 3301,
+                "portal": "quifael-1-west"
+            }
+        ],
+        "extra_description": [{
+            "keyword": "mirror",
+            "description": "You see yourself looking back at you.\n"
+        }],
+        "resets": []
+    }},
+    {"room": {
+        "area": "quifael",
+        "anum": 5,
+        "owner": null,
+        "name": "Quifael's kitchen",
+        "description": "You are in an old-fashioned kitchen.\n",
+        "room_flags": "indoors private",
+        "sector_type": "inside",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [{
+            "dir": "north",
+            "to": 4,
+            "keyword": null,
+            "description": "The hall is to the north.",
+            "exit_flags": null,
+            "key": -1,
+            "portal": null
+        }],
+        "extra_description": [],
+        "resets": []
+    }}
+]

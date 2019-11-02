@@ -1,0 +1,707 @@
+[
+    {"object": {
+        "area": "school",
+        "anum": 0,
+        "new_format": true,
+        "name": "mace sub merc",
+        "short_descr": "a sub issue mace",
+        "description": "You see a sub issue mace here.",
+        "material": "bronze",
+        "item_type": "weapon",
+        "extra_flags": "meltdrop",
+        "wear_flags": "take wield",
+        "values": {
+            "weapon_type": "mace",
+            "dice_num": 1,
+            "dice_size": 6,
+            "attack_type": "pound",
+            "flags": null
+        },
+        "level": 1,
+        "weight": 60,
+        "cost": 250,
+        "condition": 100,
+        "extra_description": [{
+            "keyword": "mace",
+            "description": "You see a mace of great but cheap craftsmanship.  Imprinted on the side is:\nMerc Industries\n"
+        }],
+        "affects": [{
+            "apply": "hit roll",
+            "level": 1,
+            "modifier": 1,
+            "bit_type": "object",
+            "bits": null
+        }]
+    }},
+    {"object": {
+        "area": "school",
+        "anum": 1,
+        "new_format": true,
+        "name": "dagger sub merc",
+        "short_descr": "a sub issue dagger",
+        "description": "You see a sub issue dagger here.",
+        "material": "bronze",
+        "item_type": "weapon",
+        "extra_flags": "meltdrop",
+        "wear_flags": "take wield",
+        "values": {
+            "weapon_type": "dagger",
+            "dice_num": 1,
+            "dice_size": 4,
+            "attack_type": "pierce",
+            "flags": null
+        },
+        "level": 0,
+        "weight": 10,
+        "cost": 210,
+        "condition": 100,
+        "extra_description": [{
+            "keyword": "dagger",
+            "description": "You see a dagger of great but cheap craftsmanship.  Imprinted on the side is:\nMerc Industries\n"
+        }],
+        "affects": [{
+            "apply": "hit roll",
+            "level": 0,
+            "modifier": 1,
+            "bit_type": "object",
+            "bits": null
+        }]
+    }},
+    {"object": {
+        "area": "school",
+        "anum": 2,
+        "new_format": true,
+        "name": "sword sub merc",
+        "short_descr": "a sub issue sword",
+        "description": "You see a sub issue sword here.",
+        "material": "bronze",
+        "item_type": "weapon",
+        "extra_flags": "meltdrop",
+        "wear_flags": "take wield",
+        "values": {
+            "weapon_type": "sword",
+            "dice_num": 1,
+            "dice_size": 6,
+            "attack_type": "slash",
+            "flags": null
+        },
+        "level": 1,
+        "weight": 30,
+        "cost": 360,
+        "condition": 100,
+        "extra_description": [{
+            "keyword": "sword",
+            "description": "You see a sword of great but cheap craftsmanship.  Imprinted on the side is:\nMerc Industries\n"
+        }],
+        "affects": [{
+            "apply": "hit roll",
+            "level": 1,
+            "modifier": 1,
+            "bit_type": "object",
+            "bits": null
+        }]
+    }},
+    {"object": {
+        "area": "school",
+        "anum": 3,
+        "new_format": true,
+        "name": "vest sub merc",
+        "short_descr": "a sub issue vest",
+        "description": "You see a sub issue vest here.",
+        "material": "leather",
+        "item_type": "armor",
+        "extra_flags": "meltdrop",
+        "wear_flags": "take body",
+        "values": {
+            "vs_pierce": 1,
+            "vs_bash": 1,
+            "vs_slash": 1,
+            "vs_magic": 0
+        },
+        "level": 0,
+        "weight": 50,
+        "cost": 144,
+        "condition": 100,
+        "extra_description": [{
+            "keyword": "vest",
+            "description": "You see a vest of great but cheap craftsmanship.  Stamped on the side is:\nMerc Industries\n"
+        }],
+        "affects": []
+    }},
+    {"object": {
+        "area": "school",
+        "anum": 4,
+        "new_format": true,
+        "name": "shield sub merc",
+        "short_descr": "a sub issue shield",
+        "description": "You see a sub issue shield here.",
+        "material": "wood",
+        "item_type": "armor",
+        "extra_flags": "meltdrop",
+        "wear_flags": "take shield",
+        "values": {
+            "vs_pierce": 1,
+            "vs_bash": 1,
+            "vs_slash": 1,
+            "vs_magic": 0
+        },
+        "level": 0,
+        "weight": 30,
+        "cost": 108,
+        "condition": 100,
+        "extra_description": [{
+            "keyword": "shield",
+            "description": "You see a shield of great but cheap craftsmanship.  Imprinted on the side is:\nMerc Industries\n"
+        }],
+        "affects": []
+    }},
+    {"object": {
+        "area": "school",
+        "anum": 5,
+        "new_format": true,
+        "name": "cloak sub merc",
+        "short_descr": "a sub issue cloak",
+        "description": "You see a sub issue cloak here.",
+        "material": "cloth",
+        "item_type": "armor",
+        "extra_flags": "meltdrop",
+        "wear_flags": "take neck",
+        "values": {
+            "vs_pierce": 1,
+            "vs_bash": 1,
+            "vs_slash": 1,
+            "vs_magic": 0
+        },
+        "level": 0,
+        "weight": 40,
+        "cost": 72,
+        "condition": 100,
+        "extra_description": [{
+            "keyword": "cloak",
+            "description": "You see a cloak of great but cheap craftsmanship.  Imprinted on the side is:\nMerc Industries\n"
+        }],
+        "affects": []
+    }},
+    {"object": {
+        "area": "school",
+        "anum": 6,
+        "new_format": true,
+        "name": "helmet sub merc",
+        "short_descr": "a sub issue helmet",
+        "description": "You see a sub issue helmet here.",
+        "material": "leather",
+        "item_type": "armor",
+        "extra_flags": "meltdrop",
+        "wear_flags": "take head",
+        "values": {
+            "vs_pierce": 1,
+            "vs_bash": 1,
+            "vs_slash": 1,
+            "vs_magic": 0
+        },
+        "level": 0,
+        "weight": 30,
+        "cost": 72,
+        "condition": 100,
+        "extra_description": [{
+            "keyword": "helmet",
+            "description": "You see a helmet of great but cheap craftsmanship.  Imprinted on the side is:\nMerc Industries\n"
+        }],
+        "affects": []
+    }},
+    {"object": {
+        "area": "school",
+        "anum": 7,
+        "new_format": true,
+        "name": "leggings sub merc",
+        "short_descr": "a pair of sub issue leggings",
+        "description": "You see a pair of sub issue leggings here.",
+        "material": "leather",
+        "item_type": "armor",
+        "extra_flags": "meltdrop",
+        "wear_flags": "take legs",
+        "values": {
+            "vs_pierce": 1,
+            "vs_bash": 1,
+            "vs_slash": 1,
+            "vs_magic": 0
+        },
+        "level": 0,
+        "weight": 30,
+        "cost": 72,
+        "condition": 100,
+        "extra_description": [{
+            "keyword": "leggings",
+            "description": "You see leggings of great but cheap craftsmanship.  Imprinted on the side is:\nMerc Industries\n"
+        }],
+        "affects": []
+    }},
+    {"object": {
+        "area": "school",
+        "anum": 8,
+        "new_format": true,
+        "name": "boots sub merc",
+        "short_descr": "a pair of sub issue boots",
+        "description": "You see a pair of sub issue boots here.",
+        "material": "leather",
+        "item_type": "armor",
+        "extra_flags": "meltdrop",
+        "wear_flags": "take feet",
+        "values": {
+            "vs_pierce": 1,
+            "vs_bash": 1,
+            "vs_slash": 1,
+            "vs_magic": 0
+        },
+        "level": 0,
+        "weight": 30,
+        "cost": 72,
+        "condition": 100,
+        "extra_description": [{
+            "keyword": "boots",
+            "description": "You see boots of great but cheap craftsmanship.  Imprinted on the side is:\nMerc Industries\n"
+        }],
+        "affects": []
+    }},
+    {"object": {
+        "area": "school",
+        "anum": 9,
+        "new_format": true,
+        "name": "gloves sub merc",
+        "short_descr": "a pair of sub issue gloves",
+        "description": "You see a pair of sub issue gloves here.",
+        "material": "leather",
+        "item_type": "armor",
+        "extra_flags": "meltdrop",
+        "wear_flags": "take hands",
+        "values": {
+            "vs_pierce": 1,
+            "vs_bash": 1,
+            "vs_slash": 1,
+            "vs_magic": 0
+        },
+        "level": 0,
+        "weight": 10,
+        "cost": 72,
+        "condition": 100,
+        "extra_description": [{
+            "keyword": "gloves",
+            "description": "You see gloves of great but cheap craftsmanship.  Imprinted on the side is:\nMerc Industries\n"
+        }],
+        "affects": []
+    }},
+    {"object": {
+        "area": "school",
+        "anum": 10,
+        "new_format": true,
+        "name": "sleeves sub merc",
+        "short_descr": "a pair of sub issue sleeves",
+        "description": "You see a pair of sub issue sleeves here.",
+        "material": "leather",
+        "item_type": "armor",
+        "extra_flags": "meltdrop",
+        "wear_flags": "take arms",
+        "values": {
+            "vs_pierce": 1,
+            "vs_bash": 1,
+            "vs_slash": 1,
+            "vs_magic": 0
+        },
+        "level": 0,
+        "weight": 20,
+        "cost": 72,
+        "condition": 100,
+        "extra_description": [{
+            "keyword": "sleeves",
+            "description": "You see sleeves of great but cheap craftsmanship.  Imprinted on the side is:\nMerc Industries\n"
+        }],
+        "affects": []
+    }},
+    {"object": {
+        "area": "school",
+        "anum": 11,
+        "new_format": true,
+        "name": "cape sub merc",
+        "short_descr": "a sub issue cape",
+        "description": "You see a sub issue cape here.",
+        "material": "cloth",
+        "item_type": "armor",
+        "extra_flags": "meltdrop",
+        "wear_flags": "take about",
+        "values": {
+            "vs_pierce": 1,
+            "vs_bash": 1,
+            "vs_slash": 1,
+            "vs_magic": 0
+        },
+        "level": 0,
+        "weight": 20,
+        "cost": 72,
+        "condition": 100,
+        "extra_description": [{
+            "keyword": "cape",
+            "description": "You see a cape of great but cheap craftsmanship.  Imprinted on the side is:\nMerc Industries\n"
+        }],
+        "affects": []
+    }},
+    {"object": {
+        "area": "school",
+        "anum": 12,
+        "new_format": true,
+        "name": "belt sub merc",
+        "short_descr": "a sub issue belt",
+        "description": "You see a sub issue belt here.",
+        "material": "leather",
+        "item_type": "armor",
+        "extra_flags": "meltdrop",
+        "wear_flags": "take waist",
+        "values": {
+            "vs_pierce": 1,
+            "vs_bash": 1,
+            "vs_slash": 1,
+            "vs_magic": 0
+        },
+        "level": 0,
+        "weight": 10,
+        "cost": 72,
+        "condition": 100,
+        "extra_description": [{
+            "keyword": "belt",
+            "description": "You see a belt of great but cheap craftsmanship.  Imprinted on the side is:\nMerc Industries\n"
+        }],
+        "affects": []
+    }},
+    {"object": {
+        "area": "school",
+        "anum": 13,
+        "new_format": true,
+        "name": "bracer sub merc",
+        "short_descr": "a sub issue bracer",
+        "description": "You see a sub issue bracer here.",
+        "material": "bronze",
+        "item_type": "armor",
+        "extra_flags": "meltdrop",
+        "wear_flags": "take wrist",
+        "values": {
+            "vs_pierce": 0,
+            "vs_bash": 1,
+            "vs_slash": 1,
+            "vs_magic": 0
+        },
+        "level": 0,
+        "weight": 10,
+        "cost": 48,
+        "condition": 100,
+        "extra_description": [{
+            "keyword": "bracer",
+            "description": "You see a bracer of great but cheap craftsmanship.  Imprinted on the side is:\nMerc Industries\n"
+        }],
+        "affects": []
+    }},
+    {"object": {
+        "area": "school",
+        "anum": 14,
+        "new_format": true,
+        "name": "key",
+        "short_descr": "a key",
+        "description": "You see a very important key here!",
+        "material": "brass",
+        "item_type": "key",
+        "extra_flags": "rotdeath",
+        "wear_flags": "take",
+        "values": {},
+        "level": 0,
+        "weight": 10,
+        "cost": 0,
+        "condition": 100,
+        "extra_description": [],
+        "affects": []
+    }},
+    {"object": {
+        "area": "school",
+        "anum": 15,
+        "new_format": true,
+        "name": "diploma",
+        "short_descr": "a mud school diploma",
+        "description": "You see a mud school diploma here.",
+        "material": "vellum",
+        "item_type": "treasure",
+        "extra_flags": "magic meltdrop",
+        "wear_flags": "take hold",
+        "values": {},
+        "level": 0,
+        "weight": 10,
+        "cost": 1140,
+        "condition": 100,
+        "extra_description": [{
+            "keyword": "diploma",
+            "description": "This document shows that you have graduated from Mud School.\nIt also has magical effects on your abilities if you hold it!\n\nMerc Industries\n"
+        }],
+        "affects": [
+            {
+                "apply": "wisdom",
+                "level": 0,
+                "modifier": 1,
+                "bit_type": "object",
+                "bits": null
+            },
+            {
+                "apply": "constitution",
+                "level": 0,
+                "modifier": 1,
+                "bit_type": "object",
+                "bits": null
+            }
+        ]
+    }},
+    {"object": {
+        "area": "school",
+        "anum": 16,
+        "new_format": true,
+        "name": "banner war merc",
+        "short_descr": "a war banner",
+        "description": "A war banner is on the floor here.",
+        "material": "cloth",
+        "item_type": "light",
+        "extra_flags": "glow magic",
+        "wear_flags": "take",
+        "values": {"duration": 200},
+        "level": 0,
+        "weight": 20,
+        "cost": 380,
+        "condition": 100,
+        "extra_description": [{
+            "keyword": "banner",
+            "description": "This is the official Merc war banner to see you through the darkest realm!\n"
+        }],
+        "affects": [
+            {
+                "apply": "armor class",
+                "level": 0,
+                "modifier": -1,
+                "bit_type": "object",
+                "bits": null
+            },
+            {
+                "apply": "saves",
+                "level": 0,
+                "modifier": -1,
+                "bit_type": "object",
+                "bits": null
+            }
+        ]
+    }},
+    {"object": {
+        "area": "school",
+        "anum": 17,
+        "new_format": true,
+        "name": "spear sub merc",
+        "short_descr": "a sub issue spear",
+        "description": "You see a sub issue spear here.",
+        "material": "wood",
+        "item_type": "weapon",
+        "extra_flags": "meltdrop",
+        "wear_flags": "take wield",
+        "values": {
+            "weapon_type": "staff",
+            "dice_num": 1,
+            "dice_size": 6,
+            "attack_type": "thrust",
+            "flags": null
+        },
+        "level": 1,
+        "weight": 50,
+        "cost": 111,
+        "condition": 100,
+        "extra_description": [{
+            "keyword": "spear",
+            "description": "You see a spear of great but cheap craftsmanship.  Imprinted on the side is:\nMerc Industries\n"
+        }],
+        "affects": [{
+            "apply": "hit roll",
+            "level": 1,
+            "modifier": 1,
+            "bit_type": "object",
+            "bits": null
+        }]
+    }},
+    {"object": {
+        "area": "school",
+        "anum": 18,
+        "new_format": true,
+        "name": "staff sub merc",
+        "short_descr": "a sub issue staff",
+        "description": "You see a sub issue staff here.",
+        "material": "wood",
+        "item_type": "weapon",
+        "extra_flags": "meltdrop",
+        "wear_flags": "take wield",
+        "values": {
+            "weapon_type": "staff",
+            "dice_num": 1,
+            "dice_size": 5,
+            "attack_type": "pound",
+            "flags": "twohands"
+        },
+        "level": 1,
+        "weight": 40,
+        "cost": 290,
+        "condition": 100,
+        "extra_description": [{
+            "keyword": "staff",
+            "description": "You see a staff of great but cheap craftsmanship.  Imprinted on the side is:\nMerc Industries\n"
+        }],
+        "affects": [
+            {
+                "apply": "hit roll",
+                "level": 1,
+                "modifier": 2,
+                "bit_type": "object",
+                "bits": null
+            },
+            {
+                "apply": "damage roll",
+                "level": 1,
+                "modifier": 1,
+                "bit_type": "object",
+                "bits": null
+            }
+        ]
+    }},
+    {"object": {
+        "area": "school",
+        "anum": 19,
+        "new_format": true,
+        "name": "axe sub merc",
+        "short_descr": "a sub issue axe",
+        "description": "You see a sub issue axe here.",
+        "material": "bronze",
+        "item_type": "weapon",
+        "extra_flags": "meltdrop",
+        "wear_flags": "take wield",
+        "values": {
+            "weapon_type": "axe",
+            "dice_num": 1,
+            "dice_size": 6,
+            "attack_type": "chop",
+            "flags": null
+        },
+        "level": 1,
+        "weight": 50,
+        "cost": 350,
+        "condition": 100,
+        "extra_description": [{
+            "keyword": "axe",
+            "description": "You see an axe of great but cheap craftsmanship.  Imprinted on the side is:\nMerc Industries\n"
+        }],
+        "affects": [{
+            "apply": "hit roll",
+            "level": 1,
+            "modifier": 1,
+            "bit_type": "object",
+            "bits": null
+        }]
+    }},
+    {"object": {
+        "area": "school",
+        "anum": 20,
+        "new_format": true,
+        "name": "flail sub merc",
+        "short_descr": "a sub issue flail",
+        "description": "You see a sub issue flail here.",
+        "material": "bronze",
+        "item_type": "weapon",
+        "extra_flags": "meltdrop",
+        "wear_flags": "take wield",
+        "values": {
+            "weapon_type": "flail",
+            "dice_num": 1,
+            "dice_size": 5,
+            "attack_type": "crush",
+            "flags": null
+        },
+        "level": 1,
+        "weight": 50,
+        "cost": 310,
+        "condition": 100,
+        "extra_description": [{
+            "keyword": "flail",
+            "description": "You see a flail of great but cheap craftsmanship.  Imprinted on the side is:\nMerc Industries\n"
+        }],
+        "affects": [{
+            "apply": "damage roll",
+            "level": 1,
+            "modifier": 1,
+            "bit_type": "object",
+            "bits": null
+        }]
+    }},
+    {"object": {
+        "area": "school",
+        "anum": 21,
+        "new_format": true,
+        "name": "whip sub merc",
+        "short_descr": "a sub issue whip",
+        "description": "You see a sub issue whip here.",
+        "material": "leather",
+        "item_type": "weapon",
+        "extra_flags": "meltdrop",
+        "wear_flags": "take wield",
+        "values": {
+            "weapon_type": "whip",
+            "dice_num": 2,
+            "dice_size": 2,
+            "attack_type": "whip",
+            "flags": null
+        },
+        "level": 1,
+        "weight": 20,
+        "cost": 330,
+        "condition": 100,
+        "extra_description": [{
+            "keyword": "whip",
+            "description": "You see a whip of great but cheap craftsmanship.  Imprinted on the side is:\nMerc Industries\n"
+        }],
+        "affects": [{
+            "apply": "hit roll",
+            "level": 1,
+            "modifier": 2,
+            "bit_type": "object",
+            "bits": null
+        }]
+    }},
+    {"object": {
+        "area": "school",
+        "anum": 22,
+        "new_format": true,
+        "name": "glaive sub merc",
+        "short_descr": "a sub issue glaive",
+        "description": "You see a sub issue glaive here.",
+        "material": "wood",
+        "item_type": "weapon",
+        "extra_flags": "meltdrop",
+        "wear_flags": "take wield",
+        "values": {
+            "weapon_type": "polearm",
+            "dice_num": 1,
+            "dice_size": 7,
+            "attack_type": "slash",
+            "flags": "twohands"
+        },
+        "level": 1,
+        "weight": 80,
+        "cost": 183,
+        "condition": 100,
+        "extra_description": [{
+            "keyword": "glaive",
+            "description": "You see a glaive of great but cheap craftsmanship.  Imprinted on the side is:\nMerc Industries\n"
+        }],
+        "affects": [{
+            "apply": "damage roll",
+            "level": 1,
+            "modifier": 1,
+            "bit_type": "object",
+            "bits": null
+        }]
+    }}
+]

@@ -1,0 +1,22 @@
+[{"object": {
+    "area": "air",
+    "anum": 1,
+    "new_format": true,
+    "name": "rose",
+    "short_descr": "a red rose",
+    "description": "A red rose is lying on the ground.",
+    "material": "generic",
+    "item_type": "treasure",
+    "extra_flags": null,
+    "wear_flags": "take head",
+    "values": {},
+    "level": 0,
+    "weight": 80,
+    "cost": 0,
+    "condition": 100,
+    "extra_description": [{
+        "keyword": "rose",
+        "description": "It's a beautiful red rose, with a soft and romantic fragrance.\n"
+    }],
+    "affects": []
+}}]

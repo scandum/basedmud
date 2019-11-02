@@ -1,0 +1,12 @@
+[{"area": {
+    "name": "immort",
+    "filename": "immort.are",
+    "title": "Valhalla",
+    "credits": "{51 60} ROM     Immortal Zone",
+    "low_range": 0,
+    "high_range": 0,
+    "min_vnum": 1200,
+    "max_vnum": 1299,
+    "builders": "None",
+    "security": 9
+}}]

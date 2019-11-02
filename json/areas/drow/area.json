@@ -1,0 +1,12 @@
+[{"area": {
+    "name": "drow",
+    "filename": "drow.are",
+    "title": "Drow City",
+    "credits": "{15 25} Drkside Drow City",
+    "low_range": 0,
+    "high_range": 0,
+    "min_vnum": 5100,
+    "max_vnum": 5199,
+    "builders": "None",
+    "security": 9
+}}]

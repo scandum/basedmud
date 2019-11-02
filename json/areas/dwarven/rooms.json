@@ -1,0 +1,2569 @@
+[
+    {"room": {
+        "area": "dwarven",
+        "anum": 0,
+        "owner": null,
+        "name": "Path to Dwarven Village",
+        "description": "All around you are the mountains of the southern range, home of dwarves and \ngiants.  You can climb back down the mountains to the west and leave these \nrealms, or seek riches in the northern mineshafts.  A dirt road leads south, \ntowards a small building.  You can hear crying and shrieking coming from it.\n",
+        "room_flags": null,
+        "sector_type": "field",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [
+            {
+                "dir": "north",
+                "to": 1,
+                "keyword": null,
+                "description": "The path continues.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "south",
+                "to": null,
+                "keyword": null,
+                "description": "You hear the patter of little feet.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": "dwarven-3-south"
+            },
+            {
+                "dir": "west",
+                "to": 62,
+                "keyword": null,
+                "description": "A rocky road leads back to Midgaard and the mines of Moria.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            }
+        ],
+        "extra_description": [],
+        "resets": []
+    }},
+    {"room": {
+        "area": "dwarven",
+        "anum": 1,
+        "owner": null,
+        "name": "Path, base of mountain",
+        "description": "Now you are at the bottom of a rugged mountain.  The forest around you is\nvery dense, and it seems very dark to the north.\n",
+        "room_flags": null,
+        "sector_type": "hills",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [
+            {
+                "dir": "north",
+                "to": 2,
+                "keyword": null,
+                "description": "The path continues up the mountain.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "south",
+                "to": 0,
+                "keyword": null,
+                "description": "The path heads toward the main city.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            }
+        ],
+        "extra_description": [],
+        "resets": [{
+            "command": "mobile",
+            "values": {
+                "mob": 1,
+                "global_limit": 6,
+                "room_limit": 2
+            }
+        }]
+    }},
+    {"room": {
+        "area": "dwarven",
+        "anum": 2,
+        "owner": null,
+        "name": "Path, middle of mountain",
+        "description": "Standing on the middle of the mountain, you can easily see the turning\npoint to the south, and the top of the mountain is very near to the north.\n",
+        "room_flags": null,
+        "sector_type": "mountain",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [
+            {
+                "dir": "north",
+                "to": 3,
+                "keyword": null,
+                "description": "The top of the mountain is easily seen from here.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "south",
+                "to": 1,
+                "keyword": null,
+                "description": "The base of the mountain is near.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            }
+        ],
+        "extra_description": [],
+        "resets": [{
+            "command": "mobile",
+            "values": {
+                "mob": 1,
+                "global_limit": 6,
+                "room_limit": 2
+            }
+        }]
+    }},
+    {"room": {
+        "area": "dwarven",
+        "anum": 3,
+        "owner": null,
+        "name": "Top of mountain",
+        "description": "You are now on the top of the mountain.  To the south you see a path\nleading down the mountain.  To the east and west you see entrances to\nwhat seems like mines.\n",
+        "room_flags": null,
+        "sector_type": "hills",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [
+            {
+                "dir": "east",
+                "to": 40,
+                "keyword": null,
+                "description": "An entrance to the mountain which seems to lead underground.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "south",
+                "to": 2,
+                "keyword": null,
+                "description": "The path leads down the mountain to the main city.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "west",
+                "to": 5,
+                "keyword": null,
+                "description": "There is an entrance to the mountain.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            }
+        ],
+        "extra_description": [],
+        "resets": [
+            {
+                "command": "object",
+                "values": {
+                    "obj": 7,
+                    "global_limit": 2,
+                    "room_limit": 0
+                }
+            },
+            {
+                "command": "mobile",
+                "values": {
+                    "mob": 1,
+                    "global_limit": 6,
+                    "room_limit": 2
+                }
+            }
+        ]
+    }},
+    {"room": {
+        "area": "dwarven",
+        "anum": 4,
+        "owner": null,
+        "name": "Narrow Path",
+        "description": "This is a narrow path leading to the Dwarven Kingdom.  It looks less\ntravelled than the others, and it is very creepy.  The path opens up\nto the south, and continues to the north.\n",
+        "room_flags": "indoors",
+        "sector_type": "inside",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [
+            {
+                "dir": "north",
+                "to": 6,
+                "keyword": null,
+                "description": null,
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "south",
+                "to": 40,
+                "keyword": null,
+                "description": null,
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            }
+        ],
+        "extra_description": [],
+        "resets": []
+    }},
+    {"room": {
+        "area": "dwarven",
+        "anum": 5,
+        "owner": null,
+        "name": "Entrance to Mountain",
+        "description": "Here is an entrance to the mountain.  The door looks very well built,\nand you can hear noise coming from within.\n",
+        "room_flags": null,
+        "sector_type": "field",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [
+            {
+                "dir": "east",
+                "to": 3,
+                "keyword": null,
+                "description": null,
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "west",
+                "to": 13,
+                "keyword": "door",
+                "description": null,
+                "exit_flags": "door closed locked pickproof",
+                "key": 6502,
+                "portal": null
+            }
+        ],
+        "extra_description": [],
+        "resets": [
+            {
+                "command": "mobile",
+                "values": {
+                    "mob": 0,
+                    "global_limit": 10,
+                    "room_limit": 2
+                }
+            },
+            {
+                "command": "equip",
+                "values": {
+                    "obj": 4,
+                    "wear_loc": "wielded",
+                    "global_limit": 10
+                }
+            },
+            {
+                "command": "equip",
+                "values": {
+                    "obj": 5,
+                    "wear_loc": "body",
+                    "global_limit": 10
+                }
+            },
+            {
+                "command": "give",
+                "values": {
+                    "obj": 2,
+                    "global_limit": 10
+                }
+            },
+            {
+                "command": "mobile",
+                "values": {
+                    "mob": 0,
+                    "global_limit": 10,
+                    "room_limit": 2
+                }
+            },
+            {
+                "command": "equip",
+                "values": {
+                    "obj": 4,
+                    "wear_loc": "wielded",
+                    "global_limit": 10
+                }
+            },
+            {
+                "command": "equip",
+                "values": {
+                    "obj": 5,
+                    "wear_loc": "body",
+                    "global_limit": 10
+                }
+            },
+            {
+                "command": "object",
+                "values": {
+                    "obj": 7,
+                    "global_limit": 2,
+                    "room_limit": 0
+                }
+            }
+        ]
+    }},
+    {"room": {
+        "area": "dwarven",
+        "anum": 6,
+        "owner": null,
+        "name": "Bend in Narrow Path",
+        "description": "This is a narrow path that bends to the east here.  The trees hang over\nthe path, and it is very overgrown.  The narrow path continues to the\nsouth and to the east.\n",
+        "room_flags": "indoors",
+        "sector_type": "inside",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [
+            {
+                "dir": "east",
+                "to": 7,
+                "keyword": null,
+                "description": null,
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "south",
+                "to": 4,
+                "keyword": null,
+                "description": null,
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            }
+        ],
+        "extra_description": [{
+            "keyword": "tree trees",
+            "description": "They hang over the road in the most ominous of ways.\n"
+        }],
+        "resets": []
+    }},
+    {"room": {
+        "area": "dwarven",
+        "anum": 7,
+        "owner": null,
+        "name": "Narrow path",
+        "description": "This path is very narrow, and it continues to the north and west.\n",
+        "room_flags": "indoors",
+        "sector_type": "inside",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [
+            {
+                "dir": "north",
+                "to": 8,
+                "keyword": null,
+                "description": null,
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "west",
+                "to": 6,
+                "keyword": null,
+                "description": null,
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            }
+        ],
+        "extra_description": [],
+        "resets": []
+    }},
+    {"room": {
+        "area": "dwarven",
+        "anum": 8,
+        "owner": null,
+        "name": "Narrow north-south path",
+        "description": "This path leads to the north and south.  To the north you can see a\ndoor, and to the south the path continues.\n",
+        "room_flags": "indoors",
+        "sector_type": "inside",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [
+            {
+                "dir": "north",
+                "to": 9,
+                "keyword": null,
+                "description": null,
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "south",
+                "to": 7,
+                "keyword": null,
+                "description": null,
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            }
+        ],
+        "extra_description": [],
+        "resets": [{
+            "command": "mobile",
+            "values": {
+                "mob": 6,
+                "global_limit": 2,
+                "room_limit": 2
+            }
+        }]
+    }},
+    {"room": {
+        "area": "dwarven",
+        "anum": 9,
+        "owner": null,
+        "name": "Door to Kingdom",
+        "description": "Here the path turns to the west.  You can see a door in front of you,\nand the path continues to the west and south.\n",
+        "room_flags": "indoors",
+        "sector_type": "inside",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [
+            {
+                "dir": "east",
+                "to": 10,
+                "keyword": "door",
+                "description": null,
+                "exit_flags": "door closed locked pickproof",
+                "key": 6502,
+                "portal": null
+            },
+            {
+                "dir": "south",
+                "to": 8,
+                "keyword": null,
+                "description": null,
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "west",
+                "to": 22,
+                "keyword": null,
+                "description": null,
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            }
+        ],
+        "extra_description": [],
+        "resets": [
+            {
+                "command": "mobile",
+                "values": {
+                    "mob": 0,
+                    "global_limit": 10,
+                    "room_limit": 2
+                }
+            },
+            {
+                "command": "equip",
+                "values": {
+                    "obj": 9,
+                    "wear_loc": "wielded",
+                    "global_limit": 10
+                }
+            },
+            {
+                "command": "equip",
+                "values": {
+                    "obj": 10,
+                    "wear_loc": "head",
+                    "global_limit": 10
+                }
+            },
+            {
+                "command": "equip",
+                "values": {
+                    "obj": 11,
+                    "wear_loc": "lfinger",
+                    "global_limit": 10
+                }
+            },
+            {
+                "command": "mobile",
+                "values": {
+                    "mob": 0,
+                    "global_limit": 10,
+                    "room_limit": 2
+                }
+            },
+            {
+                "command": "equip",
+                "values": {
+                    "obj": 12,
+                    "wear_loc": "hands",
+                    "global_limit": 10
+                }
+            },
+            {
+                "command": "equip",
+                "values": {
+                    "obj": 9,
+                    "wear_loc": "wielded",
+                    "global_limit": 10
+                }
+            },
+            {
+                "command": "equip",
+                "values": {
+                    "obj": 5,
+                    "wear_loc": "body",
+                    "global_limit": 10
+                }
+            }
+        ]
+    }},
+    {"room": {
+        "area": "dwarven",
+        "anum": 10,
+        "owner": null,
+        "name": "Path to the Castle",
+        "description": "You are on a path that will eventually lead to the castle.  It\ncontinues north to the castle, and there is a door on the western wall.\n",
+        "room_flags": "indoors",
+        "sector_type": "inside",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [
+            {
+                "dir": "north",
+                "to": 11,
+                "keyword": null,
+                "description": null,
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "west",
+                "to": 9,
+                "keyword": "door",
+                "description": null,
+                "exit_flags": "door closed locked pickproof",
+                "key": 6502,
+                "portal": null
+            }
+        ],
+        "extra_description": [],
+        "resets": []
+    }},
+    {"room": {
+        "area": "dwarven",
+        "anum": 11,
+        "owner": null,
+        "name": "Still on the path to the Castle",
+        "description": "You are still on the path to the castle, or back to the\nDwarven village, whichever way you wish to go.  The path\ncontinues to the north and south.\n",
+        "room_flags": "indoors",
+        "sector_type": "inside",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [
+            {
+                "dir": "north",
+                "to": 12,
+                "keyword": null,
+                "description": null,
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "south",
+                "to": 10,
+                "keyword": null,
+                "description": null,
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            }
+        ],
+        "extra_description": [],
+        "resets": []
+    }},
+    {"room": {
+        "area": "dwarven",
+        "anum": 12,
+        "owner": null,
+        "name": "Door to Castle",
+        "description": "Here there is a door to the castle to the east.  The castle\nis elegantly designed, and looks much like a roll of toilet paper\nstanding on end.  A sign says:\n\n              ******************************************\n              *  WELCOME TO THE CASTLE OF STRANGELOVE  *\n              *      Here, celibacy is uninvited       *\n              ******************************************\n",
+        "room_flags": "indoors",
+        "sector_type": "inside",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [
+            {
+                "dir": "east",
+                "to": 25,
+                "keyword": "door",
+                "description": null,
+                "exit_flags": "door closed locked pickproof",
+                "key": 6514,
+                "portal": null
+            },
+            {
+                "dir": "south",
+                "to": 11,
+                "keyword": null,
+                "description": null,
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            }
+        ],
+        "extra_description": [],
+        "resets": [
+            {
+                "command": "mobile",
+                "values": {
+                    "mob": 0,
+                    "global_limit": 10,
+                    "room_limit": 2
+                }
+            },
+            {
+                "command": "equip",
+                "values": {
+                    "obj": 4,
+                    "wear_loc": "wielded",
+                    "global_limit": 10
+                }
+            },
+            {
+                "command": "mobile",
+                "values": {
+                    "mob": 0,
+                    "global_limit": 10,
+                    "room_limit": 2
+                }
+            },
+            {
+                "command": "equip",
+                "values": {
+                    "obj": 4,
+                    "wear_loc": "wielded",
+                    "global_limit": 10
+                }
+            }
+        ]
+    }},
+    {"room": {
+        "area": "dwarven",
+        "anum": 13,
+        "owner": null,
+        "name": "Inside the entrance",
+        "description": "Everything here is covered in soot and very grimy.  The path continues\nto the east and north, and there is a door to the west.\n",
+        "room_flags": "indoors",
+        "sector_type": "inside",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [
+            {
+                "dir": "north",
+                "to": 14,
+                "keyword": null,
+                "description": "The little underground path continues to the north.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "east",
+                "to": 5,
+                "keyword": "door",
+                "description": "The path leads outside the entrance.\n",
+                "exit_flags": "door closed locked pickproof",
+                "key": 6502,
+                "portal": null
+            },
+            {
+                "dir": "west",
+                "to": 26,
+                "keyword": null,
+                "description": "This looks like an entrance to some type of store room.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            }
+        ],
+        "extra_description": [],
+        "resets": [{
+            "command": "object",
+            "values": {
+                "obj": 7,
+                "global_limit": 2,
+                "room_limit": 0
+            }
+        }]
+    }},
+    {"room": {
+        "area": "dwarven",
+        "anum": 14,
+        "owner": null,
+        "name": "Path",
+        "description": "You are on a path in the dwarven village which leads north to the shops\nand south to the corner of the area.\n",
+        "room_flags": "indoors",
+        "sector_type": "inside",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [
+            {
+                "dir": "north",
+                "to": 15,
+                "keyword": null,
+                "description": null,
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "south",
+                "to": 13,
+                "keyword": null,
+                "description": null,
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            }
+        ],
+        "extra_description": [],
+        "resets": []
+    }},
+    {"room": {
+        "area": "dwarven",
+        "anum": 15,
+        "owner": null,
+        "name": "Turn in road",
+        "description": "You are on a path that leads to a Hide & Tooth shop to the west, and the\npath continues to the south.\n",
+        "room_flags": "indoors",
+        "sector_type": "inside",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [
+            {
+                "dir": "south",
+                "to": 14,
+                "keyword": null,
+                "description": null,
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "west",
+                "to": 16,
+                "keyword": null,
+                "description": "The Hide & Tooth shop is seen to the west.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            }
+        ],
+        "extra_description": [],
+        "resets": [{
+            "command": "mobile",
+            "values": {
+                "mob": 5,
+                "global_limit": 2,
+                "room_limit": 1
+            }
+        }]
+    }},
+    {"room": {
+        "area": "dwarven",
+        "anum": 16,
+        "owner": null,
+        "name": "Hide & Tooth Shop",
+        "description": "You are in the Hide & Tooth shop.  Here you may buy the finest in Dwarven\nweapons and armors. The path continues to the north and east.\n",
+        "room_flags": "indoors",
+        "sector_type": "inside",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [
+            {
+                "dir": "north",
+                "to": 17,
+                "keyword": null,
+                "description": null,
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "east",
+                "to": 15,
+                "keyword": null,
+                "description": null,
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            }
+        ],
+        "extra_description": [],
+        "resets": [
+            {
+                "command": "mobile",
+                "values": {
+                    "mob": 3,
+                    "global_limit": 1,
+                    "room_limit": 1
+                }
+            },
+            {
+                "command": "give",
+                "values": {
+                    "obj": 4,
+                    "global_limit": 10
+                }
+            },
+            {
+                "command": "give",
+                "values": {
+                    "obj": 5,
+                    "global_limit": 10
+                }
+            },
+            {
+                "command": "give",
+                "values": {
+                    "obj": 10,
+                    "global_limit": 10
+                }
+            },
+            {
+                "command": "give",
+                "values": {
+                    "obj": 11,
+                    "global_limit": 10
+                }
+            },
+            {
+                "command": "give",
+                "values": {
+                    "obj": 12,
+                    "global_limit": 10
+                }
+            },
+            {
+                "command": "equip",
+                "values": {
+                    "obj": 4,
+                    "wear_loc": "wielded",
+                    "global_limit": 10
+                }
+            }
+        ]
+    }},
+    {"room": {
+        "area": "dwarven",
+        "anum": 17,
+        "owner": null,
+        "name": "Path to the north of shop",
+        "description": "You are on a path to the north of the Hide & Tooth shop.  The path continues\nto the north, and there is Granite Head's bakery to the west.\n",
+        "room_flags": "indoors",
+        "sector_type": "inside",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [
+            {
+                "dir": "north",
+                "to": 18,
+                "keyword": null,
+                "description": null,
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "south",
+                "to": 16,
+                "keyword": null,
+                "description": null,
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "west",
+                "to": 35,
+                "keyword": null,
+                "description": null,
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            }
+        ],
+        "extra_description": [],
+        "resets": []
+    }},
+    {"room": {
+        "area": "dwarven",
+        "anum": 18,
+        "owner": null,
+        "name": "North of Shops",
+        "description": "Here the path bends to the east towards the barracks. To the\nsouth you can see the shops.\n",
+        "room_flags": "indoors",
+        "sector_type": "inside",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [
+            {
+                "dir": "east",
+                "to": 19,
+                "keyword": null,
+                "description": null,
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "south",
+                "to": 17,
+                "keyword": null,
+                "description": null,
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            }
+        ],
+        "extra_description": [],
+        "resets": []
+    }},
+    {"room": {
+        "area": "dwarven",
+        "anum": 19,
+        "owner": null,
+        "name": "Path by Hospital",
+        "description": "Here the path passes by the Hospital to the north.  It continues\nto the east to the barracks, and to the west.\n",
+        "room_flags": "indoors",
+        "sector_type": "inside",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [
+            {
+                "dir": "north",
+                "to": 34,
+                "keyword": null,
+                "description": null,
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "east",
+                "to": 20,
+                "keyword": null,
+                "description": null,
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "west",
+                "to": 18,
+                "keyword": null,
+                "description": null,
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            }
+        ],
+        "extra_description": [],
+        "resets": []
+    }},
+    {"room": {
+        "area": "dwarven",
+        "anum": 20,
+        "owner": null,
+        "name": "Path next to barracks",
+        "description": "Here the path continues west, and east to the barracks.\n",
+        "room_flags": "indoors",
+        "sector_type": "inside",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [
+            {
+                "dir": "east",
+                "to": 21,
+                "keyword": null,
+                "description": null,
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "west",
+                "to": 19,
+                "keyword": null,
+                "description": null,
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            }
+        ],
+        "extra_description": [],
+        "resets": [{
+            "command": "mobile",
+            "values": {
+                "mob": 5,
+                "global_limit": 2,
+                "room_limit": 1
+            }
+        }]
+    }},
+    {"room": {
+        "area": "dwarven",
+        "anum": 21,
+        "owner": null,
+        "name": "Entrance to barracks",
+        "description": "Here there is an entrance to the barracks to the south, and\nthe path continues to the west.\n",
+        "room_flags": "indoors",
+        "sector_type": "inside",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [
+            {
+                "dir": "south",
+                "to": 23,
+                "keyword": "door",
+                "description": null,
+                "exit_flags": "door closed",
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "west",
+                "to": 20,
+                "keyword": null,
+                "description": null,
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            }
+        ],
+        "extra_description": [],
+        "resets": [
+            {
+                "command": "mobile",
+                "values": {
+                    "mob": 14,
+                    "global_limit": 4,
+                    "room_limit": 4
+                }
+            },
+            {
+                "command": "equip",
+                "values": {
+                    "obj": 9,
+                    "wear_loc": "wielded",
+                    "global_limit": 10
+                }
+            },
+            {
+                "command": "mobile",
+                "values": {
+                    "mob": 14,
+                    "global_limit": 4,
+                    "room_limit": 4
+                }
+            },
+            {
+                "command": "equip",
+                "values": {
+                    "obj": 9,
+                    "wear_loc": "wielded",
+                    "global_limit": 10
+                }
+            },
+            {
+                "command": "mobile",
+                "values": {
+                    "mob": 0,
+                    "global_limit": 10,
+                    "room_limit": 2
+                }
+            },
+            {
+                "command": "mobile",
+                "values": {
+                    "mob": 0,
+                    "global_limit": 10,
+                    "room_limit": 2
+                }
+            }
+        ]
+    }},
+    {"room": {
+        "area": "dwarven",
+        "anum": 22,
+        "owner": null,
+        "name": "Guard House",
+        "description": "You are in the guard house to the west of the entrance\nto the castle.  There are nude posters covering the walls.\n",
+        "room_flags": "indoors",
+        "sector_type": "inside",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [{
+            "dir": "east",
+            "to": 9,
+            "keyword": null,
+            "description": null,
+            "exit_flags": null,
+            "key": -1,
+            "portal": null
+        }],
+        "extra_description": [{
+            "keyword": "poster",
+            "description": "There is a wall poster of a nude Minne Pearl.\n"
+        }],
+        "resets": []
+    }},
+    {"room": {
+        "area": "dwarven",
+        "anum": 23,
+        "owner": null,
+        "name": "First Barrack room",
+        "description": "Here is the first of two main rooms of barracks.  The\nbarracks continue to the south, and you can leave the room\nto the north.\n",
+        "room_flags": "indoors",
+        "sector_type": "inside",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [
+            {
+                "dir": "north",
+                "to": 21,
+                "keyword": "door",
+                "description": null,
+                "exit_flags": "door closed",
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "south",
+                "to": 24,
+                "keyword": null,
+                "description": null,
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            }
+        ],
+        "extra_description": [],
+        "resets": [
+            {
+                "command": "mobile",
+                "values": {
+                    "mob": 11,
+                    "global_limit": 8,
+                    "room_limit": 6
+                }
+            },
+            {
+                "command": "mobile",
+                "values": {
+                    "mob": 11,
+                    "global_limit": 8,
+                    "room_limit": 6
+                }
+            },
+            {
+                "command": "equip",
+                "values": {
+                    "obj": 8,
+                    "wear_loc": "wielded",
+                    "global_limit": 10
+                }
+            },
+            {
+                "command": "equip",
+                "values": {
+                    "obj": 14,
+                    "wear_loc": "hold",
+                    "global_limit": 10
+                }
+            },
+            {
+                "command": "mobile",
+                "values": {
+                    "mob": 11,
+                    "global_limit": 8,
+                    "room_limit": 6
+                }
+            },
+            {
+                "command": "mobile",
+                "values": {
+                    "mob": 11,
+                    "global_limit": 8,
+                    "room_limit": 6
+                }
+            }
+        ]
+    }},
+    {"room": {
+        "area": "dwarven",
+        "anum": 24,
+        "owner": null,
+        "name": "Back of Barracks",
+        "description": "Here is the back of the dwarven barracks.  There are rows\nof beds here, and there is a stench that is unbearable.\n",
+        "room_flags": "indoors",
+        "sector_type": "inside",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [
+            {
+                "dir": "north",
+                "to": 23,
+                "keyword": null,
+                "description": null,
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "down",
+                "to": null,
+                "keyword": "floorboards boards",
+                "description": null,
+                "exit_flags": "door closed",
+                "key": -1,
+                "portal": "dwarven-1-down"
+            }
+        ],
+        "extra_description": [],
+        "resets": [
+            {
+                "command": "mobile",
+                "values": {
+                    "mob": 11,
+                    "global_limit": 8,
+                    "room_limit": 6
+                }
+            },
+            {
+                "command": "object",
+                "values": {
+                    "obj": 13,
+                    "global_limit": 1,
+                    "room_limit": 0
+                }
+            },
+            {
+                "command": "mobile",
+                "values": {
+                    "mob": 2,
+                    "global_limit": 2,
+                    "room_limit": 1
+                }
+            },
+            {
+                "command": "mobile",
+                "values": {
+                    "mob": 11,
+                    "global_limit": 8,
+                    "room_limit": 6
+                }
+            },
+            {
+                "command": "give",
+                "values": {
+                    "obj": 20,
+                    "global_limit": 10
+                }
+            }
+        ]
+    }},
+    {"room": {
+        "area": "dwarven",
+        "anum": 25,
+        "owner": null,
+        "name": "Inside of Castle Strangelove",
+        "description": "You are just inside the castle.  It is very tubular in shape,\nand it is very featureless.  There is a set of stairs that lead\nup, and the door leads out of the castle to the west.\n",
+        "room_flags": "indoors",
+        "sector_type": "inside",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [
+            {
+                "dir": "west",
+                "to": 12,
+                "keyword": "door",
+                "description": null,
+                "exit_flags": "door closed locked pickproof",
+                "key": 6514,
+                "portal": null
+            },
+            {
+                "dir": "up",
+                "to": 28,
+                "keyword": null,
+                "description": null,
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            }
+        ],
+        "extra_description": [],
+        "resets": []
+    }},
+    {"room": {
+        "area": "dwarven",
+        "anum": 26,
+        "owner": null,
+        "name": "A store room",
+        "description": "There is a layer of dust on the floor at least 3 inches thick!  It is\nprobable that not many people have been in here for many months.\n",
+        "room_flags": "dark indoors",
+        "sector_type": "inside",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [
+            {
+                "dir": "east",
+                "to": 13,
+                "keyword": null,
+                "description": "A lighted area that looks like a well worn path.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "down",
+                "to": 27,
+                "keyword": "trapdoor",
+                "description": null,
+                "exit_flags": "door closed",
+                "key": 0,
+                "portal": null
+            }
+        ],
+        "extra_description": [{
+            "keyword": "floor dust",
+            "description": "After blowing all the dust off the floor, you notice a trapdoor!\n"
+        }],
+        "resets": []
+    }},
+    {"room": {
+        "area": "dwarven",
+        "anum": 27,
+        "owner": null,
+        "name": "Wine cellar",
+        "description": "This room smells like wine, and you can only assume it used to be\na wine cellar at one time.\n",
+        "room_flags": "dark indoors",
+        "sector_type": "inside",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [
+            {
+                "dir": "up",
+                "to": 26,
+                "keyword": null,
+                "description": null,
+                "exit_flags": "door closed",
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "down",
+                "to": null,
+                "keyword": "floorboards boards",
+                "description": null,
+                "exit_flags": "door closed",
+                "key": -1,
+                "portal": "dwarven-2-down"
+            }
+        ],
+        "extra_description": [],
+        "resets": [
+            {
+                "command": "mobile",
+                "values": {
+                    "mob": 2,
+                    "global_limit": 2,
+                    "room_limit": 1
+                }
+            },
+            {
+                "command": "give",
+                "values": {
+                    "obj": 2,
+                    "global_limit": 10
+                }
+            }
+        ]
+    }},
+    {"room": {
+        "area": "dwarven",
+        "anum": 28,
+        "owner": null,
+        "name": "Stairs in castle",
+        "description": "The stairs continue to circle up and down here.\n",
+        "room_flags": "indoors",
+        "sector_type": "inside",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [
+            {
+                "dir": "up",
+                "to": 29,
+                "keyword": null,
+                "description": null,
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "down",
+                "to": 25,
+                "keyword": null,
+                "description": null,
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            }
+        ],
+        "extra_description": [],
+        "resets": [{
+            "command": "mobile",
+            "values": {
+                "mob": 12,
+                "global_limit": 3,
+                "room_limit": 2
+            }
+        }]
+    }},
+    {"room": {
+        "area": "dwarven",
+        "anum": 29,
+        "owner": null,
+        "name": "Stairs",
+        "description": "You are still circling around on the stairs.  You are starting to\nget dizzy from going around and around and around and around and\naround.  The stairs continue up and down.\n",
+        "room_flags": "indoors",
+        "sector_type": "inside",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [
+            {
+                "dir": "up",
+                "to": 30,
+                "keyword": null,
+                "description": null,
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "down",
+                "to": 28,
+                "keyword": null,
+                "description": null,
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            }
+        ],
+        "extra_description": [],
+        "resets": [
+            {
+                "command": "mobile",
+                "values": {
+                    "mob": 12,
+                    "global_limit": 3,
+                    "room_limit": 2
+                }
+            },
+            {
+                "command": "mobile",
+                "values": {
+                    "mob": 13,
+                    "global_limit": 3,
+                    "room_limit": 2
+                }
+            }
+        ]
+    }},
+    {"room": {
+        "area": "dwarven",
+        "anum": 30,
+        "owner": null,
+        "name": "Top of stairs",
+        "description": "You are at the top of the stairs in the castle.  There is an exit\nto the east, and the stairs lead down.\n",
+        "room_flags": "indoors",
+        "sector_type": "inside",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [
+            {
+                "dir": "east",
+                "to": 31,
+                "keyword": null,
+                "description": null,
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "down",
+                "to": 29,
+                "keyword": null,
+                "description": null,
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            }
+        ],
+        "extra_description": [],
+        "resets": [{
+            "command": "mobile",
+            "values": {
+                "mob": 13,
+                "global_limit": 3,
+                "room_limit": 2
+            }
+        }]
+    }},
+    {"room": {
+        "area": "dwarven",
+        "anum": 31,
+        "owner": null,
+        "name": "Queen's waiting room",
+        "description": "This is the Queen's waiting room.  Here the men literally\n'wait' for the queen.  You've heard that the queen really likes\nto get to 'know' her people, in the biblical sense.  The queen's\nbedroom is to the north, and you can see stairs to the west.\n",
+        "room_flags": "indoors",
+        "sector_type": "inside",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [
+            {
+                "dir": "north",
+                "to": 32,
+                "keyword": "door",
+                "description": null,
+                "exit_flags": "door closed pickproof",
+                "key": 6502,
+                "portal": null
+            },
+            {
+                "dir": "west",
+                "to": 30,
+                "keyword": null,
+                "description": null,
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            }
+        ],
+        "extra_description": [],
+        "resets": [
+            {
+                "command": "mobile",
+                "values": {
+                    "mob": 15,
+                    "global_limit": 4,
+                    "room_limit": 4
+                }
+            },
+            {
+                "command": "mobile",
+                "values": {
+                    "mob": 15,
+                    "global_limit": 4,
+                    "room_limit": 4
+                }
+            }
+        ]
+    }},
+    {"room": {
+        "area": "dwarven",
+        "anum": 32,
+        "owner": null,
+        "name": "Bedroom",
+        "description": "This is the Queen's bedroom.  The bed is all ruffled, and there\nis a stack of dirty sheets piled in the corner.\n\nA note has been scrawled in lipstick on the mirror:\n\n    I'm out looking for my birth control pills.\n    Why don't you slip into something comfortable while you're waiting?\n",
+        "room_flags": "indoors",
+        "sector_type": "inside",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [{
+            "dir": "south",
+            "to": 31,
+            "keyword": "door",
+            "description": null,
+            "exit_flags": "door closed pickproof",
+            "key": 6502,
+            "portal": null
+        }],
+        "extra_description": [],
+        "resets": [{
+            "command": "object",
+            "values": {
+                "obj": 16,
+                "global_limit": 1,
+                "room_limit": 0
+            }
+        }]
+    }},
+    {"room": {
+        "area": "dwarven",
+        "anum": 34,
+        "owner": null,
+        "name": "Hospital",
+        "description": "You are inside the Dwarven Hospital.  It smells like rubbing\nalcohol, and there is blood all over the walls.\n",
+        "room_flags": "indoors",
+        "sector_type": "inside",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [{
+            "dir": "south",
+            "to": 19,
+            "keyword": null,
+            "description": null,
+            "exit_flags": null,
+            "key": -1,
+            "portal": null
+        }],
+        "extra_description": [],
+        "resets": [
+            {
+                "command": "object",
+                "values": {
+                    "obj": 6,
+                    "global_limit": 1,
+                    "room_limit": 0
+                }
+            },
+            {
+                "command": "mobile",
+                "values": {
+                    "mob": 10,
+                    "global_limit": 4,
+                    "room_limit": 4
+                }
+            },
+            {
+                "command": "mobile",
+                "values": {
+                    "mob": 10,
+                    "global_limit": 4,
+                    "room_limit": 4
+                }
+            },
+            {
+                "command": "mobile",
+                "values": {
+                    "mob": 9,
+                    "global_limit": 1,
+                    "room_limit": 1
+                }
+            },
+            {
+                "command": "equip",
+                "values": {
+                    "obj": 6,
+                    "wear_loc": "hold",
+                    "global_limit": 10
+                }
+            },
+            {
+                "command": "give",
+                "values": {
+                    "obj": 19,
+                    "global_limit": 10
+                }
+            }
+        ]
+    }},
+    {"room": {
+        "area": "dwarven",
+        "anum": 35,
+        "owner": null,
+        "name": "Granite Head's Bakery",
+        "description": "The aroma coming from this room is sensuous.  You can almost taste\nthe pastries dissolving in your mouth.\n",
+        "room_flags": "indoors",
+        "sector_type": "inside",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [{
+            "dir": "east",
+            "to": 17,
+            "keyword": null,
+            "description": null,
+            "exit_flags": null,
+            "key": -1,
+            "portal": null
+        }],
+        "extra_description": [],
+        "resets": [
+            {
+                "command": "mobile",
+                "values": {
+                    "mob": 4,
+                    "global_limit": 1,
+                    "room_limit": 1
+                }
+            },
+            {
+                "command": "give",
+                "values": {
+                    "obj": {
+                        "area": "midgaard",
+                        "anum": 0
+                    },
+                    "global_limit": 10
+                }
+            },
+            {
+                "command": "give",
+                "values": {
+                    "obj": {
+                        "area": "midgaard",
+                        "anum": 3
+                    },
+                    "global_limit": 10
+                }
+            },
+            {
+                "command": "give",
+                "values": {
+                    "obj": {
+                        "area": "midgaard",
+                        "anum": 9
+                    },
+                    "global_limit": 10
+                }
+            },
+            {
+                "command": "give",
+                "values": {
+                    "obj": {
+                        "area": "midgaard",
+                        "anum": 31
+                    },
+                    "global_limit": 10
+                }
+            },
+            {
+                "command": "equip",
+                "values": {
+                    "obj": 4,
+                    "wear_loc": "wielded",
+                    "global_limit": 10
+                }
+            }
+        ]
+    }},
+    {"room": {
+        "area": "dwarven",
+        "anum": 40,
+        "owner": null,
+        "name": "Dark path",
+        "description": "This path is very well worn, and there is an entrance to the mines to the\neast, while the path continues to the north and west.\n",
+        "room_flags": "indoors",
+        "sector_type": "inside",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [
+            {
+                "dir": "north",
+                "to": 4,
+                "keyword": null,
+                "description": null,
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "east",
+                "to": 41,
+                "keyword": "door",
+                "description": null,
+                "exit_flags": "door closed locked pickproof",
+                "key": 6502,
+                "portal": null
+            },
+            {
+                "dir": "west",
+                "to": 3,
+                "keyword": null,
+                "description": null,
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            }
+        ],
+        "extra_description": [],
+        "resets": [
+            {
+                "command": "mobile",
+                "values": {
+                    "mob": 0,
+                    "global_limit": 10,
+                    "room_limit": 2
+                }
+            },
+            {
+                "command": "equip",
+                "values": {
+                    "obj": 4,
+                    "wear_loc": "wielded",
+                    "global_limit": 10
+                }
+            },
+            {
+                "command": "equip",
+                "values": {
+                    "obj": 5,
+                    "wear_loc": "body",
+                    "global_limit": 10
+                }
+            },
+            {
+                "command": "give",
+                "values": {
+                    "obj": 2,
+                    "global_limit": 10
+                }
+            },
+            {
+                "command": "mobile",
+                "values": {
+                    "mob": 0,
+                    "global_limit": 10,
+                    "room_limit": 2
+                }
+            },
+            {
+                "command": "equip",
+                "values": {
+                    "obj": 4,
+                    "wear_loc": "wielded",
+                    "global_limit": 10
+                }
+            },
+            {
+                "command": "equip",
+                "values": {
+                    "obj": 5,
+                    "wear_loc": "body",
+                    "global_limit": 10
+                }
+            },
+            {
+                "command": "object",
+                "values": {
+                    "obj": 7,
+                    "global_limit": 1,
+                    "room_limit": 0
+                }
+            }
+        ]
+    }},
+    {"room": {
+        "area": "dwarven",
+        "anum": 41,
+        "owner": null,
+        "name": "Mine entrance",
+        "description": "The little path here leads down toward the mines, while the worn path\ncontinues to the west.\n",
+        "room_flags": "indoors",
+        "sector_type": "inside",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [
+            {
+                "dir": "west",
+                "to": 40,
+                "keyword": "door",
+                "description": null,
+                "exit_flags": "door closed locked pickproof",
+                "key": 6502,
+                "portal": null
+            },
+            {
+                "dir": "down",
+                "to": 42,
+                "keyword": null,
+                "description": null,
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            }
+        ],
+        "extra_description": [],
+        "resets": []
+    }},
+    {"room": {
+        "area": "dwarven",
+        "anum": 42,
+        "owner": null,
+        "name": "Inside the mine",
+        "description": "There are holes everywhere from the places that the workers blew\naway the rock to get to whatever they were looking for.  A path leads\ndown and up.\n",
+        "room_flags": "dark indoors",
+        "sector_type": "inside",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [
+            {
+                "dir": "up",
+                "to": 41,
+                "keyword": null,
+                "description": null,
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "down",
+                "to": 54,
+                "keyword": null,
+                "description": null,
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            }
+        ],
+        "extra_description": [],
+        "resets": [
+            {
+                "command": "mobile",
+                "values": {
+                    "mob": 7,
+                    "global_limit": 4,
+                    "room_limit": 2
+                }
+            },
+            {
+                "command": "equip",
+                "values": {
+                    "obj": 8,
+                    "wear_loc": "wielded",
+                    "global_limit": 10
+                }
+            }
+        ]
+    }},
+    {"room": {
+        "area": "dwarven",
+        "anum": 43,
+        "owner": null,
+        "name": "Path in the mine",
+        "description": "You are deep inside the mine, and you feel very uncomfortable.  The\npath continues to the east, and leads to the mineshaft to the west.\n",
+        "room_flags": "dark indoors",
+        "sector_type": "inside",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [
+            {
+                "dir": "east",
+                "to": 44,
+                "keyword": null,
+                "description": null,
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "west",
+                "to": 54,
+                "keyword": null,
+                "description": null,
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            }
+        ],
+        "extra_description": [],
+        "resets": [
+            {
+                "command": "mobile",
+                "values": {
+                    "mob": 7,
+                    "global_limit": 4,
+                    "room_limit": 3
+                }
+            },
+            {
+                "command": "equip",
+                "values": {
+                    "obj": 8,
+                    "wear_loc": "wielded",
+                    "global_limit": 10
+                }
+            },
+            {
+                "command": "mobile",
+                "values": {
+                    "mob": 7,
+                    "global_limit": 4,
+                    "room_limit": 3
+                }
+            },
+            {
+                "command": "equip",
+                "values": {
+                    "obj": 8,
+                    "wear_loc": "wielded",
+                    "global_limit": 10
+                }
+            },
+            {
+                "command": "mobile",
+                "values": {
+                    "mob": 8,
+                    "global_limit": 2,
+                    "room_limit": 2
+                }
+            },
+            {
+                "command": "equip",
+                "values": {
+                    "obj": 12,
+                    "wear_loc": "hands",
+                    "global_limit": 10
+                }
+            },
+            {
+                "command": "equip",
+                "values": {
+                    "obj": 4,
+                    "wear_loc": "wielded",
+                    "global_limit": 10
+                }
+            }
+        ]
+    }},
+    {"room": {
+        "area": "dwarven",
+        "anum": 44,
+        "owner": null,
+        "name": "Mine crossroad",
+        "description": "You are at a crossroad in the mine.  There is a door to the north,\nand the path continues to the south, east, and west.\n",
+        "room_flags": "dark indoors",
+        "sector_type": "inside",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [
+            {
+                "dir": "north",
+                "to": 46,
+                "keyword": "door",
+                "description": null,
+                "exit_flags": "door closed locked pickproof",
+                "key": 6502,
+                "portal": null
+            },
+            {
+                "dir": "east",
+                "to": 45,
+                "keyword": null,
+                "description": null,
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "south",
+                "to": 51,
+                "keyword": null,
+                "description": null,
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "west",
+                "to": 43,
+                "keyword": null,
+                "description": null,
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            }
+        ],
+        "extra_description": [],
+        "resets": []
+    }},
+    {"room": {
+        "area": "dwarven",
+        "anum": 45,
+        "owner": null,
+        "name": "Coal Room",
+        "description": "You are inside the storage area for the raw materials\nthat are found down here.  The room is very unsturdy as the\nsupports are very rickety.\n",
+        "room_flags": "dark indoors",
+        "sector_type": "inside",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [{
+            "dir": "west",
+            "to": 44,
+            "keyword": null,
+            "description": null,
+            "exit_flags": null,
+            "key": -1,
+            "portal": null
+        }],
+        "extra_description": [],
+        "resets": [{
+            "command": "object",
+            "values": {
+                "obj": 17,
+                "global_limit": 6,
+                "room_limit": 0
+            }
+        }]
+    }},
+    {"room": {
+        "area": "dwarven",
+        "anum": 46,
+        "owner": null,
+        "name": "Mine Maze",
+        "description": "You have entered the maze of the mines.  To the east you\ncan see some inscriptions, and you can exit to the south.\n",
+        "room_flags": "dark indoors",
+        "sector_type": "inside",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [
+            {
+                "dir": "east",
+                "to": 47,
+                "keyword": null,
+                "description": null,
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "south",
+                "to": 44,
+                "keyword": "door",
+                "description": null,
+                "exit_flags": "door closed locked pickproof",
+                "key": 6502,
+                "portal": null
+            }
+        ],
+        "extra_description": [],
+        "resets": []
+    }},
+    {"room": {
+        "area": "dwarven",
+        "anum": 47,
+        "owner": null,
+        "name": "Maze inscription",
+        "description": "You are inside the maze, but not far enough in that you could get lost.\n",
+        "room_flags": "dark indoors",
+        "sector_type": "inside",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [
+            {
+                "dir": "north",
+                "to": 48,
+                "keyword": null,
+                "description": null,
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "west",
+                "to": 46,
+                "keyword": null,
+                "description": null,
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            }
+        ],
+        "extra_description": [],
+        "resets": []
+    }},
+    {"room": {
+        "area": "dwarven",
+        "anum": 48,
+        "owner": null,
+        "name": "Maze",
+        "description": "You are in a maze.\n",
+        "room_flags": "dark indoors",
+        "sector_type": "inside",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [
+            {
+                "dir": "north",
+                "to": 49,
+                "keyword": null,
+                "description": null,
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "south",
+                "to": 47,
+                "keyword": null,
+                "description": null,
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            }
+        ],
+        "extra_description": [],
+        "resets": [{
+            "command": "mobile",
+            "values": {
+                "mob": 17,
+                "global_limit": 2,
+                "room_limit": 1
+            }
+        }]
+    }},
+    {"room": {
+        "area": "dwarven",
+        "anum": 49,
+        "owner": null,
+        "name": "Maze",
+        "description": "You are in a maze.\n",
+        "room_flags": "dark indoors",
+        "sector_type": "inside",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [
+            {
+                "dir": "north",
+                "to": 50,
+                "keyword": null,
+                "description": null,
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "west",
+                "to": 48,
+                "keyword": null,
+                "description": null,
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            }
+        ],
+        "extra_description": [],
+        "resets": [{
+            "command": "mobile",
+            "values": {
+                "mob": 17,
+                "global_limit": 2,
+                "room_limit": 1
+            }
+        }]
+    }},
+    {"room": {
+        "area": "dwarven",
+        "anum": 50,
+        "owner": null,
+        "name": "Maze",
+        "description": "You are in a maze.\n",
+        "room_flags": "dark indoors",
+        "sector_type": "inside",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [
+            {
+                "dir": "south",
+                "to": 49,
+                "keyword": null,
+                "description": null,
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "west",
+                "to": 52,
+                "keyword": null,
+                "description": null,
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            }
+        ],
+        "extra_description": [],
+        "resets": []
+    }},
+    {"room": {
+        "area": "dwarven",
+        "anum": 51,
+        "owner": null,
+        "name": "Mining equipment room",
+        "description": "This is the storage room for equipment used by the\nDwarven miners.  It is very small, and you can tell that\nnot many miners actually use any equipment.\n",
+        "room_flags": "dark indoors",
+        "sector_type": "inside",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [{
+            "dir": "north",
+            "to": 44,
+            "keyword": null,
+            "description": null,
+            "exit_flags": null,
+            "key": -1,
+            "portal": null
+        }],
+        "extra_description": [],
+        "resets": [{
+            "command": "object",
+            "values": {
+                "obj": 18,
+                "global_limit": 3,
+                "room_limit": 0
+            }
+        }]
+    }},
+    {"room": {
+        "area": "dwarven",
+        "anum": 52,
+        "owner": null,
+        "name": "Solved the Maze.",
+        "description": "You have solved the maze.  You can tell by the last few moves\nthat there is no way that a dumb worker could have figured that\nout.  It seems pretty desolate here.  To the south is a bleak room.\nTo the north, you see the maze.  There is a sign above the south exit:\n\n    Those who enter, plan on a timely death.\n    Especially if you're loyal to the queen.\n",
+        "room_flags": "dark indoors",
+        "sector_type": "inside",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [
+            {
+                "dir": "east",
+                "to": 50,
+                "keyword": null,
+                "description": null,
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "west",
+                "to": 53,
+                "keyword": null,
+                "description": null,
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            }
+        ],
+        "extra_description": [],
+        "resets": []
+    }},
+    {"room": {
+        "area": "dwarven",
+        "anum": 53,
+        "owner": null,
+        "name": "The Mazekeeper's Room",
+        "description": "You have entered the Mazekeeper's room.  There are pictures of\nthe Queen with darts thrown in it.  Spray-painted on the wall are\nthings like 'the queen shall suffer' and 'Catholics Rule'.\n",
+        "room_flags": "dark indoors",
+        "sector_type": "inside",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [{
+            "dir": "east",
+            "to": 52,
+            "keyword": null,
+            "description": null,
+            "exit_flags": null,
+            "key": -1,
+            "portal": null
+        }],
+        "extra_description": [],
+        "resets": [
+            {
+                "command": "mobile",
+                "values": {
+                    "mob": 16,
+                    "global_limit": 1,
+                    "room_limit": 1
+                }
+            },
+            {
+                "command": "give",
+                "values": {
+                    "obj": 19,
+                    "global_limit": 10
+                }
+            }
+        ]
+    }},
+    {"room": {
+        "area": "dwarven",
+        "anum": 54,
+        "owner": null,
+        "name": "Bottom of mineshaft",
+        "description": "You are at the bottom of the mineshaft.  The air here is very sooty, and\nit is very hard to breath.  The mineshaft leads up and east.\n",
+        "room_flags": "dark indoors",
+        "sector_type": "inside",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [
+            {
+                "dir": "east",
+                "to": 43,
+                "keyword": null,
+                "description": null,
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "up",
+                "to": 42,
+                "keyword": null,
+                "description": null,
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            }
+        ],
+        "extra_description": [],
+        "resets": []
+    }},
+    {"room": {
+        "area": "dwarven",
+        "anum": 62,
+        "owner": null,
+        "name": "The mountains of the dwarven kingdom",
+        "description": "You are standing at the foot of the mountains of the dwarven kingdom, where\ndwarves and giants toil endlessly to pry gems and mithril from the mother \nearth.  Here lies the palace of the dwarven queen, and untold riches.\nBut beware, for the mines are said to be haunted by demon and spirit alike.\nThe dwarven kingdom lies to the east.\n",
+        "room_flags": null,
+        "sector_type": "mountain",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [
+            {
+                "dir": "east",
+                "to": 0,
+                "keyword": null,
+                "description": "The dwarven kingdom awaits!\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "west",
+                "to": null,
+                "keyword": null,
+                "description": "You see the foothills of this mighty mountain range.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": "dwarven-4-west"
+            }
+        ],
+        "extra_description": [],
+        "resets": []
+    }}
+]

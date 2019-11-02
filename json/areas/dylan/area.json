@@ -1,0 +1,12 @@
+[{"area": {
+    "name": "dylan",
+    "filename": "dylan.are",
+    "title": "Dylan's Area",
+    "credits": "{15 25} Dylan   Dylan's Area",
+    "low_range": 0,
+    "high_range": 0,
+    "min_vnum": 9100,
+    "max_vnum": 9199,
+    "builders": "None",
+    "security": 9
+}}]

@@ -1,0 +1,672 @@
+[
+    {"object": {
+        "area": "chapel",
+        "anum": 0,
+        "new_format": true,
+        "name": "candlestick",
+        "short_descr": "a candlestick",
+        "description": "A pewter candlestick is standing here.",
+        "material": "generic",
+        "item_type": "light",
+        "extra_flags": null,
+        "wear_flags": "take hold",
+        "values": {"duration": 24},
+        "level": 0,
+        "weight": 50,
+        "cost": 50,
+        "condition": 100,
+        "extra_description": [{
+            "keyword": "candlestick",
+            "description": "It is a rather old-looking three-armed candlestick made from pewter.  Its\ncandles are a yellowish white colour.\n"
+        }],
+        "affects": []
+    }},
+    {"object": {
+        "area": "chapel",
+        "anum": 2,
+        "new_format": true,
+        "name": "tickler",
+        "short_descr": "a nightgaunt's tickler",
+        "description": "A nightgaunt's tickler has been left here.",
+        "material": "generic",
+        "item_type": "weapon",
+        "extra_flags": "nodrop",
+        "wear_flags": "take wield",
+        "values": {
+            "weapon_type": "whip",
+            "dice_num": 2,
+            "dice_size": 4,
+            "attack_type": "slime",
+            "flags": null
+        },
+        "level": 7,
+        "weight": 80,
+        "cost": 540,
+        "condition": 100,
+        "extra_description": [{
+            "keyword": "tickler",
+            "description": "A horrid black mass of gooey tentacles obviously ripped from the corpse\nof a nightgaunt ... disgusting.\n"
+        }],
+        "affects": [
+            {
+                "apply": "damage roll",
+                "level": 7,
+                "modifier": 2,
+                "bit_type": "object",
+                "bits": null
+            },
+            {
+                "apply": "hit roll",
+                "level": 7,
+                "modifier": 1,
+                "bit_type": "object",
+                "bits": null
+            }
+        ]
+    }},
+    {"object": {
+        "area": "chapel",
+        "anum": 3,
+        "new_format": true,
+        "name": "plasma webbing",
+        "short_descr": "disgusting pinkish plasma webbing",
+        "description": "A pile of pink material is lying here",
+        "material": "generic",
+        "item_type": "armor",
+        "extra_flags": "antigood antineutral",
+        "wear_flags": "take body",
+        "values": {
+            "vs_pierce": 5,
+            "vs_bash": 5,
+            "vs_slash": 5,
+            "vs_magic": 4
+        },
+        "level": 10,
+        "weight": 100,
+        "cost": 1800,
+        "condition": 100,
+        "extra_description": [{
+            "keyword": "plasma webbing",
+            "description": "Yuck, mossy and wet.  It looks like some sort of webbing.\n"
+        }],
+        "affects": []
+    }},
+    {"object": {
+        "area": "chapel",
+        "anum": 10,
+        "new_format": true,
+        "name": "rod key",
+        "short_descr": "a queerly shaped rod",
+        "description": "A queerly shaped rod is lying here.",
+        "material": "generic",
+        "item_type": "key",
+        "extra_flags": null,
+        "wear_flags": "take",
+        "values": {},
+        "level": 0,
+        "weight": 50,
+        "cost": 0,
+        "condition": 100,
+        "extra_description": [{
+            "keyword": "rod key",
+            "description": "This rod looks sort of octagonal, and sort of like a key and crowbar.  You\nrecognize that it will probably fit the lock at the entrance of the tombs.\n"
+        }],
+        "affects": []
+    }},
+    {"object": {
+        "area": "chapel",
+        "anum": 11,
+        "new_format": true,
+        "name": "large black dirty key",
+        "short_descr": "a large black dirty key",
+        "description": "A large black dirty key is lying here",
+        "material": "generic",
+        "item_type": "key",
+        "extra_flags": null,
+        "wear_flags": "take",
+        "values": {},
+        "level": 0,
+        "weight": 30,
+        "cost": 0,
+        "condition": 100,
+        "extra_description": [{
+            "keyword": "large black dirty key",
+            "description": "One of those traditional old lock type keys ... except huge, black and\nfilthy ... hmm ... like it has been buried for some time ...\n"
+        }],
+        "affects": []
+    }},
+    {"object": {
+        "area": "chapel",
+        "anum": 12,
+        "new_format": true,
+        "name": "head jubal mummy",
+        "short_descr": "the mummified head of Jubal the Benevolent",
+        "description": "The mummified head of Jubal the Benevolent is lolling back and forth.",
+        "material": "generic",
+        "item_type": "container",
+        "extra_flags": "antievil",
+        "wear_flags": "take",
+        "values": {
+            "capacity": 3,
+            "flags": "closeable closed",
+            "key": -1,
+            "max_weight": 3,
+            "weight_mult": 100
+        },
+        "level": 0,
+        "weight": 200,
+        "cost": 0,
+        "condition": 100,
+        "extra_description": [{
+            "keyword": "head jubal mummy",
+            "description": "ACK! It's half eaten away ... yet it is whole ... in fact I think it can be\nopened and closed ... is there something in its teeth!?!?!? ACK you do it!\n"
+        }],
+        "affects": []
+    }},
+    {"object": {
+        "area": "chapel",
+        "anum": 13,
+        "new_format": true,
+        "name": "ring black marble",
+        "short_descr": "a black marble ring",
+        "description": "A black marble ring is lying here on the ground.",
+        "material": "generic",
+        "item_type": "treasure",
+        "extra_flags": "magic antievil",
+        "wear_flags": "take finger",
+        "values": {},
+        "level": 3,
+        "weight": 20,
+        "cost": 26,
+        "condition": 100,
+        "extra_description": [{
+            "keyword": "black marble ring",
+            "description": "It is pitch black and has beautiful swirls characteristic of marble all\nthrough it.\n"
+        }],
+        "affects": [
+            {
+                "apply": "saves",
+                "level": 3,
+                "modifier": 1,
+                "bit_type": "object",
+                "bits": null
+            },
+            {
+                "apply": "moves",
+                "level": 3,
+                "modifier": 10,
+                "bit_type": "object",
+                "bits": null
+            }
+        ]
+    }},
+    {"object": {
+        "area": "chapel",
+        "anum": 14,
+        "new_format": true,
+        "name": "rapier thin",
+        "short_descr": "a whisper thin rapier",
+        "description": "A rapier is lying here.",
+        "material": "generic",
+        "item_type": "weapon",
+        "extra_flags": "hum",
+        "wear_flags": "take wield",
+        "values": {
+            "weapon_type": "sword",
+            "dice_num": 4,
+            "dice_size": 2,
+            "attack_type": "pierce",
+            "flags": null
+        },
+        "level": 16,
+        "weight": 40,
+        "cost": 3500,
+        "condition": 100,
+        "extra_description": [{
+            "keyword": "thin rapier",
+            "description": "It seems so thin that it would be useless but at the same time it looks deadly.\n"
+        }],
+        "affects": [
+            {
+                "apply": "hit roll",
+                "level": 16,
+                "modifier": 1,
+                "bit_type": "object",
+                "bits": null
+            },
+            {
+                "apply": "dexterity",
+                "level": 16,
+                "modifier": 2,
+                "bit_type": "object",
+                "bits": null
+            }
+        ]
+    }},
+    {"object": {
+        "area": "chapel",
+        "anum": 15,
+        "new_format": true,
+        "name": "sarcophagus coffin",
+        "short_descr": "a stone sarcophagus",
+        "description": "A stone sarcophagus is sitting here.",
+        "material": "generic",
+        "item_type": "container",
+        "extra_flags": null,
+        "wear_flags": null,
+        "values": {
+            "capacity": 400,
+            "flags": "closeable pickproof closed locked",
+            "key": 3416,
+            "max_weight": 400,
+            "weight_mult": 100
+        },
+        "level": 0,
+        "weight": 0,
+        "cost": 0,
+        "condition": 100,
+        "extra_description": [{
+            "keyword": "sarcophagus coffin",
+            "description": "A well crafted, if dusty and ancient, home for the afterworld, it seems\nto be able to be opened but needs a key.\n"
+        }],
+        "affects": []
+    }},
+    {"object": {
+        "area": "chapel",
+        "anum": 16,
+        "new_format": true,
+        "name": "iron heavy key",
+        "short_descr": "a heavy iron key",
+        "description": "A heavy iron key is lying here.",
+        "material": "generic",
+        "item_type": "key",
+        "extra_flags": null,
+        "wear_flags": "take",
+        "values": {},
+        "level": 0,
+        "weight": 40,
+        "cost": 0,
+        "condition": 100,
+        "extra_description": [{
+            "keyword": "key iron heavy",
+            "description": "It looks to be a very heavy old iron key.\n"
+        }],
+        "affects": []
+    }},
+    {"object": {
+        "area": "chapel",
+        "anum": 17,
+        "new_format": true,
+        "name": "flask wineflask",
+        "short_descr": "a wineflask",
+        "description": "A wineflask has been been left here.",
+        "material": "generic",
+        "item_type": "drink",
+        "extra_flags": null,
+        "wear_flags": "take hold",
+        "values": {
+            "capacity": 30,
+            "filled": 30,
+            "liquid": "red wine",
+            "poisoned": false
+        },
+        "level": 0,
+        "weight": 10,
+        "cost": 400,
+        "condition": 100,
+        "extra_description": [{
+            "keyword": "wineflask flask",
+            "description": "A nice leather wineflask that has somehow survived the ages in a coffin.\nThe wine should be nicely aged.\n"
+        }],
+        "affects": []
+    }},
+    {"object": {
+        "area": "chapel",
+        "anum": 18,
+        "new_format": true,
+        "name": "coins",
+        "short_descr": "a mound of coins fit for a dead king",
+        "description": "You see a mound of coins fit for a dead king here",
+        "material": "generic",
+        "item_type": "money",
+        "extra_flags": null,
+        "wear_flags": "take",
+        "values": {
+            "silver": 400,
+            "gold": 8
+        },
+        "level": 0,
+        "weight": 500,
+        "cost": 0,
+        "condition": 100,
+        "extra_description": [],
+        "affects": []
+    }},
+    {"object": {
+        "area": "chapel",
+        "anum": 19,
+        "new_format": true,
+        "name": "key",
+        "short_descr": "key to the coffin",
+        "description": "The key to the coffin is lying here",
+        "material": "generic",
+        "item_type": "key",
+        "extra_flags": null,
+        "wear_flags": "take",
+        "values": {},
+        "level": 0,
+        "weight": 30,
+        "cost": 0,
+        "condition": 100,
+        "extra_description": [{
+            "keyword": "key",
+            "description": "Neat you have the key to the coffin...is is a soft orange color\nand burns in your hand a bit.\n"
+        }],
+        "affects": []
+    }},
+    {"object": {
+        "area": "chapel",
+        "anum": 20,
+        "new_format": true,
+        "name": "rathcor",
+        "short_descr": "a hidden compartment in the room",
+        "description": null,
+        "material": "generic",
+        "item_type": "container",
+        "extra_flags": "dark",
+        "wear_flags": null,
+        "values": {
+            "capacity": 10,
+            "flags": "closeable closed",
+            "key": 0,
+            "max_weight": 10,
+            "weight_mult": 100
+        },
+        "level": 0,
+        "weight": 0,
+        "cost": 0,
+        "condition": 100,
+        "extra_description": [{
+            "keyword": "rathcor",
+            "description": "Ah HA!  A hidden compartment!\n"
+        }],
+        "affects": []
+    }},
+    {"object": {
+        "area": "chapel",
+        "anum": 21,
+        "new_format": true,
+        "name": "rusty sword curved scimitar",
+        "short_descr": "a rusty curved scimitar",
+        "description": "A sword has been left lying here",
+        "material": "generic",
+        "item_type": "weapon",
+        "extra_flags": null,
+        "wear_flags": "take wield",
+        "values": {
+            "weapon_type": "sword",
+            "dice_num": 2,
+            "dice_size": 3,
+            "attack_type": "slash",
+            "flags": null
+        },
+        "level": 3,
+        "weight": 60,
+        "cost": 370,
+        "condition": 100,
+        "extra_description": [{
+            "keyword": "rusty sword scimitar",
+            "description": "Very rusty and old...it has a wide blade and chunks missing from\nits cutting edge.\n"
+        }],
+        "affects": []
+    }},
+    {"object": {
+        "area": "chapel",
+        "anum": 22,
+        "new_format": true,
+        "name": "piece slime",
+        "short_descr": "a piece of slime",
+        "description": "You step on a piece of slime...your foot squishes a bit",
+        "material": "generic",
+        "item_type": "food",
+        "extra_flags": null,
+        "wear_flags": "take",
+        "values": {
+            "hunger": 15,
+            "fullness": 15,
+            "poisoned": false
+        },
+        "level": 0,
+        "weight": 10,
+        "cost": 0,
+        "condition": 100,
+        "extra_description": [{
+            "keyword": "slime piece",
+            "description": "ICK! This is a piece of slug-like brownish green slime...\nBlech!\n"
+        }],
+        "affects": []
+    }},
+    {"object": {
+        "area": "chapel",
+        "anum": 23,
+        "new_format": true,
+        "name": "smock",
+        "short_descr": "an artist's smock",
+        "description": "An artist's smock is lying here on the floor.",
+        "material": "generic",
+        "item_type": "clothing",
+        "extra_flags": null,
+        "wear_flags": "take body",
+        "values": {},
+        "level": 0,
+        "weight": 70,
+        "cost": 0,
+        "condition": 100,
+        "extra_description": [{
+            "keyword": "smock",
+            "description": "It has paint and little shavings of different materials all over it.\nIt is very old an smells of paint, mildew, and rot.\n"
+        }],
+        "affects": []
+    }},
+    {"object": {
+        "area": "chapel",
+        "anum": 24,
+        "new_format": true,
+        "name": "scroll tightly rolled",
+        "short_descr": "a tightly rolled scroll",
+        "description": "A yellowing tightly rolled scroll is here",
+        "material": "generic",
+        "item_type": "scroll",
+        "extra_flags": "magic",
+        "wear_flags": "take hold",
+        "values": {
+            "level": 15,
+            "skill1": "colour spray",
+            "skill2": "create food",
+            "skill3": "magic missile"
+        },
+        "level": 8,
+        "weight": 50,
+        "cost": 1070,
+        "condition": 100,
+        "extra_description": [{
+            "keyword": "scroll tightly rolled",
+            "description": "It is tightly wound. The writing on the inside when opened up is very\nunreadable but the scroll has a seal on it with a grey :\n\n    88\n    88\n8888  8888\n    88\n    88\n\n"
+        }],
+        "affects": []
+    }},
+    {"object": {
+        "area": "chapel",
+        "anum": 25,
+        "new_format": true,
+        "name": "auburn orb",
+        "short_descr": "an auburn-colored orb",
+        "description": "An orb is here",
+        "material": "generic",
+        "item_type": "staff",
+        "extra_flags": "hum magic",
+        "wear_flags": "take hold",
+        "values": {
+            "level": 10,
+            "recharge": 2,
+            "charges": 2,
+            "skill": "charm person"
+        },
+        "level": 15,
+        "weight": 100,
+        "cost": 4700,
+        "condition": 100,
+        "extra_description": [{
+            "keyword": "auburn orb",
+            "description": "You gaze into the orb and are almost lost in the swirling mists of color\ninside of this rare and beautiful object.\n"
+        }],
+        "affects": []
+    }},
+    {"object": {
+        "area": "chapel",
+        "anum": 26,
+        "new_format": true,
+        "name": "bar gold",
+        "short_descr": "a bar of gold",
+        "description": "A bar of gold is lying here",
+        "material": "generic",
+        "item_type": "treasure",
+        "extra_flags": null,
+        "wear_flags": "take",
+        "values": {},
+        "level": 0,
+        "weight": 30,
+        "cost": 1000,
+        "condition": 100,
+        "extra_description": [{
+            "keyword": "bar gold",
+            "description": "A nice little brick of gold...very dusty and old... it has some emblem\non it...The emblem is a large 'J'\n"
+        }],
+        "affects": []
+    }},
+    {"object": {
+        "area": "chapel",
+        "anum": 27,
+        "new_format": true,
+        "name": "cape dark black",
+        "short_descr": "a dark black cape",
+        "description": "A dark black cape is lying here",
+        "material": "generic",
+        "item_type": "armor",
+        "extra_flags": "magic",
+        "wear_flags": "take about",
+        "values": {
+            "vs_pierce": 5,
+            "vs_bash": 5,
+            "vs_slash": 5,
+            "vs_magic": 0
+        },
+        "level": 0,
+        "weight": 100,
+        "cost": 100,
+        "condition": 100,
+        "extra_description": [{
+            "keyword": "dark black cape",
+            "description": "The cape is gently flows and pulls in the light so evenly and perfectly\nthat the cape seems to be simply a void of blackness. It is quite beautiful\n"
+        }],
+        "affects": [
+            {
+                "apply": "armor class",
+                "level": 0,
+                "modifier": 10,
+                "bit_type": "object",
+                "bits": null
+            },
+            {
+                "apply": "hp",
+                "level": 0,
+                "modifier": 10,
+                "bit_type": "object",
+                "bits": null
+            }
+        ]
+    }},
+    {"object": {
+        "area": "chapel",
+        "anum": 28,
+        "new_format": true,
+        "name": "flaming black sword long longsword",
+        "short_descr": "the pitch-black flaming longsword",
+        "description": "A pitch-black long swor here",
+        "material": "generic",
+        "item_type": "weapon",
+        "extra_flags": "magic",
+        "wear_flags": "take wield",
+        "values": {
+            "weapon_type": "sword",
+            "dice_num": 2,
+            "dice_size": 12,
+            "attack_type": "slash",
+            "flags": "flaming vampiric"
+        },
+        "level": 28,
+        "weight": 200,
+        "cost": 2200,
+        "condition": 100,
+        "extra_description": [{
+            "keyword": "flaming sword long longsword",
+            "description": "This sword is amazing! It almost wields itself! As you test it out, the\nflames seems to roar brighter as you go thru basic swordsman routines.\nit is obviously a great find!\n"
+        }],
+        "affects": [{
+            "apply": "hit roll",
+            "level": 28,
+            "modifier": 1,
+            "bit_type": "object",
+            "bits": null
+        }]
+    }},
+    {"object": {
+        "area": "chapel",
+        "anum": 29,
+        "new_format": true,
+        "name": "breast plate dented worn",
+        "short_descr": "a worn and dented breast plate",
+        "description": "A piece of armour is here.",
+        "material": "generic",
+        "item_type": "armor",
+        "extra_flags": null,
+        "wear_flags": "take body",
+        "values": {
+            "vs_pierce": 6,
+            "vs_bash": 6,
+            "vs_slash": 6,
+            "vs_magic": 0
+        },
+        "level": 15,
+        "weight": 500,
+        "cost": 2100,
+        "condition": 100,
+        "extra_description": [{
+            "keyword": "breast dented plate worn",
+            "description": "Though this piece of armour is worn and dented it looks very usable.\n"
+        }],
+        "affects": []
+    }},
+    {"object": {
+        "area": "chapel",
+        "anum": 30,
+        "new_format": true,
+        "name": "key silver",
+        "short_descr": "a silver key",
+        "description": "You see a silver key here.",
+        "material": "generic",
+        "item_type": "key",
+        "extra_flags": null,
+        "wear_flags": "take",
+        "values": {},
+        "level": 0,
+        "weight": 10,
+        "cost": 0,
+        "condition": 100,
+        "extra_description": [{
+            "keyword": "key silver",
+            "description": "for the altar...\n"
+        }],
+        "affects": []
+    }}
+]

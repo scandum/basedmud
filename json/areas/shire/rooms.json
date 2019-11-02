@@ -1,0 +1,3229 @@
+[
+    {"room": {
+        "area": "shire",
+        "anum": 0,
+        "owner": null,
+        "name": "A dimly lit path",
+        "description": "You tread through the deep, dark forest on a dimly lit path.  Up ahead you\ncan hear the faint sounds of a village.\n",
+        "room_flags": null,
+        "sector_type": "forest",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [
+            {
+                "dir": "north",
+                "to": 1,
+                "keyword": null,
+                "description": "The dimly lit path leads north through the dense forest.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "south",
+                "to": null,
+                "keyword": null,
+                "description": "The dimly lit path leads south through the light forest.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": "shire-1-south"
+            }
+        ],
+        "extra_description": [],
+        "resets": []
+    }},
+    {"room": {
+        "area": "shire",
+        "anum": 1,
+        "owner": null,
+        "name": "A dimly lit path",
+        "description": "You tread through the deep, dark forest on a dimly lit path.  Up ahead you\ncan hear the faint sounds of a village.\n",
+        "room_flags": null,
+        "sector_type": "forest",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [
+            {
+                "dir": "north",
+                "to": 2,
+                "keyword": null,
+                "description": "The dimly lit path leads north through the dense forest.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "south",
+                "to": 0,
+                "keyword": null,
+                "description": "The dimly lit path leads south through the dense forest.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            }
+        ],
+        "extra_description": [],
+        "resets": []
+    }},
+    {"room": {
+        "area": "shire",
+        "anum": 2,
+        "owner": null,
+        "name": "A dimly lit path",
+        "description": "You tread through the deep, dark forest on a dimly lit path.  The forest\nhere seems less dense than to the south.  Northward you see the faint outline\nof a village.\n",
+        "room_flags": null,
+        "sector_type": "forest",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [
+            {
+                "dir": "north",
+                "to": 3,
+                "keyword": null,
+                "description": "The dimly lit path leads to a village.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "south",
+                "to": 1,
+                "keyword": null,
+                "description": "The dimly lit path leads south through the dense forest.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            }
+        ],
+        "extra_description": [],
+        "resets": []
+    }},
+    {"room": {
+        "area": "shire",
+        "anum": 3,
+        "owner": null,
+        "name": "Entrance to the Shire",
+        "description": "You stand at the entrance to the Shire.  You see halflings, no more than\nwee tall, every which way you look. Bywater Road leads east and west.\n",
+        "room_flags": null,
+        "sector_type": "city",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [
+            {
+                "dir": "east",
+                "to": 4,
+                "keyword": null,
+                "description": "To the east runs Bywater Road.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "south",
+                "to": 2,
+                "keyword": null,
+                "description": "To the south you see a dimly lit path which leads to a dense forest.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "west",
+                "to": 18,
+                "keyword": null,
+                "description": "To the west runs Bywater Road.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            }
+        ],
+        "extra_description": [],
+        "resets": [{
+            "command": "object",
+            "values": {
+                "obj": 2,
+                "global_limit": 1,
+                "room_limit": 0
+            }
+        }]
+    }},
+    {"room": {
+        "area": "shire",
+        "anum": 4,
+        "owner": null,
+        "name": "Bywater Road",
+        "description": "You stand on Bywater Road, the busiest street in all of Shiredom.  The road\ncontinues to the east and west while to the north lies the general store.\n",
+        "room_flags": null,
+        "sector_type": "city",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [
+            {
+                "dir": "north",
+                "to": 5,
+                "keyword": null,
+                "description": "The general store lies to the north.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "east",
+                "to": 6,
+                "keyword": null,
+                "description": "To the east runs Bywater Road.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "west",
+                "to": 3,
+                "keyword": null,
+                "description": "To the west you see the entrance to the Shire.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            }
+        ],
+        "extra_description": [],
+        "resets": []
+    }},
+    {"room": {
+        "area": "shire",
+        "anum": 5,
+        "owner": null,
+        "name": "The General Store",
+        "description": "You are inside the general store.  All sorts of goodies are stacked on the\nmany shelves.  Your local friendly shopkeeper is smiling patiently, waiting to \nserve you to the best of his abilities.  The only exit is to the south.\n",
+        "room_flags": "indoors",
+        "sector_type": "inside",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [{
+            "dir": "south",
+            "to": 4,
+            "keyword": null,
+            "description": "The only exit lies to the south.\n",
+            "exit_flags": null,
+            "key": -1,
+            "portal": null
+        }],
+        "extra_description": [],
+        "resets": [
+            {
+                "command": "mobile",
+                "values": {
+                    "mob": 18,
+                    "global_limit": 1,
+                    "room_limit": 1
+                }
+            },
+            {
+                "command": "give",
+                "values": {
+                    "obj": 11,
+                    "global_limit": 999
+                }
+            },
+            {
+                "command": "give",
+                "values": {
+                    "obj": 12,
+                    "global_limit": 999
+                }
+            }
+        ]
+    }},
+    {"room": {
+        "area": "shire",
+        "anum": 6,
+        "owner": null,
+        "name": "Bywater Road",
+        "description": "You stand on Bywater Road, the busiest street in all of Shiredom.  The road\ncontinues to the east and west.  To the north, steps lead to a friendly looking\nweaponry/armory while a nursery lies to the south.\n",
+        "room_flags": null,
+        "sector_type": "city",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [
+            {
+                "dir": "north",
+                "to": 7,
+                "keyword": null,
+                "description": "Steps lead to a friendly looking weaponry and armory.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "east",
+                "to": 9,
+                "keyword": null,
+                "description": "To the east runs Bywater Road.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "south",
+                "to": 8,
+                "keyword": null,
+                "description": "To the south lies Kid'n Keep, the local nursery.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "west",
+                "to": 4,
+                "keyword": null,
+                "description": "To the west runs Bywater Road.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            }
+        ],
+        "extra_description": [],
+        "resets": []
+    }},
+    {"room": {
+        "area": "shire",
+        "anum": 7,
+        "owner": null,
+        "name": "The House of Arms",
+        "description": "You are inside the finest weapons and armour shop in all of Shiredom.  The\nshopkeeper proudly displays his fine wares and humbly offers the best daggers\nthat you have ever laid eyes on.\n",
+        "room_flags": "indoors",
+        "sector_type": "inside",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [{
+            "dir": "south",
+            "to": 6,
+            "keyword": null,
+            "description": "The only exit lies to the south.\n",
+            "exit_flags": null,
+            "key": -1,
+            "portal": null
+        }],
+        "extra_description": [],
+        "resets": [{
+            "command": "mobile",
+            "values": {
+                "mob": 20,
+                "global_limit": 1,
+                "room_limit": 1
+            }
+        }]
+    }},
+    {"room": {
+        "area": "shire",
+        "anum": 8,
+        "owner": null,
+        "name": "Kid'n Keep",
+        "description": "You are inside Kid'n Keep, the convenient one-stop nursery that maintains\nthe youth of the Shire.  Toddlers run every which way while their nursemaids\nsigh in exasperation.  The only exit lies to the north.\n",
+        "room_flags": "indoors",
+        "sector_type": "inside",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [{
+            "dir": "north",
+            "to": 6,
+            "keyword": null,
+            "description": "The only exit lies to the north.\n",
+            "exit_flags": null,
+            "key": -1,
+            "portal": null
+        }],
+        "extra_description": [],
+        "resets": [
+            {
+                "command": "mobile",
+                "values": {
+                    "mob": 4,
+                    "global_limit": 2,
+                    "room_limit": 2
+                }
+            },
+            {
+                "command": "mobile",
+                "values": {
+                    "mob": 4,
+                    "global_limit": 2,
+                    "room_limit": 2
+                }
+            },
+            {
+                "command": "mobile",
+                "values": {
+                    "mob": 3,
+                    "global_limit": 6,
+                    "room_limit": 6
+                }
+            },
+            {
+                "command": "mobile",
+                "values": {
+                    "mob": 3,
+                    "global_limit": 6,
+                    "room_limit": 6
+                }
+            },
+            {
+                "command": "mobile",
+                "values": {
+                    "mob": 3,
+                    "global_limit": 6,
+                    "room_limit": 6
+                }
+            },
+            {
+                "command": "mobile",
+                "values": {
+                    "mob": 3,
+                    "global_limit": 6,
+                    "room_limit": 6
+                }
+            },
+            {
+                "command": "mobile",
+                "values": {
+                    "mob": 3,
+                    "global_limit": 6,
+                    "room_limit": 6
+                }
+            },
+            {
+                "command": "mobile",
+                "values": {
+                    "mob": 3,
+                    "global_limit": 6,
+                    "room_limit": 6
+                }
+            }
+        ]
+    }},
+    {"room": {
+        "area": "shire",
+        "anum": 9,
+        "owner": null,
+        "name": "A bend in the road",
+        "description": "Bywater Road continues west and south.  A large, imposing building lies\nto the east.  Farther to the south, you can see an Inn of some sort.\n",
+        "room_flags": null,
+        "sector_type": "city",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [
+            {
+                "dir": "east",
+                "to": 10,
+                "keyword": null,
+                "description": "A large, imposing building lies to the east.  A sign reads 'Shiriff Post'.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "south",
+                "to": 12,
+                "keyword": null,
+                "description": "To the south runs Bywater Road.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "west",
+                "to": 6,
+                "keyword": null,
+                "description": "To the west runs Bywater Road.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            }
+        ],
+        "extra_description": [],
+        "resets": []
+    }},
+    {"room": {
+        "area": "shire",
+        "anum": 10,
+        "owner": null,
+        "name": "Shiriff Post of the Eastern Shire",
+        "description": "You are in the Shiriff Post which acts as the nucleus for the three shiriffs\nof the Eastern Shire.  As you examine the shiriffs on duty, you come to realize\nthat the halflings of the Shire are not to be reckoned with.  You cower with \nawe.  A door offers passage to the east.\n",
+        "room_flags": "indoors",
+        "sector_type": "inside",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [
+            {
+                "dir": "east",
+                "to": 11,
+                "keyword": "door",
+                "description": "A door offers passage to the office of the Thain.\n",
+                "exit_flags": "door",
+                "key": 0,
+                "portal": null
+            },
+            {
+                "dir": "west",
+                "to": 9,
+                "keyword": null,
+                "description": "To the west you can see Bywater Road.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            }
+        ],
+        "extra_description": [],
+        "resets": [
+            {
+                "command": "mobile",
+                "values": {
+                    "mob": 10,
+                    "global_limit": 8,
+                    "room_limit": 2
+                }
+            },
+            {
+                "command": "equip",
+                "values": {
+                    "obj": 16,
+                    "wear_loc": "wielded",
+                    "global_limit": 9
+                }
+            },
+            {
+                "command": "equip",
+                "values": {
+                    "obj": {
+                        "area": "ofcol2",
+                        "anum": 16
+                    },
+                    "wear_loc": "body",
+                    "global_limit": 100
+                }
+            },
+            {
+                "command": "mobile",
+                "values": {
+                    "mob": 10,
+                    "global_limit": 8,
+                    "room_limit": 2
+                }
+            },
+            {
+                "command": "equip",
+                "values": {
+                    "obj": {
+                        "area": "ofcol2",
+                        "anum": 16
+                    },
+                    "wear_loc": "body",
+                    "global_limit": 100
+                }
+            },
+            {
+                "command": "mobile",
+                "values": {
+                    "mob": 11,
+                    "global_limit": 4,
+                    "room_limit": 1
+                }
+            },
+            {
+                "command": "equip",
+                "values": {
+                    "obj": {
+                        "area": "ofcol2",
+                        "anum": 16
+                    },
+                    "wear_loc": "body",
+                    "global_limit": 100
+                }
+            }
+        ]
+    }},
+    {"room": {
+        "area": "shire",
+        "anum": 11,
+        "owner": null,
+        "name": "Thain's Office",
+        "description": "You stand inside the office of the Thain, the police protectorate of the\ngreat Shire.  The Thain has sworn to protect the Shire from all thieves and\nmurderers with his life, and so eyes you suspiciously.  A door to the west\nleads to the Shiriff Post.\n",
+        "room_flags": "indoors",
+        "sector_type": "inside",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [{
+            "dir": "west",
+            "to": 10,
+            "keyword": "door",
+            "description": "A door offers passage to the Shiriff Post.\n",
+            "exit_flags": "door",
+            "key": 0,
+            "portal": null
+        }],
+        "extra_description": [],
+        "resets": [
+            {
+                "command": "mobile",
+                "values": {
+                    "mob": 12,
+                    "global_limit": 1,
+                    "room_limit": 1
+                }
+            },
+            {
+                "command": "equip",
+                "values": {
+                    "obj": 17,
+                    "wear_loc": "wielded",
+                    "global_limit": 100
+                }
+            },
+            {
+                "command": "equip",
+                "values": {
+                    "obj": {
+                        "area": "ofcol2",
+                        "anum": 16
+                    },
+                    "wear_loc": "body",
+                    "global_limit": 100
+                }
+            },
+            {
+                "command": "equip",
+                "values": {
+                    "obj": 8,
+                    "wear_loc": "waist",
+                    "global_limit": 5
+                }
+            }
+        ]
+    }},
+    {"room": {
+        "area": "shire",
+        "anum": 12,
+        "owner": null,
+        "name": "Bywater Road",
+        "description": "You stand on Bywater Road, the busiest street in all of Shiredom.  The road\ncontinues to the north and south.  To the east you spy the training grounds for\nshiriffs in training.\n",
+        "room_flags": null,
+        "sector_type": "city",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [
+            {
+                "dir": "north",
+                "to": 9,
+                "keyword": null,
+                "description": "To the north runs Bywater Road.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "east",
+                "to": 17,
+                "keyword": null,
+                "description": "The Shiriff Training Grounds lies to the east.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "south",
+                "to": 13,
+                "keyword": null,
+                "description": "To the south runs Bywater Road.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            }
+        ],
+        "extra_description": [],
+        "resets": []
+    }},
+    {"room": {
+        "area": "shire",
+        "anum": 13,
+        "owner": null,
+        "name": "Bywater Road",
+        "description": "You stand on Bywater Road, the busiest street in all of Shiredom.  The road\ncontinues to the north.  The private residences of Shire inhabitants are to\nthe east and west while to the south lies the Ivy Bush, second only to the\nGreen Dragon for its hospitality and service.\n",
+        "room_flags": null,
+        "sector_type": "city",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [
+            {
+                "dir": "north",
+                "to": 12,
+                "keyword": null,
+                "description": "To the north runs Bywater Road.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "east",
+                "to": 15,
+                "keyword": null,
+                "description": "You spy the private dwelling of a Shire folk to the east.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "south",
+                "to": 16,
+                "keyword": null,
+                "description": "To the south you see the Ivy Bush, a favorite haunt of Shire urbanites and\nseasoned travelers.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "west",
+                "to": 14,
+                "keyword": null,
+                "description": "You spy the private dwelling of a Shire folk to the west.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            }
+        ],
+        "extra_description": [],
+        "resets": []
+    }},
+    {"room": {
+        "area": "shire",
+        "anum": 14,
+        "owner": null,
+        "name": "A smial",
+        "description": "You are inside a smial, a hole in the ground which serves as the proper\ndwelling place for halflings.  As you look around this private abode, you feel\nas if you were intruding and so quickly cover your eyes.  The only exit lies\nto the east.\n",
+        "room_flags": "indoors",
+        "sector_type": "inside",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [{
+            "dir": "east",
+            "to": 13,
+            "keyword": null,
+            "description": "The only exit lies to the east.\n",
+            "exit_flags": null,
+            "key": -1,
+            "portal": null
+        }],
+        "extra_description": [],
+        "resets": [
+            {
+                "command": "mobile",
+                "values": {
+                    "mob": 28,
+                    "global_limit": 4,
+                    "room_limit": 1
+                }
+            },
+            {
+                "command": "give",
+                "values": {
+                    "obj": 3,
+                    "global_limit": 99
+                }
+            }
+        ]
+    }},
+    {"room": {
+        "area": "shire",
+        "anum": 15,
+        "owner": null,
+        "name": "A smial",
+        "description": "You are inside a smial, a hole in the ground which serves as the proper\ndwelling place for halflings.  As you look around this private abode, you feel\nas if you were intruding and so quickly cover your eyes.  The only exit lies\nto the west.\n",
+        "room_flags": "indoors",
+        "sector_type": "inside",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [{
+            "dir": "west",
+            "to": 13,
+            "keyword": null,
+            "description": "The only exit lies to the west.\n",
+            "exit_flags": null,
+            "key": -1,
+            "portal": null
+        }],
+        "extra_description": [],
+        "resets": [
+            {
+                "command": "mobile",
+                "values": {
+                    "mob": 28,
+                    "global_limit": 4,
+                    "room_limit": 1
+                }
+            },
+            {
+                "command": "give",
+                "values": {
+                    "obj": 3,
+                    "global_limit": 99
+                }
+            }
+        ]
+    }},
+    {"room": {
+        "area": "shire",
+        "anum": 16,
+        "owner": null,
+        "name": "The Ivy Bush",
+        "description": "You are in the Ivy Bush, one of the most famous inns in all of Shiredom.\nChique Shire urbanites and seasoned travelers fill the confines of the room\nwith gay and lively talk.  A jovial innkeeper stops all that he is doing to\nawait your command.  The only exit lies to the north.\n",
+        "room_flags": "indoors",
+        "sector_type": "inside",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [{
+            "dir": "north",
+            "to": 13,
+            "keyword": null,
+            "description": "The only exit lies to the north.\n",
+            "exit_flags": null,
+            "key": -1,
+            "portal": null
+        }],
+        "extra_description": [],
+        "resets": [
+            {
+                "command": "mobile",
+                "values": {
+                    "mob": 13,
+                    "global_limit": 1,
+                    "room_limit": 1
+                }
+            },
+            {
+                "command": "give",
+                "values": {
+                    "obj": 10,
+                    "global_limit": 999
+                }
+            },
+            {
+                "command": "give",
+                "values": {
+                    "obj": {
+                        "area": "ofcol2",
+                        "anum": 48
+                    },
+                    "global_limit": 999
+                }
+            },
+            {
+                "command": "give",
+                "values": {
+                    "obj": {
+                        "area": "ofcol2",
+                        "anum": 49
+                    },
+                    "global_limit": 999
+                }
+            },
+            {
+                "command": "give",
+                "values": {
+                    "obj": {
+                        "area": "ofcol2",
+                        "anum": 50
+                    },
+                    "global_limit": 999
+                }
+            },
+            {
+                "command": "mobile",
+                "values": {
+                    "mob": 23,
+                    "global_limit": 5,
+                    "room_limit": 2
+                }
+            },
+            {
+                "command": "mobile",
+                "values": {
+                    "mob": 23,
+                    "global_limit": 5,
+                    "room_limit": 2
+                }
+            },
+            {
+                "command": "mobile",
+                "values": {
+                    "mob": 24,
+                    "global_limit": 2,
+                    "room_limit": 2
+                }
+            },
+            {
+                "command": "mobile",
+                "values": {
+                    "mob": 24,
+                    "global_limit": 2,
+                    "room_limit": 2
+                }
+            },
+            {
+                "command": "mobile",
+                "values": {
+                    "mob": 27,
+                    "global_limit": 7,
+                    "room_limit": 3
+                }
+            },
+            {
+                "command": "mobile",
+                "values": {
+                    "mob": 27,
+                    "global_limit": 7,
+                    "room_limit": 3
+                }
+            },
+            {
+                "command": "mobile",
+                "values": {
+                    "mob": 27,
+                    "global_limit": 7,
+                    "room_limit": 3
+                }
+            },
+            {
+                "command": "object",
+                "values": {
+                    "obj": {
+                        "area": "midgaard",
+                        "anum": 200
+                    },
+                    "global_limit": -1,
+                    "room_limit": 0
+                }
+            }
+        ]
+    }},
+    {"room": {
+        "area": "shire",
+        "anum": 17,
+        "owner": null,
+        "name": "Shiriff Training Grounds",
+        "description": "The sounds of mock battle and feigned death cries fill your ears.  Every\nwhich way you turn you see halfling trainees at the prime of their youth.  A\nwizened old battle instructor meets your gaze and asks if he may be of \nservice.  The only exit lies to the west.\n",
+        "room_flags": null,
+        "sector_type": "inside",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [{
+            "dir": "west",
+            "to": 12,
+            "keyword": null,
+            "description": "The only exit lies to the west.\n",
+            "exit_flags": null,
+            "key": -1,
+            "portal": null
+        }],
+        "extra_description": [],
+        "resets": [
+            {
+                "command": "mobile",
+                "values": {
+                    "mob": 21,
+                    "global_limit": 1,
+                    "room_limit": 1
+                }
+            },
+            {
+                "command": "equip",
+                "values": {
+                    "obj": 13,
+                    "wear_loc": "wielded",
+                    "global_limit": 100
+                }
+            },
+            {
+                "command": "mobile",
+                "values": {
+                    "mob": 26,
+                    "global_limit": 3,
+                    "room_limit": 3
+                }
+            },
+            {
+                "command": "equip",
+                "values": {
+                    "obj": 15,
+                    "wear_loc": "wielded",
+                    "global_limit": 100
+                }
+            },
+            {
+                "command": "mobile",
+                "values": {
+                    "mob": 26,
+                    "global_limit": 3,
+                    "room_limit": 3
+                }
+            },
+            {
+                "command": "equip",
+                "values": {
+                    "obj": 15,
+                    "wear_loc": "wielded",
+                    "global_limit": 100
+                }
+            },
+            {
+                "command": "mobile",
+                "values": {
+                    "mob": 26,
+                    "global_limit": 3,
+                    "room_limit": 3
+                }
+            },
+            {
+                "command": "equip",
+                "values": {
+                    "obj": 15,
+                    "wear_loc": "wielded",
+                    "global_limit": 100
+                }
+            }
+        ]
+    }},
+    {"room": {
+        "area": "shire",
+        "anum": 18,
+        "owner": null,
+        "name": "Bywater Road",
+        "description": "You stand on Bywater Road, the busiest street in all of Shiredom.  The road\ncontinues to the east and west.  A large, imposing building lies to the south.\nYou catch a glimpse of the Brandywine River to the north.\n",
+        "room_flags": null,
+        "sector_type": "city",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [
+            {
+                "dir": "east",
+                "to": 3,
+                "keyword": null,
+                "description": "To the east you see the entrance to the Shire.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "south",
+                "to": 19,
+                "keyword": null,
+                "description": "A large, imposing building lies to the south.  A sign reads 'Shiriff Post'.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "west",
+                "to": 20,
+                "keyword": null,
+                "description": "To the west runs Bywater Road.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            }
+        ],
+        "extra_description": [],
+        "resets": []
+    }},
+    {"room": {
+        "area": "shire",
+        "anum": 19,
+        "owner": null,
+        "name": "Shiriff Post of the Bridge",
+        "description": "You are in the Shiriff Post which acts as the nucleus for the three shiriffs\nof the Bridge.  As you examine the shiriffs on duty, you come to realize that\nthe halflings of the Shire are not to be reckoned with.  You cower with awe.\nThe only exit is to the north.\n",
+        "room_flags": "indoors",
+        "sector_type": "inside",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [{
+            "dir": "north",
+            "to": 18,
+            "keyword": null,
+            "description": "The only exit is to the north.\n",
+            "exit_flags": null,
+            "key": -1,
+            "portal": null
+        }],
+        "extra_description": [],
+        "resets": [
+            {
+                "command": "mobile",
+                "values": {
+                    "mob": 10,
+                    "global_limit": 8,
+                    "room_limit": 2
+                }
+            },
+            {
+                "command": "equip",
+                "values": {
+                    "obj": 16,
+                    "wear_loc": "wielded",
+                    "global_limit": 3
+                }
+            },
+            {
+                "command": "equip",
+                "values": {
+                    "obj": {
+                        "area": "ofcol2",
+                        "anum": 16
+                    },
+                    "wear_loc": "body",
+                    "global_limit": 100
+                }
+            },
+            {
+                "command": "mobile",
+                "values": {
+                    "mob": 10,
+                    "global_limit": 8,
+                    "room_limit": 2
+                }
+            },
+            {
+                "command": "equip",
+                "values": {
+                    "obj": {
+                        "area": "ofcol2",
+                        "anum": 16
+                    },
+                    "wear_loc": "body",
+                    "global_limit": 100
+                }
+            },
+            {
+                "command": "mobile",
+                "values": {
+                    "mob": 11,
+                    "global_limit": 4,
+                    "room_limit": 1
+                }
+            },
+            {
+                "command": "equip",
+                "values": {
+                    "obj": {
+                        "area": "ofcol2",
+                        "anum": 16
+                    },
+                    "wear_loc": "body",
+                    "global_limit": 100
+                }
+            }
+        ]
+    }},
+    {"room": {
+        "area": "shire",
+        "anum": 20,
+        "owner": null,
+        "name": "Bywater Road",
+        "description": "You stand on Bywater Road, the busiest street in all of Shiredom.  The road\ncontinues to the east and west.  To the south you spy the Grocer's Delight,\nthe premium grocer's shop in all the realm while to the north lies Brandywine\nBridge.\n",
+        "room_flags": null,
+        "sector_type": "city",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [
+            {
+                "dir": "north",
+                "to": 31,
+                "keyword": null,
+                "description": "Brandywine Bridge offers safe passage across the tumultuous river.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "east",
+                "to": 18,
+                "keyword": null,
+                "description": "To the east runs Bywater Road.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "south",
+                "to": 21,
+                "keyword": null,
+                "description": "You see the Grocer's Delight to the south.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "west",
+                "to": 22,
+                "keyword": null,
+                "description": "To the west runs Bywater Road.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            }
+        ],
+        "extra_description": [],
+        "resets": []
+    }},
+    {"room": {
+        "area": "shire",
+        "anum": 21,
+        "owner": null,
+        "name": "The Grocer's Delight",
+        "description": "You tremble with ecstasy as the tempting odors of freshly made pipeweed\nbread fill your lungs.  Rumor has it that the pipeweed bread sold here can\nrestore vitality.  You look around but find no one to take your order.  \nYou then peep over the counter and discover a friendly grocer who is too \nshort to be seen over the counter.  The only exit is to the north.\n",
+        "room_flags": "indoors",
+        "sector_type": "inside",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [{
+            "dir": "north",
+            "to": 20,
+            "keyword": null,
+            "description": "The only exit is to the north.\n",
+            "exit_flags": null,
+            "key": -1,
+            "portal": null
+        }],
+        "extra_description": [],
+        "resets": [
+            {
+                "command": "mobile",
+                "values": {
+                    "mob": 19,
+                    "global_limit": 1,
+                    "room_limit": 1
+                }
+            },
+            {
+                "command": "give",
+                "values": {
+                    "obj": 3,
+                    "global_limit": 999
+                }
+            }
+        ]
+    }},
+    {"room": {
+        "area": "shire",
+        "anum": 22,
+        "owner": null,
+        "name": "Bywater Road",
+        "description": "You stand on Bywater Road, the busiest street in all of Shiredom.  The road\ncontinues to the east.  A small hill lies to the west while you can see a\nwatermill to the far south.  You catch a glimpse of the Brandywine River to\nthe north.\n",
+        "room_flags": null,
+        "sector_type": "city",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [
+            {
+                "dir": "east",
+                "to": 20,
+                "keyword": null,
+                "description": "To the east runs Bywater Road.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "south",
+                "to": 23,
+                "keyword": null,
+                "description": "An entrance to the watermill lies to the south.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "west",
+                "to": 26,
+                "keyword": null,
+                "description": "A small hill to the west blocks your view.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            }
+        ],
+        "extra_description": [],
+        "resets": []
+    }},
+    {"room": {
+        "area": "shire",
+        "anum": 23,
+        "owner": null,
+        "name": "Entrance to Watermill",
+        "description": "You stand at the entrance to a watermill.  You hear the bustle of busy\nworkers and the sound of a creaking mill.  Bywater Road is to the north while\nthe watermill continues to the south.\n",
+        "room_flags": null,
+        "sector_type": "inside",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [
+            {
+                "dir": "north",
+                "to": 22,
+                "keyword": null,
+                "description": "You see Bywater Road to the north.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "south",
+                "to": 24,
+                "keyword": null,
+                "description": "A watermill meets your gaze.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            }
+        ],
+        "extra_description": [],
+        "resets": [
+            {
+                "command": "mobile",
+                "values": {
+                    "mob": 15,
+                    "global_limit": 6,
+                    "room_limit": 6
+                }
+            },
+            {
+                "command": "mobile",
+                "values": {
+                    "mob": 15,
+                    "global_limit": 6,
+                    "room_limit": 6
+                }
+            }
+        ]
+    }},
+    {"room": {
+        "area": "shire",
+        "anum": 24,
+        "owner": null,
+        "name": "The Watermill",
+        "description": "Halfling workers are scattered everywhere, busy at work.  You see the river\nto the west and get a compelling urge to grab the nearest worker and to toss\nhim into the river.  The entrance stands to the north while a door offers\npassage to the south.\n",
+        "room_flags": "indoors",
+        "sector_type": "inside",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [
+            {
+                "dir": "north",
+                "to": 23,
+                "keyword": null,
+                "description": "You see the entrance.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "south",
+                "to": 25,
+                "keyword": "door",
+                "description": "A wooden door leads to the rear of the watermill.\n",
+                "exit_flags": "door",
+                "key": 0,
+                "portal": null
+            }
+        ],
+        "extra_description": [],
+        "resets": [
+            {
+                "command": "mobile",
+                "values": {
+                    "mob": 15,
+                    "global_limit": 6,
+                    "room_limit": 6
+                }
+            },
+            {
+                "command": "mobile",
+                "values": {
+                    "mob": 15,
+                    "global_limit": 6,
+                    "room_limit": 6
+                }
+            },
+            {
+                "command": "mobile",
+                "values": {
+                    "mob": 15,
+                    "global_limit": 6,
+                    "room_limit": 6
+                }
+            },
+            {
+                "command": "mobile",
+                "values": {
+                    "mob": 14,
+                    "global_limit": 1,
+                    "room_limit": 1
+                }
+            }
+        ]
+    }},
+    {"room": {
+        "area": "shire",
+        "anum": 25,
+        "owner": null,
+        "name": "Rear of watermill",
+        "description": "You stand in a damp, dimly lit room.  Mildew clings to the walls and it\nappears as if you were the first person to enter the room in ages.  A barely\nvisible portal in the ground catches your eye.\n",
+        "room_flags": "indoors",
+        "sector_type": "inside",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [
+            {
+                "dir": "north",
+                "to": 24,
+                "keyword": null,
+                "description": "A watermill meets your gaze.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "down",
+                "to": 46,
+                "keyword": null,
+                "description": "A hidden portal reveals a passageway down.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            }
+        ],
+        "extra_description": [],
+        "resets": [{
+            "command": "mobile",
+            "values": {
+                "mob": 15,
+                "global_limit": 6,
+                "room_limit": 6
+            }
+        }]
+    }},
+    {"room": {
+        "area": "shire",
+        "anum": 26,
+        "owner": null,
+        "name": "Took Hill",
+        "description": "You stand on top of Took Hill, named after the legendary Bandobras Took.\nYou feel honored to be standing on a hill named after your hero.  From this\nvantage point you can see all of shiredom.  You get the feeling that with\none stomp you could eliminate their great city.  You can see the outline of\nMidgaard to the far east.  Sounds of joyful celebration are heard from the\nfields west of here.  The Brandywine flows by lazily nearby.\n",
+        "room_flags": null,
+        "sector_type": "hills",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [
+            {
+                "dir": "east",
+                "to": 22,
+                "keyword": null,
+                "description": "To the east runs Bywater Road.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "west",
+                "to": 28,
+                "keyword": null,
+                "description": "You see a grassy field to the west.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            }
+        ],
+        "extra_description": [],
+        "resets": []
+    }},
+    {"room": {
+        "area": "shire",
+        "anum": 27,
+        "owner": null,
+        "name": "Northern end of grassy field",
+        "description": "You stand in a grassy field--nothing to get too excited about.  The field\nextends toward the south and the west.  To the east you see Took Hill.\n",
+        "room_flags": null,
+        "sector_type": "field",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [{
+            "dir": "south",
+            "to": 28,
+            "keyword": null,
+            "description": "You see a grassy field.\n",
+            "exit_flags": null,
+            "key": -1,
+            "portal": null
+        }],
+        "extra_description": [],
+        "resets": [
+            {
+                "command": "mobile",
+                "values": {
+                    "mob": 22,
+                    "global_limit": 9,
+                    "room_limit": 3
+                }
+            },
+            {
+                "command": "mobile",
+                "values": {
+                    "mob": 22,
+                    "global_limit": 9,
+                    "room_limit": 3
+                }
+            },
+            {
+                "command": "mobile",
+                "values": {
+                    "mob": 22,
+                    "global_limit": 9,
+                    "room_limit": 3
+                }
+            }
+        ]
+    }},
+    {"room": {
+        "area": "shire",
+        "anum": 28,
+        "owner": null,
+        "name": "A grassy field",
+        "description": "You stand in the center of a grassy field.  A great birthday party appears\nto be taking place.  Great tables of food are spread out and a young halfling\nbeauty offers you welcome.  You are enticed by her generosity and suggestive\nwinks.\n",
+        "room_flags": null,
+        "sector_type": "field",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [
+            {
+                "dir": "north",
+                "to": 27,
+                "keyword": null,
+                "description": "You see a grassy field.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "east",
+                "to": 26,
+                "keyword": null,
+                "description": "A small hill to the east blocks your view.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "south",
+                "to": 29,
+                "keyword": null,
+                "description": "You see a grassy field.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "west",
+                "to": 30,
+                "keyword": null,
+                "description": "You see a grassy field.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            }
+        ],
+        "extra_description": [],
+        "resets": [
+            {
+                "command": "mobile",
+                "values": {
+                    "mob": 25,
+                    "global_limit": 1,
+                    "room_limit": 1
+                }
+            },
+            {
+                "command": "mobile",
+                "values": {
+                    "mob": 0,
+                    "global_limit": 1,
+                    "room_limit": 1
+                }
+            },
+            {
+                "command": "equip",
+                "values": {
+                    "obj": 4,
+                    "wear_loc": "about",
+                    "global_limit": 1
+                }
+            },
+            {
+                "command": "equip",
+                "values": {
+                    "obj": 0,
+                    "wear_loc": "light",
+                    "global_limit": 1
+                }
+            }
+        ]
+    }},
+    {"room": {
+        "area": "shire",
+        "anum": 29,
+        "owner": null,
+        "name": "Southern end of grassy field",
+        "description": "You stand in a grassy field--nothing to get too excited about.  The field\nextends toward the north and the west.  To the east you see Took Hill.\n",
+        "room_flags": null,
+        "sector_type": "field",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [{
+            "dir": "north",
+            "to": 28,
+            "keyword": null,
+            "description": "You see a grassy field.\n",
+            "exit_flags": null,
+            "key": -1,
+            "portal": null
+        }],
+        "extra_description": [],
+        "resets": [
+            {
+                "command": "mobile",
+                "values": {
+                    "mob": 22,
+                    "global_limit": 9,
+                    "room_limit": 3
+                }
+            },
+            {
+                "command": "mobile",
+                "values": {
+                    "mob": 22,
+                    "global_limit": 9,
+                    "room_limit": 3
+                }
+            },
+            {
+                "command": "mobile",
+                "values": {
+                    "mob": 22,
+                    "global_limit": 9,
+                    "room_limit": 3
+                }
+            }
+        ]
+    }},
+    {"room": {
+        "area": "shire",
+        "anum": 30,
+        "owner": null,
+        "name": "Western end of grassy field",
+        "description": "You stand in a grassy field--nothing to get too excited about.  The field\nextends every which way but west.\n",
+        "room_flags": null,
+        "sector_type": "field",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [{
+            "dir": "east",
+            "to": 28,
+            "keyword": null,
+            "description": "You see a grassy field.\n",
+            "exit_flags": null,
+            "key": -1,
+            "portal": null
+        }],
+        "extra_description": [],
+        "resets": [
+            {
+                "command": "mobile",
+                "values": {
+                    "mob": 22,
+                    "global_limit": 9,
+                    "room_limit": 3
+                }
+            },
+            {
+                "command": "mobile",
+                "values": {
+                    "mob": 22,
+                    "global_limit": 9,
+                    "room_limit": 3
+                }
+            },
+            {
+                "command": "mobile",
+                "values": {
+                    "mob": 22,
+                    "global_limit": 9,
+                    "room_limit": 3
+                }
+            }
+        ]
+    }},
+    {"room": {
+        "area": "shire",
+        "anum": 31,
+        "owner": null,
+        "name": "Brandywine Bridge",
+        "description": "You stand on a solidly built bridge.  As you look down you spy gaily\ncolored fish swimming with the current of Brandywine River.  The cool water\nlooks invitingly refreshing and you get a sudden urge to strip and bathe in\nthe river, but you hear the laughter of women nearby and so resist the urge.\nDelving Lane extends to the north while Bywater Road can be seen to the south.\n",
+        "room_flags": null,
+        "sector_type": "city",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [
+            {
+                "dir": "north",
+                "to": 32,
+                "keyword": null,
+                "description": "You see Delving Lane.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "south",
+                "to": 20,
+                "keyword": null,
+                "description": "To the south runs Bywater Road.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            }
+        ],
+        "extra_description": [],
+        "resets": []
+    }},
+    {"room": {
+        "area": "shire",
+        "anum": 32,
+        "owner": null,
+        "name": "Delving Lane",
+        "description": "Delving Lane runs north and south in this small borough of the Shire.  To \nthe south stands Brandywine Bridge.  The Green Dragon, the undisputed leader\nin the art of innkeeping, offers rest and comfort to the east.  You hear the\nbray of horses from the west.\n",
+        "room_flags": null,
+        "sector_type": "city",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [
+            {
+                "dir": "north",
+                "to": 33,
+                "keyword": null,
+                "description": "You see Delving Lane.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "east",
+                "to": 44,
+                "keyword": null,
+                "description": "The Green Dragon offers food, drink, and above all hospitality for mere gold.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "south",
+                "to": 31,
+                "keyword": null,
+                "description": "Brandywine Bridge offers safe passage across the tumultuous river.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            }
+        ],
+        "extra_description": [],
+        "resets": []
+    }},
+    {"room": {
+        "area": "shire",
+        "anum": 33,
+        "owner": null,
+        "name": "Delving Lane",
+        "description": "Delving Lane runs north and south in this small borough of the Shire.  A \nlarge, imposing building lies to the east.  You hear the bray of horses from\nthe west.\n",
+        "room_flags": null,
+        "sector_type": "city",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [
+            {
+                "dir": "north",
+                "to": 34,
+                "keyword": null,
+                "description": "You see Delving Lane.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "east",
+                "to": 45,
+                "keyword": null,
+                "description": "A large, imposing building lies to the east.  A sign reads 'Shiriff Post'.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "south",
+                "to": 32,
+                "keyword": null,
+                "description": "You see Delving Lane.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "west",
+                "to": 38,
+                "keyword": null,
+                "description": "You see a grassy field.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            }
+        ],
+        "extra_description": [],
+        "resets": []
+    }},
+    {"room": {
+        "area": "shire",
+        "anum": 34,
+        "owner": null,
+        "name": "Delving Lane",
+        "description": "Delving Lane runs north and south in this small borough of the Shire. There\nis a small house to the west, nothing to the east, and up ahead you see a round\ndoor which leads to a rather impressive abode.\n",
+        "room_flags": null,
+        "sector_type": "city",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [
+            {
+                "dir": "north",
+                "to": 35,
+                "keyword": null,
+                "description": "A large, magnificent house meets your steady gaze.  Above the round door a\nsign reads 'Bag End'.\n",
+                "exit_flags": "door",
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "south",
+                "to": 33,
+                "keyword": null,
+                "description": "You see Delving Lane.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            }
+        ],
+        "extra_description": [],
+        "resets": []
+    }},
+    {"room": {
+        "area": "shire",
+        "anum": 35,
+        "owner": null,
+        "name": "Bag End",
+        "description": "You stand in a comfortably well-equipped house, a palace by humble halfling\nstandards.  On the wall you see a banner which reads \"Home Sweet Home\".\nA solid oak door to the east leads to a pantry while you see a cozy bedroom\nto the west.\n",
+        "room_flags": "indoors",
+        "sector_type": "inside",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [
+            {
+                "dir": "east",
+                "to": 37,
+                "keyword": "door",
+                "description": "Through the keyhole you see what looks like a well stocked pantry.\n",
+                "exit_flags": "door",
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "south",
+                "to": 34,
+                "keyword": null,
+                "description": "You see Delving Lane.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "west",
+                "to": 36,
+                "keyword": null,
+                "description": "You see a bedroom.  It looks like the beds have recently been slept in.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            }
+        ],
+        "extra_description": [],
+        "resets": []
+    }},
+    {"room": {
+        "area": "shire",
+        "anum": 36,
+        "owner": null,
+        "name": "Bedroom",
+        "description": "You stand in the private bedroom of Bag End.  There are two beds to the\nside, neither of which are made.  Portraits of halflings hang on the wall,\nand as you gaze upon them you come to the conclusion that the owner of\nBag End comes from a long line of distinguished halflings.  A cozy fire\nin the fireplace keeps the room warm and comfortable.\n",
+        "room_flags": "indoors",
+        "sector_type": "inside",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [{
+            "dir": "east",
+            "to": 35,
+            "keyword": null,
+            "description": "Through the doorway you see the main room of Bag End.\n",
+            "exit_flags": null,
+            "key": -1,
+            "portal": null
+        }],
+        "extra_description": [],
+        "resets": [
+            {
+                "command": "mobile",
+                "values": {
+                    "mob": 16,
+                    "global_limit": 1,
+                    "room_limit": 1
+                }
+            },
+            {
+                "command": "equip",
+                "values": {
+                    "obj": 6,
+                    "wear_loc": "wielded",
+                    "global_limit": 1
+                }
+            },
+            {
+                "command": "equip",
+                "values": {
+                    "obj": {
+                        "area": "ofcol2",
+                        "anum": 22
+                    },
+                    "wear_loc": "head",
+                    "global_limit": 25
+                }
+            },
+            {
+                "command": "mobile",
+                "values": {
+                    "mob": 17,
+                    "global_limit": 1,
+                    "room_limit": 1
+                }
+            },
+            {
+                "command": "equip",
+                "values": {
+                    "obj": 7,
+                    "wear_loc": "wielded",
+                    "global_limit": 1
+                }
+            },
+            {
+                "command": "equip",
+                "values": {
+                    "obj": {
+                        "area": "ofcol2",
+                        "anum": 21
+                    },
+                    "wear_loc": "body",
+                    "global_limit": 10
+                }
+            }
+        ]
+    }},
+    {"room": {
+        "area": "shire",
+        "anum": 37,
+        "owner": null,
+        "name": "Pantry",
+        "description": "You are inside the pantry.  Shelves filled with food and drink surround\nyou on all sides.  You wonder why a halfling would need so much to eat.\nThe presence of something unseen chills you to your bones.  On the floor\nyou spy a trapdoor.\n",
+        "room_flags": "indoors",
+        "sector_type": "inside",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [
+            {
+                "dir": "west",
+                "to": 35,
+                "keyword": "door",
+                "description": "Beyond the door you see the main room of Bag End.\n",
+                "exit_flags": "door",
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "down",
+                "to": 56,
+                "keyword": null,
+                "description": "It's anyone's guess as to where the trapdoor leads.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            }
+        ],
+        "extra_description": [],
+        "resets": [
+            {
+                "command": "mobile",
+                "values": {
+                    "mob": 1,
+                    "global_limit": 1,
+                    "room_limit": 1
+                }
+            },
+            {
+                "command": "equip",
+                "values": {
+                    "obj": 1,
+                    "wear_loc": "wielded",
+                    "global_limit": 1
+                }
+            },
+            {
+                "command": "equip",
+                "values": {
+                    "obj": 5,
+                    "wear_loc": "lfinger",
+                    "global_limit": 1
+                }
+            },
+            {
+                "command": "equip",
+                "values": {
+                    "obj": {
+                        "area": "ofcol2",
+                        "anum": 23
+                    },
+                    "wear_loc": "legs",
+                    "global_limit": 15
+                }
+            }
+        ]
+    }},
+    {"room": {
+        "area": "shire",
+        "anum": 38,
+        "owner": null,
+        "name": "A grassy field",
+        "description": "You stand upon a grassy field.  A bull stands grazing not far away and\nout of the corner of your eye you can see him considering you.  The sound\nof animals fill the air from the north.  To the south you see a pig pen.\n",
+        "room_flags": null,
+        "sector_type": "field",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [
+            {
+                "dir": "north",
+                "to": 42,
+                "keyword": null,
+                "description": "You see a large barn.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "east",
+                "to": 33,
+                "keyword": null,
+                "description": "You see Delving Lane.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "south",
+                "to": 39,
+                "keyword": null,
+                "description": "A rather large pig pen is to the south.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            }
+        ],
+        "extra_description": [],
+        "resets": [{
+            "command": "mobile",
+            "values": {
+                "mob": 8,
+                "global_limit": 1,
+                "room_limit": 1
+            }
+        }]
+    }},
+    {"room": {
+        "area": "shire",
+        "anum": 39,
+        "owner": null,
+        "name": "Pig pen",
+        "description": "You feel your boots sinking into the mud.  Numerous pigs roam about,\noblivious to your company.  A grassy field is to the north while you see\na small path winding to the west.\n",
+        "room_flags": null,
+        "sector_type": "city",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [
+            {
+                "dir": "north",
+                "to": 38,
+                "keyword": null,
+                "description": "You see a grassy field.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "west",
+                "to": 40,
+                "keyword": null,
+                "description": "A small path winds its way eastward.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            }
+        ],
+        "extra_description": [],
+        "resets": [
+            {
+                "command": "mobile",
+                "values": {
+                    "mob": 6,
+                    "global_limit": 5,
+                    "room_limit": 5
+                }
+            },
+            {
+                "command": "mobile",
+                "values": {
+                    "mob": 6,
+                    "global_limit": 5,
+                    "room_limit": 5
+                }
+            },
+            {
+                "command": "mobile",
+                "values": {
+                    "mob": 6,
+                    "global_limit": 5,
+                    "room_limit": 5
+                }
+            },
+            {
+                "command": "mobile",
+                "values": {
+                    "mob": 6,
+                    "global_limit": 5,
+                    "room_limit": 5
+                }
+            },
+            {
+                "command": "mobile",
+                "values": {
+                    "mob": 6,
+                    "global_limit": 5,
+                    "room_limit": 5
+                }
+            }
+        ]
+    }},
+    {"room": {
+        "area": "shire",
+        "anum": 40,
+        "owner": null,
+        "name": "A stony path",
+        "description": "You walk on a stony path which leads to a small residence to the north.\nFrom the east you hear the noisy din of pigs.\n",
+        "room_flags": null,
+        "sector_type": "city",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [
+            {
+                "dir": "north",
+                "to": 41,
+                "keyword": null,
+                "description": "To the north you see a modest house.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "east",
+                "to": 39,
+                "keyword": null,
+                "description": "A rather large pig pen is to the east.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            }
+        ],
+        "extra_description": [],
+        "resets": []
+    }},
+    {"room": {
+        "area": "shire",
+        "anum": 41,
+        "owner": null,
+        "name": "Gamgee Residence",
+        "description": "You stand inside a modest home.  You deduce that this is indeed the home\nof whomever owns the surrounding lands.  The air is somewhat musty and \nthe smell reminds you of a stable.  As you look around disdainfully, you\nthink to yourself that this is more of a shack than a proper residence and\nyou long for the urban riches of the Shire proper.\n",
+        "room_flags": "indoors",
+        "sector_type": "inside",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [{
+            "dir": "south",
+            "to": 40,
+            "keyword": null,
+            "description": "You see a small path winding its way southward.\n",
+            "exit_flags": null,
+            "key": -1,
+            "portal": null
+        }],
+        "extra_description": [],
+        "resets": [{
+            "command": "mobile",
+            "values": {
+                "mob": 2,
+                "global_limit": 1,
+                "room_limit": 1
+            }
+        }]
+    }},
+    {"room": {
+        "area": "shire",
+        "anum": 42,
+        "owner": null,
+        "name": "A barn",
+        "description": "Animals of every sort fill the small barn.  You feel the hot breath of\nhorses and cows on your neck and you feel the sudden need for fresh air.\nOther than that, you feel cozy and protected and don't mind staying for a\nbit longer.  All the warmth and good vibes remind you of the days when your\nmother would hold you in her arms and sing you to sleep.  You find yourself\nwanting to cradle all the animals.\n",
+        "room_flags": "indoors",
+        "sector_type": "inside",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [
+            {
+                "dir": "north",
+                "to": 43,
+                "keyword": null,
+                "description": "You see a chicken coop to the north.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "south",
+                "to": 38,
+                "keyword": null,
+                "description": "You see a grassy field.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            }
+        ],
+        "extra_description": [],
+        "resets": [
+            {
+                "command": "mobile",
+                "values": {
+                    "mob": 5,
+                    "global_limit": 3,
+                    "room_limit": 3
+                }
+            },
+            {
+                "command": "mobile",
+                "values": {
+                    "mob": 5,
+                    "global_limit": 3,
+                    "room_limit": 3
+                }
+            },
+            {
+                "command": "mobile",
+                "values": {
+                    "mob": 5,
+                    "global_limit": 3,
+                    "room_limit": 3
+                }
+            },
+            {
+                "command": "mobile",
+                "values": {
+                    "mob": 9,
+                    "global_limit": 4,
+                    "room_limit": 4
+                }
+            },
+            {
+                "command": "mobile",
+                "values": {
+                    "mob": 9,
+                    "global_limit": 4,
+                    "room_limit": 4
+                }
+            },
+            {
+                "command": "mobile",
+                "values": {
+                    "mob": 9,
+                    "global_limit": 4,
+                    "room_limit": 4
+                }
+            },
+            {
+                "command": "mobile",
+                "values": {
+                    "mob": 9,
+                    "global_limit": 4,
+                    "room_limit": 4
+                }
+            }
+        ]
+    }},
+    {"room": {
+        "area": "shire",
+        "anum": 43,
+        "owner": null,
+        "name": "A chicken coop",
+        "description": "You stand inside a rather crowded chicken coop.  The cackle of hens fill\nthe air.  The only exit is to the south.\n",
+        "room_flags": "indoors",
+        "sector_type": "inside",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [{
+            "dir": "south",
+            "to": 42,
+            "keyword": null,
+            "description": "You see a large barn.\n",
+            "exit_flags": null,
+            "key": -1,
+            "portal": null
+        }],
+        "extra_description": [],
+        "resets": [
+            {
+                "command": "mobile",
+                "values": {
+                    "mob": 7,
+                    "global_limit": 6,
+                    "room_limit": 6
+                }
+            },
+            {
+                "command": "give",
+                "values": {
+                    "obj": 10,
+                    "global_limit": 100
+                }
+            },
+            {
+                "command": "mobile",
+                "values": {
+                    "mob": 7,
+                    "global_limit": 6,
+                    "room_limit": 6
+                }
+            },
+            {
+                "command": "give",
+                "values": {
+                    "obj": 10,
+                    "global_limit": 100
+                }
+            },
+            {
+                "command": "mobile",
+                "values": {
+                    "mob": 7,
+                    "global_limit": 6,
+                    "room_limit": 6
+                }
+            },
+            {
+                "command": "give",
+                "values": {
+                    "obj": 10,
+                    "global_limit": 100
+                }
+            },
+            {
+                "command": "mobile",
+                "values": {
+                    "mob": 7,
+                    "global_limit": 6,
+                    "room_limit": 6
+                }
+            },
+            {
+                "command": "give",
+                "values": {
+                    "obj": 10,
+                    "global_limit": 100
+                }
+            },
+            {
+                "command": "mobile",
+                "values": {
+                    "mob": 7,
+                    "global_limit": 6,
+                    "room_limit": 6
+                }
+            },
+            {
+                "command": "give",
+                "values": {
+                    "obj": 10,
+                    "global_limit": 100
+                }
+            },
+            {
+                "command": "mobile",
+                "values": {
+                    "mob": 7,
+                    "global_limit": 6,
+                    "room_limit": 6
+                }
+            },
+            {
+                "command": "give",
+                "values": {
+                    "obj": 10,
+                    "global_limit": 100
+                }
+            }
+        ]
+    }},
+    {"room": {
+        "area": "shire",
+        "anum": 44,
+        "owner": null,
+        "name": "The Green Dragon",
+        "description": "Welcome to the Green Dragon, the undisputed leader in the art of\ninnkeeping.  A rather charming and friendly hostess stands to the side,\nready to offer you food and drink.  While most of the patrons are halfling\nlocals, you spy an occasional human or two.  As you listen more closely\nto the conversations that fill the inn, you hear the tales of great and\nseasoned adventurers as well as the usual gossip.  You feel as if you've\nfound your second home in the Green Dragon.  You see a stairway leading\nupwards.\n",
+        "room_flags": "indoors",
+        "sector_type": "inside",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [
+            {
+                "dir": "west",
+                "to": 32,
+                "keyword": null,
+                "description": "You see Delving Lane.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "up",
+                "to": 57,
+                "keyword": null,
+                "description": "You see the reception.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            }
+        ],
+        "extra_description": [],
+        "resets": [
+            {
+                "command": "mobile",
+                "values": {
+                    "mob": 30,
+                    "global_limit": 1,
+                    "room_limit": 1
+                }
+            },
+            {
+                "command": "give",
+                "values": {
+                    "obj": 10,
+                    "global_limit": 999
+                }
+            },
+            {
+                "command": "give",
+                "values": {
+                    "obj": {
+                        "area": "ofcol2",
+                        "anum": 48
+                    },
+                    "global_limit": 999
+                }
+            },
+            {
+                "command": "give",
+                "values": {
+                    "obj": {
+                        "area": "ofcol2",
+                        "anum": 49
+                    },
+                    "global_limit": 999
+                }
+            },
+            {
+                "command": "give",
+                "values": {
+                    "obj": {
+                        "area": "ofcol2",
+                        "anum": 50
+                    },
+                    "global_limit": 999
+                }
+            },
+            {
+                "command": "mobile",
+                "values": {
+                    "mob": 23,
+                    "global_limit": 5,
+                    "room_limit": 3
+                }
+            },
+            {
+                "command": "mobile",
+                "values": {
+                    "mob": 23,
+                    "global_limit": 5,
+                    "room_limit": 3
+                }
+            },
+            {
+                "command": "mobile",
+                "values": {
+                    "mob": 23,
+                    "global_limit": 5,
+                    "room_limit": 3
+                }
+            },
+            {
+                "command": "mobile",
+                "values": {
+                    "mob": 27,
+                    "global_limit": 7,
+                    "room_limit": 4
+                }
+            },
+            {
+                "command": "mobile",
+                "values": {
+                    "mob": 27,
+                    "global_limit": 7,
+                    "room_limit": 4
+                }
+            },
+            {
+                "command": "mobile",
+                "values": {
+                    "mob": 27,
+                    "global_limit": 7,
+                    "room_limit": 4
+                }
+            },
+            {
+                "command": "mobile",
+                "values": {
+                    "mob": 27,
+                    "global_limit": 7,
+                    "room_limit": 4
+                }
+            },
+            {
+                "command": "object",
+                "values": {
+                    "obj": {
+                        "area": "midgaard",
+                        "anum": 200
+                    },
+                    "global_limit": -1,
+                    "room_limit": 0
+                }
+            }
+        ]
+    }},
+    {"room": {
+        "area": "shire",
+        "anum": 45,
+        "owner": null,
+        "name": "Shiriff Post of Delving Lane",
+        "description": "You are in the Shiriff Post which acts as the nucleus for the three shiriffs\nof Delving Lane.  As you examine the shiriffs on duty, you come to realize\nthat the halflings of the Shire are not to be reckoned with.  You cower with\nawe.  The only exit is to the west.\n",
+        "room_flags": "indoors",
+        "sector_type": "inside",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [{
+            "dir": "west",
+            "to": 33,
+            "keyword": null,
+            "description": "You see Delving Lane.\n",
+            "exit_flags": null,
+            "key": -1,
+            "portal": null
+        }],
+        "extra_description": [],
+        "resets": [
+            {
+                "command": "mobile",
+                "values": {
+                    "mob": 10,
+                    "global_limit": 8,
+                    "room_limit": 2
+                }
+            },
+            {
+                "command": "equip",
+                "values": {
+                    "obj": 16,
+                    "wear_loc": "wielded",
+                    "global_limit": 3
+                }
+            },
+            {
+                "command": "equip",
+                "values": {
+                    "obj": {
+                        "area": "ofcol2",
+                        "anum": 16
+                    },
+                    "wear_loc": "body",
+                    "global_limit": 100
+                }
+            },
+            {
+                "command": "mobile",
+                "values": {
+                    "mob": 10,
+                    "global_limit": 8,
+                    "room_limit": 2
+                }
+            },
+            {
+                "command": "equip",
+                "values": {
+                    "obj": {
+                        "area": "ofcol2",
+                        "anum": 16
+                    },
+                    "wear_loc": "body",
+                    "global_limit": 100
+                }
+            },
+            {
+                "command": "mobile",
+                "values": {
+                    "mob": 11,
+                    "global_limit": 4,
+                    "room_limit": 1
+                }
+            },
+            {
+                "command": "equip",
+                "values": {
+                    "obj": {
+                        "area": "ofcol2",
+                        "anum": 16
+                    },
+                    "wear_loc": "body",
+                    "global_limit": 100
+                }
+            }
+        ]
+    }},
+    {"room": {
+        "area": "shire",
+        "anum": 46,
+        "owner": null,
+        "name": "A dark tunnel",
+        "description": "You stand inside a small underground tunnel.  The ceiling is so low that\nyou must crouch to avoid hitting your head.  You see light from a small\nhole in the ceiling while to the east you see nothing but darkness.\n",
+        "room_flags": "dark indoors",
+        "sector_type": "inside",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [
+            {
+                "dir": "east",
+                "to": 47,
+                "keyword": null,
+                "description": "You see a dark tunnel.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "up",
+                "to": 25,
+                "keyword": null,
+                "description": "You see a portal which leads to a small room.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            }
+        ],
+        "extra_description": [],
+        "resets": []
+    }},
+    {"room": {
+        "area": "shire",
+        "anum": 47,
+        "owner": null,
+        "name": "A dark tunnel",
+        "description": "You stand inside a small underground tunnel.  The ceiling is so low that\nyou must crouch to avoid hitting your head.  The tunnel continues east and\nwest.  All you can see is darkness.\n",
+        "room_flags": "dark indoors",
+        "sector_type": "inside",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [
+            {
+                "dir": "east",
+                "to": 48,
+                "keyword": null,
+                "description": "You see a dark tunnel.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "west",
+                "to": 46,
+                "keyword": null,
+                "description": "You see a dark tunnel.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            }
+        ],
+        "extra_description": [],
+        "resets": []
+    }},
+    {"room": {
+        "area": "shire",
+        "anum": 48,
+        "owner": null,
+        "name": "A dark tunnel",
+        "description": "You stand inside a small underground tunnel.  The ceiling is so low that\nyou must crouch to avoid hitting your head.  The tunnel continues east and\nwest.  All you can see is darkness.\n",
+        "room_flags": "dark indoors",
+        "sector_type": "inside",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [
+            {
+                "dir": "east",
+                "to": 49,
+                "keyword": null,
+                "description": "You see a dark tunnel.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "west",
+                "to": 47,
+                "keyword": null,
+                "description": "You see a dark tunnel.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            }
+        ],
+        "extra_description": [],
+        "resets": []
+    }},
+    {"room": {
+        "area": "shire",
+        "anum": 49,
+        "owner": null,
+        "name": "A three way intersection",
+        "description": "You stand at an intersection.  The tunnel continues east and west while\nto the north you can barely make out a smaller trail.\n",
+        "room_flags": "dark indoors",
+        "sector_type": "inside",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [
+            {
+                "dir": "north",
+                "to": 51,
+                "keyword": null,
+                "description": "You see a dark tunnel.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "east",
+                "to": 50,
+                "keyword": null,
+                "description": "You see a dark tunnel.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "west",
+                "to": 48,
+                "keyword": null,
+                "description": "You see a dark tunnel.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            }
+        ],
+        "extra_description": [],
+        "resets": []
+    }},
+    {"room": {
+        "area": "shire",
+        "anum": 50,
+        "owner": null,
+        "name": "End of a dark tunnel",
+        "description": "You stand at the end of a dark tunnel.  The underground tunnel continues\nto the west.  From a trapdoor in the ceiling you can hear the din of\nadventurers.\n",
+        "room_flags": "dark indoors",
+        "sector_type": "inside",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [
+            {
+                "dir": "west",
+                "to": 49,
+                "keyword": null,
+                "description": "You see a dark tunnel.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "up",
+                "to": null,
+                "keyword": null,
+                "description": "You hear the din of adventurers.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": "shire-2-up"
+            }
+        ],
+        "extra_description": [],
+        "resets": []
+    }},
+    {"room": {
+        "area": "shire",
+        "anum": 51,
+        "owner": null,
+        "name": "A dark tunnel",
+        "description": "You stand inside a small underground tunnel.  The ceiling is so low that\nyou must crouch to avoid hitting your head.  The tunnel continues north and\nsouth.  To the west you see a Shirriff Post while to the east lies a small\nhome.  All you can see is darkness.\n",
+        "room_flags": "dark indoors",
+        "sector_type": "inside",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [
+            {
+                "dir": "north",
+                "to": 52,
+                "keyword": null,
+                "description": "You see a dark tunnel.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "east",
+                "to": 54,
+                "keyword": null,
+                "description": "You see a halfling hole.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "south",
+                "to": 49,
+                "keyword": null,
+                "description": "You see a dark tunnel.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "west",
+                "to": 53,
+                "keyword": null,
+                "description": "Above a great oak door you see a sign which reads 'Shirriff Post'.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            }
+        ],
+        "extra_description": [],
+        "resets": []
+    }},
+    {"room": {
+        "area": "shire",
+        "anum": 52,
+        "owner": null,
+        "name": "A dark tunnel",
+        "description": "You stand inside a small underground tunnel.  The ceiling is so low that \nyou must crouch to avoid hitting your head.  The tunnel continues north and\nsouth.  To the west lies a small home.  All you can see is darkness.\n",
+        "room_flags": "dark indoors",
+        "sector_type": "inside",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [
+            {
+                "dir": "north",
+                "to": 56,
+                "keyword": null,
+                "description": "You see a dark tunnel.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "south",
+                "to": 51,
+                "keyword": null,
+                "description": "You see a dark tunnel.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "west",
+                "to": 55,
+                "keyword": null,
+                "description": "You see a halfling hole.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            }
+        ],
+        "extra_description": [],
+        "resets": []
+    }},
+    {"room": {
+        "area": "shire",
+        "anum": 53,
+        "owner": null,
+        "name": "Shiriff Post of the Lower Shire",
+        "description": "You are in the shiriff Post which acts as the nucleus for the three shiriffs \nof the Lower Shire.  As you examine the shiriffs on duty, you come to realize\nthat the halflings of the Shire are not to be reckoned with.  You cower with\nawe.  The only exit is to the east.\n",
+        "room_flags": "dark indoors",
+        "sector_type": "inside",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [{
+            "dir": "east",
+            "to": 51,
+            "keyword": null,
+            "description": "You see a dark tunnel.\n",
+            "exit_flags": null,
+            "key": -1,
+            "portal": null
+        }],
+        "extra_description": [],
+        "resets": [
+            {
+                "command": "mobile",
+                "values": {
+                    "mob": 10,
+                    "global_limit": 8,
+                    "room_limit": 2
+                }
+            },
+            {
+                "command": "equip",
+                "values": {
+                    "obj": 16,
+                    "wear_loc": "wielded",
+                    "global_limit": 3
+                }
+            },
+            {
+                "command": "equip",
+                "values": {
+                    "obj": {
+                        "area": "ofcol2",
+                        "anum": 16
+                    },
+                    "wear_loc": "body",
+                    "global_limit": 100
+                }
+            },
+            {
+                "command": "mobile",
+                "values": {
+                    "mob": 10,
+                    "global_limit": 8,
+                    "room_limit": 2
+                }
+            },
+            {
+                "command": "equip",
+                "values": {
+                    "obj": {
+                        "area": "ofcol2",
+                        "anum": 16
+                    },
+                    "wear_loc": "body",
+                    "global_limit": 100
+                }
+            },
+            {
+                "command": "mobile",
+                "values": {
+                    "mob": 11,
+                    "global_limit": 4,
+                    "room_limit": 1
+                }
+            },
+            {
+                "command": "equip",
+                "values": {
+                    "obj": {
+                        "area": "ofcol2",
+                        "anum": 16
+                    },
+                    "wear_loc": "body",
+                    "global_limit": 100
+                }
+            }
+        ]
+    }},
+    {"room": {
+        "area": "shire",
+        "anum": 54,
+        "owner": null,
+        "name": "A halfling hole",
+        "description": "You stand inside a rather crudely built halfling hole.  The many passageways\nand winding paths remind you of a rodent's lair.  The air is musty and damp\nand you feel the need for fresh air.\n",
+        "room_flags": "dark indoors",
+        "sector_type": "inside",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [{
+            "dir": "west",
+            "to": 51,
+            "keyword": null,
+            "description": "You see a dark tunnel.\n",
+            "exit_flags": null,
+            "key": -1,
+            "portal": null
+        }],
+        "extra_description": [],
+        "resets": [{
+            "command": "mobile",
+            "values": {
+                "mob": 28,
+                "global_limit": 4,
+                "room_limit": 1
+            }
+        }]
+    }},
+    {"room": {
+        "area": "shire",
+        "anum": 55,
+        "owner": null,
+        "name": "A halfling hole",
+        "description": "You stand inside a rather crudely built halfling hole.  The many passageways\nand winding paths remind you of a rodent's lair.  The air is musty and damp\nand you feel the need for fresh air.\n",
+        "room_flags": "dark indoors",
+        "sector_type": "inside",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [{
+            "dir": "east",
+            "to": 52,
+            "keyword": null,
+            "description": "You see a dark tunnel.\n",
+            "exit_flags": null,
+            "key": -1,
+            "portal": null
+        }],
+        "extra_description": [],
+        "resets": [{
+            "command": "mobile",
+            "values": {
+                "mob": 28,
+                "global_limit": 4,
+                "room_limit": 1
+            }
+        }]
+    }},
+    {"room": {
+        "area": "shire",
+        "anum": 56,
+        "owner": null,
+        "name": "End of a dark tunnel",
+        "description": "You are at one end of a dark tunnel.  The tunnel continues to the south\nwhile on the ceiling you can make out a trapdoor.\n",
+        "room_flags": "dark indoors",
+        "sector_type": "inside",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [
+            {
+                "dir": "south",
+                "to": 52,
+                "keyword": null,
+                "description": "You see a dark tunnel.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            },
+            {
+                "dir": "up",
+                "to": 37,
+                "keyword": null,
+                "description": "A trapdoor on the ceiling reveals a passageway.\n",
+                "exit_flags": null,
+                "key": -1,
+                "portal": null
+            }
+        ],
+        "extra_description": [],
+        "resets": []
+    }},
+    {"room": {
+        "area": "shire",
+        "anum": 57,
+        "owner": null,
+        "name": "The Inn of the Green Dragon",
+        "description": "You are standing in the Inn of the Green dragon.  Large paintings of \nhalflings at work, and halflings at play adorn the walls.  Comfortable \nbenches and seats line the walls.  A stairway leads down.\n",
+        "room_flags": "indoors unused_room_2",
+        "sector_type": "inside",
+        "heal_rate": 100,
+        "mana_rate": 100,
+        "clan": null,
+        "portal": null,
+        "doors": [{
+            "dir": "down",
+            "to": 44,
+            "keyword": null,
+            "description": null,
+            "exit_flags": null,
+            "key": -1,
+            "portal": null
+        }],
+        "extra_description": [],
+        "resets": [{
+            "command": "mobile",
+            "values": {
+                "mob": 31,
+                "global_limit": 1,
+                "room_limit": 1
+            }
+        }]
+    }}
+]

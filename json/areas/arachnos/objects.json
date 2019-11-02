@@ -1,0 +1,129 @@
+[
+    {"object": {
+        "area": "arachnos",
+        "anum": 103,
+        "new_format": true,
+        "name": "headdress pontiff's",
+        "short_descr": "a pontiff's headdress",
+        "description": "A white cone-shaped head ornament with religious symbols lies here.",
+        "material": "generic",
+        "item_type": "armor",
+        "extra_flags": "invis magic",
+        "wear_flags": "take head",
+        "values": {
+            "vs_pierce": 6,
+            "vs_bash": 6,
+            "vs_slash": 6,
+            "vs_magic": 3
+        },
+        "level": 18,
+        "weight": 50,
+        "cost": 4600,
+        "condition": 100,
+        "extra_description": [],
+        "affects": [
+            {
+                "apply": "armor class",
+                "level": 18,
+                "modifier": -2,
+                "bit_type": "object",
+                "bits": null
+            },
+            {
+                "apply": "wisdom",
+                "level": 18,
+                "modifier": 2,
+                "bit_type": "object",
+                "bits": null
+            }
+        ]
+    }},
+    {"object": {
+        "area": "arachnos",
+        "anum": 104,
+        "new_format": true,
+        "name": "visor black knight's",
+        "short_descr": "a black knight's visor",
+        "description": "A black visor sits here.",
+        "material": "generic",
+        "item_type": "armor",
+        "extra_flags": "invis magic",
+        "wear_flags": "take head",
+        "values": {
+            "vs_pierce": 6,
+            "vs_bash": 6,
+            "vs_slash": 6,
+            "vs_magic": 2
+        },
+        "level": 17,
+        "weight": 50,
+        "cost": 4600,
+        "condition": 100,
+        "extra_description": [],
+        "affects": [
+            {
+                "apply": "constitution",
+                "level": 17,
+                "modifier": 2,
+                "bit_type": "object",
+                "bits": null
+            },
+            {
+                "apply": "strength",
+                "level": 17,
+                "modifier": 1,
+                "bit_type": "object",
+                "bits": null
+            }
+        ]
+    }},
+    {"object": {
+        "area": "arachnos",
+        "anum": 108,
+        "new_format": true,
+        "name": "coins silver gold",
+        "short_descr": "a big pile of coins",
+        "description": "A big pile of coins is lying here.",
+        "material": "generic",
+        "item_type": "money",
+        "extra_flags": null,
+        "wear_flags": "take",
+        "values": {
+            "silver": 500,
+            "gold": 20
+        },
+        "level": 0,
+        "weight": 0,
+        "cost": 0,
+        "condition": 100,
+        "extra_description": [],
+        "affects": []
+    }},
+    {"object": {
+        "area": "arachnos",
+        "anum": 109,
+        "new_format": true,
+        "name": "potion blue",
+        "short_descr": "a blue potion",
+        "description": "A blue potion has been left here.",
+        "material": "generic",
+        "item_type": "potion",
+        "extra_flags": "magic",
+        "wear_flags": "take",
+        "values": {
+            "level": 15,
+            "skill1": "cure poison",
+            "skill2": "cure critical",
+            "skill3": "cure critical"
+        },
+        "level": 10,
+        "weight": 20,
+        "cost": 700,
+        "condition": 100,
+        "extra_description": [{
+            "keyword": "potion blue",
+            "description": "It has a nice sky blue colour and a smell like peppermint.\n"
+        }],
+        "affects": []
+    }}
+]

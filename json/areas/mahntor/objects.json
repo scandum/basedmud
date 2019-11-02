@@ -1,0 +1,2709 @@
+[
+    {"object": {
+        "area": "mahntor",
+        "anum": 0,
+        "new_format": true,
+        "name": "gloves combat",
+        "short_descr": "a pair of minotaur combat gloves",
+        "description": "A pair of metal plated gloves lie here.",
+        "material": "generic",
+        "item_type": "armor",
+        "extra_flags": null,
+        "wear_flags": "take hands",
+        "values": {
+            "vs_pierce": 8,
+            "vs_bash": 8,
+            "vs_slash": 8,
+            "vs_magic": 0
+        },
+        "level": 25,
+        "weight": 60,
+        "cost": 2600,
+        "condition": 100,
+        "extra_description": [{
+            "keyword": "gloves combat",
+            "description": "These gloves are plated with metal plates that provide strength and \nprotection.\n"
+        }],
+        "affects": [
+            {
+                "apply": "damage roll",
+                "level": 25,
+                "modifier": 1,
+                "bit_type": "object",
+                "bits": null
+            },
+            {
+                "apply": "hit roll",
+                "level": 25,
+                "modifier": 1,
+                "bit_type": "object",
+                "bits": null
+            }
+        ]
+    }},
+    {"object": {
+        "area": "mahntor",
+        "anum": 1,
+        "new_format": true,
+        "name": "spiked armor garde",
+        "short_descr": "a suit of spiked garde armor",
+        "description": "A pile of spiked chainmail lies here.",
+        "material": "generic",
+        "item_type": "armor",
+        "extra_flags": null,
+        "wear_flags": "take body",
+        "values": {
+            "vs_pierce": 7,
+            "vs_bash": 7,
+            "vs_slash": 7,
+            "vs_magic": 0
+        },
+        "level": 22,
+        "weight": 80,
+        "cost": 4200,
+        "condition": 100,
+        "extra_description": [],
+        "affects": [{
+            "apply": "damage roll",
+            "level": 22,
+            "modifier": 2,
+            "bit_type": "object",
+            "bits": null
+        }]
+    }},
+    {"object": {
+        "area": "mahntor",
+        "anum": 2,
+        "new_format": true,
+        "name": "greaves black",
+        "short_descr": "a pair of black minotaur greaves",
+        "description": "Some black metal greaves lie here.",
+        "material": "generic",
+        "item_type": "armor",
+        "extra_flags": null,
+        "wear_flags": "take legs",
+        "values": {
+            "vs_pierce": 9,
+            "vs_bash": 9,
+            "vs_slash": 9,
+            "vs_magic": 0
+        },
+        "level": 30,
+        "weight": 90,
+        "cost": 2600,
+        "condition": 100,
+        "extra_description": [],
+        "affects": []
+    }},
+    {"object": {
+        "area": "mahntor",
+        "anum": 3,
+        "new_format": true,
+        "name": "vambraces black",
+        "short_descr": "a pair of black minotaur vambraces",
+        "description": "Some black metal vambraces lie here.",
+        "material": "generic",
+        "item_type": "armor",
+        "extra_flags": null,
+        "wear_flags": "take arms",
+        "values": {
+            "vs_pierce": 9,
+            "vs_bash": 9,
+            "vs_slash": 9,
+            "vs_magic": 0
+        },
+        "level": 30,
+        "weight": 90,
+        "cost": 2600,
+        "condition": 100,
+        "extra_description": [],
+        "affects": []
+    }},
+    {"object": {
+        "area": "mahntor",
+        "anum": 4,
+        "new_format": true,
+        "name": "rod weaponry",
+        "short_descr": "the rod of weaponry",
+        "description": "A shiny metal rod lies here.",
+        "material": "generic",
+        "item_type": "weapon",
+        "extra_flags": "glow magic bless",
+        "wear_flags": "take wield",
+        "values": {
+            "weapon_type": "unknown",
+            "dice_num": 2,
+            "dice_size": 12,
+            "attack_type": "blast",
+            "flags": null
+        },
+        "level": 28,
+        "weight": 240,
+        "cost": 4700,
+        "condition": 100,
+        "extra_description": [],
+        "affects": [
+            {
+                "apply": "damage roll",
+                "level": 28,
+                "modifier": 3,
+                "bit_type": "object",
+                "bits": null
+            },
+            {
+                "apply": "hit roll",
+                "level": 28,
+                "modifier": 3,
+                "bit_type": "object",
+                "bits": null
+            }
+        ]
+    }},
+    {"object": {
+        "area": "mahntor",
+        "anum": 5,
+        "new_format": true,
+        "name": "cloak pitch black",
+        "short_descr": "a pitch black cloak",
+        "description": "A pile of black cloth lies here.",
+        "material": "generic",
+        "item_type": "container",
+        "extra_flags": "magic",
+        "wear_flags": "take about",
+        "values": {
+            "capacity": 150,
+            "flags": null,
+            "key": 0,
+            "max_weight": 30,
+            "weight_mult": 90
+        },
+        "level": 20,
+        "weight": 30,
+        "cost": 860,
+        "condition": 100,
+        "extra_description": [{
+            "keyword": "cloak pitch black",
+            "description": "It appears to have pockets inside it.\n"
+        }],
+        "affects": [{
+            "apply": "saves",
+            "level": 20,
+            "modifier": -2,
+            "bit_type": "object",
+            "bits": null
+        }]
+    }},
+    {"object": {
+        "area": "mahntor",
+        "anum": 6,
+        "new_format": true,
+        "name": "neckguard neck guard black plate",
+        "short_descr": "a black plate neckguard",
+        "description": "A black plate collar rests here.",
+        "material": "generic",
+        "item_type": "armor",
+        "extra_flags": "magic antigood antineutral",
+        "wear_flags": "take neck",
+        "values": {
+            "vs_pierce": 9,
+            "vs_bash": 9,
+            "vs_slash": 9,
+            "vs_magic": 0
+        },
+        "level": 30,
+        "weight": 100,
+        "cost": 3400,
+        "condition": 100,
+        "extra_description": [],
+        "affects": [{
+            "apply": "wisdom",
+            "level": 30,
+            "modifier": 1,
+            "bit_type": "object",
+            "bits": null
+        }]
+    }},
+    {"object": {
+        "area": "mahntor",
+        "anum": 7,
+        "new_format": true,
+        "name": "spiked gauntlets",
+        "short_descr": "a pair of spiked gauntlets",
+        "description": "A pair of spiked gauntlets lies here.",
+        "material": "generic",
+        "item_type": "armor",
+        "extra_flags": null,
+        "wear_flags": "take hands",
+        "values": {
+            "vs_pierce": 3,
+            "vs_bash": 3,
+            "vs_slash": 3,
+            "vs_magic": 0
+        },
+        "level": 20,
+        "weight": 100,
+        "cost": 1570,
+        "condition": 100,
+        "extra_description": [{
+            "keyword": "spiked gauntlets",
+            "description": "They look pretty damaging.\n"
+        }],
+        "affects": [{
+            "apply": "damage roll",
+            "level": 20,
+            "modifier": 2,
+            "bit_type": "object",
+            "bits": null
+        }]
+    }},
+    {"object": {
+        "area": "mahntor",
+        "anum": 8,
+        "new_format": true,
+        "name": "shield shadow",
+        "short_descr": "the shadow shield",
+        "description": "A shadowy shield rests here.",
+        "material": "generic",
+        "item_type": "armor",
+        "extra_flags": "glow magic antigood antineutral",
+        "wear_flags": "take shield",
+        "values": {
+            "vs_pierce": 8,
+            "vs_bash": 8,
+            "vs_slash": 8,
+            "vs_magic": 3
+        },
+        "level": 27,
+        "weight": 150,
+        "cost": 4900,
+        "condition": 100,
+        "extra_description": [{
+            "keyword": "shield shadow",
+            "description": "You look into the depths of the shield and shiver at the evil it contains.\n"
+        }],
+        "affects": [
+            {
+                "apply": "saves",
+                "level": 27,
+                "modifier": -2,
+                "bit_type": "object",
+                "bits": null
+            },
+            {
+                "apply": "armor class",
+                "level": 27,
+                "modifier": -2,
+                "bit_type": "object",
+                "bits": null
+            }
+        ]
+    }},
+    {"object": {
+        "area": "mahntor",
+        "anum": 9,
+        "new_format": true,
+        "name": "nightbringer short sword shortsword",
+        "short_descr": "a shortsword named \"Nightbringer\"",
+        "description": "A very evil looking shortsword lies here.",
+        "material": "generic",
+        "item_type": "weapon",
+        "extra_flags": "dark magic antigood antineutral",
+        "wear_flags": "take wield",
+        "values": {
+            "weapon_type": "sword",
+            "dice_num": 5,
+            "dice_size": 4,
+            "attack_type": "pierce",
+            "flags": null
+        },
+        "level": 27,
+        "weight": 90,
+        "cost": 3500,
+        "condition": 100,
+        "extra_description": [{
+            "keyword": "nightbringer short sword shortsword",
+            "description": "The runes \"NiGHtBrINgeR\" are scrawled along the blade.\n"
+        }],
+        "affects": [
+            {
+                "apply": "damage roll",
+                "level": 27,
+                "modifier": 3,
+                "bit_type": "object",
+                "bits": null
+            },
+            {
+                "apply": "hit roll",
+                "level": 27,
+                "modifier": 3,
+                "bit_type": "object",
+                "bits": null
+            }
+        ]
+    }},
+    {"object": {
+        "area": "mahntor",
+        "anum": 10,
+        "new_format": true,
+        "name": "visor helm golden",
+        "short_descr": "a golden helm and visor",
+        "description": "A helm and visor made of pure gold rests here.",
+        "material": "generic",
+        "item_type": "armor",
+        "extra_flags": "glow magic antievil antineutral",
+        "wear_flags": "take head",
+        "values": {
+            "vs_pierce": 7,
+            "vs_bash": 7,
+            "vs_slash": 7,
+            "vs_magic": 2
+        },
+        "level": 20,
+        "weight": 150,
+        "cost": 3000,
+        "condition": 100,
+        "extra_description": [],
+        "affects": [
+            {
+                "apply": "intelligence",
+                "level": 20,
+                "modifier": 1,
+                "bit_type": "object",
+                "bits": null
+            },
+            {
+                "apply": "wisdom",
+                "level": 20,
+                "modifier": 1,
+                "bit_type": "object",
+                "bits": null
+            }
+        ]
+    }},
+    {"object": {
+        "area": "mahntor",
+        "anum": 11,
+        "new_format": true,
+        "name": "breast plate gilded gold",
+        "short_descr": "a gilded gold breast plate",
+        "description": "A large golden breast plate lies here.",
+        "material": "generic",
+        "item_type": "armor",
+        "extra_flags": "glow magic antievil antineutral",
+        "wear_flags": "take body",
+        "values": {
+            "vs_pierce": 9,
+            "vs_bash": 9,
+            "vs_slash": 9,
+            "vs_magic": 3
+        },
+        "level": 32,
+        "weight": 180,
+        "cost": 6700,
+        "condition": 100,
+        "extra_description": [],
+        "affects": [{
+            "apply": "hp",
+            "level": 32,
+            "modifier": 25,
+            "bit_type": "object",
+            "bits": null
+        }]
+    }},
+    {"object": {
+        "area": "mahntor",
+        "anum": 12,
+        "new_format": true,
+        "name": "cape white billowing silk",
+        "short_descr": "a billowing white cape ",
+        "description": "A pile of white silk lies here.",
+        "material": "generic",
+        "item_type": "armor",
+        "extra_flags": "glow magic",
+        "wear_flags": "take neck",
+        "values": {
+            "vs_pierce": 5,
+            "vs_bash": 5,
+            "vs_slash": 5,
+            "vs_magic": 1
+        },
+        "level": 10,
+        "weight": 50,
+        "cost": 760,
+        "condition": 100,
+        "extra_description": [],
+        "affects": []
+    }},
+    {"object": {
+        "area": "mahntor",
+        "anum": 13,
+        "new_format": true,
+        "name": "shield huge tower",
+        "short_descr": "a huge tower shield",
+        "description": "A huge shield lies here.",
+        "material": "generic",
+        "item_type": "armor",
+        "extra_flags": "glow magic",
+        "wear_flags": "take shield",
+        "values": {
+            "vs_pierce": 9,
+            "vs_bash": 9,
+            "vs_slash": 9,
+            "vs_magic": 3
+        },
+        "level": 30,
+        "weight": 140,
+        "cost": 4100,
+        "condition": 100,
+        "extra_description": [{
+            "keyword": "shield huge tower",
+            "description": "A pure white shield with a gold cross emblazoned across it.\n"
+        }],
+        "affects": []
+    }},
+    {"object": {
+        "area": "mahntor",
+        "anum": 14,
+        "new_format": true,
+        "name": "dawnbringer mace huge two-handed",
+        "short_descr": "a huge mace named \"Dawnbringer\"",
+        "description": "A huge mace lies here. It radiates an aura of power.",
+        "material": "generic",
+        "item_type": "weapon",
+        "extra_flags": "glow magic antievil antineutral",
+        "wear_flags": "take wield",
+        "values": {
+            "weapon_type": "mace",
+            "dice_num": 4,
+            "dice_size": 6,
+            "attack_type": "blast",
+            "flags": "twohands"
+        },
+        "level": 28,
+        "weight": 240,
+        "cost": 3200,
+        "condition": 100,
+        "extra_description": [{
+            "keyword": "dawnbringer mace huge",
+            "description": "The runes \"DAwNbRIngER\" are scrawled along the handle.\n"
+        }],
+        "affects": [
+            {
+                "apply": "damage roll",
+                "level": 28,
+                "modifier": 3,
+                "bit_type": "object",
+                "bits": null
+            },
+            {
+                "apply": "hit roll",
+                "level": 28,
+                "modifier": 3,
+                "bit_type": "object",
+                "bits": null
+            }
+        ]
+    }},
+    {"object": {
+        "area": "mahntor",
+        "anum": 15,
+        "new_format": true,
+        "name": "spectacles wire rimmed",
+        "short_descr": "a pair of wire rimmed spectacles",
+        "description": "A small pair of wire rimmed spectacles rests here.",
+        "material": "generic",
+        "item_type": "clothing",
+        "extra_flags": "magic",
+        "wear_flags": "take head",
+        "values": {},
+        "level": 15,
+        "weight": 20,
+        "cost": 2600,
+        "condition": 100,
+        "extra_description": [{
+            "keyword": "spectacles wire rimmed",
+            "description": "They'll make you look smart.\n"
+        }],
+        "affects": [{
+            "apply": "intelligence",
+            "level": 15,
+            "modifier": 2,
+            "bit_type": "object",
+            "bits": null
+        }]
+    }},
+    {"object": {
+        "area": "mahntor",
+        "anum": 16,
+        "new_format": true,
+        "name": "ring banded",
+        "short_descr": "a banded ring",
+        "description": "A small ring made of gold and silver bands lies here.",
+        "material": "generic",
+        "item_type": "jewelry",
+        "extra_flags": "glow magic",
+        "wear_flags": "take finger",
+        "values": {},
+        "level": 30,
+        "weight": 20,
+        "cost": 1520,
+        "condition": 100,
+        "extra_description": [{
+            "keyword": "ring banded",
+            "description": "The ring has entwined bands of gold and silver.\n"
+        }],
+        "affects": [{
+            "apply": "mana",
+            "level": 30,
+            "modifier": 30,
+            "bit_type": "object",
+            "bits": null
+        }]
+    }},
+    {"object": {
+        "area": "mahntor",
+        "anum": 17,
+        "new_format": true,
+        "name": "globe minor",
+        "short_descr": "a minor globe of invulnerability",
+        "description": "A small globe rests here. It shimmers and radiates power.",
+        "material": "generic",
+        "item_type": "armor",
+        "extra_flags": "glow magic",
+        "wear_flags": "take about",
+        "values": {
+            "vs_pierce": 8,
+            "vs_bash": 8,
+            "vs_slash": 8,
+            "vs_magic": 4
+        },
+        "level": 27,
+        "weight": 10,
+        "cost": 3200,
+        "condition": 100,
+        "extra_description": [{
+            "keyword": "globe minor",
+            "description": "Shimmering colors move inside the globe.\n"
+        }],
+        "affects": [{
+            "apply": "saves",
+            "level": 27,
+            "modifier": -2,
+            "bit_type": "object",
+            "bits": null
+        }]
+    }},
+    {"object": {
+        "area": "mahntor",
+        "anum": 18,
+        "new_format": true,
+        "name": "staff gnarled magius",
+        "short_descr": "a gnarled magius staff",
+        "description": "A gnarled staff lies here.",
+        "material": "generic",
+        "item_type": "weapon",
+        "extra_flags": "magic",
+        "wear_flags": "take wield",
+        "values": {
+            "weapon_type": "staff",
+            "dice_num": 5,
+            "dice_size": 4,
+            "attack_type": "pound",
+            "flags": "twohands"
+        },
+        "level": 27,
+        "weight": 100,
+        "cost": 2900,
+        "condition": 100,
+        "extra_description": [{
+            "keyword": "staff gnarled magius",
+            "description": "It appears to be simply a gnarled old limb. It feels powerful though.\n"
+        }],
+        "affects": [
+            {
+                "apply": "saves",
+                "level": 27,
+                "modifier": -2,
+                "bit_type": "object",
+                "bits": null
+            },
+            {
+                "apply": "damage roll",
+                "level": 27,
+                "modifier": 3,
+                "bit_type": "object",
+                "bits": null
+            },
+            {
+                "apply": "hit roll",
+                "level": 27,
+                "modifier": 3,
+                "bit_type": "object",
+                "bits": null
+            }
+        ]
+    }},
+    {"object": {
+        "area": "mahntor",
+        "anum": 19,
+        "new_format": true,
+        "name": "girdle pouches many",
+        "short_descr": "a girdle of many pouches",
+        "description": "A girdle lies here.",
+        "material": "generic",
+        "item_type": "container",
+        "extra_flags": "burnproof",
+        "wear_flags": "take waist",
+        "values": {
+            "capacity": 500,
+            "flags": null,
+            "key": 0,
+            "max_weight": 10,
+            "weight_mult": 25
+        },
+        "level": 0,
+        "weight": 50,
+        "cost": 1000,
+        "condition": 100,
+        "extra_description": [{
+            "keyword": "girdle pouches many",
+            "description": "It appears to be full of tiny pockets.\n"
+        }],
+        "affects": []
+    }},
+    {"object": {
+        "area": "mahntor",
+        "anum": 20,
+        "new_format": true,
+        "name": "robe heavy woolen",
+        "short_descr": "a heavy woolen robe",
+        "description": "A heavy pile of wool lies here.",
+        "material": "generic",
+        "item_type": "armor",
+        "extra_flags": "magic",
+        "wear_flags": "take about",
+        "values": {
+            "vs_pierce": 8,
+            "vs_bash": 8,
+            "vs_slash": 8,
+            "vs_magic": 0
+        },
+        "level": 25,
+        "weight": 100,
+        "cost": 1950,
+        "condition": 100,
+        "extra_description": [],
+        "affects": []
+    }},
+    {"object": {
+        "area": "mahntor",
+        "anum": 21,
+        "new_format": true,
+        "name": "brooch ivory",
+        "short_descr": "a brooch of life",
+        "description": "A small ivory brooch lies here.",
+        "material": "generic",
+        "item_type": "jewelry",
+        "extra_flags": "glow magic bless",
+        "wear_flags": "take neck",
+        "values": {},
+        "level": 30,
+        "weight": 50,
+        "cost": 1520,
+        "condition": 100,
+        "extra_description": [],
+        "affects": [{
+            "apply": "hp",
+            "level": 30,
+            "modifier": 30,
+            "bit_type": "object",
+            "bits": null
+        }]
+    }},
+    {"object": {
+        "area": "mahntor",
+        "anum": 22,
+        "new_format": true,
+        "name": "manual arts healing book",
+        "short_descr": "a manual of healing arts",
+        "description": "A small book lies here.",
+        "material": "generic",
+        "item_type": "scroll",
+        "extra_flags": null,
+        "wear_flags": "take hold",
+        "values": {
+            "level": 30,
+            "skill1": "cure light",
+            "skill2": "cure light",
+            "skill3": "cure light"
+        },
+        "level": 0,
+        "weight": 50,
+        "cost": 800,
+        "condition": 100,
+        "extra_description": [{
+            "keyword": "manual arts healing book",
+            "description": "It appears to be a book of anatomy and medicine.\n"
+        }],
+        "affects": []
+    }},
+    {"object": {
+        "area": "mahntor",
+        "anum": 23,
+        "new_format": true,
+        "name": "mace huge mithril",
+        "short_descr": "a huge mithril mace",
+        "description": "A huge mace made of mithril metal lies here.",
+        "material": "generic",
+        "item_type": "weapon",
+        "extra_flags": "glow magic",
+        "wear_flags": "take wield",
+        "values": {
+            "weapon_type": "mace",
+            "dice_num": 5,
+            "dice_size": 4,
+            "attack_type": "crush",
+            "flags": null
+        },
+        "level": 26,
+        "weight": 130,
+        "cost": 1960,
+        "condition": 100,
+        "extra_description": [],
+        "affects": [
+            {
+                "apply": "damage roll",
+                "level": 26,
+                "modifier": 2,
+                "bit_type": "object",
+                "bits": null
+            },
+            {
+                "apply": "hit roll",
+                "level": 26,
+                "modifier": 2,
+                "bit_type": "object",
+                "bits": null
+            }
+        ]
+    }},
+    {"object": {
+        "area": "mahntor",
+        "anum": 24,
+        "new_format": true,
+        "name": "symbol holy golden",
+        "short_descr": "a golden holy symbol",
+        "description": "A small holy symbol on a golden chain lies here.",
+        "material": "generic",
+        "item_type": "jewelry",
+        "extra_flags": "magic",
+        "wear_flags": "take neck",
+        "values": {},
+        "level": 5,
+        "weight": 30,
+        "cost": 110,
+        "condition": 100,
+        "extra_description": [],
+        "affects": [{
+            "apply": "mana",
+            "level": 5,
+            "modifier": 10,
+            "bit_type": "object",
+            "bits": null
+        }]
+    }},
+    {"object": {
+        "area": "mahntor",
+        "anum": 25,
+        "new_format": true,
+        "name": "ring marble thick",
+        "short_descr": "a thick marble ring",
+        "description": "A thick ring made of marble",
+        "material": "generic",
+        "item_type": "jewelry",
+        "extra_flags": "magic",
+        "wear_flags": "take finger",
+        "values": {},
+        "level": 8,
+        "weight": 50,
+        "cost": 470,
+        "condition": 100,
+        "extra_description": [],
+        "affects": [{
+            "apply": "armor class",
+            "level": 8,
+            "modifier": -2,
+            "bit_type": "object",
+            "bits": null
+        }]
+    }},
+    {"object": {
+        "area": "mahntor",
+        "anum": 26,
+        "new_format": true,
+        "name": "bracelet thick marble",
+        "short_descr": "a thick marble bracelet",
+        "description": "A thick bracelet made of marble lies here.",
+        "material": "generic",
+        "item_type": "jewelry",
+        "extra_flags": "magic",
+        "wear_flags": "take wrist",
+        "values": {},
+        "level": 5,
+        "weight": 80,
+        "cost": 550,
+        "condition": 100,
+        "extra_description": [],
+        "affects": [{
+            "apply": "constitution",
+            "level": 5,
+            "modifier": 1,
+            "bit_type": "object",
+            "bits": null
+        }]
+    }},
+    {"object": {
+        "area": "mahntor",
+        "anum": 27,
+        "new_format": true,
+        "name": "boots striding",
+        "short_descr": "boots of striding",
+        "description": "A lithe pair of leather boots have been left here.",
+        "material": "generic",
+        "item_type": "armor",
+        "extra_flags": "magic",
+        "wear_flags": "take feet",
+        "values": {
+            "vs_pierce": 5,
+            "vs_bash": 5,
+            "vs_slash": 5,
+            "vs_magic": 0
+        },
+        "level": 30,
+        "weight": 50,
+        "cost": 2500,
+        "condition": 100,
+        "extra_description": [{
+            "keyword": "boots striding",
+            "description": "They look comfortable to walk in.\n"
+        }],
+        "affects": [{
+            "apply": "moves",
+            "level": 30,
+            "modifier": 30,
+            "bit_type": "object",
+            "bits": null
+        }]
+    }},
+    {"object": {
+        "area": "mahntor",
+        "anum": 28,
+        "new_format": true,
+        "name": "cloak icy white",
+        "short_descr": "an icy white cloak",
+        "description": "A cold pile of white cloth lies here.",
+        "material": "generic",
+        "item_type": "armor",
+        "extra_flags": "glow magic",
+        "wear_flags": "take about",
+        "values": {
+            "vs_pierce": 8,
+            "vs_bash": 8,
+            "vs_slash": 8,
+            "vs_magic": 2
+        },
+        "level": 25,
+        "weight": 50,
+        "cost": 2000,
+        "condition": 100,
+        "extra_description": [{
+            "keyword": "cloak icy white",
+            "description": "Smoke rises from it almost like it's made of dry ice.\n"
+        }],
+        "affects": []
+    }},
+    {"object": {
+        "area": "mahntor",
+        "anum": 29,
+        "new_format": true,
+        "name": "staff ice",
+        "short_descr": "an ice staff",
+        "description": "A staff made of ice rests here.",
+        "material": "generic",
+        "item_type": "weapon",
+        "extra_flags": "magic",
+        "wear_flags": "take wield",
+        "values": {
+            "weapon_type": "staff",
+            "dice_num": 7,
+            "dice_size": 3,
+            "attack_type": "pound",
+            "flags": "frost twohands"
+        },
+        "level": 28,
+        "weight": 130,
+        "cost": 1470,
+        "condition": 100,
+        "extra_description": [{
+            "keyword": "staff ice",
+            "description": "The runes \"FrIgID\" are inscribed in the icy staff.\n"
+        }],
+        "affects": [
+            {
+                "apply": "mana",
+                "level": 28,
+                "modifier": 20,
+                "bit_type": "object",
+                "bits": null
+            },
+            {
+                "apply": "hit roll",
+                "level": 28,
+                "modifier": 2,
+                "bit_type": "object",
+                "bits": null
+            }
+        ]
+    }},
+    {"object": {
+        "area": "mahntor",
+        "anum": 30,
+        "new_format": true,
+        "name": "ring carved wooden",
+        "short_descr": "a carved wooden ring",
+        "description": "A wooden ring is on the floor.",
+        "material": "generic",
+        "item_type": "jewelry",
+        "extra_flags": "magic",
+        "wear_flags": "take finger",
+        "values": {},
+        "level": 7,
+        "weight": 30,
+        "cost": 460,
+        "condition": 100,
+        "extra_description": [],
+        "affects": [
+            {
+                "apply": "damage roll",
+                "level": 7,
+                "modifier": 1,
+                "bit_type": "object",
+                "bits": null
+            },
+            {
+                "apply": "hit roll",
+                "level": 7,
+                "modifier": 1,
+                "bit_type": "object",
+                "bits": null
+            }
+        ]
+    }},
+    {"object": {
+        "area": "mahntor",
+        "anum": 31,
+        "new_format": true,
+        "name": "horn life",
+        "short_descr": "the horn of life",
+        "description": "A severed minotaur horn lies here.",
+        "material": "generic",
+        "item_type": "wand",
+        "extra_flags": "magic",
+        "wear_flags": "take hold",
+        "values": {
+            "level": 30,
+            "recharge": 8,
+            "charges": 8,
+            "skill": "cure light"
+        },
+        "level": 1,
+        "weight": 50,
+        "cost": 930,
+        "condition": 100,
+        "extra_description": [{
+            "keyword": "horn life",
+            "description": "The horn is capped at both ends with gold. Unreadable runes are scrawled on it.\n"
+        }],
+        "affects": []
+    }},
+    {"object": {
+        "area": "mahntor",
+        "anum": 32,
+        "new_format": true,
+        "name": "belt life",
+        "short_descr": "the belt of life",
+        "description": "A strange belt lies here.",
+        "material": "generic",
+        "item_type": "clothing",
+        "extra_flags": "magic",
+        "wear_flags": "take waist",
+        "values": {},
+        "level": 30,
+        "weight": 90,
+        "cost": 7600,
+        "condition": 100,
+        "extra_description": [],
+        "affects": [{
+            "apply": "constitution",
+            "level": 30,
+            "modifier": 3,
+            "bit_type": "object",
+            "bits": null
+        }]
+    }},
+    {"object": {
+        "area": "mahntor",
+        "anum": 33,
+        "new_format": true,
+        "name": "stone blood red",
+        "short_descr": "a blood red stone",
+        "description": "A blood red stone lies here collecting dust.",
+        "material": "generic",
+        "item_type": "warp_stone",
+        "extra_flags": "hum magic nolocate",
+        "wear_flags": "take hold",
+        "values": {},
+        "level": 20,
+        "weight": 20,
+        "cost": 580,
+        "condition": 100,
+        "extra_description": [{
+            "keyword": "stone blood red",
+            "description": "The stone pulses with your own heart beat.\n"
+        }],
+        "affects": [{
+            "apply": "hp",
+            "level": 20,
+            "modifier": 20,
+            "bit_type": "object",
+            "bits": null
+        }]
+    }},
+    {"object": {
+        "area": "mahntor",
+        "anum": 34,
+        "new_format": true,
+        "name": "crossbow huge",
+        "short_descr": "a huge crossbow",
+        "description": "A huge crossbow rests here.",
+        "material": "generic",
+        "item_type": "weapon",
+        "extra_flags": "magic",
+        "wear_flags": "take wield",
+        "values": {
+            "weapon_type": "unknown",
+            "dice_num": 3,
+            "dice_size": 9,
+            "attack_type": "pierce",
+            "flags": "twohands"
+        },
+        "level": 27,
+        "weight": 150,
+        "cost": 4300,
+        "condition": 100,
+        "extra_description": [],
+        "affects": [
+            {
+                "apply": "damage roll",
+                "level": 27,
+                "modifier": 1,
+                "bit_type": "object",
+                "bits": null
+            },
+            {
+                "apply": "hit roll",
+                "level": 27,
+                "modifier": 1,
+                "bit_type": "object",
+                "bits": null
+            }
+        ]
+    }},
+    {"object": {
+        "area": "mahntor",
+        "anum": 35,
+        "new_format": true,
+        "name": "pack leather small",
+        "short_descr": "a small leather pack",
+        "description": "A small leather pack rests here.",
+        "material": "generic",
+        "item_type": "container",
+        "extra_flags": "magic burnproof",
+        "wear_flags": "take about",
+        "values": {
+            "capacity": 200,
+            "flags": null,
+            "key": 0,
+            "max_weight": 20,
+            "weight_mult": 80
+        },
+        "level": 0,
+        "weight": 90,
+        "cost": 500,
+        "condition": 100,
+        "extra_description": [{
+            "keyword": "pack leather small",
+            "description": "It looks pretty big on the inside.\n"
+        }],
+        "affects": []
+    }},
+    {"object": {
+        "area": "mahntor",
+        "anum": 36,
+        "new_format": true,
+        "name": "hood black leather",
+        "short_descr": "a black leather hood",
+        "description": "A hood made of black leather rests here.",
+        "material": "generic",
+        "item_type": "armor",
+        "extra_flags": "magic",
+        "wear_flags": "take head",
+        "values": {
+            "vs_pierce": 5,
+            "vs_bash": 5,
+            "vs_slash": 5,
+            "vs_magic": 0
+        },
+        "level": 10,
+        "weight": 50,
+        "cost": 730,
+        "condition": 100,
+        "extra_description": [],
+        "affects": []
+    }},
+    {"object": {
+        "area": "mahntor",
+        "anum": 37,
+        "new_format": true,
+        "name": "sleeves black leather",
+        "short_descr": "a pair of black leather sleeves",
+        "description": "Some leather sleeves lie here.",
+        "material": "generic",
+        "item_type": "armor",
+        "extra_flags": null,
+        "wear_flags": "take arms",
+        "values": {
+            "vs_pierce": 7,
+            "vs_bash": 7,
+            "vs_slash": 7,
+            "vs_magic": 0
+        },
+        "level": 20,
+        "weight": 50,
+        "cost": 1450,
+        "condition": 100,
+        "extra_description": [],
+        "affects": []
+    }},
+    {"object": {
+        "area": "mahntor",
+        "anum": 38,
+        "new_format": true,
+        "name": "pants black leather",
+        "short_descr": "a pair of black leather pants",
+        "description": "Some leather pants lie here.",
+        "material": "generic",
+        "item_type": "armor",
+        "extra_flags": "magic",
+        "wear_flags": "take legs",
+        "values": {
+            "vs_pierce": 7,
+            "vs_bash": 7,
+            "vs_slash": 7,
+            "vs_magic": 0
+        },
+        "level": 20,
+        "weight": 50,
+        "cost": 1450,
+        "condition": 100,
+        "extra_description": [{
+            "keyword": "pants black leather",
+            "description": "They look sneaky.\n"
+        }],
+        "affects": []
+    }},
+    {"object": {
+        "area": "mahntor",
+        "anum": 39,
+        "new_format": true,
+        "name": "sword wicked short shortsword",
+        "short_descr": "a wicked shortsword",
+        "description": "A wicked looking shortsword lies here.",
+        "material": "generic",
+        "item_type": "weapon",
+        "extra_flags": "magic",
+        "wear_flags": "take wield",
+        "values": {
+            "weapon_type": "sword",
+            "dice_num": 3,
+            "dice_size": 8,
+            "attack_type": "pierce",
+            "flags": null
+        },
+        "level": 26,
+        "weight": 110,
+        "cost": 2300,
+        "condition": 100,
+        "extra_description": [{
+            "keyword": "sword wicked short shortsword",
+            "description": "It looks just perfect for backstabbing.\n"
+        }],
+        "affects": [
+            {
+                "apply": "damage roll",
+                "level": 26,
+                "modifier": 1,
+                "bit_type": "object",
+                "bits": null
+            },
+            {
+                "apply": "hit roll",
+                "level": 26,
+                "modifier": 1,
+                "bit_type": "object",
+                "bits": null
+            }
+        ]
+    }},
+    {"object": {
+        "area": "mahntor",
+        "anum": 40,
+        "new_format": true,
+        "name": "globe major",
+        "short_descr": "a major globe of invulnerability",
+        "description": "A large globe rests here, pulsing uneasily.",
+        "material": "generic",
+        "item_type": "armor",
+        "extra_flags": "glow hum magic",
+        "wear_flags": "take about",
+        "values": {
+            "vs_pierce": 9,
+            "vs_bash": 9,
+            "vs_slash": 9,
+            "vs_magic": 6
+        },
+        "level": 31,
+        "weight": 10,
+        "cost": 4100,
+        "condition": 100,
+        "extra_description": [{
+            "keyword": "globe major",
+            "description": "Shimmering colors move inside the globe.\n"
+        }],
+        "affects": [{
+            "apply": "saves",
+            "level": 31,
+            "modifier": -2,
+            "bit_type": "object",
+            "bits": null
+        }]
+    }},
+    {"object": {
+        "area": "mahntor",
+        "anum": 41,
+        "new_format": true,
+        "name": "chain chainmail black suit",
+        "short_descr": "a suit of black minotaur chainmail",
+        "description": "A huge pile of black chainmail rests here.",
+        "material": "generic",
+        "item_type": "armor",
+        "extra_flags": "magic",
+        "wear_flags": "take body",
+        "values": {
+            "vs_pierce": 9,
+            "vs_bash": 9,
+            "vs_slash": 9,
+            "vs_magic": 2
+        },
+        "level": 30,
+        "weight": 120,
+        "cost": 7000,
+        "condition": 100,
+        "extra_description": [],
+        "affects": [
+            {
+                "apply": "constitution",
+                "level": 30,
+                "modifier": 1,
+                "bit_type": "object",
+                "bits": null
+            },
+            {
+                "apply": "strength",
+                "level": 30,
+                "modifier": 1,
+                "bit_type": "object",
+                "bits": null
+            }
+        ]
+    }},
+    {"object": {
+        "area": "mahntor",
+        "anum": 42,
+        "new_format": true,
+        "name": "buckler spiked",
+        "short_descr": "a spiked buckler",
+        "description": "A small spiked buckler rests here.",
+        "material": "generic",
+        "item_type": "armor",
+        "extra_flags": null,
+        "wear_flags": "take shield",
+        "values": {
+            "vs_pierce": 10,
+            "vs_bash": 10,
+            "vs_slash": 10,
+            "vs_magic": 3
+        },
+        "level": 35,
+        "weight": 50,
+        "cost": 6600,
+        "condition": 100,
+        "extra_description": [],
+        "affects": [{
+            "apply": "damage roll",
+            "level": 35,
+            "modifier": 2,
+            "bit_type": "object",
+            "bits": null
+        }]
+    }},
+    {"object": {
+        "area": "mahntor",
+        "anum": 43,
+        "new_format": true,
+        "name": "ring studded",
+        "short_descr": "a studded ring",
+        "description": "A small studded ring lies here.",
+        "material": "generic",
+        "item_type": "jewelry",
+        "extra_flags": "magic",
+        "wear_flags": "take finger",
+        "values": {},
+        "level": 13,
+        "weight": 10,
+        "cost": 1020,
+        "condition": 100,
+        "extra_description": [],
+        "affects": [
+            {
+                "apply": "armor class",
+                "level": 13,
+                "modifier": -3,
+                "bit_type": "object",
+                "bits": null
+            },
+            {
+                "apply": "damage roll",
+                "level": 13,
+                "modifier": 1,
+                "bit_type": "object",
+                "bits": null
+            }
+        ]
+    }},
+    {"object": {
+        "area": "mahntor",
+        "anum": 44,
+        "new_format": true,
+        "name": "helm horned",
+        "short_descr": "a horned minotaur helm",
+        "description": "A small horned helm rests here.",
+        "material": "generic",
+        "item_type": "armor",
+        "extra_flags": null,
+        "wear_flags": "take head",
+        "values": {
+            "vs_pierce": 10,
+            "vs_bash": 10,
+            "vs_slash": 10,
+            "vs_magic": 2
+        },
+        "level": 35,
+        "weight": 80,
+        "cost": 3400,
+        "condition": 100,
+        "extra_description": [],
+        "affects": []
+    }},
+    {"object": {
+        "area": "mahntor",
+        "anum": 45,
+        "new_format": true,
+        "name": "axe great",
+        "short_descr": "mahn-Tor's Great Axe",
+        "description": "An extremely huge axe is resting here.",
+        "material": "generic",
+        "item_type": "weapon",
+        "extra_flags": "hum magic",
+        "wear_flags": "take wield",
+        "values": {
+            "weapon_type": "axe",
+            "dice_num": 5,
+            "dice_size": 5,
+            "attack_type": "slash",
+            "flags": null
+        },
+        "level": 31,
+        "weight": 260,
+        "cost": 3400,
+        "condition": 100,
+        "extra_description": [{
+            "keyword": "axe great",
+            "description": "The runes \"DeAtH\" are scrawled along the blade.\n"
+        }],
+        "affects": [
+            {
+                "apply": "damage roll",
+                "level": 31,
+                "modifier": 2,
+                "bit_type": "object",
+                "bits": null
+            },
+            {
+                "apply": "hit roll",
+                "level": 31,
+                "modifier": 2,
+                "bit_type": "object",
+                "bits": null
+            }
+        ]
+    }},
+    {"object": {
+        "area": "mahntor",
+        "anum": 46,
+        "new_format": true,
+        "name": "plate ethereal suit",
+        "short_descr": "a suit of ethereal plate",
+        "description": "A suit of shimmering plate rests here.",
+        "material": "generic",
+        "item_type": "armor",
+        "extra_flags": "glow antigood",
+        "wear_flags": "take body",
+        "values": {
+            "vs_pierce": 8,
+            "vs_bash": 8,
+            "vs_slash": 8,
+            "vs_magic": 4
+        },
+        "level": 27,
+        "weight": 20,
+        "cost": 5500,
+        "condition": 100,
+        "extra_description": [{
+            "keyword": "plate ethereal suit",
+            "description": "You can almost see through it.\n"
+        }],
+        "affects": [{
+            "apply": "saves",
+            "level": 27,
+            "modifier": -2,
+            "bit_type": "object",
+            "bits": null
+        }]
+    }},
+    {"object": {
+        "area": "mahntor",
+        "anum": 47,
+        "new_format": true,
+        "name": "helm ethereal",
+        "short_descr": "an ethereal helm",
+        "description": "A shimmering helm rests here.",
+        "material": "generic",
+        "item_type": "armor",
+        "extra_flags": "glow antigood",
+        "wear_flags": "take head",
+        "values": {
+            "vs_pierce": 8,
+            "vs_bash": 8,
+            "vs_slash": 8,
+            "vs_magic": 4
+        },
+        "level": 25,
+        "weight": 50,
+        "cost": 2200,
+        "condition": 100,
+        "extra_description": [{
+            "keyword": "helm ethereal",
+            "description": "You can almost see through it.\n"
+        }],
+        "affects": []
+    }},
+    {"object": {
+        "area": "mahntor",
+        "anum": 48,
+        "new_format": true,
+        "name": "blade ethereal",
+        "short_descr": "an ethereal blade",
+        "description": "A shimmering blade lies here.",
+        "material": "generic",
+        "item_type": "weapon",
+        "extra_flags": "glow antigood",
+        "wear_flags": "take wield",
+        "values": {
+            "weapon_type": "unknown",
+            "dice_num": 2,
+            "dice_size": 12,
+            "attack_type": "slash",
+            "flags": null
+        },
+        "level": 25,
+        "weight": 30,
+        "cost": 3200,
+        "condition": 100,
+        "extra_description": [{
+            "keyword": "blade ethereal",
+            "description": "You can almost see through it.\n"
+        }],
+        "affects": [
+            {
+                "apply": "damage roll",
+                "level": 25,
+                "modifier": 1,
+                "bit_type": "object",
+                "bits": null
+            },
+            {
+                "apply": "hit roll",
+                "level": 25,
+                "modifier": 1,
+                "bit_type": "object",
+                "bits": null
+            }
+        ]
+    }},
+    {"object": {
+        "area": "mahntor",
+        "anum": 49,
+        "new_format": true,
+        "name": "branch willow",
+        "short_descr": "a willow branch",
+        "description": "A small willow branch lies here.",
+        "material": "generic",
+        "item_type": "wand",
+        "extra_flags": "magic",
+        "wear_flags": "take hold",
+        "values": {
+            "level": 20,
+            "recharge": 5,
+            "charges": 5,
+            "skill": "heat metal"
+        },
+        "level": 13,
+        "weight": 30,
+        "cost": 2600,
+        "condition": 100,
+        "extra_description": [],
+        "affects": []
+    }},
+    {"object": {
+        "area": "mahntor",
+        "anum": 50,
+        "new_format": true,
+        "name": "key keep",
+        "short_descr": "the keep key",
+        "description": "A small key lies here.",
+        "material": "generic",
+        "item_type": "key",
+        "extra_flags": null,
+        "wear_flags": "take",
+        "values": {},
+        "level": 0,
+        "weight": 10,
+        "cost": 0,
+        "condition": 100,
+        "extra_description": [],
+        "affects": []
+    }},
+    {"object": {
+        "area": "mahntor",
+        "anum": 51,
+        "new_format": true,
+        "name": "key red",
+        "short_descr": "a red key",
+        "description": "A small red key lies here.",
+        "material": "generic",
+        "item_type": "key",
+        "extra_flags": null,
+        "wear_flags": "take",
+        "values": {},
+        "level": 0,
+        "weight": 10,
+        "cost": 0,
+        "condition": 100,
+        "extra_description": [],
+        "affects": []
+    }},
+    {"object": {
+        "area": "mahntor",
+        "anum": 52,
+        "new_format": true,
+        "name": "key black",
+        "short_descr": "a black key",
+        "description": "A small black key lies here.",
+        "material": "generic",
+        "item_type": "key",
+        "extra_flags": null,
+        "wear_flags": "take",
+        "values": {},
+        "level": 0,
+        "weight": 10,
+        "cost": 0,
+        "condition": 100,
+        "extra_description": [],
+        "affects": []
+    }},
+    {"object": {
+        "area": "mahntor",
+        "anum": 53,
+        "new_format": true,
+        "name": "key white",
+        "short_descr": "a white key",
+        "description": "A small white key lies here.",
+        "material": "generic",
+        "item_type": "key",
+        "extra_flags": null,
+        "wear_flags": "take",
+        "values": {},
+        "level": 0,
+        "weight": 10,
+        "cost": 0,
+        "condition": 100,
+        "extra_description": [],
+        "affects": []
+    }},
+    {"object": {
+        "area": "mahntor",
+        "anum": 54,
+        "new_format": true,
+        "name": "key brown",
+        "short_descr": "a brown key",
+        "description": "A small brown key lies here.",
+        "material": "generic",
+        "item_type": "key",
+        "extra_flags": null,
+        "wear_flags": "take",
+        "values": {},
+        "level": 0,
+        "weight": 10,
+        "cost": 0,
+        "condition": 100,
+        "extra_description": [],
+        "affects": []
+    }},
+    {"object": {
+        "area": "mahntor",
+        "anum": 55,
+        "new_format": true,
+        "name": "key yellow",
+        "short_descr": "a yellow key",
+        "description": "A small yellow key lies here.",
+        "material": "generic",
+        "item_type": "key",
+        "extra_flags": null,
+        "wear_flags": "take",
+        "values": {},
+        "level": 0,
+        "weight": 10,
+        "cost": 0,
+        "condition": 100,
+        "extra_description": [],
+        "affects": []
+    }},
+    {"object": {
+        "area": "mahntor",
+        "anum": 56,
+        "new_format": true,
+        "name": "key maroon",
+        "short_descr": "a maroon key",
+        "description": "A small maroon key lies here.",
+        "material": "generic",
+        "item_type": "key",
+        "extra_flags": null,
+        "wear_flags": "take",
+        "values": {},
+        "level": 0,
+        "weight": 10,
+        "cost": 0,
+        "condition": 100,
+        "extra_description": [],
+        "affects": []
+    }},
+    {"object": {
+        "area": "mahntor",
+        "anum": 57,
+        "new_format": true,
+        "name": "key green",
+        "short_descr": "a green key",
+        "description": "A small green key lies here.",
+        "material": "generic",
+        "item_type": "key",
+        "extra_flags": null,
+        "wear_flags": "take",
+        "values": {},
+        "level": 0,
+        "weight": 10,
+        "cost": 0,
+        "condition": 100,
+        "extra_description": [],
+        "affects": []
+    }},
+    {"object": {
+        "area": "mahntor",
+        "anum": 58,
+        "new_format": true,
+        "name": "key grey",
+        "short_descr": "a grey key",
+        "description": "A small grey key lies here.",
+        "material": "generic",
+        "item_type": "key",
+        "extra_flags": null,
+        "wear_flags": "take",
+        "values": {},
+        "level": 0,
+        "weight": 10,
+        "cost": 0,
+        "condition": 100,
+        "extra_description": [],
+        "affects": []
+    }},
+    {"object": {
+        "area": "mahntor",
+        "anum": 59,
+        "new_format": true,
+        "name": "key runed",
+        "short_descr": "a runed key",
+        "description": "A small runed key lies here.",
+        "material": "generic",
+        "item_type": "key",
+        "extra_flags": null,
+        "wear_flags": "take",
+        "values": {},
+        "level": 0,
+        "weight": 10,
+        "cost": 0,
+        "condition": 100,
+        "extra_description": [{
+            "keyword": "key runed",
+            "description": "The key looks like it was made for royalty.\n"
+        }],
+        "affects": []
+    }},
+    {"object": {
+        "area": "mahntor",
+        "anum": 60,
+        "new_format": true,
+        "name": "boots fur lined",
+        "short_descr": "a pair of fur lined boots",
+        "description": "A pair of boots are on the floor.",
+        "material": "generic",
+        "item_type": "armor",
+        "extra_flags": "magic",
+        "wear_flags": "take feet",
+        "values": {
+            "vs_pierce": 3,
+            "vs_bash": 3,
+            "vs_slash": 3,
+            "vs_magic": 1
+        },
+        "level": 7,
+        "weight": 50,
+        "cost": 470,
+        "condition": 100,
+        "extra_description": [],
+        "affects": [{
+            "apply": "moves",
+            "level": 7,
+            "modifier": 10,
+            "bit_type": "object",
+            "bits": null
+        }]
+    }},
+    {"object": {
+        "area": "mahntor",
+        "anum": 61,
+        "new_format": true,
+        "name": "pelt yeti white",
+        "short_descr": "the white pelt of a yeti",
+        "description": "A white pelt lies here.",
+        "material": "generic",
+        "item_type": "armor",
+        "extra_flags": "visdeath",
+        "wear_flags": "take about",
+        "values": {
+            "vs_pierce": 6,
+            "vs_bash": 6,
+            "vs_slash": 6,
+            "vs_magic": 1
+        },
+        "level": 15,
+        "weight": 90,
+        "cost": 1080,
+        "condition": 100,
+        "extra_description": [],
+        "affects": []
+    }},
+    {"object": {
+        "area": "mahntor",
+        "anum": 62,
+        "new_format": true,
+        "name": "sword kopesh",
+        "short_descr": "a kopesh sword",
+        "description": "A sword with a curved blade lies here.",
+        "material": "generic",
+        "item_type": "weapon",
+        "extra_flags": null,
+        "wear_flags": "take wield",
+        "values": {
+            "weapon_type": "sword",
+            "dice_num": 5,
+            "dice_size": 3,
+            "attack_type": "slash",
+            "flags": null
+        },
+        "level": 17,
+        "weight": 130,
+        "cost": 1310,
+        "condition": 100,
+        "extra_description": [{
+            "keyword": "sword kopesh",
+            "description": "The sword looks like it would be grasped so that the blade extended along the\nforearm of the wielder.\n"
+        }],
+        "affects": []
+    }},
+    {"object": {
+        "area": "mahntor",
+        "anum": 63,
+        "new_format": true,
+        "name": "vambraces steel",
+        "short_descr": "a pair of steel vambraces",
+        "description": "A gleaming pair of vambraces lies here.",
+        "material": "generic",
+        "item_type": "armor",
+        "extra_flags": null,
+        "wear_flags": "take arms",
+        "values": {
+            "vs_pierce": 6,
+            "vs_bash": 6,
+            "vs_slash": 6,
+            "vs_magic": 0
+        },
+        "level": 15,
+        "weight": 0,
+        "cost": 1050,
+        "condition": 100,
+        "extra_description": [],
+        "affects": []
+    }},
+    {"object": {
+        "area": "mahntor",
+        "anum": 64,
+        "new_format": true,
+        "name": "greaves steel",
+        "short_descr": "a pair of steel greaves",
+        "description": "A gleaming pair of greaves lie here.",
+        "material": "generic",
+        "item_type": "armor",
+        "extra_flags": null,
+        "wear_flags": "take legs",
+        "values": {
+            "vs_pierce": 6,
+            "vs_bash": 6,
+            "vs_slash": 6,
+            "vs_magic": 0
+        },
+        "level": 15,
+        "weight": 70,
+        "cost": 1050,
+        "condition": 100,
+        "extra_description": [],
+        "affects": []
+    }},
+    {"object": {
+        "area": "mahntor",
+        "anum": 65,
+        "new_format": true,
+        "name": "axe battle battleaxe",
+        "short_descr": "a battle axe",
+        "description": "A dangerous looking battle axe rests here.",
+        "material": "generic",
+        "item_type": "weapon",
+        "extra_flags": null,
+        "wear_flags": "take wield",
+        "values": {
+            "weapon_type": "axe",
+            "dice_num": 4,
+            "dice_size": 4,
+            "attack_type": "slash",
+            "flags": null
+        },
+        "level": 17,
+        "weight": 180,
+        "cost": 1310,
+        "condition": 100,
+        "extra_description": [],
+        "affects": []
+    }},
+    {"object": {
+        "area": "mahntor",
+        "anum": 66,
+        "new_format": true,
+        "name": "plate steel breast",
+        "short_descr": "a steel breast plate",
+        "description": "A breast plate of thick steel rests here.",
+        "material": "generic",
+        "item_type": "armor",
+        "extra_flags": null,
+        "wear_flags": "take body",
+        "values": {
+            "vs_pierce": 6,
+            "vs_bash": 6,
+            "vs_slash": 6,
+            "vs_magic": 0
+        },
+        "level": 15,
+        "weight": 100,
+        "cost": 2100,
+        "condition": 100,
+        "extra_description": [],
+        "affects": []
+    }},
+    {"object": {
+        "area": "mahntor",
+        "anum": 67,
+        "new_format": true,
+        "name": "helm steel",
+        "short_descr": "a steel helm",
+        "description": "A steel helm has been left here.",
+        "material": "generic",
+        "item_type": "armor",
+        "extra_flags": null,
+        "wear_flags": "take head",
+        "values": {
+            "vs_pierce": 6,
+            "vs_bash": 6,
+            "vs_slash": 6,
+            "vs_magic": 0
+        },
+        "level": 15,
+        "weight": 60,
+        "cost": 1050,
+        "condition": 100,
+        "extra_description": [],
+        "affects": []
+    }},
+    {"object": {
+        "area": "mahntor",
+        "anum": 68,
+        "new_format": true,
+        "name": "halberd huge two-handed",
+        "short_descr": "a huge halberd",
+        "description": "A huge halberd has been left here.",
+        "material": "generic",
+        "item_type": "weapon",
+        "extra_flags": "magic",
+        "wear_flags": "take wield",
+        "values": {
+            "weapon_type": "polearm",
+            "dice_num": 2,
+            "dice_size": 10,
+            "attack_type": "cleave",
+            "flags": "twohands"
+        },
+        "level": 18,
+        "weight": 180,
+        "cost": 690,
+        "condition": 100,
+        "extra_description": [],
+        "affects": [
+            {
+                "apply": "damage roll",
+                "level": 18,
+                "modifier": 1,
+                "bit_type": "object",
+                "bits": null
+            },
+            {
+                "apply": "hit roll",
+                "level": 18,
+                "modifier": 1,
+                "bit_type": "object",
+                "bits": null
+            }
+        ]
+    }},
+    {"object": {
+        "area": "mahntor",
+        "anum": 69,
+        "new_format": true,
+        "name": "visor blue steel helm",
+        "short_descr": "a blue steel helm and visor",
+        "description": "A helm and visor of blue steel rests here.",
+        "material": "generic",
+        "item_type": "armor",
+        "extra_flags": null,
+        "wear_flags": "take head",
+        "values": {
+            "vs_pierce": 8,
+            "vs_bash": 8,
+            "vs_slash": 8,
+            "vs_magic": 0
+        },
+        "level": 25,
+        "weight": 80,
+        "cost": 1950,
+        "condition": 100,
+        "extra_description": [],
+        "affects": []
+    }},
+    {"object": {
+        "area": "mahntor",
+        "anum": 70,
+        "new_format": true,
+        "name": "greaves blue steel",
+        "short_descr": "a pair of blue steel greaves",
+        "description": "Some greaves made of blue steel rest here.",
+        "material": "generic",
+        "item_type": "armor",
+        "extra_flags": null,
+        "wear_flags": "take legs",
+        "values": {
+            "vs_pierce": 8,
+            "vs_bash": 8,
+            "vs_slash": 8,
+            "vs_magic": 0
+        },
+        "level": 25,
+        "weight": 80,
+        "cost": 1950,
+        "condition": 100,
+        "extra_description": [],
+        "affects": []
+    }},
+    {"object": {
+        "area": "mahntor",
+        "anum": 71,
+        "new_format": true,
+        "name": "vambraces blue steel",
+        "short_descr": "a pair of blue steel vambraces",
+        "description": "Some vambraces made of blue steel rest here.",
+        "material": "generic",
+        "item_type": "armor",
+        "extra_flags": null,
+        "wear_flags": "take arms",
+        "values": {
+            "vs_pierce": 8,
+            "vs_bash": 8,
+            "vs_slash": 8,
+            "vs_magic": 0
+        },
+        "level": 25,
+        "weight": 80,
+        "cost": 1950,
+        "condition": 100,
+        "extra_description": [],
+        "affects": []
+    }},
+    {"object": {
+        "area": "mahntor",
+        "anum": 72,
+        "new_format": true,
+        "name": "sword two two-handed",
+        "short_descr": "a two-handed sword",
+        "description": "A large sword lies here.",
+        "material": "generic",
+        "item_type": "weapon",
+        "extra_flags": "magic",
+        "wear_flags": "take wield",
+        "values": {
+            "weapon_type": "sword",
+            "dice_num": 6,
+            "dice_size": 3,
+            "attack_type": "slash",
+            "flags": "twohands"
+        },
+        "level": 22,
+        "weight": 180,
+        "cost": 2500,
+        "condition": 100,
+        "extra_description": [],
+        "affects": [
+            {
+                "apply": "damage roll",
+                "level": 22,
+                "modifier": 2,
+                "bit_type": "object",
+                "bits": null
+            },
+            {
+                "apply": "hit roll",
+                "level": 22,
+                "modifier": 2,
+                "bit_type": "object",
+                "bits": null
+            }
+        ]
+    }},
+    {"object": {
+        "area": "mahntor",
+        "anum": 73,
+        "new_format": true,
+        "name": "visor helm steel red",
+        "short_descr": "a red steel helm and visor",
+        "description": "A helm and visor made of red steel rests here.",
+        "material": "generic",
+        "item_type": "armor",
+        "extra_flags": null,
+        "wear_flags": "take head",
+        "values": {
+            "vs_pierce": 7,
+            "vs_bash": 7,
+            "vs_slash": 7,
+            "vs_magic": 0
+        },
+        "level": 20,
+        "weight": 80,
+        "cost": 1450,
+        "condition": 100,
+        "extra_description": [],
+        "affects": []
+    }},
+    {"object": {
+        "area": "mahntor",
+        "anum": 74,
+        "new_format": true,
+        "name": "greaves red steel",
+        "short_descr": "a pair of red steel greaves",
+        "description": "Some greaves made of red steel rest here.",
+        "material": "generic",
+        "item_type": "armor",
+        "extra_flags": null,
+        "wear_flags": "take legs",
+        "values": {
+            "vs_pierce": 7,
+            "vs_bash": 7,
+            "vs_slash": 7,
+            "vs_magic": 0
+        },
+        "level": 20,
+        "weight": 80,
+        "cost": 1450,
+        "condition": 100,
+        "extra_description": [],
+        "affects": []
+    }},
+    {"object": {
+        "area": "mahntor",
+        "anum": 75,
+        "new_format": true,
+        "name": "vambraces red steel",
+        "short_descr": "a pair of red steel vambraces",
+        "description": "Some vambraces made of red steel rest here.",
+        "material": "generic",
+        "item_type": "armor",
+        "extra_flags": null,
+        "wear_flags": "take arms",
+        "values": {
+            "vs_pierce": 7,
+            "vs_bash": 7,
+            "vs_slash": 7,
+            "vs_magic": 0
+        },
+        "level": 20,
+        "weight": 80,
+        "cost": 1450,
+        "condition": 100,
+        "extra_description": [],
+        "affects": []
+    }},
+    {"object": {
+        "area": "mahntor",
+        "anum": 76,
+        "new_format": true,
+        "name": "glaive",
+        "short_descr": "a minotaur glaive",
+        "description": "A very large glaive rests here.",
+        "material": "generic",
+        "item_type": "weapon",
+        "extra_flags": "magic",
+        "wear_flags": "take wield",
+        "values": {
+            "weapon_type": "polearm",
+            "dice_num": 5,
+            "dice_size": 4,
+            "attack_type": "slash",
+            "flags": "twohands"
+        },
+        "level": 22,
+        "weight": 190,
+        "cost": 830,
+        "condition": 100,
+        "extra_description": [],
+        "affects": [
+            {
+                "apply": "damage roll",
+                "level": 22,
+                "modifier": 1,
+                "bit_type": "object",
+                "bits": null
+            },
+            {
+                "apply": "hit roll",
+                "level": 22,
+                "modifier": 1,
+                "bit_type": "object",
+                "bits": null
+            }
+        ]
+    }},
+    {"object": {
+        "area": "mahntor",
+        "anum": 77,
+        "new_format": true,
+        "name": "visor helm crimson steel",
+        "short_descr": "a crimson steel helm and visor",
+        "description": "A helm and visor made of crimson steel rests here.",
+        "material": "generic",
+        "item_type": "armor",
+        "extra_flags": null,
+        "wear_flags": "take head",
+        "values": {
+            "vs_pierce": 8,
+            "vs_bash": 8,
+            "vs_slash": 8,
+            "vs_magic": 0
+        },
+        "level": 25,
+        "weight": 80,
+        "cost": 1950,
+        "condition": 100,
+        "extra_description": [],
+        "affects": []
+    }},
+    {"object": {
+        "area": "mahntor",
+        "anum": 78,
+        "new_format": true,
+        "name": "greaves crimson steel",
+        "short_descr": "a pair of crimson steel greaves",
+        "description": "Some greaves made of crimson steel rest here.",
+        "material": "generic",
+        "item_type": "armor",
+        "extra_flags": null,
+        "wear_flags": "take legs",
+        "values": {
+            "vs_pierce": 8,
+            "vs_bash": 8,
+            "vs_slash": 8,
+            "vs_magic": 0
+        },
+        "level": 25,
+        "weight": 80,
+        "cost": 1950,
+        "condition": 100,
+        "extra_description": [],
+        "affects": []
+    }},
+    {"object": {
+        "area": "mahntor",
+        "anum": 79,
+        "new_format": true,
+        "name": "vambraces crimson steel",
+        "short_descr": "a pair of crimson steel vambraces",
+        "description": "Some vambraces made of crimson steel rest here.",
+        "material": "generic",
+        "item_type": "armor",
+        "extra_flags": null,
+        "wear_flags": "take arms",
+        "values": {
+            "vs_pierce": 8,
+            "vs_bash": 8,
+            "vs_slash": 8,
+            "vs_magic": 0
+        },
+        "level": 25,
+        "weight": 80,
+        "cost": 1950,
+        "condition": 100,
+        "extra_description": [],
+        "affects": []
+    }},
+    {"object": {
+        "area": "mahntor",
+        "anum": 80,
+        "new_format": true,
+        "name": "star morning morningstar",
+        "short_descr": "a huge morningstar",
+        "description": "A huge morningstar rests here.",
+        "material": "generic",
+        "item_type": "weapon",
+        "extra_flags": "magic",
+        "wear_flags": "take wield",
+        "values": {
+            "weapon_type": "mace",
+            "dice_num": 7,
+            "dice_size": 3,
+            "attack_type": "pound",
+            "flags": null
+        },
+        "level": 29,
+        "weight": 200,
+        "cost": 2300,
+        "condition": 100,
+        "extra_description": [{
+            "keyword": "star morning morningstar",
+            "description": "It looks damaging.\n"
+        }],
+        "affects": [
+            {
+                "apply": "damage roll",
+                "level": 29,
+                "modifier": 2,
+                "bit_type": "object",
+                "bits": null
+            },
+            {
+                "apply": "hit roll",
+                "level": 29,
+                "modifier": 2,
+                "bit_type": "object",
+                "bits": null
+            }
+        ]
+    }},
+    {"object": {
+        "area": "mahntor",
+        "anum": 81,
+        "new_format": true,
+        "name": "spiked brass knuckles",
+        "short_descr": "some huge spiked brass knuckles",
+        "description": "A set of spiked brass knuckles lies here.",
+        "material": "generic",
+        "item_type": "weapon",
+        "extra_flags": null,
+        "wear_flags": "take wield",
+        "values": {
+            "weapon_type": "unknown",
+            "dice_num": 4,
+            "dice_size": 4,
+            "attack_type": "punch",
+            "flags": null
+        },
+        "level": 17,
+        "weight": 90,
+        "cost": 1970,
+        "condition": 100,
+        "extra_description": [{
+            "keyword": "spiked brass knuckles",
+            "description": "A band held in the hand that has spikes on the front side.\n"
+        }],
+        "affects": []
+    }},
+    {"object": {
+        "area": "mahntor",
+        "anum": 82,
+        "new_format": true,
+        "name": "ring key multi colored multi-colored",
+        "short_descr": "a multi-colored key ring",
+        "description": "A ring of multi-colored keys rests here.",
+        "material": "generic",
+        "item_type": "container",
+        "extra_flags": null,
+        "wear_flags": "take neck",
+        "values": {
+            "capacity": 10,
+            "flags": null,
+            "key": 0,
+            "max_weight": 2,
+            "weight_mult": 100
+        },
+        "level": 0,
+        "weight": 30,
+        "cost": 0,
+        "condition": 100,
+        "extra_description": [{
+            "keyword": "ring key multi colored multi-colored",
+            "description": "It has several keys of different colors on it.\n"
+        }],
+        "affects": []
+    }},
+    {"object": {
+        "area": "mahntor",
+        "anum": 83,
+        "new_format": true,
+        "name": "maul huge wooden",
+        "short_descr": "a huge wooden maul",
+        "description": "A huge wooden maul rests here.",
+        "material": "generic",
+        "item_type": "weapon",
+        "extra_flags": null,
+        "wear_flags": "take wield",
+        "values": {
+            "weapon_type": "mace",
+            "dice_num": 5,
+            "dice_size": 5,
+            "attack_type": "blast",
+            "flags": null
+        },
+        "level": 28,
+        "weight": 220,
+        "cost": 1700,
+        "condition": 100,
+        "extra_description": [],
+        "affects": []
+    }},
+    {"object": {
+        "area": "mahntor",
+        "anum": 84,
+        "new_format": true,
+        "name": "potion misty",
+        "short_descr": "a misty potion",
+        "description": "A small misty potion rests here.",
+        "material": "generic",
+        "item_type": "potion",
+        "extra_flags": "glow magic inventory",
+        "wear_flags": "take",
+        "values": {
+            "level": 20,
+            "skill1": "heal"
+        },
+        "level": 11,
+        "weight": 30,
+        "cost": 800,
+        "condition": 100,
+        "extra_description": [],
+        "affects": []
+    }},
+    {"object": {
+        "area": "mahntor",
+        "anum": 85,
+        "new_format": true,
+        "name": "pouch belt",
+        "short_descr": "a belt pouch",
+        "description": "A belt pouch lies here.",
+        "material": "generic",
+        "item_type": "container",
+        "extra_flags": null,
+        "wear_flags": "take waist",
+        "values": {
+            "capacity": 15,
+            "flags": null,
+            "key": 0,
+            "max_weight": 2,
+            "weight_mult": 100
+        },
+        "level": 0,
+        "weight": 50,
+        "cost": 20,
+        "condition": 100,
+        "extra_description": [],
+        "affects": []
+    }},
+    {"object": {
+        "area": "mahntor",
+        "anum": 86,
+        "new_format": true,
+        "name": "spear ogre",
+        "short_descr": "an ogre spear",
+        "description": "A crude spear rests here.",
+        "material": "generic",
+        "item_type": "weapon",
+        "extra_flags": null,
+        "wear_flags": "take wield",
+        "values": {
+            "weapon_type": "staff",
+            "dice_num": 2,
+            "dice_size": 10,
+            "attack_type": "thrust",
+            "flags": "twohands"
+        },
+        "level": 17,
+        "weight": 80,
+        "cost": 320,
+        "condition": 100,
+        "extra_description": [],
+        "affects": []
+    }},
+    {"object": {
+        "area": "mahntor",
+        "anum": 87,
+        "new_format": true,
+        "name": "club ogre war",
+        "short_descr": "an ogre war club",
+        "description": "A large, crude club rests here.",
+        "material": "generic",
+        "item_type": "weapon",
+        "extra_flags": null,
+        "wear_flags": "take wield",
+        "values": {
+            "weapon_type": "mace",
+            "dice_num": 4,
+            "dice_size": 4,
+            "attack_type": "pound",
+            "flags": null
+        },
+        "level": 17,
+        "weight": 100,
+        "cost": 880,
+        "condition": 100,
+        "extra_description": [],
+        "affects": []
+    }},
+    {"object": {
+        "area": "mahntor",
+        "anum": 88,
+        "new_format": true,
+        "name": "cloak bear skin bearskin",
+        "short_descr": "a bearskin cloak",
+        "description": "A rough bearskin rests here.",
+        "material": "generic",
+        "item_type": "armor",
+        "extra_flags": null,
+        "wear_flags": "take about",
+        "values": {
+            "vs_pierce": 7,
+            "vs_bash": 7,
+            "vs_slash": 7,
+            "vs_magic": 0
+        },
+        "level": 20,
+        "weight": 120,
+        "cost": 1450,
+        "condition": 100,
+        "extra_description": [],
+        "affects": []
+    }},
+    {"object": {
+        "area": "mahntor",
+        "anum": 89,
+        "new_format": true,
+        "name": "ear ring earring feathered",
+        "short_descr": "a pair of feathered earrings",
+        "description": "Some feathered earrings rest here.",
+        "material": "generic",
+        "item_type": "jewelry",
+        "extra_flags": "glow magic",
+        "wear_flags": "take head",
+        "values": {},
+        "level": 0,
+        "weight": 20,
+        "cost": 500,
+        "condition": 100,
+        "extra_description": [],
+        "affects": []
+    }},
+    {"object": {
+        "area": "mahntor",
+        "anum": 90,
+        "new_format": true,
+        "name": "gauntlets ogre power",
+        "short_descr": "gauntlets of ogre power",
+        "description": "Some heavy gauntlets lie here.",
+        "material": "generic",
+        "item_type": "armor",
+        "extra_flags": "hum magic",
+        "wear_flags": "take hands",
+        "values": {
+            "vs_pierce": 7,
+            "vs_bash": 7,
+            "vs_slash": 7,
+            "vs_magic": 0
+        },
+        "level": 23,
+        "weight": 130,
+        "cost": 5800,
+        "condition": 100,
+        "extra_description": [{
+            "keyword": "gauntlets ogre power",
+            "description": "They look very \"handy\".\n"
+        }],
+        "affects": [
+            {
+                "apply": "damage roll",
+                "level": 23,
+                "modifier": 2,
+                "bit_type": "object",
+                "bits": null
+            },
+            {
+                "apply": "strength",
+                "level": 23,
+                "modifier": 2,
+                "bit_type": "object",
+                "bits": null
+            }
+        ]
+    }},
+    {"object": {
+        "area": "mahntor",
+        "anum": 91,
+        "new_format": true,
+        "name": "club massive",
+        "short_descr": "a massive club",
+        "description": "A massive club lies here, discarded.",
+        "material": "wood",
+        "item_type": "weapon",
+        "extra_flags": null,
+        "wear_flags": "take wield",
+        "values": {
+            "weapon_type": "mace",
+            "dice_num": 3,
+            "dice_size": 8,
+            "attack_type": "blast",
+            "flags": "twohands"
+        },
+        "level": 23,
+        "weight": 190,
+        "cost": 1520,
+        "condition": 100,
+        "extra_description": [],
+        "affects": []
+    }},
+    {"object": {
+        "area": "mahntor",
+        "anum": 92,
+        "new_format": true,
+        "name": "cape thick fur",
+        "short_descr": "a thick fur cape",
+        "description": "A thick pile of fur lies here.",
+        "material": "generic",
+        "item_type": "armor",
+        "extra_flags": null,
+        "wear_flags": "take neck",
+        "values": {
+            "vs_pierce": 6,
+            "vs_bash": 6,
+            "vs_slash": 6,
+            "vs_magic": 0
+        },
+        "level": 15,
+        "weight": 50,
+        "cost": 1050,
+        "condition": 100,
+        "extra_description": [],
+        "affects": []
+    }},
+    {"object": {
+        "area": "mahntor",
+        "anum": 93,
+        "new_format": true,
+        "name": "tunic fur lined",
+        "short_descr": "a fur lined tunic",
+        "description": "A fur lined tunic rests here.",
+        "material": "generic",
+        "item_type": "armor",
+        "extra_flags": null,
+        "wear_flags": "take body",
+        "values": {
+            "vs_pierce": 6,
+            "vs_bash": 6,
+            "vs_slash": 6,
+            "vs_magic": 0
+        },
+        "level": 15,
+        "weight": 60,
+        "cost": 2100,
+        "condition": 100,
+        "extra_description": [],
+        "affects": []
+    }}
+]
