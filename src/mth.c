@@ -1,6 +1,8 @@
 #include "mud.h"
 #include "mth.h"
 
+MUD_DATA *mud;
+
 void init_mth(void)
 {
 	mud = calloc(1, sizeof(MUD_DATA));

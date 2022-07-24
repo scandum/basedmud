@@ -18,13 +18,14 @@ O_FILES = \
     spell_misc.o spell_move.o spell_npc.o spell_off.o string.o tables.o \
     types.o update.o utils.o wiz_im.o wiz_l1.o wiz_l2.o wiz_l3.o wiz_l4.o \
     wiz_l5.o wiz_l6.o wiz_l7.o wiz_l8.o wiz_ml.o \
-    mth.c telopt.c msdp.c color.c
+    mth.o telopt.o msdp.o color.o
 
 rom: $(O_FILES)
 	$(CC) $(L_FLAGS) -o $(EXE) $(O_FILES) $(LIBS)
 
-.c.o: merc.h
+$(O_FILES): merc.h
+.c.o:
 	$(CC) -c $(C_FLAGS) $<
 
 clean:
-	rm *.o
+	rm -f ${O_FILES}
